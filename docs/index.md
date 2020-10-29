@@ -2,15 +2,13 @@
 
 Para acesso ao PJE visite [www.tse.jus.br/servicos-judiciais/processos/processo-judicial-eletronico](http://www.tse.jus.br/servicos-judiciais/processos/processo-judicial-eletronico/).
 
-## Fontes de documentação
+## Dicas
 
-### Nacional
+[Dicas](https://pjeje.github.io/dicas/dicas/)
+    
+## Vídeos 
 
-* Wiki
-* Docs
+* Vídeos gravados nas sessões de compartilhamento de conhecimento
 
-
-### Vídeos gravados das Sessões de compartilhamento de conhecimento
-
-    16/10/2020    # Minutar em lote
+[16/10/2020](https://pjeje.github.io/dicas/dicas/)
 
