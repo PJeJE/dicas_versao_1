@@ -1,6 +1,4 @@
-### Dicas
-
-* Como limpar memória local do navegador (cache do browser) 
+## Como limpar memória local do navegador (cache do browser) 
 
 Acesse, no navegador, o ícone que fica no canto superior direito que contém três tracinhos horizontais 
 Selecione Preferências 
@@ -11,7 +9,7 @@ Atualize a página do PJe.
 Segue o sítio que contém essas orientações que passei sobre a limpeza do histórico: 
 https://support.mozilla.org/pt-BR/kb/como-limpar-cache-firefox 
 
-* Distribuição de processos em caixas de procuradores 
+## Distribuição de processos em caixas de procuradores 
 
 O PJe do primeiro grau tem uma funcionalidade que, ao ser protocolado novo processo, os filtros cadastrados nas caixas de advogados e procuradores são automaticamente acionados de forma a preencher as caixas com os processos respectivos. O acionamento se dá no protocolo de novos processos e na construção de atos de comunicação e na redistribuição. 
 
@@ -31,7 +29,7 @@ O procurador gestor é responsável pela gestão de suas caixas. Se ele vir que 
 
  
 
-* Atuação de juiz substituto em processo sigiloso  na zona 
+## Atuação de juiz substituto em processo sigiloso  na zona 
 
 Exemplo de situação: O juiz de uma zona especializada (002ZE) se declarou suspeito. 
 
@@ -49,7 +47,7 @@ Resumo: se cadastrar um juiz no cargo Juiz Eleitoral Designado, limitar a visibi
 
  
 
- *   Intimação de pauta na publicação da lista e no fechamento da pauta 
+##   Intimação de pauta na publicação da lista e no fechamento da pauta 
 
 A publicação de pauta (última aba na Relação de julgamento) no diário utiliza a pessoa Destinatário para ciência pública. A intimação não é gerada para pessoas individuais, já que aquele é um aviso geral da sessão que acontecerá. 
 
@@ -113,7 +111,7 @@ Para processos da justiça eleitoral:
 
  
 
-  *  Sobre prazo em horas 
+##  Sobre prazo em horas 
 
 Prazo em em horas dá problema nas suspensões de prazo no PJe. A recomendação é que se converta em dias.  
 
@@ -133,7 +131,7 @@ Sem que isso impacte diretamente na questão e na necessidade de evolução do s
 
 Nenhum dos exemplos se adequa aos casos concretos que estamos tratando aqui, mas a ideia me parece a mesma (meu juízo aqui é apenas opinativo e não vinculativo, hehehehe). 
 
-  *  Como ficam os processos após remessa 
+##  Como ficam os processos após remessa 
 
 Primeiro grau: Ao utilizar tarefa “Remeter processo para o TRE”, o processo fica em “Aguardando apreciacão do TRE” bloqueado para novas petições ou edições. Caso seja  retornado do TRE, deve ir automaticamente para o “Analisar processo – ZE" ou “Analisar determinações - ZE”, retirando o bloqueio de edições/novas petições. 
 
@@ -155,42 +153,42 @@ As tarefas onde os processos permanecem após remessa e devolução são diferen
 
  
 
-   * Como ficam os processos após remessa a outra jurisdição 
+## Como ficam os processos após remessa a outra jurisdição 
 
 O processo, após remetido a outra jurisdição, não deve ficar nessa mesma tarefa. Se gera novo número, é para ficar o número originário em processo arquivado e o novo em analisar novo processo. Se não gera novo número, fica um processo apenas também no analisar novo processo. Pode ser que fique na mesma tarefa se há problema no nosso balanceamento. É que as máquinas do PJe funcionam direcionando requisições para uma ou outra máquina de acordo com a carga maior de um e de outro. Ocorre que quando um usuário estabelece uma sessão em uma máquina, o balanceador deve continuar sempre enviando suas requisições daquela sessão para o mesmo servidor. A requisição para mudar o processo de tarefa foi enviada para outra máquina, o que ocasiona o erro de o processo não tramitar. 
 
  
 
-    Problemas com sessão na 2.0 
+## Problemas com sessão na 2.0 
 
  
 
-10.1-  Fluxo com órgão julgador deslocado temporariamente (substituição por recesso, por exemplo) : O órgão julgador responsável não consegue salvar o voto, dá um erro e fica gerando um monte de cópia do voto. Pode-se verificar as cópias no item Documentos dos autos.  
+ -  Fluxo com órgão julgador deslocado temporariamente (substituição por recesso, por exemplo, ou Recurso Extraordinário no TSE) : O órgão julgador responsável não consegue salvar o voto, dá um erro e fica gerando um monte de cópia do voto. Pode-se verificar as cópias no item Documentos dos autos.  
 
 O que acontece é que o sistema salva o voto no nome do órgão julgador relator, mas na hora que a tela recarrega, ele tenta recuperar um voto vinculado ao órgão julgador autenticado (que é o deslocado), e não tem.  
 
-A solução é alterar no banco o órgão julgador do voto que foi salvo pra ser do órgão deslocado e aí os documentos são recuperados. 
+A solução é alterar o órgão julgador que fará a decisão colegiada antes que seja iniciada a construção dos documentos. Ao final da sessão, depois de assinado o acórdão, o processo pode retornar para o relator original. Foi feita alteração de fluxo para permitir que isso aconteça no TSE.
+
+Se já tiver sido iniciada a construção dos documentos, tem que alterar no banco o órgão julgador do voto que foi salvo pra ser do órgão deslocado e aí os documentos são recuperados. 
 
 Na sessão de julgamento, o relator do processo precisará votar como vogal e novamente terá problemas. Para resolver, tem que alterar o órgão julgador responsável pelo processo no banco, deixar o vogal votar, e depois alterar de volta o órgão.  
 
 Pode ser que ocorra problemas se for necessário retificar voto de relator deslocado ou desse vogal relator depois do julgamento. A solução é mexer na relatoria por meio do banco novamente, alterando de volta depois. 
 
-10.2 Ao desvincular documento no selecionar documentos para acórdão, em algumas vezes o sistema está apagando o registro do documento na sessão 
+ - Ao desvincular documento no selecionar documentos para acórdão, em algumas vezes o sistema está apagando o registro do documento na sessão 
 
-10.3- Ao excluir processo de pauta não fechada, incluir processo em outra pauta e fechar a pauta, o sistema não está vinculando os documentos - resolve com o selecionar documentos para acórdão 
+ - Ao excluir processo de pauta não fechada, incluir processo em outra pauta e fechar a pauta, o sistema não está vinculando os documentos - resolve com o selecionar documentos para acórdão 
 
-10.4 No selecionar documentos para acórdão, ao vincular documentos de voto vogal ao acórdão, o sistema não está obedecendo 
+ - No selecionar documentos para acórdão, ao vincular documentos de voto vogal ao acórdão, o sistema não está obedecendo 
 
-10.5 Ao excluir processo com pauta fechada, pode dar um erro vermelho. Deve-se configurar o parâmetro idProcessoRetiradoPauta  para 273 e tentar novamente 
-
- 
-
-10.6 Editor de tarefa não exibe conteúdo porque dá problema com caracteres ' (denominado "aspas simples" ou "apóstrofo"), ' ("acento agudo" sem vinculação a uma letra), ` ("acento grave" sem vinculação a uma letra) e \ (denominado "contrabarra" ou "barra inversa"). Para documentos de sessão, a solução é ir no selecionar documentos para acórdão, não selecionar o documento que está com problema e enviar o processo para a unidade que produziu o documento originalmente. Lá, o servidor poderá acessar o conteúdo do documento por meio dos autos digitais, copiar em um editor externo, retirar as aspas, copiar o documento sem as aspas de volta no editor, que está em branco, salvar, e mandar de novo para a COARE. O documento novo criado sem as aspas deve aparecer na tarefa de acórdão da COARE. 
+ - Ao excluir processo com pauta fechada, pode dar um erro vermelho. Deve-se configurar o parâmetro idProcessoRetiradoPauta  para 273 e tentar novamente 
 
  
 
-10.7 Processo cujo julgamento foi encerrado individualmente não aparece para ser incluído em outra sessão, só depois que a sessão é finalizada. Para contornar, o assessor de plenário tem acionado a ASPJe para que o processo seja retirado da sessão via banco e possa incluir na sessão seguinte 
+- Editor de tarefa antes da versão 2.0.0.0.64 não exibe conteúdo porque dá problema com caracteres ' (denominado "aspas simples" ou "apóstrofo"), ' ("acento agudo" sem vinculação a uma letra), ` ("acento grave" sem vinculação a uma letra) e \ (denominado "contrabarra" ou "barra inversa"). Para documentos de sessão, a solução é ir no selecionar documentos para acórdão, não selecionar o documento que está com problema e enviar o processo para a unidade que produziu o documento originalmente. Lá, o servidor poderá acessar o conteúdo do documento por meio dos autos digitais, copiar em um editor externo, retirar as aspas, copiar o documento sem as aspas de volta no editor, que está em branco, salvar, e mandar de novo para a COARE. O documento novo criado sem as aspas deve aparecer na tarefa de acórdão da COARE. 
 
-10.8 Processo não aparecer para ser incluído em mesa mesmo após sessão anterior ser finalizadoa em geral, é porque o processo está em outra sessão. Se não tem outra sessão em andamento, é porque o cara deixou o processo em uma sessão antiga e inativou a sessão. Para pesquisar em que sessões o processo está, utilizem o menu Audiência e sessões - Processos pautados em sessão 
+ - Processo cujo julgamento foi encerrado individualmente não aparece para ser incluído em outra sessão, só depois que a sessão é finalizada. Para contornar, o assessor de plenário tem acionado a ASPJe para que o processo seja retirado da sessão via banco e possa incluir na sessão seguinte 
+
+-  Processo não aparecer para ser incluído em mesa mesmo após sessão anterior ser finalizada em geral, é porque o processo está em outra sessão. Se não tem outra sessão em andamento, é porque o cara deixou o processo em uma sessão antiga e inativou a sessão (isso era possível antes da versão 2.0.0.0.64). Para pesquisar em que sessões o processo está, utilizem o menu Audiência e sessões - Processos pautados em sessão 
 
 
