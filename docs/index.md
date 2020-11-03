@@ -10,5 +10,5 @@ Para acesso ao PJE visite [www.tse.jus.br/servicos-judiciais/processos/processo-
 
 Vídeos gravados nas sessões de compartilhamento de conhecimento
 
-[16/10/2020](https://pjeje.github.io/dicas/dicas/)
+[16/10/2020](https://www.dropbox.com/s/3w96wuamjhisk82/pje1g45965874363115%20on%202020-10-16%2017-34.mp4?dl=0)
 
