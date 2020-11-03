@@ -67,7 +67,7 @@ As tarefas de construção de documentos (minutar ato, elaborar documentos) pode
 
 Pode-se também selecionar todos os processos daquela página por meio do campo de seleção que fica logo abaixo dos agrupadores de PROCESSOS / ETIQUETAS. Selecionando essa opção, todos os processos daquela página serão incluídos no lote. Lembramos que o limite de processos por página é 30. 
 
-## Juiz substituto - processo sigiloso 
+## Juiz substituto - sigilo 
 
 Atuação de juiz substituto em processo sigiloso  na zona 
 
@@ -386,9 +386,9 @@ Há também a situação em que o processo tem uma classe que exige revisão, ma
 
  Dessa forma, pode-se alterar a ordem de votação do processo, já que com o revisor, o sistema não permite. 
  
-## Visualização de documento da sessão
+## Documentos da sessão
 
-Votos antes da sessão, Visualização de votos pelo painel do procurador na sessão, painel do membro da OAB na sessão, painel do púlpito, Internet sem usuário e senha 
+Visualização de documentos da sessão - Votos antes da sessão, Visualização de votos pelo painel do procurador na sessão, painel do membro da OAB na sessão, painel do púlpito, Internet sem usuário e senha 
 
 O relatório, ementa e voto são construídos no PJe da JE por meio da tarefa “Minutar relatório voto e ementa” pelo relator do processo. Se o usuário autenticado estiver em um órgão julgador diferente do relator do processo, é gerada uma inconsistência só resolvida via banco de dados (verificar item 10.1). Por voto, entenda-se que é o conjunto da indicação do voto e o próprio documento de voto. A visualização desses itens/documentos não assinados só é possível se as respectivas marcações “Liberar voto”, “Liberar relatório” e “Liberar ementa” forem realizadas. 
 
@@ -448,13 +448,11 @@ SOBRE ESSAS DUAS FUNCIONALIDADES, A LIBERAÇÃO do ASSESSOR DE PLENÁRIO SÓ É 
 
 Cada tribunal deve decidir qual painel se aplica a qual situação sua e configurar conforme desejar. 
 
-## Documentos de sessão 
+Há um erro conhecido em processos migrados. Os documentos não aparecem na aba para selecionar documentos para acórdão.
 
-Problema de processo migrado que os documentos não aparecem a aba para selecionar documentos para acórdão
+A orientação para a TI é ajustar o nr_instancia do client.tb_processo_trf para o mesmo ds_instancia do core.tb_processo_documento. A migração tem que ser também ajustada para preencher esse campo e o problema deixar de ocorrer.
 
-Ajustar o nr_instancia do client.tb_processo_trf para o mesmo ds_instancia do core.tb_processo_documento. A migração tem que ser também ajustada para preencher esse campo e o problema deixar de ocorrer.
-
-## Situação do advogado na autuação 
+## Situação do advogado 
 
 Sobre aparecer "Advogado (não validado)", tanto no cadastro como na retificação da autuação, ocorre o seguinte: 
 
@@ -470,17 +468,23 @@ Se vc, como servidor, sabe que aquele advogado é válido, não há problema, is
 
 Isso ocorre no cadastro do processo e na retificação 
 
-## Situação de partes: Inativo, baixado, suspenso 
+## Inativo, baixado, suspenso 
+
+Sobre situação de partes, pode-se ter partes ativas, inativas, baixadas e suspensas.
 
 A suspensão é mais para execução criminal, já que um réu pode ser suspenso se estiver cumprindo medidas restritivas e observando-as. Se tinha que comparecer de tempos em tempos e sumiu, volta a estar ativo 
 
 A inativação (situação da parte marcada como "I") e baixa (situação da parte marcada como "B") de parte no processo contempla o mesmo significado, ou seja, a parte cuja relação processual tenha sido extinta por qualquer motivo. A diferença é que partes baixadas ainda podem ser utilizadas como parâmetro nas consultas processuais, assim como são retornadas no detalhamento do processo. Ao realizar consultas processuais utilizando partes inativas como parâmetro, os processos respectivos não serão retornados. 
 
-## Intimação de pessoa representada por defensoria 
+## Intimação sistema - defensoria 
+
+ Intimação de pessoa representada por defensoria 
 
 Não há restrições para se intimar via sistema uma pessoa física vinculada a uma defensoria, desde que pelo menos um defensor tenha feito o login direitinho. Se a pessoa física tiver o cadastrado validado, o sistema também permitirá o envio eletrônico. **A intimação eletrônica de partes vinculadas a defensoria é permitida sim. Então não há restrições para se intimar via sistema uma pessoa física vinculada a uma defensoria, desde que pelo menos um defensor tenha feito o login direitinho.** 
 
-## Campo máscara no preenchimento de configuração da classe 
+## Máscara - classe 
+
+Campo máscara no preenchimento de configuração da classe 
 
 O campo de máscara na configuração da classe judicial é para quando é marcada a opção anterior de processo referência. Significa que ao digitar o número do processo referência, o sistema vai colocar máscara, fazendo com que pontinhos e tracinhos apareçam no lugar certo 
 
