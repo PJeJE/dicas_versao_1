@@ -1,4 +1,8 @@
-## Como limpar memória local do navegador (cache do browser) 
+## Cache do navegador
+
+Muitas funcionalidades do PJe executam na própria máquina do usuário, e aí ficam alguns registros da funcionalidade guardados na memória da própria estação. Quando há atualização dessas funcionalidades, deve-se limpar a memória local para que as atualizações sejam recuperadas. Essa memória local é também chamada de cache do browser ou cache do navegador. Executar funcionalidades na máquina do usuário é uma tendência das aplicações web, com o objetivo de diminuir a dependência da capacidade de processamento dos servidores.
+
+Como limpar memória loca do navegador (cache do browser)
 
 Acesse, no navegador, o ícone que fica no canto superior direito que contém três tracinhos horizontais 
 Selecione Preferências 
@@ -9,19 +13,13 @@ Atualize a página do PJe.
 Segue o sítio que contém essas orientações que passei sobre a limpeza do histórico: 
 https://support.mozilla.org/pt-BR/kb/como-limpar-cache-firefox 
 
-## Distribuição de processos em caixas de procuradores 
+## Caixas de procuradores 
 
 O PJe do primeiro grau tem uma funcionalidade que, ao ser protocolado novo processo, os filtros cadastrados nas caixas de advogados e procuradores são automaticamente acionados de forma a preencher as caixas com os processos respectivos. O acionamento se dá no protocolo de novos processos e na construção de atos de comunicação e na redistribuição. 
 
- 
-
 Em versões anteriores à 2.1.2.6.17, quando o processo é remetido a outra zona, se não há mudança de UF, o número do processo permanece o mesmo. Para o sistema, o que ocorreu não foi um novo protocolo. Os filtros não são acionados automaticamente nesses casos. Para eles, o procurador gestor deve utilizar a distribuição disponível por meio do ícone de seu painel, uma varinha, como se fosse de mágica, que coloca cada processo na caixa respectiva. 
 
- 
-
 O painel do procurador tem jurisdições, onde ele pode protocolar processos e acompanhar processos onde é parte/foi intimado, e pode ter caixas ou não. Em geral, as caixas que já existem hoje são caixas cujos nomes são os nomes das zonas, mas o procurador gestor pode ter apagado essas caixas, mudado de nome... Só há como ter certeza se consultar pelo log. Não se cria caixa dentro de caixa. Sendo assim, se ele foi criar uma outra caixa, serão exibidas todas as caixas para o gestor. A caixa não fica dentro de uma zona, mas o nome das caixas iniciais que criamos coincide com o nome da zona. 
-
- 
 
 O procurador gestor é responsável pela gestão de suas caixas. Se ele vir que alguém tem que ter acesso a apenas um processo, ele mesmo pode criar uma caixa nova e colocar esse outro promotor nessa caixa nova e ele mesmo pode mover o processo da caixa geral para essa caixa nova. Ele também pode criar filtros de forma a tentar distribuir os processos em caixas e apagar a caixa que criamos para cada zona. As caixas que criamos é uma sugestão de organização, apenas. Mas a gestão é toda do procurador gestor. 
 
@@ -39,11 +37,11 @@ Outros tribunais utilizam bastante e queriam que o aviso aparecesse nos autos do
 
 Por isso apareceu essa novidade, a partir da versão 2.1.2.6. 
 
-Quando entrou em produção, como nunca utilizamos, todos os processos com documentos protocolados pelo usuário externo exibirão nos autos o aviso de documentos não lidos.  
+Quando entrou em produção, como nunca utilizamos, todos os processos com documentos protocolados pelo usuário externo exibirão nos autos o aviso de documentos não lidos. 
 
 Mais informações sobre o comportamento da opção: 
 
-http://www.pje.jus.br/wiki/index.php/Funcionalidades#Processos_com_documentos_n.C3.A3o_lidos  
+http://www.pje.jus.br/wiki/index.php/Funcionalidades#Processos_com_documentos_n.C3.A3o_lidos 
 
 ## Publicar em sessão
 
@@ -63,17 +61,19 @@ Depois de finalizado tudo, o PJe gera uma intimação para as partes envolvidas 
 
 Há um defeito conhecido quando a pesquisa retorna muitos processos e o usuário seleciona para publicação processos de páginas posteriores à primeira no resultado da pesquisa. A solução de contorno é restringir a pesquisa de forma que o resultado não venha paginado para evitar o erro na publicação.
 
-## Como funciona minuta em lote no PJe 
+## Minuta em lote 
 
 As tarefas de construção de documentos (minutar ato, elaborar documentos) podem ser executadas em lote (mais de um processo por vez) ou individualmente. Para construir documentos em lote, deve-se selecionar os processos de alguma tarefa onde a minuta em lote esteja habilitada por meio do campo de seleção disponível ao lado do cabeçalho do processo. 
 
 Pode-se também selecionar todos os processos daquela página por meio do campo de seleção que fica logo abaixo dos agrupadores de PROCESSOS / ETIQUETAS. Selecionando essa opção, todos os processos daquela página serão incluídos no lote. Lembramos que o limite de processos por página é 30. 
 
-## Atuação de juiz substituto em processo sigiloso  na zona 
+## Juiz substituto - processo sigiloso 
+
+Atuação de juiz substituto em processo sigiloso  na zona 
 
 Exemplo de situação: O juiz de uma zona especializada (002ZE) se declarou suspeito. 
 
-Foi designado para atuar no processo o juiz titular da outra especializada (003ZE).  
+Foi designado para atuar no processo o juiz titular da outra especializada (003ZE). 
 
 No sistema, para que cada ze concorra em igualdade de condições, e tbm, por óbvio, pq n existe dois juízes ativos concomitantemente no mesmo juízo eleitoral, a distribuição foi configurada apenas com o cargo de juiz titular respondendo “Sim” para “recebe distribuição”. 
 
@@ -85,93 +85,76 @@ Resposta: Configurar a visibilidade do juiz substituto só pro cargo dele e adic
 
 Resumo: se cadastrar um juiz no cargo Juiz Eleitoral Designado, limitar a visibilidade dele apenas a esse cargo e acrescentar seu cpf como visualizador do processo sigiloso, ele vai visualizar o processo na tarefa minutar ato, assim como o Juiz titular, mesmo que o processo seja nível 5. 
 
- 
 
-##   Intimação de pauta na publicação da lista e no fechamento da pauta 
+## Intimação de pauta 
+
+Intimação de pauta na publicação da lista e no fechamento da pauta 
 
 A publicação de pauta (última aba na Relação de julgamento) no diário utiliza a pessoa Destinatário para ciência pública. A intimação não é gerada para pessoas individuais, já que aquele é um aviso geral da sessão que acontecerá. 
 
- 
-
 As intimações individuais são geradas no fechamento mesmo (primeira aba da Relação de julgamento), ou se você quiser fazer via fluxo do Preparar ato de comunicação. Para inibir as intimações gerais, tem que usar a configuração do Órgão julgador colegiado, onde há um campo lá falando sobre intimação automática da pauta. 
 
-    Campos na intimação de pauta 
-
-  
+Campos na intimação de pauta 
 
 No documento de intimação de pauta só funcionam as variáveis listadas na regra abaixo: 
 
- http://www.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN618 
+http://www.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN618 
 
-  
+Se tentar colocar outra informação, vai dar problema. A regra é a seguinte:
 
-Se tentar colocar outra informação, vai dar problema. Vou copiar aqui a regra: 
+A publicação da pauta utiliza os processos selecionados pelo usuário na aba Aptos para publicação e monta um documento de acordo com os seguintes parâmetros: 
 
-  
+-   Pessoa que será utilizada para registrar ciência quando a publicação ocorrer no DJ conforme configuração do parâmetro pje:fluxo:publicacao:idDestinacaoPessoaCienciaPublica 
 
-A publicação da pauta utiliza os processos selecionados pelo usuário na aba Aptos para publicação e monta um documento de acordo com os seguintes parâmetros:  
-
- 
-
--   Pessoa que será utilizada para registrar ciência quando a publicação ocorrer no DJ conforme configuração do parâmetro pje:fluxo:publicacao:idDestinacaoPessoaCienciaPublica  
-
--    Tipo de processo documento conforme configuração do parâmetro idTipoProcessoDocumentoIntimacaoPauta  
+-    Tipo de processo documento conforme configuração do parâmetro idTipoProcessoDocumentoIntimacaoPauta 
 
 -    Modelo de documento conforme configuração do parâmetro idModeloIntimacaoPauta  (deve ser usado tanto para o fechamento da pauta quanto para sua publicação) 
 
- 
+Para cada processo selecionado, o sistema construirá um documento de acordo com o modelo referenciado, e o utilizará para registrar o ato de comunicação eletronicamente via diário sem prazo para resposta. O movimento de código 60 conforme tabela unificada de movimentos do SGT no CNJ com complemento código 4 com elemento do tipo domínio de código 80 é lançado no processo associado ao documento gerado. Essas configurações de movimento dizem respeito ao registro final no processo "Expedição de outros documentos". 
 
-Para cada processo selecionado, o sistema construirá um documento de acordo com o modelo referenciado, e o utilizará para registrar o ato de comunicação eletronicamente via diário sem prazo para resposta. O movimento de código 60 conforme tabela unificada de movimentos do SGT no CNJ com complemento código 4 com elemento do tipo domínio de código 80 é lançado no processo associado ao documento gerado. Essas configurações de movimento dizem respeito ao registro final no processo "Expedição de outros documentos".  
+No modelo de documento utilizado nessa funcionalidade, as seguintes variáveis, e apenas elas, estão disponíveis para uso: 
 
-No modelo de documento utilizado nessa funcionalidade, as seguintes variáveis, e apenas elas, estão disponíveis para uso:  
+    processoJudicial, contendo o número do processo; 
 
-    processoJudicial, contendo o número do processo;  
+    classeJudicial; 
 
-    classeJudicial;  
+    orgaoJulgador; 
 
-    orgaoJulgador;  
+    poloAtivo, contendo a lista de partes do polo ativo com seus respectivos tipos e a lista de advogados que representam partes do polo ativo com seus respectivos números de OAB; 
 
-    poloAtivo, contendo a lista de partes do polo ativo com seus respectivos tipos e a lista de advogados que representam partes do polo ativo com seus respectivos números de OAB;  
+    poloPassivo, contendo a lista de partes do polo passivo com seus respectivos tipos e a lista de advogados que representam partes do polo passivo com seus respectivos números de OAB; 
 
-    poloPassivo, contendo a lista de partes do polo passivo com seus respectivos tipos e a lista de advogados que representam partes do polo passivo com seus respectivos números de OAB;  
+    localSessao; 
 
-    localSessao;  
+    dataSessao; 
 
-    dataSessao;  
+    horaSessao; 
 
-    horaSessao;  
+    tipoSessao 
 
-    tipoSessao  
+Para processos da justiça eleitoral: 
 
-Para processos da justiça eleitoral:  
-
-    estado;  
+    estado; 
 
     municipio 
 
- 
+##  Prazo em horas 
 
-##  Sobre prazo em horas 
-
-Prazo em em horas dá problema nas suspensões de prazo no PJe. A recomendação é que se converta em dias.  
+Prazo em em horas dá problema nas suspensões de prazo no PJe. A recomendação é que se converta em dias. 
 
 Sobre a determinação da regulamentação e do magistrado, além de pedido para que o registro do AR abra opção de inseriri o horário, Bruney ressaltou: 
 
 Temos aqui dois pontos: uma é a questão de poder registrar o horário quando da devolução do A.R. (isso seria uma melhoria, quando desenvolvido o sistema essa funcionalidade não foi pensada); outra é a questão da suspensão de prazo em horas (aqui é um defeito). 
 
- 
-
 Nos dois casos precisaríamos evoluir, entretanto, ao mesmo tempo, precisamos priorizar as demandas, de forma a atender, em primeiro lugar, as que impactam no processo eleitoral. 
 
- 
-
-Sem que isso impacte diretamente na questão e na necessidade de evolução do sistema, a jurisprudência do TSE é bem farta no que se refere à conversão de prazos em horas para prazos em dias: Ac. de 23.11.2010 no AgR-AI nº 85876, rel. Min. Aldir Passarinho Junior; Ac. de 6.8.2013 no AgR-REspe nº 664, rel. Min. Dias Toffoli.  
-
- 
+Sem que isso impacte diretamente na questão e na necessidade de evolução do sistema, a jurisprudência do TSE é bem farta no que se refere à conversão de prazos em horas para prazos em dias: Ac. de 23.11.2010 no AgR-AI nº 85876, rel. Min. Aldir Passarinho Junior; Ac. de 6.8.2013 no AgR-REspe nº 664, rel. Min. Dias Toffoli 
 
 Nenhum dos exemplos se adequa aos casos concretos que estamos tratando aqui, mas a ideia me parece a mesma (meu juízo aqui é apenas opinativo e não vinculativo, hehehehe). 
 
-##  Como ficam os processos após remessa 
+##  Remessa 
+
+Como ficam os processos após a remessa?
 
 Primeiro grau: Ao utilizar tarefa “Remeter processo para o TRE”, o processo fica em “Aguardando apreciacão do TRE” bloqueado para novas petições ou edições. Caso seja  retornado do TRE, deve ir automaticamente para o “Analisar processo – ZE" ou “Analisar determinações - ZE”, retirando o bloqueio de edições/novas petições. 
 
@@ -187,33 +170,28 @@ Após a confirmação, o sistema lançará o movimento de remessa conforme o des
 
 Em Devolver processo à origem, se existir fluxo de acórdão em execução, o processo retornará automaticamente para o Verificar pendências. Caso contrário, o processo irá para a tarefa “Expedir processo – Retorno à origem”, que apresenta um aviso pedindo que o usuário, antes de devolver o processo, verifique se não há expedientes abertos ou tarefas em andamento, de modo a evitar que o processo seja encaminhado sem o devido cumprimento. A tela da tarefa permite a seleção do motivo da devolução e o acionamento do botão “Retorno do processo à origem”. O usuário pode também desistir da tarefa, retornando ao Verificar pendências, ou encaminhar para novos cumprimentos, por meio da transição “Necessita atos de ofício”. Se selecionar o botão de retorno do processo à origem, o sistema verificará se há documentos não assinados para que o usuário possa desistir da execução da tarefa, se for o caso. Na confirmação da execução, o sistema retornará o processo para a última instância de origem (se veio do TSE, retornará para o TSE, se veio do primeiro grau, retornará para o primeiro grau). O sistema lancará o movimento de baixa e deixará o processo bloqueado na tarefa “Manter processos expedidos”. 
 
- 
-
 As tarefas onde os processos permanecem após remessa e devolução são diferentes para que se saiba com mais facilidade qual o caminho que o processo percorreu. 
 
- 
 
-## Como ficam os processos após remessa a outra jurisdição 
+## Remessa a outra jurisdição 
+
+Como ficam os processos após finalização?
 
 O processo, após remetido a outra jurisdição, não deve ficar nessa mesma tarefa. Se gera novo número, é para ficar o número originário em processo arquivado e o novo em analisar novo processo. Se não gera novo número, fica um processo apenas também no analisar novo processo. Pode ser que fique na mesma tarefa se há problema no nosso balanceamento. É que as máquinas do PJe funcionam direcionando requisições para uma ou outra máquina de acordo com a carga maior de um e de outro. Ocorre que quando um usuário estabelece uma sessão em uma máquina, o balanceador deve continuar sempre enviando suas requisições daquela sessão para o mesmo servidor. A requisição para mudar o processo de tarefa foi enviada para outra máquina, o que ocasiona o erro de o processo não tramitar. 
 
- 
-
 ## Problemas com sessão na 2.0 
 
- 
+ -  Fluxo com órgão julgador deslocado temporariamente (substituição por recesso, por exemplo, ou Recurso Extraordinário no TSE) : O órgão julgador responsável não consegue salvar o voto, dá um erro e fica gerando um monte de cópia do voto. Pode-se verificar as cópias no item Documentos dos autos. 
 
- -  Fluxo com órgão julgador deslocado temporariamente (substituição por recesso, por exemplo, ou Recurso Extraordinário no TSE) : O órgão julgador responsável não consegue salvar o voto, dá um erro e fica gerando um monte de cópia do voto. Pode-se verificar as cópias no item Documentos dos autos.  
-
-O que acontece é que o sistema salva o voto no nome do órgão julgador relator, mas na hora que a tela recarrega, ele tenta recuperar um voto vinculado ao órgão julgador autenticado (que é o deslocado), e não tem.  
+O que acontece é que o sistema salva o voto no nome do órgão julgador relator, mas na hora que a tela recarrega, ele tenta recuperar um voto vinculado ao órgão julgador autenticado (que é o deslocado), e não tem. 
 
 A solução é alterar o órgão julgador que fará a decisão colegiada antes que seja iniciada a construção dos documentos. Ao final da sessão, depois de assinado o acórdão, o processo pode retornar para o relator original. Foi feita alteração de fluxo para permitir que isso aconteça no TSE.
 
 Se já tiver sido iniciada a construção dos documentos, tem que alterar no banco o órgão julgador do voto que foi salvo pra ser do órgão deslocado e aí os documentos são recuperados. 
 
-Na sessão de julgamento, o relator do processo precisará votar como vogal e novamente terá problemas. Para resolver, tem que alterar o órgão julgador responsável pelo processo no banco, deixar o vogal votar, e depois alterar de volta o órgão.  
+Na sessão de julgamento, o relator do processo precisará votar como vogal e novamente terá problemas. Para resolver, tem que alterar o órgão julgador responsável pelo processo no banco, deixar o vogal votar, e depois alterar de volta o órgão. 
 
-Pode ser que ocorra problemas se for necessário retificar voto de relator deslocado ou desse vogal relator depois do julgamento. A solução é mexer na relatoria por meio do banco novamente, alterando de volta depois. 
+Pode ser que ocorram problemas se for necessário retificar voto de relator deslocado ou desse vogal relator depois do julgamento. A solução é mexer na relatoria por meio do banco novamente, alterando de volta depois. 
 
  - Ao desvincular documento no selecionar documentos para acórdão, em algumas vezes o sistema está apagando o registro do documento na sessão 
 
@@ -223,9 +201,7 @@ Pode ser que ocorra problemas se for necessário retificar voto de relator deslo
 
  - Ao excluir processo com pauta fechada, pode dar um erro vermelho. Deve-se configurar o parâmetro idProcessoRetiradoPauta  para 273 e tentar novamente 
 
- 
-
-- Editor de tarefa antes da versão 2.0.0.0.64 não exibe conteúdo porque dá problema com caracteres ' (denominado "aspas simples" ou "apóstrofo"), ' ("acento agudo" sem vinculação a uma letra), ` ("acento grave" sem vinculação a uma letra) e \ (denominado "contrabarra" ou "barra inversa"). Para documentos de sessão, a solução é ir no selecionar documentos para acórdão, não selecionar o documento que está com problema e enviar o processo para a unidade que produziu o documento originalmente. Lá, o servidor poderá acessar o conteúdo do documento por meio dos autos digitais, copiar em um editor externo, retirar as aspas, copiar o documento sem as aspas de volta no editor, que está em branco, salvar, e mandar de novo para a COARE. O documento novo criado sem as aspas deve aparecer na tarefa de acórdão da COARE. 
+ - Editor de tarefa antes da versão 2.0.0.0.64 não exibe conteúdo porque dá problema com caracteres ' (denominado "aspas simples" ou "apóstrofo"), ' ("acento agudo" sem vinculação a uma letra), ` ("acento grave" sem vinculação a uma letra) e \ (denominado "contrabarra" ou "barra inversa"). Para documentos de sessão, a solução é ir no selecionar documentos para acórdão, não selecionar o documento que está com problema e enviar o processo para a unidade que produziu o documento originalmente. Lá, o servidor poderá acessar o conteúdo do documento por meio dos autos digitais, copiar em um editor externo, retirar as aspas, copiar o documento sem as aspas de volta no editor, que está em branco, salvar, e mandar de novo para a COARE. O documento novo criado sem as aspas deve aparecer na tarefa de acórdão da COARE. 
 
  - Processo cujo julgamento foi encerrado individualmente não aparece para ser incluído em outra sessão, só depois que a sessão é finalizada. Para contornar, o assessor de plenário tem acionado a ASPJe para que o processo seja retirado da sessão via banco e possa incluir na sessão seguinte 
 
@@ -250,8 +226,6 @@ A Resolução TSE n.º 23.608, por sua vez, fez previsão de distribuição com 
 Art. 53. Ao aportarem nos tribunais regionais eleitorais ou no Tribunal Superior Eleitoral, os recursos interpostos nos autos das representações que versem sobre as hipóteses previstas nos arts. 30-A, 41-A, 45, VI, 73, 74, 75 e 77 da Lei n° 9.50411997 serão distribuídos com observância do art. 260 do Código Eleitoral. 
 
 O artigo 260 diz que a escolha pelo usuário de qualquer dos assuntos abaixo listados na autuação de um processo fará com que novos processos daquele assunto naquele ano de eleição e naquele município de origem sejam distribuídos para o mesmo relator, com exceção das classes do item 2: 
-
- 
 
     Assuntos para o 260: 
 
@@ -297,13 +271,13 @@ ii. AÇÃO DE INVESTIGAÇÃO JUDICIAL ELEITORAL – Código CNJ 11527
 
 Motivo: inexistência de previsão legal para distribuição pela prevenção do art. 260 do CE nas ações originárias. 
 
-iii. AÇÃO RESCISÓRIA – Código CNJ .  
+iii. AÇÃO RESCISÓRIA – Código CNJ . 
 
 Motivo: nos termos dos arts. 76 e 77 do RISTF, aplicáveis a este Tribunal por força do art. 94 do RITSE, a ação rescisória será distribuída automaticamente, excluindo-se o Relator do processo cuja decisão se pretende rescindir. 
 
 iv. RECURSO CONTRA EXPEDIÇÃO DE DIPLOMA – Código CNJ 11533 e REPRESENTAÇÃO – Código CNJ 11541 contra cargo de Presidente da República e Vice (no caso do TSE) E contra cargo de Governador, Vice-Governador, Deputado Federal e Deputado Estadual ou Distrital (no caso dos TREs) 
 
-Os assuntos abaixo não geram a prevenção do art. 260 do CE, uma vez que referem-se a processos originários para o TSE.   
+Os assuntos abaixo não geram a prevenção do art. 260 do CE, uma vez que referem-se a processos originários para o TSE. 
 
 11634 - DIREITO ELEITORAL|Eleições|Cargos|Cargo - Presidente da República 
 
@@ -327,7 +301,7 @@ No caso dos Tribunais Regionais Eleitorais, deve-se aplicar a mesma regra para o
 
  
 
-Foram criados três agrupamentos de classes e assuntos (Menu Configuração - Tabelas judiciais - Agrupamento de classes ou assuntos) para contemplar as subdivisões de classes e assuntos mencionadas acima. Por mais que um tribunal opte por não utilizar a prevenção do art. 260, via de regra os agrupamentos já estão configurados, podendo sofrer alterações de acordo com a concepção local.  
+Foram criados três agrupamentos de classes e assuntos (Menu Configuração - Tabelas judiciais - Agrupamento de classes ou assuntos) para contemplar as subdivisões de classes e assuntos mencionadas acima. Por mais que um tribunal opte por não utilizar a prevenção do art. 260, via de regra os agrupamentos já estão configurados, podendo sofrer alterações de acordo com a concepção local. 
 
  
 
@@ -339,7 +313,7 @@ PE3 - Agrupamento que desqualifica processo a pertencer a uma cadeia (classes E 
 
  
 
-Foi criado um parâmetro com uma expressão lógica (utiliza operadores que são comuns na área de TI) para relacionar as regras e os agrupamentos. Por mais que um tribunal opte por não utilizar a prevenção do art. 260, o parâmetro já está configurado, mas com a propriedade "Situação" igual a "inativo".  
+Foi criado um parâmetro com uma expressão lógica (utiliza operadores que são comuns na área de TI) para relacionar as regras e os agrupamentos. Por mais que um tribunal opte por não utilizar a prevenção do art. 260, o parâmetro já está configurado, mas com a propriedade "Situação" igual a "inativo". 
 
  
 
@@ -394,7 +368,7 @@ Você poderá verificar o nome do revisor pelos autos digitais, na opção de ex
 
 Quando um processo está no fluxo de colegiadas, na tarefa “Conferir relatório, voto e ementa”, o sistema verifica se o processo exige revisor, e isso foi selecionado no protocolo, ou se o processo tem uma classe que a revisão é facultativa. Se uma dessas condições for satisfeita, aparece uma transição para que o usuário envie o processo para o revisor, que será o que aparece nos autos. 
 
-Quando a classe exige revisão, o processo só poderá ser pautado se o revisor tiver incluído o voto.  
+Quando a classe exige revisão, o processo só poderá ser pautado se o revisor tiver incluído o voto. 
 
 Para corrigir um revisor no processo utilizando a tarefa, coloca o revisor correto na configuração do colegiado, depois marca a classe com "exige revisor" facultativo, depois coloca o processo, a partir do analisar determinação, na tarefa de definir o revisor. Na tarefa, altere as marcações (exige revisor e nome do revisor) e, por fim, deixe selecionado o revisor correto, retornando depois o processo para analisar determinação. FAÇA ALTERAÇÕES gerais na tela para garantir que o sistema atualizará a definição de acordo com o valor selecionado, já que a tarefa não tem o botão salvar e a alteração será refletida após tramitação quando o sistema detecta que houve mudança. 
 
@@ -412,15 +386,13 @@ Há também a situação em que o processo tem uma classe que exige revisão, ma
 
  Dessa forma, pode-se alterar a ordem de votação do processo, já que com o revisor, o sistema não permite. 
  
-## Votos antes da sessão, Visualização de votos pelo painel do procurador na sessão, painel do membro da OAB na sessão, painel do púlpito, Internet sem usuário e senha 
+## Visualização de documento da sessão
+
+Votos antes da sessão, Visualização de votos pelo painel do procurador na sessão, painel do membro da OAB na sessão, painel do púlpito, Internet sem usuário e senha 
 
 O relatório, ementa e voto são construídos no PJe da JE por meio da tarefa “Minutar relatório voto e ementa” pelo relator do processo. Se o usuário autenticado estiver em um órgão julgador diferente do relator do processo, é gerada uma inconsistência só resolvida via banco de dados (verificar item 10.1). Por voto, entenda-se que é o conjunto da indicação do voto e o próprio documento de voto. A visualização desses itens/documentos não assinados só é possível se as respectivas marcações “Liberar voto”, “Liberar relatório” e “Liberar ementa” forem realizadas. 
 
- 
-
 Os pontos do sistema onde poderão ser visualizadas são: painel do secretário da sessão, painel do magistrado na sessão, painel do membro da OAB na sessão/painel do membro do ministério público na sessão, púlpito de sustentação oral, Internet - opção Pautas de julgamento (http://www.tse.jus.br/servicos-judiciais/sessoes-de-julgamento/pautas-de-julgamento/pje) e tarefas de vogais. 
-
- 
 
 Depois que inicia a sessão, quando o Assessor de plenário colocar em julgamento, vai aparecer na Internet, sem usuário e senha, o "tipo de voto", ou seja, concedo, nego, mas não aparece o documento.  Na Internet, sem login e senha, só aparece o documento depois de assinado. Já no painel  do membro da OAB,  basta iniciar a sessão.  Em todos os casos, é sempre necessário liberar por meio da tarefa do gabinete 
 
@@ -438,7 +410,7 @@ O “Assessor de plenário” pode liberar o voto/documentos para que sejam visu
 
 3. o processo foi julgado 
 
-4. a sessão esteja encerrada  
+4. a sessão esteja encerrada 
 
 Se o parâmetro  “pje:sessao:plenarioVirtual:documentoAssinado" estiver com o valor “true”, o documento só aparecerá em “Pautas de julgamento” após assinatura do acórdão. 
 
@@ -454,11 +426,7 @@ O “Assessor de plenário” pode liberar o processo para ser visualizado no me
 
 O “Assessor de plenário” pode liberar o voto/documentos para que sejam visualizados por meio do menu “Púlpito de sustentação oral” em julgamentos de sessões não contínuas quando clicar no ícone de olho disponível nos processos que estão “Em julgamento” (ícone balancinha sendo exibido). Se o magistrado tiver liberado seu documento para visualização por meio da opção respectiva na tarefa, voto/documentos serão exibidos no “Púlpito de sustentação oral” 
 
- 
-
 Orientação passada para o TSE quando foram disponilizados os paineis: 
-
-  
 
 De ordem da assessora-chefe da Assessoria do PJe , informamos que a versão disponibilizada hoje no TSE, 18 de maio de 2020, contempla um painel aos advogados e ao ministério público para acompanhamento das sessões virtuais e por videoconferência. 
 
@@ -468,15 +436,11 @@ De ordem da assessora-chefe da Assessoria do PJe , informamos que a versão disp
 
  A liberação pode ocorrer por documento, ou seja, o gabinete pode escolher liberar apenas o relatório, assim como pode escolher não liberar documento algum. 
 
-   
-
- Orientação passada para os TREs quando foram disponilizados os paineis: 
+Orientação passada para os TREs quando foram disponilizados os paineis: 
 
 A versão 2.0.0.0.49.3 do PJe nos regionais e no TSE traz uma melhoria solicitada pela OAB e pelo ministério público para que advogados e MP possam enxergar os documentos de voto, relatório e ementa, desde que liberados pelo gabinete, a partir das opções já existentes "Liberar relatório", "Liberar ementa" e Liberar voto", disponíveis nas tarefas de "Aguarda sessão de julgamento" inclusive para julgamento virtual. Caso liberados os documentos, os processos que estejam em sessão aberta terão a opção do placar, que exibe os votos dos magistrados. 
 
  As permissões para esse painel podem ser encontradas no menu Configuração - Controle de acesso - Funcionalidades, pesquisando pelo identificador "/pages/Painel/ProcuradorMP/sessaoAbertaProcuradorMP.seam". Às permissões que já existem, pode ser acrescentada a permissão para o perfil de advogado. Ou ainda, se for o desejo, retirar permissões. 
-
-   
 
 Além da melhoria nessa funcionalidade, foi disponibilizada uma nova, que só permite acesso aos documentos liberados pelo gabinete de processos em julgamento de sessões abertas não contínuas e que tenham visualização liberada pelo Assessor de plenário. A liberação ocorre por meio de um novo ícone em forma de olho no painel do secretário da sessão que aparece para cada processo. Ao clicar nesse ícone, a visualização dos documentos está liberada para esse novo painel. Além disso, a permissão para o painel deve ser também configurada por meio do controle de acesso - funcionalidades, identificador "/pages/Painel/painel_usuario/painelPulpito.seam" juntamente com a associação do papel "pje:papel:pulpitoSustentacaoOral" ao perfil ao qual vc deseja dar acesso ao novo painel. 
 
@@ -484,7 +448,9 @@ SOBRE ESSAS DUAS FUNCIONALIDADES, A LIBERAÇÃO do ASSESSOR DE PLENÁRIO SÓ É 
 
 Cada tribunal deve decidir qual painel se aplica a qual situação sua e configurar conforme desejar. 
 
-## Problema de processo migrado que os documentos não aparecem a aba para selecionar documentos para acórdão
+## Documentos de sessão 
+
+Problema de processo migrado que os documentos não aparecem a aba para selecionar documentos para acórdão
 
 Ajustar o nr_instancia do client.tb_processo_trf para o mesmo ds_instancia do core.tb_processo_documento. A migração tem que ser também ajustada para preencher esse campo e o problema deixar de ocorrer.
 
@@ -526,12 +492,9 @@ Regras de cálculo dos pesos estão no item 4 de:
 
 https://www.cnj.jus.br/wiki/index.php/Distribui%C3%A7%C3%A3o#Procedimento_de_distribui.C3.A7.C3.A3o 
 
- 
-
 Tenho um magistrado que vai começar a atuar e não quero que ele entre recebendo tudo quanto é processo. Na versão 2.0, fazer o seguinte: 
 
 Ao criar um novo cargo judicial em um órgão julgador, o sistema pergunta se ele deve ser inicializado com os valores dos outros cargos existentes. Sendo assim, o sistema faz cria o novo cargo já com os pesos acumulados dos outros que já existem e estão recebendo distribuição. Orientamos, então, a criar um novo cargo judicial dentro do órgão com as seguintes características: 
-
 
 Descrição: Podem fornecer a que melhor lhes convier 
 
@@ -573,7 +536,9 @@ O botão "Unificar" presente no cadastro dos tipos de pessoa citados permitirá 
 
 O "Desunificar" fica no menu Atividades 
 
-## Publicações no DJe – Como o sigilo é verificado?  
+## Publicações no DJe – sigilo
+
+Como o sigilo é verificado? 
 
 A única propriedade que é levada em consideração para marcar uma publicação como sigilosa ou não é se o processo é sigiloso. 
 
@@ -583,7 +548,9 @@ Então qual a finalidade da opção “Sigiloso” na tarefa “Preparar ato de 
 
 Marcar essa opção, deveria refletir no documento que será criado/selecionado em “Instrumento de comunicação” após clicar no “lápis”. E diz respeito ao sigilo do documento ao ser listado nos autos digitais. No entanto, a recomendação é NÃO utilizar essa marcação. Ela não se comporta como o esperado e precisará de correção. 
 
-## Carta Precatória - Visualização promotor deprecado. 
+## Carta Precatória
+
+ - Visualização promotor deprecado. 
 
 Por meio do Ofício nº 022/2020 – GABCRE/TRE-AM, o Vice-Presidente e Corregedor Regional Eleitoral do Amazonas, Des. Jorge Manoel Lopes Lins, apresentou sugestão para a implementação de funcionalidade que permita a inclusão do membro do Ministério Público Eleitoral do juízo deprecado nos processos do PJe autuados na classe Carta Precatória. 
 
@@ -600,5 +567,4 @@ a)  Quando a remessa é para outra zona do mesmo Estado, a  numeração permanec
 b) A remessa entre zonas de Estados distintos não é praxe, entretanto, tecnicamente, quando a remessa é para zona de outro Estado o número do processo é alterado (art. 5º da Resolução CNJ n.º 65/2008), mas as partes permanecem as mesmas, ou seja, não atualiza para o Ministério Público do Estado deprecado. Neste caso, é necessário que o Cartório Eleitoral deprecado atualize os dados do processo, de forma a inserir o Ministério Público deprecado na autuação.
 
 Verifica-se, assim, que a funcionalidade solicitada já consta do sistema. 
-
 
