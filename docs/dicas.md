@@ -65,6 +65,8 @@ Há um defeito conhecido quando a pesquisa retorna muitos processos e o usuário
 
 As tarefas de construção de documentos (minutar ato, elaborar documentos) podem ser executadas em lote (mais de um processo por vez) ou individualmente. Para construir documentos em lote, deve-se selecionar os processos de alguma tarefa onde a minuta em lote esteja habilitada por meio do campo de seleção disponível ao lado do cabeçalho do processo. 
 
+![caixa de seleção](https://pjeje.github.io/dicas/img/minutarlote1.png)
+
 Pode-se também selecionar todos os processos daquela página por meio do campo de seleção que fica logo abaixo dos agrupadores de PROCESSOS / ETIQUETAS. Selecionando essa opção, todos os processos daquela página serão incluídos no lote. Lembramos que o limite de processos por página é 30. 
 
 ## Juiz substituto - sigilo 
