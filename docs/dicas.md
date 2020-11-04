@@ -61,13 +61,16 @@ Depois de finalizado tudo, o PJe gera uma intimação para as partes envolvidas 
 
 Há um defeito conhecido quando a pesquisa retorna muitos processos e o usuário seleciona para publicação processos de páginas posteriores à primeira no resultado da pesquisa. A solução de contorno é restringir a pesquisa de forma que o resultado não venha paginado para evitar o erro na publicação.
 
-## Minuta em lote 
 
-As tarefas de construção de documentos (minutar ato, elaborar documentos) podem ser executadas em lote (mais de um processo por vez) ou individualmente. Para construir documentos em lote, deve-se selecionar os processos de alguma tarefa onde a minuta em lote esteja habilitada por meio do campo de seleção disponível ao lado do cabeçalho do processo. 
+## Perfil de consulta  
 
-![caixa de seleção](https://pjeje.github.io/dicas/img/minutarlote1.png)
+No ambiente do primeiro grau, há um perfil de servidor chamado "Consulta de processos para servidor de outra instância". Nesse perfil, só é permitida a consulta processual. Não é possível consultar processos sigilosos. O cadastro dos usuários vinculado a esse perfil deve ser feito pela funcionalidade "Configuração - Pessoa - Servidor", selecionando órgão julgador ou selecionando estado e selecionando, na opção Papel, o nome desse perfil.
 
-Pode-se também selecionar todos os processos daquela página por meio do campo de seleção que fica logo abaixo dos agrupadores de PROCESSOS / ETIQUETAS. Selecionando essa opção, todos os processos daquela página serão incluídos no lote. Lembramos que o limite de processos por página é 30. 
+Para o ambiente do segundo grau, os servidores administradores podem fazer o cadastro do perfil. 
+
+Em "Configuração - Controle de Acesso - Papeis", criar um novo papel com o nome "Consulta de processos para servidor de outra instância" e identificador "consulta". Depois de criado, vai na aba "Herdeiros" desse papel e vincula o papel "Colaborador". Depois vai na aba "Recursos"  associa o recurso "Página Processo/Consulta/Consulta de Processo".
+
+O cadastro dos usuários vinculado a esse perfil deve ser feito de forma similar ao primeiro grau, ou seja, pela funcionalidade "Configuração - Pessoa - Servidor", selecionando órgão julgador ou não, selecionando Colegiado ou não, selecionando na localização a opção Tribunal Regional Eleitoral e, na opção Papel, o nome desse perfil.
 
 ## Juiz substituto - sigilo 
 
@@ -77,7 +80,7 @@ Exemplo de situação: O juiz de uma zona especializada (002ZE) se declarou susp
 
 Foi designado para atuar no processo o juiz titular da outra especializada (003ZE). 
 
-No sistema, para que cada ze concorra em igualdade de condições, e tbm, por óbvio, pq n existe dois juízes ativos concomitantemente no mesmo juízo eleitoral, a distribuição foi configurada apenas com o cargo de juiz titular respondendo “Sim” para “recebe distribuição”. 
+No sistema, para que cada zona concorra em igualdade de condições, e também porque não existe dois juízes ativos concomitantemente no mesmo juízo eleitoral, a distribuição foi configurada apenas com o cargo de juiz titular respondendo “Sim” para “recebe distribuição”. 
 
 Logo, esse processo em que ele se declarou suspeito foi distribuído para o cargo de juiz eleitoral titular. 
 
