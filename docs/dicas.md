@@ -51,13 +51,19 @@ Como assessor de plenário, ele tem que ir no menu "Publicação de decisões em
 
 Ao entrar ne tela, ele deve selecionar uma data de sessão e mandar pesquisar. As sessões que tiverem acórdão ou certidão de julgamento associados retornarão na pesquisa 
 
-Depois ele vai preencher, na linha do(s) processo(s) correspondentes que ele quer publicar as opções da publicação: data, tipo do prazo, o prazo em si. Se tiverem dois documentos, ou seja, o acórdão e a certidão, na coluna Documento ele precisa marcar qual que ele quer. Geralmente a certidão já vem marcada. Os processos que serão publicados devem estar selecionados por meio da caixa de seleção da primeira coluna. 
+Depois ele vai preencher, na linha do(s) processo(s) correspondentes que ele quer publicar as opções da publicação: data, tipo do prazo, o prazo em si. Se houver dois documentos, ou seja, o acórdão e a certidão, na coluna Documento ele precisa marcar qual que ele quer. Geralmente a certidão já vem marcada. Os processos que serão publicados devem estar selecionados por meio da caixa de seleção da primeira coluna. 
 
 Depois de tudo pronto, ele deve selecionar o botão salvar e depois ele seleciona o publicar 
 
 Por meio dessa mesma tela, o usuário poderia publicar em sessão decisões monocráticas. Seria o mesmo procedimento, mas para que as decisões aparecessem na consulta, o gabinete teria que ter usado uma tarefa específica sinalizando que a decisão monocrática seria publicada 
 
-Depois de finalizado tudo, o PJe gera uma intimação para as partes envolvidas de acordo com o que foi preenchido. De acordo com parâmetros configurados, o Ministério Público pode não ser intimado. No caso do TSE, eles não são. 
+Depois de finalizado tudo, o PJe gera uma intimação para as partes envolvidas de acordo com o que foi preenchido. De acordo com parâmetros configurados, ou seja, 
+
+- pje:intimarEmSessaoColegiada:fiscalDaLei - Notifica que o fiscal da lei será intimado nas publicações em sessão de decisões colegiadas
+	
+- pje:intimarEmSessaoMonocratica:fiscalDaLei - Notifica que o fiscal da lei será intimado nas publicações em sessão de decisões monocrátivas
+		
+o Ministério Público como fiscal da lei pode não ser intimado. No caso do TSE, ele não é para decisões colegiadas. 
 
 Há um defeito conhecido quando a pesquisa retorna muitos processos e o usuário seleciona para publicação processos de páginas posteriores à primeira no resultado da pesquisa. A solução de contorno é restringir a pesquisa de forma que o resultado não venha paginado para evitar o erro na publicação.
 
