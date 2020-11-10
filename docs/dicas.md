@@ -591,7 +591,7 @@ As tarefas de construção de documentos (minutar ato, elaborar documentos) pode
 
 Pode-se também selecionar todos os processos daquela página por meio do campo de seleção que fica logo abaixo dos agrupadores de PROCESSOS / ETIQUETAS. Selecionando essa opção, todos os processos daquela página serão incluídos no lote. Lembramos que o limite de processos por página é 30. 
 
-![Processos/Etiquetas](img/minutalote2.png)
+![Processos e Etiquetas](img/minutarlote2.png)
 
 Segue imagem de exemplo de como ficam os processos e os ícones abaixo dos agrupadores de PROCESSOS / ETIQUETAS após selecionados os processos para os quais se deseja construir documentos em lote: 
 
