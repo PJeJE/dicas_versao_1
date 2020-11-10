@@ -585,4 +585,62 @@ Verifica-se, assim, que a funcionalidade solicitada já consta do sistema.
 
 ## Minutar em lote
 
-![Minutar em lote](img/minutalote1.png)
+As tarefas de construção de documentos (minutar ato, elaborar documentos) podem ser executadas em lote (mais de um processo por vez) ou individualmente. Para construir documentos em lote, deve-se selecionar os processos de alguma tarefa onde a minuta em lote esteja habilitada por meio do campo de seleção disponível ao lado do cabeçalho do processo. 
+
+![Campo de seleção](img/minutalote1.png)
+
+Pode-se também selecionar todos os processos daquela página por meio do campo de seleção que fica logo abaixo dos agrupadores de PROCESSOS / ETIQUETAS. Selecionando essa opção, todos os processos daquela página serão incluídos no lote. Lembramos que o limite de processos por página é 30. 
+
+![Processos/Etiquetas](img/minutalote2.png)
+
+Segue imagem de exemplo de como ficam os processos e os ícones abaixo dos agrupadores de PROCESSOS / ETIQUETAS após selecionados os processos para os quais se deseja construir documentos em lote: 
+
+![Visão geral](img/minutalote3.png)
+
+O minutar em lote está habilitado, já que o ícone correspondente é exibido 
+
+![Ícone do minutar em lote](img/minutalote4.png)
+
+Ao selecionar o ícone do minutar em lote, a seguinte tela é exibida: 
+
+![Tela do minutar em lote](img/minutalote5.png)
+
+A edição do documento é similar à edição do documento individual, ou seja, deve-se selecionar o tipo e o modelo no ícone correspondente: 
+
+![Ícone selecionar tipo e modelo](img/minutalote6.png)
+
+Perceba que o ícone de assinatura fica sempre desabilitado no minutar em lote. A assinatura em lote no PJe é sempre realizada pelo item “Assinaturas” do painel de tarefas. Por isso o ícone do editor não pode ser usado. 
+
+![Ícone assinatura desabilitado](img/minutalote7.png)
+
+Ao selecionar o tipo e o modelo de documento, o sistema carrega na área de exibição de texto do editor o conteúdo do modelo de documento. Perceba que, se o modelo contiver variáveis, elas serão carregadas sem a tradução, já que o sistema tem vários processos no lote e não exibirá na área de texto a tradução para cada documento. 
+
+![Variáveis não traduzidas](img/minutalote8.png)
+
+Ao salvar, clicando no ícone correspondente, o sistema fará a tradução das variáveis de acordo com cada processo. Finalizada a edição, o usuário pode simplesmente fechar a tela ou tramitar o processo para outra tarefa. Ao baixar a barra lateral de rolagem da tela, o sistema exibe as opções de tramitação, similarmente à tela a seguir: 
+
+![Transições](img/minutalote9.png)
+
+Pode-se acionar o botão “Cancelar” e pode-se também alterar para quais tarefas cada processo irá a seguir, finalizando a minuta por meio do acionamento do botão “Minutar e movimentar os processos”.  
+
+Se for acionado o botão “Minutar e movimentar os processos”, o sistema exibe um alerta para que o usuário saiba que os processos serão movimentados: 
+
+![Confirmação](img/minutalote10.png)
+
+Caso seja confirmada a movimentação, o sistema exibirá um alerta para que o usuário não perca possíveis alterações que tenha realizado na área de edição do texto sem posterior acionamento do ícone para Salvar. Se o usuário já tiver salvo o documento, pode ignorar o aviso e prosseguir. 
+
+![Aviso](img/minutalote11.png)
+
+Ao confirmar, o sistema tramitará o processo automaticamente para as respectivas tarefas selecionadas para cada processo. Se a próxima tarefa for uma tarefa de assinatura e o usuário tiver permissão para assinar aqueles documentos, os processos serão exibidos no item “Assinaturas” do painel de tarefas.  
+
+Para o caso da tarefa “Elaborar documentos – ZE", não há necessidade de tramitação para uma tarefa de assinatura. Sendo assim, ao fechar a janela do “Minutar em lote”, seja pelo botão “Cancelar” ou pelo próprio ícone de fechamento da janela, os processos estarão com os documentos produzidos. Caso o usuário tenha permissão para assinar os tipos de documentos, eles estarão disponíveis para assinatura, individual ou em lote. Se desejar assinar em lote, o usuário deve selecionar o item “Assinaturas”, disponível no painel do usuário. 
+
+![Assinaturas](img/minutalote12.png)
+
+![Assinaturas - visão geral](img/minutalote13.png)
+
+Pode ser que o painel não tenha sido atualizado com os documentos produzidos e o item “Assinaturas” não tenha os documentos disponíveis para assinatura. Caso isso ocorra, clique no ícone do PJe no canto superior esquerdo da aplicação, que a tela será atualizada. 
+
+![Ícone do PJe](img/minutalote14.png)
+
+A assinatura em lote permitirá que se assine todos os documentos pendentes de assinatura. Pode-se também utilizar a opção de conferência, mas ela é opcional. Utilizando a opção de conferência antes da assinatura como método de trabalho, o usuário assinador pode optar por assinar apenas os conferidos, de forma a garantir que o conteúdo foi revisado por outra pessoa.
