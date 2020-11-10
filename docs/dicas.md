@@ -175,7 +175,7 @@ Segundo grau:
 
 A partir do verificar pendências, existe a transição “Remessa para outra instância” e existe a “Devolver processo à origem”. 
 
-Ao usar o “Remessa para outra instância”, o objetivo é enviar um processo que tenha iniciado no TRE para TSE ou primeiro grau. A tarefa permite que se protocole um “novo processo” no destino, com classes e assuntos específicos e também com novas configurações de partes. As classes exibidas são as classes passíveis de serem recebidas como recurso configuradas no destino. Caso a classe selecionada esteja configurada no destino com a marcação “exige numeração própria”, um novo número de processo será gerado.  
+Ao usar o “Remessa para outra instância”, o objetivo é enviar um processo que tenha iniciado no TRE para TSE ou primeiro grau. A tarefa permite que se protocole um “novo processo” no destino, com classes e assuntos específicos e também com novas configurações de partes. As classes exibidas são as classes passíveis de serem recebidas como recurso configuradas no destino. Caso a classe selecionada esteja configurada no destino com a marcação “exige numeração própria”, um novo número de processo será gerado. 
 
 Após a confirmação, o sistema lançará o movimento de remessa conforme o destino selecionado (TSE ou Zona eleitoral) e manterá o processo em “Aguardando apreciação de outra instância” bloqueado para novas petições ou edições. 
 
@@ -372,7 +372,7 @@ Um processo, ao ser protocolado, vai incluir o nome do revisor automaticamente s
 Se for facultativo, ele pode ter ou não o revisor. 
 
  
-Após o protocolo de processos, dependendo da atualização do fluxo, existe uma tarefa depois do analisar determinação, que permite a determinação do revisor para processos cujas classes tenha revisão marcada como facultativa. Se assim estiver, a tarefa permite que se marque ou desmarque que o processo exige revisão e também permite que o revisor seja alterado. 
+Após o protocolo de processos, dependendo da atualização do fluxo, existe uma tarefa depois do analisar determinação que permite a determinação do revisor para processos cujas classes tenham revisão marcada como facultativa. Se assim estiver, a tarefa permite que se marque ou desmarque que o processo exige revisão e também permite que o revisor seja alterado. 
  
 
 Você poderá verificar o nome do revisor pelos autos digitais, na opção de exibir mais detalhes do cabeçalho 
@@ -381,9 +381,9 @@ Quando um processo está no fluxo de colegiadas, na tarefa “Conferir relatóri
 
 Quando a classe exige revisão, o processo só poderá ser pautado se o revisor tiver incluído o voto. 
 
-Para corrigir um revisor no processo utilizando a tarefa, coloca o revisor correto na configuração do colegiado, depois marca a classe com "exige revisor" facultativo, depois coloca o processo, a partir do analisar determinação, na tarefa de definir o revisor. Na tarefa, altere as marcações (exige revisor e nome do revisor) e, por fim, deixe selecionado o revisor correto, retornando depois o processo para analisar determinação. FAÇA ALTERAÇÕES gerais na tela para garantir que o sistema atualizará a definição de acordo com o valor selecionado, já que a tarefa não tem o botão salvar e a alteração será refletida após tramitação quando o sistema detecta que houve mudança. 
+Para corrigir um revisor no processo utilizando a tarefa, deve-se colocar o revisor correto na configuração do colegiado, depois marcar a classe com "exige revisor" facultativo, depois colocar o processo, a partir do analisar determinação, na tarefa de definir o revisor. Na tarefa, alterar as marcações (exige revisor e nome do revisor) e, por fim, deixe selecionado o revisor correto, retornando depois o processo para analisar determinação. FAÇA ALTERAÇÕES gerais na tela para garantir que o sistema atualizará a definição de acordo com o valor selecionado, já que a tarefa não tem o botão salvar e a alteração será refletida após tramitação quando o sistema detecta que houve mudança. 
 
-Há também a situação em que o processo tem uma classe que exige revisão, mas o julgamento será do recurso. O procedimento correto é marca o facultativo para exige revisão na classe e pautar o processo após o procedimento. Nesse caso, quem envia o processo para a pauta é o relator, não o revisor. Depois, pode-se alterar a classe de volta. Se o processo já tiver sido pautado, pode-se fazer o seguinte: 
+Há também a situação em que o processo tem uma classe que exige revisão, mas o julgamento será do recurso. O procedimento correto é marcar o facultativo para exige revisão na classe e pautar o processo após o procedimento. Nesse caso, quem envia o processo para a pauta é o relator, não o revisor. Depois, pode-se alterar a classe de volta. Se o processo já tiver sido pautado, pode-se fazer o seguinte: 
 
 ·         Tirar da sessão: Para processo com pauta fechada, o sistema gerará a certidão de cancelamento de pauta; 
 
