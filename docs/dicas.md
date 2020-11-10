@@ -621,7 +621,7 @@ Ao salvar, clicando no ícone correspondente, o sistema fará a tradução das v
 
 ![Transições](img/minutalote9.png)
 
-Pode-se acionar o botão “Cancelar” e pode-se também alterar para quais tarefas cada processo irá a seguir, finalizando a minuta por meio do acionamento do botão “Minutar e movimentar os processos”.  
+Pode-se acionar o botão “Cancelar” e pode-se também alterar para quais tarefas cada processo irá a seguir, finalizando a minuta por meio do acionamento do botão “Minutar e movimentar os processos”. 
 
 Se for acionado o botão “Minutar e movimentar os processos”, o sistema exibe um alerta para que o usuário saiba que os processos serão movimentados: 
 
@@ -644,3 +644,45 @@ Pode ser que o painel não tenha sido atualizado com os documentos produzidos e 
 ![Ícone do PJe](img/minutalote14.png)
 
 A assinatura em lote permitirá que se assine todos os documentos pendentes de assinatura. Pode-se também utilizar a opção de conferência, mas ela é opcional. Utilizando a opção de conferência antes da assinatura como método de trabalho, o usuário assinador pode optar por assinar apenas os conferidos, de forma a garantir que o conteúdo foi revisado por outra pessoa.
+
+## Filtros - procurador
+
+![Caixas](img/caixas1.png)
+
+Criando novas caixas
+
+![Nova caixa](img/caixas2.png)
+
+- Não há restrições para os nomes das caixas;
+- Não há restrições para a quantidade de caixas existentes;
+- É possível definir quem vê cada uma caixas;
+- Não é possível criar uma caixa dentro de outra caixa (subcaixas)
+
+Criando novos filtros
+
+![Nova filtro](img/caixas3.png)
+
+![Opções do caixa](img/caixas4.png)
+
+- Filtros da Caixa: indicar o critério utilizado para que os processos venham automaticamente para esta caixa
+- Pessoas Associadas - indicar quem pode ver esta caixa
+
+As caixas para o Ministério Público no ambiente do primeiro grau da Justiça Eleitoral foram organizadas em zonas eleitorais, que por sua vez são vinculadas à Jurisdição do processo.
+
+![Jurisdições](img/caixas5.png)
+
+Pode-se, no entanto, organizar as caixas de várias maneiras. Exemplos:
+
+- Organização de caixas por Procurador e/ou grupo de Procuradores
+
+![Procuradores](img/caixas6.png)
+
+- Organização de caixas por Procurador e/ou grupo de Procuradores em conjunto com a zona
+
+![Procuradores e zonas](img/caixas7.png)
+
+Se o procurador gestor desejar alterar a organização de suas caixas, não é necessário fazer a alteração de todas as caixas de uma vez só. Pode-se começar, por exemplo, por uma zona A de uma pequena jurisdição, adicionando as novas caixas de procuradores e definindo novos filtros. Após testar e avaliar, os procuradores gestores podem optar por implantar a solução para todas as caixas.
+
+Opções na tela de filtros
+
+![Filtros disponíveis](img/caixas8.png)
