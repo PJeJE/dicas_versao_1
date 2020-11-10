@@ -583,3 +583,6 @@ b) A remessa entre zonas de Estados distintos não é praxe, entretanto, tecnica
 
 Verifica-se, assim, que a funcionalidade solicitada já consta do sistema. 
 
+## Minutar em lote
+
+![Minutar em lote](img/minutalote1.png)
