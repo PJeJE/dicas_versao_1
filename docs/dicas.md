@@ -243,7 +243,7 @@ O objetivo é que a tarefa exiba:
 Como se pode ver pela área marcada, o registro contém:
 - O nome do órgão julgador que pautou o processo (Ministro Luís Roberto Barroso ao lado do campo de opção - círculo vazado)
 - A sessão junto com o voto vencedor (10/03/20 - Ministro Luís Roberto Barroso)
-- A situação ao final da sessão (Julgado)(
+- A situação ao final da sessão (Julgado)
 - A proclamação (Processo 1 - Relator ganhando com 1 julgamento somente)
 - O momento de inclusão na pauta (20/03/19 19h43)
 
