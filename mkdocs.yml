@@ -1,4 +1,4 @@
 site_name: PJe Justica Eleitoral
-pages:
+nav:
     - Home: index.md
     - Dicas: dicas.md
