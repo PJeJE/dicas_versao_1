@@ -11,8 +11,8 @@
 ## Editando a página
 
 1. Acesse o endereço: [https://github.com/PJeJE/dicas](https://github.com/PJeJE/dicas)
-* Clique na pasta **docs**.
 * Faça login com o usuário da **aspje**.
+* Clique na pasta **docs**.
 * Clique no arquivo **dicas.md**.
 * Clique no **ícone do lápis** (fica no cantor superior direito).
 * Edite o arquivo como desejar pela aba **Edit file**.
