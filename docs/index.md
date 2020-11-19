@@ -8,7 +8,7 @@ Para acesso ao PJE visite [www.tse.jus.br/servicos-judiciais/processos/processo-
     
 ## Vídeos 
 
-Vídeos gravados nas sessões de compartilhamento de conhecimento
+Vídeos gravados nas sessões de compartilhamento de conhecimento. (teste aspje)
 
 
 ### 16/10/2020 - Minutar em lote
