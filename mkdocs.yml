@@ -8,7 +8,9 @@ plugins:
         prebuild_index: true
     - awesome-pages
     - mermaid2
-    - exclude-search
+    - exclude-search:
+        exclude:
+          - aspje/como_editar_pagina.md
 theme:
   name: material
   language: pt

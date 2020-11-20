@@ -5,8 +5,6 @@
 
 Esta é uma iniciativa da Assessoria do Processo Eletrônico (ASPJE/TSE) e aqui você encontrará dicas de uso e as dúvidas mais frequentes dos servidores e demais colaboradores ao se utilizar o PJe na Justiça Eleitoral. 
 
-
-
 ## Acesso ao PJe
 [http://www.tse.jus.br/servicos-judiciais/processos/processo-judicial-eletronico/](http://www.tse.jus.br/servicos-judiciais/processos/processo-judicial-eletronico/). 
 
