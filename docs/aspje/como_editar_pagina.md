@@ -28,7 +28,7 @@
 
 ### Títulos, subtítulos, seções e subseções
 
-```markdown
+```md
 # Título
 ## Subtítulo
 ### Seção
@@ -38,7 +38,7 @@
 
 ### Negrito e Itálico
 
-```markdown
+```md
 **Texto em negrito**
 *Texto em itálico*
 ```
@@ -46,7 +46,7 @@
 
 ### Incluindo um link
 
-```markdown
+```md
 [Página do TSE](http://www.tse.jus.br)
 ```
 
@@ -57,13 +57,13 @@ Exemplo:
 ### Incluindo uma imagem
 
 
-```markdown
+```md
 ![Texto alternativo](img/imagem.jpg)
 ```
 
 Exemplo:
 
-![Logo do PJe](../img/pje.jpg "Título")
+![Logo do PJe](../img/pje.jpg)
 
 **Obs. 1:** A imagem deve estar na pasta **img**.
 
@@ -87,7 +87,7 @@ Exemplo:
 utilizado por programas de acessibilidade (Ex. Aplicativo que lê a página para cegos).
 
 
-### Mais informações
+## Mais informações
 1. [Guia básico - Indicação Renata](https://docs.pipz.com/central-de-ajuda/learning-center/guia-basico-de-markdown#open)
 2. [Guia básico - Documentação GitHub](https://docs.github.com/pt/free-pro-team@latest/github/writing-on-github/basic-writing-and-formatting-syntax)
 
