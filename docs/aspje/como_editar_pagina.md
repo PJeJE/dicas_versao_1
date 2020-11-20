@@ -87,7 +87,7 @@ Exemplo:
 utilizado por programas de acessibilidade (Ex. Aplicativo que lê a página para cegos).
 
 
-#### Mais informações
+### Mais informações
 1. [Guia básico - Indicação Renata](https://docs.pipz.com/central-de-ajuda/learning-center/guia-basico-de-markdown#open)
 2. [Guia básico - Documentação GitHub](https://docs.github.com/pt/free-pro-team@latest/github/writing-on-github/basic-writing-and-formatting-syntax)
 
