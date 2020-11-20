@@ -13,6 +13,9 @@ plugins:
 theme:
   name: material
   language: pt
+  icon:
+    logo: material/lightbulb
+  favicon: img/dicas.png
   features:
     - search.suggest
     - search.highlight
