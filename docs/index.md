@@ -1,9 +1,9 @@
-# Seja bem-vind@ ao Dicas PJe !
+# Seja bem-vind@ ao Dicas PJe!
 
 ![Fica a dica](img/dicas.png)
 ![Logo PJe](img/pje.png)
 
-Está é uma iniciativa da Assessoria do Processo Eletrônico (ASPJE/TSE) e aqui você encontrará dicas de uso e as dúvidas mais frequentes dos servidores e demais colaboradores ao se utilizar o PJe na Justiça Eleitoral. 
+Esta é uma iniciativa da Assessoria do Processo Eletrônico (ASPJE/TSE) e aqui você encontrará dicas de uso e as dúvidas mais frequentes dos servidores e demais colaboradores ao se utilizar o PJe na Justiça Eleitoral. 
 
 
 
