@@ -5,12 +5,11 @@ nav:
 plugins:
     - search:
         lang: pt
-        prebuild_index: true
     - awesome-pages
     - mermaid2
     - exclude-search:
         exclude:
-          - aspje/como_editar_pagina.md
+          - como_editar_pagina.md
 theme:
   name: material
   language: pt
