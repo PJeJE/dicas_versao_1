@@ -1,4 +1,15 @@
-site_name: PJe Justica Eleitoral
+site_name: PJe Dicas - Justica Eleitoral
 nav:
-    - Home: index.md
-    - Dicas: dicas.md
+    - Home: 'index.md'
+    - Dúvidas Frequentes: 'dicas.md'
+plugins:
+    - search:
+        lang: pt
+        prebuild_index: true
+theme:
+  name: material
+  language: pt
+  features:
+    - search.suggest
+    - search.highlight
+    - navigation.sections

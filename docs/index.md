@@ -1,13 +1,18 @@
-# PJe da Justiça Eleitoral
+# Seja bem-vindo(a)!
 
-Acesse o **PJe da Justiça Eleitoral** [clicando aqui](http://www.tse.jus.br/servicos-judiciais/processos/processo-judicial-eletronico/). 
+![Fica a dica](../img/dicas.png)
+![Logo PJe](../img/pje.png)
+
+Aqui você encontrará dicas de uso e as dúvidas mais frequentes dos servidores e demais colaboradores ao se utilizar o PJe na Justiça Eleitoral.
 
 
----
 
-## Dicas
+## Acesso ao PJe
+[http://www.tse.jus.br/servicos-judiciais/processos/processo-judicial-eletronico/](http://www.tse.jus.br/servicos-judiciais/processos/processo-judicial-eletronico/). 
 
-[Dicas de utilização do sistema.](https://pjeje.github.io/dicas/dicas/)
+## Perguntas e Respostas
+
+[Dicas de utilização do sistema.](dicas.md)
 
 ## Gravações
 

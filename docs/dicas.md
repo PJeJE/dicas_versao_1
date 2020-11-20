@@ -2,7 +2,7 @@
 
 Muitas funcionalidades do PJe executam na própria máquina do usuário, e aí ficam alguns registros da funcionalidade guardados na memória da própria estação. Quando há atualização dessas funcionalidades, deve-se limpar a memória local para que as atualizações sejam recuperadas. Essa memória local é também chamada de cache do browser ou cache do navegador. Executar funcionalidades na máquina do usuário é uma tendência das aplicações web, com o objetivo de diminuir a dependência da capacidade de processamento dos servidores.
 
-Como limpar memória loca do navegador (cache do browser.)
+## Como limpar memória local do navegador (cache do browser)
 
 Acesse, no navegador, o ícone que fica no canto superior direito que contém três tracinhos horizontais 
 Selecione Preferências 
