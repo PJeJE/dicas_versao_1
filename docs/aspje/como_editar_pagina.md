@@ -58,10 +58,11 @@ Exemplo:
 
 
 ```markdown
-![Texto alternativo](../img/imagem.jpg)
+![Texto alternativo](img/imagem.jpg)
 ```
 
 Exemplo:
+
 ![Logo do PJe](../img/pje.jpg "Título")
 
 **Obs. 1:** A imagem deve estar na pasta **img**.
