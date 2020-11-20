@@ -5,8 +5,6 @@ nav:
 plugins:
     - search:
         lang: pt
-    - awesome-pages
-    - mermaid2
     - exclude-search:
         exclude:
           - como_editar_pagina.md
