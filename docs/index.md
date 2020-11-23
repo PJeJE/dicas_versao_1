@@ -8,6 +8,10 @@ Esta é uma iniciativa da Assessoria do Processo Eletrônico (ASPJE/TSE) e aqui 
 ## Acesso ao PJe
 [http://www.tse.jus.br/servicos-judiciais/processos/processo-judicial-eletronico/](http://www.tse.jus.br/servicos-judiciais/processos/processo-judicial-eletronico/). 
 
+## Documentação sobre o PJe
+
+[Wiki do PJe](http://www.pje.jus.br/wiki/index.php)
+
 ## Dicas e Dúvidas Frequentes
 
 [Dicas de utilização do sistema.](dicas.md)

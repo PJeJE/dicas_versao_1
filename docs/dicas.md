@@ -820,3 +820,10 @@ Exemplo:
 * **é necessário** que a parte tenha pelo menos um número de telefone cadastrado.
 
     ![Cadastro de telefone da pessoa](img/cadastro_telefone.png)
+    
+    
+## Variáveis de modelo 
+
+Na construção de documentos, o usuário pode utilizar modelos preparados previamente para que algumas informações já venham preenchidas por padrão. Para recuperar valores na construção de um documento utiliza-se variáveis. Algumas variáveis foram listadas [na wiki do PJe](http://www.pje.jus.br/wiki/index.php/Roteiro_de_configura%C3%A7%C3%A3o_de_documentos#Vari.C3.A1veis).
+
+Outras referências de variáveis podem ser encontradas [aqui](variaveis.md).
