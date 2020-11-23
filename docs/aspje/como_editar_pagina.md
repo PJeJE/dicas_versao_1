@@ -21,7 +21,7 @@
 * **No primeiro campo**, descreva de forma sucinta o que você alterou/incluir no arquivo.
 * As demais opções **não** precisam ser alteradas.
 * Clique no botão **Commit changes**.
-* **Pronto!** A nova versão já está no ar!
+* **Pronto!** Dentro de 5 minutos a nova versão estará no ar!
 
 
 ## Formatação básica
