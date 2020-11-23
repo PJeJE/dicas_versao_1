@@ -4,12 +4,6 @@
 |:-------|:----------|
 | Número do Processo |  #{processoTrfHome.instance.numeroProcesso} |
 | Assuntos do Processo| #{processoTrfHome.instance.assuntoTrfListStr} |
-| Partes formatadas|#{processoJudicialAction.recuperarParteFormatada(true, true, 'A', 'P', 'T')} onde
-    • primeiro item dentro dos parênteses informa se a resposta virá dentro de uma tabela (true) ou fora (false);
-    • segundo item informa se, quando houver advogados, deve ser exibida a oab (true) ou não (false);
-    • Terceiro item "A" informa que devem ser retornadas as partes do polo ativo;
-    • Quarto item "P" informa que devem ser retornadas as partes do polo passivo;
-    • "Quinto item "T" informa que devem ser retornadas os terceiros cadastrados no processo.|
 | Nome Autor Processo|#{processoTrfHome.instance.tipoNomeAutorProcesso}|
 | Nome Réu Processo|#{processoTrfHome.instance.nomeReuProcesso}|
 | Partes Polo Passivo|#{processoTrfHome.processoPartePoloPassivoSemAdvogadoStr}|
@@ -45,6 +39,8 @@
 | Usuário Logado|#{usuarioLogado.nome}|
 | Papel usuário logado|#{usuarioLogadoLocalizacaoAtual.papel}|
 | Login Usuário Logado|#{usuarioLogado.login}|
-| Nome do Usuário Logado|#{usuarioLogado.nome}
+| Nome do Usuário Logado|#{usuarioLogado.nome}|
+| Partes formatadas|[#{processoJudicialAction.recuperarParteFormatada(true, true, 'A', 'P', 'T')}]recuperarparte.md 
+
 
 
