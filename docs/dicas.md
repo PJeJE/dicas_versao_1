@@ -671,21 +671,17 @@ Marcar essa opção, deveria refletir no documento que será criado/selecionado 
 
  - Visualização promotor deprecado. 
 
-Por meio do Ofício nº 022/2020 – GABCRE/TRE-AM, o Vice-Presidente e Corregedor Regional Eleitoral do Amazonas, Des. Jorge Manoel Lopes Lins, apresentou sugestão para a implementação de funcionalidade que permita a inclusão do membro do Ministério Público Eleitoral do juízo deprecado nos processos do PJe autuados na classe Carta Precatória. 
+Há duas formas de distribuir carta precatória ao juízo deprecado:
 
-O procedimento foi encaminhado a essa Assessoria para manifestação. 
+**1º Quando a Carta Precatória é distribuída pelo deprecante diretamente na zona deprecada**, observa-se manutenção da numeração única do processo (da zona deprecada) e  que os autos ficam vinculados a caixa do Procurador deprecado. 
 
-Após realização de testes no ambiente de homologação, seguem as considerações: 
-
-Quando a Carta Precatória é distribuída pelo deprecante diretamente na zona deprecada, observa-se manutenção da numeração única do processo (da zona deprecada) e  que os autos ficam vinculados a caixa do Procurador deprecado. 
-
-Na hipótese de os autos serem autuados na zona deprecante e remetidos à zona deprecada, observam-se duas situações: 
+2º Na hipótese de os autos serem autuados na zona deprecante e remetidos à zona deprecada, observam-se duas situações: 
 
 a)  Quando a remessa é para outra zona do mesmo Estado, a  numeração permanece e, a princípio, o processo ainda fica vinculado na caixa do Promotor deprecante. Entretanto, no primeiro ato de comunicação, o processo migra para caixa correta, ou seja, na primeira intimação ao Ministério Público, o promotor do juízo deprecado é comunicado, de forma a ser viabilizada a atuação; 
 
 b) A remessa entre zonas de Estados distintos não é praxe, entretanto, tecnicamente, quando a remessa é para zona de outro Estado o número do processo é alterado (art. 5º da Resolução CNJ n.º 65/2008), mas as partes permanecem as mesmas, ou seja, não atualiza para o Ministério Público do Estado deprecado. Neste caso, é necessário que o Cartório Eleitoral deprecado atualize os dados do processo, de forma a inserir o Ministério Público deprecado na autuação.
 
-Verifica-se, assim, que a funcionalidade solicitada já consta do sistema. 
+A despeito de todas as viabilidades técnicas, **recomenda-se a utilização da primeira opção, qual seja, autuação diretamente na zona eleitoral deprecada**. Verifica-se, neste, o procedimento mais seguro e tendente a resolver a demanda sem necessidade de adequações (sejam automáticas ou manuais).
 
 ## Minutar em lote
 
