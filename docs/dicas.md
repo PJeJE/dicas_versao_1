@@ -800,3 +800,12 @@ Se o procurador gestor desejar alterar a organização de suas caixas, não é n
 Opções na tela de filtros
 
 ![Filtros disponíveis](img/caixas8.png)
+
+
+## Disponibilizando chaves de acesso aos documentos
+
+[Passo a passo aqui.](chaves_de_acesso.md)
+
+Exemplo:
+![Chaves de acesso](img/tabela_hash.png)
+
