@@ -1,4 +1,4 @@
-#Variável recuperarParteFormatada
+# Variável recuperarParteFormatada
 
 Uso: #{processoJudicialAction.recuperarParteFormatada(true, true, 'A', 'P', 'T')} 
 
