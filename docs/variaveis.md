@@ -4,7 +4,7 @@
 |:-------|:----------|
 | Número do Processo |  #{processoTrfHome.instance.numeroProcesso} |
 | Assuntos do Processo| #{processoTrfHome.instance.assuntoTrfListStr} |
-| Partes formatadas|#{processoJudicialAction.recuperarParteFormatada(true, true, 'A', 'P', 'T')} onde:
+| Partes formatadas|#{processoJudicialAction.recuperarParteFormatada(true, true, 'A', 'P', 'T')} onde
     • primeiro item dentro dos parênteses informa se a resposta virá dentro de uma tabela (true) ou fora (false);
     • segundo item informa se, quando houver advogados, deve ser exibida a oab (true) ou não (false);
     • Terceiro item "A" informa que devem ser retornadas as partes do polo ativo;
