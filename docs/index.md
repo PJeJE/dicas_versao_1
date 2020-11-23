@@ -26,4 +26,8 @@ Sessões de compartilhamento de conhecimento com os servidores.
 | 06/11/2020 |    Sessões - Publicar decisão em sessão e selecionar documentos para acórdão   |   [Parte 1](https://www.dropbox.com/s/q7tm6cbsrr5842u/pje2grauprimeirareuniaoaspje%20on%202020-11-06%2018-04.mp4?dl=0) [Parte 2](https://www.dropbox.com/s/q4pf7j9kym8poux/pje2grauprimeirareuniaoaspje%20on%202020-11-06%2018-26.mp4?dl=0) |
 
 
+## Participe!
 
+Tem uma nova dica pra gente? Tem melhorias e/ou gostaria de complementar alguma dica? Quer saber mais sobre alguma funcionalidade do sistema? O Dicas PJe foi criado para compartilharmos conhecimento!
+
+[Clique aqui e participe!](participe.md)

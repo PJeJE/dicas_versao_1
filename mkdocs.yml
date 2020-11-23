@@ -2,6 +2,7 @@ site_name: Dicas PJe - Justica Eleitoral
 nav:
     - Home: 'index.md'
     - Dicas e Dúvidas Frequentes: 'dicas.md'
+    - Participe!: 'participe.md'
 plugins:
     - search:
         lang: pt
@@ -23,3 +24,4 @@ extra_javascript:
   - js/config.js
 extra_css:
   - https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/default.min.css
+  - css/tse.css
