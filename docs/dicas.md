@@ -809,3 +809,14 @@ Opções na tela de filtros
 Exemplo:
 ![Chaves de acesso](img/tabela_hash.png)
 
+
+
+## Meio de comunicação **Telefone**
+
+* Para que o meio de comunicação **Telefone** apareça como opção na tarefa **Preparar Ato de Comunicação**,
+
+    ![Meio de comunicação Telefone](img/meio_telefone.png)
+
+* **é necessário** que a parte tenha pelo menos um número de telefone cadastrado.
+
+    ![Cadastro de telefone da pessoa](img/cadastro_telefone.png)
