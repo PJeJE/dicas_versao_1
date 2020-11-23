@@ -21,7 +21,7 @@
 * **No primeiro campo**, descreva de forma sucinta o que você alterou/incluir no arquivo.
 * As demais opções **não** precisam ser alteradas.
 * Clique no botão **Commit changes**.
-* **Pronto!** Agora avise a Renata/Aguimar/Gleison para que eles publiquem a nova página.
+* **Pronto!** A nova versão já está no ar!
 
 
 ## Formatação básica
