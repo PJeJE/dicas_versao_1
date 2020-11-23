@@ -40,7 +40,7 @@
 | Papel usuário logado|#{usuarioLogadoLocalizacaoAtual.papel}|
 | Login Usuário Logado|#{usuarioLogado.login}|
 | Nome do Usuário Logado|#{usuarioLogado.nome}|
-| Partes formatadas|[#{processoJudicialAction.recuperarParteFormatada(true, true, 'A', 'P', 'T')}]recuperarparte.md 
+| Partes formatadas| [#{processoJudicialAction.recuperarParteFormatada(true, true, 'A', 'P', 'T')}](recuperarparte.md)
 
 
 
