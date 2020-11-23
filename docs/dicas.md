@@ -815,7 +815,7 @@ Exemplo:
 
 * **é necessário** que a parte tenha pelo menos um número de telefone cadastrado.
 
-    ![Cadastro de telefone da pessoa](img/cadastro_telefone.png)
+    ![Cadastro de telefone de pessoa física](img/cadastro_telefone.png)
     
     
 ## Variáveis de modelo 
