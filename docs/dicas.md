@@ -21,7 +21,7 @@ Esse controle é só um aviso, ele não impede o usuário de ver o documento.
 
 Para que o aviso não seja mais exibido, o usuário sinaliza que já viu o documento, mas não significa que ele efetivamente foi visto. Pode-se marcar que o documento foi lido sem nem ter aberto o documento. A marcação significa que o usuário quer que o aviso desapareça. Se o usuário abrir o documento, mas não marcar que já viu, o sistema vai continuar exibindo que há documentos não lidos. 
 
-Esse aviso era exibido apenas por meio de um agrupador, que não utilizamos muito na justiça eleitoral, já que são muito onerosos para a performance. Todos os agrupadores são muito onerosos. 
+Esse aviso era exibido apenas por meio de um agrupador, que não utilizamos muito na Justiça Eleitoral, já que são muito onerosos para a performance. Todos os agrupadores são muito onerosos. 
 
 Outros tribunais utilizam bastante e queriam que o aviso aparecesse nos autos do processo. 
 
@@ -33,35 +33,9 @@ Mais informações sobre o comportamento da opção:
 
 http://www.pje.jus.br/wiki/index.php/Funcionalidades#Processos_com_documentos_n.C3.A3o_lidos 
 
-## Publicar em sessão
-
-Sobre publicação do acórdão em sessão, a partir da mesma opção pode-se publicar o acórdão ou a certidão de julgamento. Os documentos só aparecerão se estiverem devidamente vinculados à sessão e se estiverem assinados. 
-
-Como assessor de plenário, deve-se ir no menu "Publicação de decisões em sessão" 
-
-Ao entrar na tela, ele deve selecionar uma data de sessão e mandar pesquisar. As sessões que tiverem acórdão ou certidão de julgamento associados retornarão na pesquisa 
-
-Depois ele vai preencher, na linha do(s) processo(s) correspondentes que ele quer publicar as opções da publicação: data, tipo do prazo, o prazo em si. Se houver dois documentos, ou seja, o acórdão e a certidão, na coluna Documento ele precisa marcar qual que ele quer. Geralmente a certidão já vem marcada. Os processos que serão publicados devem estar selecionados por meio da caixa de seleção da primeira coluna. 
-
-Depois de tudo pronto, ele deve selecionar o botão salvar e depois ele seleciona o publicar 
-
-O botão publicar, até a versão 2.0.0.0.71, só habilita quando a url do parâmetro PJE_JE_SERVICOS_WSDL estiver disponível. O erro foi corrigido nas versões posteriores.
-
-Por meio dessa mesma tela, o usuário poderia publicar em sessão decisões monocráticas. Seria o mesmo procedimento, mas para que as decisões aparecessem na consulta, o gabinete teria que ter usado uma tarefa específica sinalizando que a decisão monocrática seria publicada 
-
-Depois de finalizado tudo, o PJe gera uma intimação para as partes envolvidas de acordo com o que foi preenchido. De acordo com parâmetros configurados, ou seja, 
-
-- pje:intimarEmSessaoColegiada:fiscalDaLei - Notifica que o fiscal da lei será intimado nas publicações em sessão de decisões colegiadas
-	
-- pje:intimarEmSessaoMonocratica:fiscalDaLei - Notifica que o fiscal da lei será intimado nas publicações em sessão de decisões monocrátivas
-		
-o Ministério Público como fiscal da lei pode não ser intimado. No caso do TSE, ele não é para decisões colegiadas. 
-
-Há um defeito conhecido quando a pesquisa retorna muitos processos e o usuário seleciona para publicação processos de páginas posteriores à primeira no resultado da pesquisa. A solução de contorno é restringir a pesquisa de forma que o resultado não venha paginado para evitar o erro na publicação.
-
 ## Juiz substituto - sigilo 
 
-Atuação de juiz substituto em processo sigiloso  na zona 
+Atuação de juiz substituto em processo sigiloso na zona 
 
 Exemplo de situação: O juiz de uma zona especializada (002ZE) se declarou suspeito. 
 
@@ -77,6 +51,31 @@ Resposta: Configurar a visibilidade do juiz substituto só pro cargo dele e adic
 
 Resumo: se cadastrar um juiz no cargo Juiz Eleitoral Designado, limitar a visibilidade dele apenas a esse cargo e acrescentar seu cpf como visualizador do processo sigiloso, ele vai visualizar o processo na tarefa minutar ato, assim como o Juiz titular, mesmo que o processo seja nível 5. 
 
+## Publicar em sessão
+
+Sobre publicação do acórdão em sessão, a partir da mesma opção pode-se publicar o acórdão ou a certidão de julgamento. Os documentos só aparecerão se estiverem devidamente vinculados à sessão e se estiverem assinados. 
+
+Como assessor de plenário, deve-se ir no menu "Audiência e Sessões" - "Publicação de decisões em sessão" 
+
+Ao entrar na tela, ele deve selecionar uma data de sessão e mandar pesquisar. As sessões que tiverem acórdão ou certidão de julgamento associados retornarão na pesquisa. 
+
+Depois ele vai preencher, na linha do(s) processo(s) correspondentes que ele quer publicar as opções da publicação: data, tipo do prazo, o prazo em si. Se houver dois documentos, ou seja, o acórdão e a certidão, na coluna Documento ele precisa marcar qual que ele quer. Geralmente a certidão já vem marcada. Os processos que serão publicados devem estar selecionados por meio da caixa de seleção da primeira coluna. 
+
+Depois de tudo pronto, ele deve selecionar o botão salvar e depois ele seleciona o publicar 
+
+O botão publicar, até a versão 2.0.0.0.71, só habilita quando a url do parâmetro PJE_JE_SERVICOS_WSDL estiver disponível. O erro foi corrigido nas versões posteriores.
+
+Por meio dessa mesma tela, o usuário poderia publicar em sessão decisões monocráticas. Seria o mesmo procedimento, mas para que as decisões aparecessem na consulta, o gabinete teria que ter usado uma tarefa específica sinalizando que a decisão monocrática seria publicada. 
+
+Depois de finalizado tudo, o PJe gera uma intimação para as partes envolvidas de acordo com o que foi preenchido. De acordo com parâmetros configurados, ou seja, 
+
+- pje:intimarEmSessaoColegiada:fiscalDaLei - Notifica que o fiscal da lei será intimado nas publicações em sessão de decisões colegiadas
+	
+- pje:intimarEmSessaoMonocratica:fiscalDaLei - Notifica que o fiscal da lei será intimado nas publicações em sessão de decisões monocrátivas
+		
+o Ministério Público como fiscal da lei pode não ser intimado. No caso do TSE, ele não é para decisões colegiadas. 
+
+Há um defeito conhecido quando a pesquisa retorna muitos processos e o usuário seleciona para publicação processos de páginas posteriores à primeira no resultado da pesquisa. A solução de contorno é restringir a pesquisa de forma que o resultado não venha paginado para evitar o erro na publicação.
 
 ## Intimação de pauta 
 
@@ -84,7 +83,7 @@ Intimação de pauta na publicação da lista e no fechamento da pauta
 
 A publicação de pauta (última aba na Relação de julgamento) no diário utiliza a pessoa Destinatário para ciência pública. A intimação não é gerada para pessoas individuais, já que aquele é um aviso geral da sessão que acontecerá. 
 
-As intimações individuais são geradas no fechamento mesmo (primeira aba da Relação de julgamento), ou se você quiser fazer via fluxo do Preparar ato de comunicação. Para inibir as intimações gerais, tem que usar a configuração do Órgão julgador colegiado, onde há um campo lá falando sobre intimação automática da pauta. 
+As intimações individuais são geradas no fechamento mesmo (primeira aba da Relação de julgamento), ou se você quiser fazer via fluxo do Preparar ato de comunicação. Para inibir as intimações gerais, tem que usar a configuração do Órgão julgador colegiado, onde há um campo indicando a intimação automática da pauta. 
 
 Campos na intimação de pauta 
 
@@ -92,7 +91,9 @@ No documento de intimação de pauta só funcionam as variáveis listadas na reg
 
 http://www.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN618 
 
-Se tentar colocar outra informação, vai dar problema. A regra é a seguinte:
+A inserção de outras informações pode gerar inconsistência técnica. 
+
+A regra é a seguinte:
 
 A publicação da pauta utiliza os processos selecionados pelo usuário na aba Aptos para publicação e monta um documento de acordo com os seguintes parâmetros: 
 
