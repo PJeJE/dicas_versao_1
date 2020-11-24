@@ -824,3 +824,65 @@ Exemplo:
 Na construção de documentos, o usuário pode utilizar modelos preparados previamente para que algumas informações já venham preenchidas por padrão. Para recuperar valores na construção de um documento utilizam-se variáveis. Algumas variáveis foram listadas [na wiki do PJe](http://www.pje.jus.br/wiki/index.php/Roteiro_de_configura%C3%A7%C3%A3o_de_documentos#Vari.C3.A1veis).
 
 Outras referências de variáveis podem ser encontradas [aqui](variaveis.md).
+
+## Erros de remessa que podem ser corrigidos pelo usuário
+
+A remessa é uma das tarefas em que mais ocorrem erros no sistema PJE, isso porque ela faz uma série de validações na instância de origem, bem como na instância de destino.
+
+**1) CEP**
+
+ ![Erro de remessa - CEP](img/erro_de_remessa_1.png)
+ 
+Esse erro aparece quando alguma das partes do processo está com o CEP inválido ou em branco. 
+
+Para correção, basta ir ao menu dos autos processuais, opção: retificar autuação, aba partes,  clique em selecionar (parte), aba endereço e verificar o CEP de todas as partes, procedendo a correção necessária (verificar inclusive advogados). 
+
+Deve-se deletar as informações da remessa e preencher novamente, para nova tentativa de envio.
+
+**2) Tipo de documento**
+
+ ![Erro de remessa - Tipo de documento](img/erro_de_remessa_2.png)
+ 
+Esse erro acontece quando existe no processo a ser remetido um documento que foi classificado por um tipo inexistente na instância de destino.
+
+Para correção, deve-se, primeiro verificar de qual tipo de documento deverá ser alterado: pesquisando o número do id do documento na árvore processual. Após, delete a remessa e tramite o processo para a tarefa  “Classificar documentos” e altere o tipo de documento para uma opção diferente. Ao fim dessa alteração, realize os procedimentos de remessa novamente.
+
+**3) Falta de vinculação de ente ou autoridade**
+
+ ![Erro de remessa - Falta de vinculação de ente ou autoridade](img/erro_de_remessa_3.png)
+ 
+Esse erro acontece quando o ente ou autoridade, quando foi criado, foi vinculado a uma pessoa jurídica cadastrada no sistema sem CNPJ.
+
+Para correção, deve-se ir no Menu: Configuração > Pessoa > Ente ou autoridade, do PJE da instância de origem e, após localizar a autoridade informada no erro, vincular (na aba Formulário)uma pessoa jurídica que possua CNPJ. 
+
+Outra opção, é corrigir o cadastro da pessoa jurídica vinculada no ente ou autoridade, incluindo o seu CNPJ.
+
+Deve-se deletar as informações da remessa e preencher novamente, para nova tentativa de envio.
+
+**4) Expedientes abertos**
+
+ ![Erro de remessa - Expedientes abertos](img/erro_de_remessa_4.png)
+ 
+Esse erro acontece quando o processo que está sendo remetido ainda tem algum expediente aberto. Normalmente o expediente que ainda está aberto é sem prazo.
+
+Para correção, deve-se deletar a remessa e tramitar o processo para a tarefa de “Fechar expediente manualmente”, na qual os expediente abertos deverão ser fechados.
+
+Se, quando for realizar a tarefa não aparecer nenhum expediente em aberto, deve-se ir no Menu: Processo > Pesquisar > Consulta de prazos, pesquisar o número do processo, marcar os expedientes de status aberto e clicar em fechar expedientes em lote.
+
+**5) Cadastro de pessoa**
+
+ ![Erro de remessa - Cadastro de pessoa](img/erro_de_remessa_5.png)
+ 
+Esse erro acontece quando na hora da remessa, por alguma instabilidade da integração com o sistema da Receita Federal, alguma parte ou pessoa que assinou algum documento no processo não consegue ser cadastrada automaticamente na aplicação de destino.
+
+Para correção, basta que o Administrador do Sistema do PJE da instância de destino, vá no Menu: Configuração > Pessoa > Física (ou Jurídica se for o caso), e, na opção pré-cadastro, faça o cadastro manual do CPF (ou CNPJ) que constar no erro.
+
+Após o cadastro, tentar novamente a remessa, sem a necessidade de apaga-la.
+
+ **6) Documento de identificação**
+ 
+ ![Erro de remessa - Documento de identificação](img/erro_de_remessa_6.png)
+ 
+Esse erro acontece quando algum documento de identificação de alguma das partes do processo está em branco.
+
+Para correção, basta ir ao menu dos autos processuais, opção: retificar autuação, aba partes, clique em selecionar (parte), aba documentos de identificação e verificar os documentos constantes de todas as partes, procedendo a correção necessária (verificar inclusive advogados). 
