@@ -394,7 +394,7 @@ Há uma especificidade da JE referente à distribuição de processos que afetam
 
 Art. 260. A distribuição do primeiro recurso que chegar ao Tribunal Regional ou Tribunal Superior, prevenirá a competência do relator para todos os demais casos do mesmo município ou Estado. 
 
-Perceba que o art. 260 é aplicável, apenas, aos recursos, não sendo aplicado às ações originárias. 
+Perceba que o art. 260 é aplicável, apenas, aos recursos e incidentais, exemplos: tutelas de urgência e mandado de segurança, não sendo aplicado às ações originárias (representações e ações de investigação). 
 
 Até as Eleições de 2020 a maioria dos Tribunais Regionais vinham optando, em sua maioria, por não utilizar o art. 260 do CE como critério de Distribuição. 
 
