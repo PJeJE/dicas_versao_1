@@ -55,6 +55,8 @@ Ao analisar os autos do processo, o servidor percebe que o documento de petiçã
 
 ![Autos petição](img/recurso10.png)
 
+### Iniciar tarefa de recurso
+
 O servidor deve, então, iniciar a tarefa de registro de recurso.
 
 Essa possibilidade se dá a partir da tarefa "Analisar determinação"
@@ -109,14 +111,52 @@ Caso não seja selecionado o recurso já registrado, a cadeia terá apenas a cla
 
 Por padrão, os cabeçalhos das capas processuais exibirão sempre a cadeia recursal com as siglas da classe, assim como já ocorre com o processo originário.
 
-![Cadeia recurso do recurso](img/recurso18.png)
+![Cadeia sigla](img/recurso18.png)
 
 #### Alterar órgão julgador
 
 Em alguns recursos, o julgamento do recurso terá como relator um órgão julgador diferente do originário do processo. Por exemplo, em Recursos Extraordinários interpostos no TSE, a competência do recurso é da presidência. O sistema permitirá que o usuário selecione um órgão julgador de distribuição do recurso diferente do órgão julgador originário do processo por meio dessa opção.
 
-![Cadeia recurso do recurso](img/recurso19.png)
+![Alterar órgão julgador](img/recurso19.png)
 
 Se, no entanto, a seleção for equivocada e o usuário precisar ajustar, não há problemas. A possibilidade de se ajustar já no registro do recurso não impede ajustes posteriores, já que o recurso pode ser redistribuído a qualquer tempo, sem que isso resulte na redistribuição do processo originário ou dos outros recursos vinculados.
 
 É válido salientar que a distribuição de recursos não impacta os pesos dos cargos.
+
+### Informar / selecionar partes
+
+O terceiro passo permite ao usuário informar as partes do recurso.
+
+![Partes](img/recurso20.png)
+
+ Observer que os tipos de parte do recurso são os tipos de parte vinculados à classe processual do recurso, como se pode verificar em Configuração - Tabelas Judiciais - Classe Judicial - Classe Judicial . 
+
+![Tipos de parte](img/recurso21.png)
+
+O sistema fará a conversão automática das partes do processo nos tipos de parte principais vinculados à classe do recurso, mas o usuário poderá alterar os tipos, assim como acrescentar ou remover partes e seus representantes.
+
+
+### Registrar recurso
+
+No quarto e último passo, o usuário pode verificar o resumo das informações do recurso e selecionar a finalização do registro. 
+
+![Resumo do recurso](img/recurso22.png)
+
+Observe que, a qualquer tempo, a tarefa pode ser finalizada sem que o registro do recurso tenha sido concluído. 
+
+![Finalizar fluxo](img/recurso23.png)
+
+Não há prejuízo algum. Se a finalização da tarefa for selecionada erroneamente, pode-ser iniciar um novo registro, conforme já descrevemos [anteriormente](https://pjeje.github.io/dicas/recursos/#iniciar-tarefa-de-recurso).
+
+Ao selecionar "Cadastrar recurso", o sistema envia o recurso cadastrado para a primeira tarefa do fluxo vinculado à classe recursal, como se pode verificar em Configuração - Tabelas Judiciais - Classe Judicial - Classe Judicial.
+
+![Fluxo associado](img/recurso24.png)
+
+O recurso estará disponível, então, em "Verificar e certificar dados do processo"
+
+## Tramitação dos recursos e do processo originário
+
+
+## Alterações no processo originário
+
+
