@@ -154,9 +154,48 @@ Ao selecionar "Cadastrar recurso", o sistema envia o recurso cadastrado para a p
 
 O recurso estará disponível, então, em "Verificar e certificar dados do processo"
 
+![Primeira tarefa](img/recurso25.png)
+
 ## Tramitação dos recursos e do processo originário
 
+Os recursos tramitam internamente de forma independente do processo originário. Isso significa que o processo originário pode estar, por exemplo, em "Analisar determinação", e os embargos estão em "Verificar e certificar dados do processo". 
 
-## Alterações no processo originário
+Veja o exemplo abaixo. Foi utilizado o número do processo para consultar o processo nas tarefas. Como o perfil utilizado tem acesso a todas as tarefas, o sistema exibe o processo nas quatro tarefas abertas para ele.
+
+![Várias tarefas](img/recurso26.png)
+
+Ao entrar em cada um dos resultados, o usuário verá que o processo principal foi julgado e estão abertas suas tarefas de elaborar extrato da ata e de revisar acórdão, mas já há um recurso registrado (tarefa verificar e certificar dados) e há um novo fluxo de recurso iniciado para o processo principal (tarefa registrar recurso). Observe que a classe processual do cabeçalho na tarefa de acórdão aponta para o processo originário.
+
+![Processo originário](img/recurso27.png)
+
+Da mesma forma, o cabeçalho do processo na tarefa "Verificar e certificar dados" aponta para o recurso.
+
+![Primeira tarefa](img/recurso25.png)
+
+Essa tramitação apartada é muito importante para que possam ser feitos os cumprimentos de acordo com a decisão terminativa respectiva. Mesmo com a tramitação apartada, os autos digitais estão com todas as informações do processo. Observe abaixo: o cabeçalho é do recurso, mas a intimação de pauta feita quando o processo originário foi a julgamento está disponível.
+
+![Autos completos](img/recurso30.png)
+
+Quando o usuário quiser pautar o recurso em uma sessão de julgamento, a diferenciação também se dará pela classe no cabeçalho do processo. Veja abaixo que estamos pautando o recurso:
+
+![Relação de julgamento](img/recurso28.png)
+
+A intimação do recurso também é diferenciada, já que abrange a classe e as partes correspondentes:
+
+![Intimação de pauta](img/recurso29.png)
+
+## Observações
+
+Ressaltamos alguns comportamentos:
+
+- A consulta pública deve recuperar sempre o processo originário, exibindo as informações de movimento e documentos dos cadernos recursais conforme regras já existentes relacionadas à publicidade das informações.
+- A remessa de processos envia todos os cadernos processuais. As consultas do MNI devem retornar apenas um processo por número, contendo todos os movimentos e documentos de todos os cadernos, inclusive os recursais, de acordo com regras pré-existentes nas consultas.
+- Algumas alterações em cadernos processuais devem refletir em todos os vinculados, ou seja, se a alteração for no principal ou nos recursais, todos os vinculados ao principal serão afetados. São elas: alteração de características do processo - segredo, nível, visualizadores, prioridades, custas e pedido de liminar/antecipação de tutela, dados eleitorais, assunto e objeto.
+- A alteração de classe não reflete em todos os cadernos
+- A redistribuição não reflete em todos os cadernos
+- A distribuição/redistribuição de recursos não gera novos pesos para o cargo que recebe o caderno
+- A inclusão de partes no processo originário e nos cadernos recursais não reflete em alterações fora do caderno sendo alterado, já que as partes podem trocar de polo dependendo do caderno. No entanto, a inclusão de advogados deve sempre refletir em todos os cadernos de forma a manter as representações atualizadas de acordo com a última atualização.
+
+
 
 
