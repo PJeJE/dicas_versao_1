@@ -835,7 +835,7 @@ Para que um perfil tenha a permissão de criar etiquetas, ele precisa ter o recu
 
 Como os papéis funcionam de forma hierárquica (onde o papel hierarquicamente superior herda recursos e papéis atribuídos ao papel inferior a ele), todos os papéis acima do que tiver esse recurso associado também terão permissão para criar etiquetas.
 
-    ![Papeis](img/papel.jpeg)
+![Papeis](img/papel.png)
     
 Na imagem acima você observa um exemplo de como e onde o recurso deve ser incluído.
 
