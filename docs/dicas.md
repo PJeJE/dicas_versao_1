@@ -827,6 +827,20 @@ Na construção de documentos, o usuário pode utilizar modelos preparados previ
 
 Outras referências de variáveis podem ser encontradas [aqui](variaveis.md).
 
+## Papel para cadastrar etiqueta
+
+É por meio dos PAPEIS (Configuração / Controle de Acesso / Papeis) que se atribui essa permissão (o sistema chama isso de Recurso).
+
+Para que um perfil tenha a permissão de criar etiquetas, ele precisa ter o recurso "Página Painel/Organização do Painel (Caixas)" a ele associado. 
+
+Como os papéis funcionam de forma hierárquica (onde o papel hierarquicamente superior herda recursos e papéis atribuídos ao papel inferior a ele), todos os papéis acima do que tiver esse recurso associado também terão permissão para criar etiquetas.
+
+    ![Papeis](img/papel.jpeg)
+    
+Na imagem acima você observa um exemplo de como e onde o recurso deve ser incluído.
+
+Neste caso, colocamos o recurso no papel Servidor, de maneira que os papéis que estão acima dele (Chefe de Seção, Coordenador, Secretário) também terão essa permissão. 
+
 ## Erros de remessa que podem ser corrigidos pelo usuário
 
 A remessa é uma das tarefas em que mais ocorrem erros no sistema PJE, isso porque ela faz uma série de validações na instância de origem, bem como na instância de destino.
