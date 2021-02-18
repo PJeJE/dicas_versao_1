@@ -1,12 +1,27 @@
+# Tramitação processual
+
+![Início](img/fluxo1.png)
+
+Um processo judicial se inicia no PJe da Justiça Eleitoral quando um [usuário externo](http://www.pje.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN277), que pode ser advogado, Ministério Público, Autoridade Policial ou qualquer jurisdicionado, inicia o processo incluindo os dados e a petição inicial apresentando seu pleito. O processo pode também ser iniciado por um servidor da Justiça Eleitoral com características de [usuário interno](http://www.pje.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN394). Ao finalizar o que denomina-se como protocolo do processo, ocorre a [distribuição automática](http://www.pje.jus.br/wiki/index.php/Distribui%C3%A7%C3%A3o), ou seja, o processo tem o relator designado de acordo com competências e utilizando um mecanismo de sorteio.
+
+Ao ser iniciado, o processo judicial, via de regra, passa por três unidades principais dentro do tribunal: Autuação e Distribuição, Gabinete e Processamento.
+
+![Tramitação padrão](img/fluxo2.png)
+
+Na Autuação e Distribuição, é realizada uma [triagem](corregedoria.md#verificar-e-certificar-dados-do-processo), onde um servidor verifica os dados do processo e encaminha o pleito para análise do relator, ou seja, do Gabinete. No Gabinete, o processo é analisado e são expedidos os atos judiciais. O processo é então encaminhado para a Unidade de processamento, onde são realizados os devidos cumprimentos. 
+
+Por vezes, outras unidades precisam se manifestar no processo. O encaminhamento do processo para essas unidades é feito, em geral, pelo Processamento, de acordo com determinações do Gabinete. A autuação pode, em alguns momentos, remeter o processo diretamente para outras unidades. 
+
+
 # Procedimentos da corregedoria
 
-O objetivo dessa documentação é deixar registrado as possibilidades de atuação em processos por meio de tarefas de fluxo quando eles estão nas unidades da corregedoria. 
-
-Um processo de uma classe padrão (não corregedoria) entra no PJe por meio do Fluxo Originárias na tarefa Verificar e Certificar dados do processo
+Aqui vamos registrar as possibilidades de atuação em processos por meio de tarefas de fluxo quando eles estão nas unidades da corregedoria. 
 
 ## Verificar e Certificar dados do processo
 
-O processo, seguindo o fluxo padrão, cairá na tarefa Remeter Processo
+Um processo de uma classe não corregedoria entra no PJe por meio do Fluxo Originárias na tarefa Verificar e Certificar dados do processo. Essa tarefa é de responsabilidade da Unidade de Autuação e Distribuição.
+
+O processo, seguindo o fluxo padrão, cairá na tarefa [Remeter Processo](corregedoria.md#remeter-processo)
 
 ## Remeter Processo
 
