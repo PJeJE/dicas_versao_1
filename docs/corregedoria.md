@@ -48,7 +48,6 @@ Administração PJe	Administrador
 ### Verificar dados - Processo Corregedoria
 
 Remeter à SJD - encerra fluxo da corregedoria e inicia fluxo originárias, lançando movimento (60005)
-![Intimação de pauta](img/recurso29.png)
 
 Remeter ao cumprimento de determinações - inicia fluxo de cumprimento determinações corregedoria. Finalizado, retorna ao verificar pendências - processo corregedoria
 
