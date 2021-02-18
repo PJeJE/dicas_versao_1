@@ -2,7 +2,7 @@
 
 ![Início](img/fluxo1.png)
 
-Um processo judicial se inicia no PJe da Justiça Eleitoral quando um [usuário externo](http://www.pje.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN277), que pode ser advogado, Ministério Público, Autoridade Policial ou qualquer jurisdicionado, inicia o processo incluindo os dados e a petição inicial apresentando seu pleito. O processo pode também ser iniciado por um servidor da Justiça Eleitoral com características de [usuário interno](http://www.pje.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN394). Ao finalizar o que denomina-se como protocolo do processo, ocorre a [distribuição automática](http://www.pje.jus.br/wiki/index.php/Distribui%C3%A7%C3%A3o), ou seja, o processo tem o relator designado de acordo com competências e utilizando um mecanismo de sorteio.
+Um processo judicial se inicia no PJe da Justiça Eleitoral quando um [usuário externo](http://www.pje.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN277), que pode ser advogado, Ministério Público, Autoridade Policial ou qualquer jurisdicionado, cadastra o processo incluindo os dados e a petição inicial apresentando seu pleito. O processo pode também ser iniciado por um servidor da Justiça Eleitoral com características de [usuário interno](http://www.pje.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN394). Ao finalizar o que denomina-se como protocolo do processo, ocorre a [distribuição automática](http://www.pje.jus.br/wiki/index.php/Distribui%C3%A7%C3%A3o), ou seja, o processo tem o relator designado de acordo com competências e utilizando um mecanismo de sorteio.
 
 Ao ser iniciado, o processo judicial, via de regra, passa por três unidades principais dentro do tribunal: Autuação e Distribuição, Gabinete e Processamento.
 
