@@ -25,36 +25,34 @@ O processo, seguindo o fluxo padrão, cairá na tarefa [Remeter Processo](correg
 
 ## Remeter Processo
 
-A partir dessa tarefa, há a possibilidade de iniciar o cumprimento na corregedoria por meio da transição Remeter à Unidade de Fiscalização e Cadastro Corregedoria
+A partir dessa tarefa, há a possibilidade de iniciar o cumprimento na corregedoria por meio da transição [Remeter à Unidade de Fiscalização e Cadastro Corregedoria](corregedoria.md#remeter-a-unidade-de-fiscalizacao-e-cadastro-corregedoria)
 
 ### Remeter à Unidade de Fiscalização e Cadastro Corregedoria
 
-Aqui o processo irá para o fluxo principal de corregedoria. Com essa transição, o fluxo originárias será encerrado e o único fluxo do processo será o da corregedoria.
+Aqui o processo irá para o [fluxo principal de corregedoria](corregedoria.md#fluxo-principal-corregedoria). Com essa transição, o fluxo originárias será encerrado e o único fluxo do processo será o da corregedoria.
 
 ## Verificar Pendências
 
-A partir da tarefa Verificar Pendências, também há a possibilidade de se acionar a corregedoria. As possibilidades são:
+A partir da tarefa Verificar Pendências, também há a possibilidade de se acionar a corregedoria. As possibilidades são: [Remeter à Unidade de Assuntos Judiciários - Corregedoria](corregedoria.md#remeter-a-unidade-de-assuntos-judiciarios-corregedoria), [Remeter ao Gabinete do Corregedor](corregedoria.md#remeter-ao-gabinete-do-corregedor) e [Remeter à Unidade de Fiscalização e Cadastro Corregedoria](corregedoria.md#remeter-a-unidade-de-fiscalizacao-e-cadastro-corregedoria)
 
 
 ### Remeter à Unidade de Assuntos Judiciários - Corregedoria
 
-Lança movimento 60044 e remete o processo para o fluxo Fluxo - Processar Atividades no Processo - Corregedoria
+Lança movimento 60044 e remete o processo para o fluxo [Fluxo - Processar Atividades no Processo - Corregedoria](corregedoria.md#processar-atividades-no-processo-corregedoria)
 
-Ao retornar, testa de houve encaminhar gab corregedoria e encaminha. Se não houve, testa se houve encaminhamento pro arquivo e vai pra realiza baixa. Caso contrário, testa encaminhar SJD e volta pro verificar pendências ou então vai pro término. 
+Ao retornar, dependendo do que houve na execução. o caminho vai ser diferente. Se houve determinação para envio para o gabinete, o processo vai para [gab corregedoria]. Se não houve, o sistema verifica se houve determinação para arquivamento e envia para [realiza baixa]. Se não houve determinação para arquivamento, testa encaminhar SJD e volta pro verificar pendências ou então vai pro término. 
 
 
 ### Remeter ao Gabinete do Corregedor
 
-Faz com que o fluxo de gabinetes seja iniciado no gabinete da corregedoria, sem redistribuir o processo
+Faz com que o [fluxo de gabinetes] seja iniciado no gabinete da corregedoria, sem redistribuir o processo
 
-
-### Remeter à Unidade de Fiscalização e Cadastro Corregedoria (já descrita mais acima)
 
 ## Fluxo principal corregedoria
 
 Estabelece o campo pessoa relator
 
-	Corregedoria Unidade de Fiscalização e Cadastro	Chefe de Seção
+Corregedoria Unidade de Fiscalização e Cadastro	Chefe de Seção
 Corregedoria Unidade de Fiscalização e Cadastro	Servidor
 Corregedoria Unidade de Fiscalização e Cadastro	Colaborador
 Corregedoria Unidade de Fiscalização e Cadastro	Coordenador
