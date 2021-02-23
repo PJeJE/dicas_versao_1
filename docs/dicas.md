@@ -13,6 +13,15 @@ Atualize a página do PJe.
 Segue o sítio que contém essas orientações que passei sobre a limpeza do histórico: 
 https://support.mozilla.org/pt-BR/kb/como-limpar-cache-firefox 
 
+## Esqueci minha senha e senha bloqueada
+
+Por vezes o servidor gera uma nova senha para o usuário, que recebe um link para cadastrar uma nova senha em seu email. Ao acessar esse link, o usuário finaliza o cadastramento mas o sistema sinaliza que a senha está bloqueada. Nesses casos, o desbloqueio só ocorre se for utilizada a opção esqueci minha senha pelo próprio usuário. Ao passar essa orientação, o usuário às vezes tenta segui-la, mas se atrapalha com outros emails enviados com links de geração de senha e o problema não se resolve. Recomendamos fazer, então, o seguinte:
+
+1) Vai no cadastro da pessoa física, troca o email do usuário e coloca o seu próprio email 
+2) Em seguida, vá na tela inicial do pje e clique no link "esqueci minha senha". Na Tela aberta, digite o CPF do usuário e o seu e-mail 
+3) Acesse novamente seu e-mail para abrir o link de redefinição de senha. Você conseguirá cadastrar uma nova senha e desbloquear o cadastro do usuário
+4) Por fim, acesse novamente o cadastro do usuário e substitua o seu e-mail pelo email original da pessoa e clique no botão para gerar novo link de cadastro de senha para que ela possa gerar uma nova senha.
+
 ## Documentos não lidos 
 
 O PJe tem um controle bem antigo para sinalizar ao servidor que documentos novos foram incluídos pelo usuário externo. A possibilidade de se iniciar fluxo de petição avulsa nem sempre existiu e o controle era feito anteriormente por essa opção. 
