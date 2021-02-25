@@ -57,6 +57,15 @@ Abaixo seguem algumas autorizações de acordo com as unidades onde são realiza
 |Corregedoria Unidade Assuntos Judiciários | Coordenador
 |Corregedoria Unidade Assuntos Judiciários | Chefe de Seção
 
+
+## Corregedoria - Magistrado
+|  Localização  | Papel |
+|:--------------|:----------|
+|Ministro | Magistrado
+|Assessoria | Assessor Chefe
+|Corregedoria Unidade de Fiscalização e Cadastro | Coordenador
+|Corregedoria Unidade de Fiscalização e Cadastro | Chefe de Seção
+
 O principal fluxo por onde se inicia um processo no PJe é o [Fluxo Originárias](corregedoria.md#fluxo-classes-originarias), mas quando um processo é protocolado em classes de corregedoria, o fluxo é o [Fluxo principal de corregedoria](corregedoria.md#fluxo-principal-corregedoria).
 
 ## Fluxo - Classes Originárias
@@ -127,7 +136,13 @@ Observações para ajuste:
 
 Responsabilidade: [Corregedoria - Unidade de fiscalização e cadastro](corregedoria.md#corregedoria-unidade-de-fiscalizacao-e-cadastro)
 
-Nessa tarefa, o servidor pode retificar os dados do processo. O objeto também está disponível para edição. O servidor pode utilizar a opção de editar uma certidão de retificação em lote, ou seja, construir a certidão com conteúdo semelhante para todos os processos do lote selecionado de uma só vez.  O servidor também pode assinar em lote as certidões já construídas.
+Nessa tarefa, o servidor pode retificar os dados do processo. O objeto também está disponível para edição.
+
+Os tipos de documentos disponíveis para edição são: 
+
+O servidor tem acesso a eles desde que tenha papel vinculado ao tipo de documento. 
+
+O servidor pode utilizar a opção de editar uma certidão de retificação em lote, ou seja, construir a certidão com conteúdo semelhante para todos os processos do lote selecionado de uma só vez.  O servidor também pode assinar em lote as certidões já construídas, caso detenha papel de assinatura para o tipo de documento construído. A assinatura em lote ficará disponível na opção Assinaturas do painel do usuário. 
 
 As transições possíveis são:
 
@@ -225,6 +240,70 @@ Responsabilidade: [Corregedoria - Unidade de fiscalização e cadastro](correged
 Ela apresenta um aviso pedindo que o usuário, antes de devolver o processo, verifique se não há expedientes abertos ou tarefas em andamento, de modo a evitar que o processo seja encaminhado sem o devido cumprimento. A tela da tarefa permite a seleção do motivo da devolução e o acionamento do botão “Retorno do processo à origem”. O usuário pode também desistir da tarefa, retornando ao [Verificar pendências](corregedoria.md#verificar-pendências---processo-corregedoria). Se selecionar o botão de retorno do processo à origem, o sistema verificará se há documentos não assinados para que o usuário possa desistir da execução da tarefa, se for o caso. Na confirmação da execução, o sistema retornará o processo para a última instância de origem (se veio do TSE, retornará para o TSE, se veio do primeiro grau, retornará para o primeiro grau, se veio do TRE, retornará ao TRE que enviou). O sistema lancará o movimento de baixa e deixará o processo bloqueado na tarefa [Manter Processos Devolvidos a Origem](corregedoria.md#manter-processos-devolvidos-a-origem). 
 
 ## Fluxo - Cumprimento de determinação - Corregedoria
+
+Este fluxo contém encaminhamentos para cumprimentos diversos. Inicialmente, ele envia o processo para a tarefa [Analisar Determinação Processo Corregedoria](corregedoria.md@analisar-determinação-processo-corregedoria).
+
+###  Analisar Determinação Processo Corregedoria
+
+Responsabilidade: [Corregedoria - Unidade de fiscalização e cadastro](corregedoria.md#corregedoria-unidade-de-fiscalizacao-e-cadastro) (não habilitada para os administradores do sistema)
+
+Essa tarefa exibe a última decisão terminativa do processo. A tramitação em lote está habilitada.
+
+O servidor tem as seguintes possibilidades:
+
+- Elaborar documentos - que envia o processo para a tarefa [Elaborar documentos - Processo Corregedoria](corregedoria.md#elaborar-documentos-processocorregedoria)
+
+- Verificar controle de prazos - encaminha o processo para o [Fluxo - Controle de Prazos - Corregedoria](corregedoria.md#fluxo-controle-de-prazos-corregedoria). Finalizado o fluxo, o processo retorna para a tarefa atual.
+
+- Preparar comunicação - encaminha o processo para o [Fluxo - Ato de Comunicação - Corregedoria](corregedoria.md#fluxo-ato-de-comunicacao-corregedoria). Finalizado o fluxo, o processo retorna para a tarefa atual. 
+
+- Nada mais a cumprir - Finaliza o fluxo e retorna o processo para a tarefa de onde tinha vindo.
+
+
+### Elaborar documentos - Processo Corregedoria
+
+Responsabilidade: [Corregedoria - Unidade de fiscalização e cadastro](corregedoria.md#corregedoria-unidade-de-fiscalizacao-e-cadastro) (não habilitada para os administradores do sistema)
+
+Essa tarefa permite a elaboração de documentos. Os tipos de documento permitidos são Ofício, Certidão, Memorando e Ata de Audiência
+
+O servidor tem acesso a eles desde que tenha papel vinculado ao tipo de documento. 
+
+Na tarefa, para servidores com papel de assinatura para o tipo de documento selecionado, há a possibilidade de assinar o documento já construído em lote. Se o documento já tiver sido construído, ele ficará disponível para assinatura em lote na opção Assinaturas do painel do usuário. 
+
+O usuário pode utilizar a transição Retornar sem que o documento tenha sido preenchido. Isso fará com que o processo vá para [Analisar Determinação Processo Corregedoria](corregedoria.md#analisar-determinação-processo-corregedoria). Se assinar o documento na própria tarefa, o sistema também encaminhará o processo para o [Analisar Determinação Processo Corregedoria](corregedoria.md#analisar-determinação-processo-corregedoria).
+
+Se o usuário selecionar a transição Encaminhar para assinatura do Corregedor, o processo é encaminhado para a tarefa [Assinar documentos - Processo Corregedoria](corregedoria.md#assinar-documentos-processo-corregedoria). 
+
+Há também a possibilidade de utilizar a transição Desbloquear editor. Essa transição foi inserido para corrigir defeitos de outras tarefas de edição de documentos, que guardam o documento criado indevidamente para recuperação em unidades não pertinentes. Se isso ocorrer, o documento de outra unidade é recuperado assinado no editor da tarefa atual e o servidor não consegue construir seu próprio documento. Assim, ele pode utilizar a transição para carregar o editor sem o documento indevido, prosseguindo com a construção de seu próprio documento. 
+
+Ao sair da tarefa, o documento criado é apagado da memória do fluxo, ou seja, tarefas seguintes não vão carregar o documento para assinatura.
+
+
+Observações para ajuste:
+
+- Ao encaminhar para assinatura do corregedor, o documento criado não é recuperado na assinatura.
+
+
+### - Assinar documentos - Processo Corregedoria
+
+Responsabilidade: [Corregedoria - Magistrado](corregedoria.md#corregedoria-magistrado) 
+
+Essa tarefa permite a elaboração de documentos. Os tipos de documento permitidos são Ofício, Certidão, Carta de ordem, Mandado, Intimação, Edital, Informação e Despacho de Ofício
+
+Os modelos de documento permitidos são: 85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,104,105,106,113,121,131,132,136,114,142,143,144
+
+Na tarefa, para servidores com papel de assinatura para o tipo de documento selecionado, há a possibilidade de assinar o documento já construído em lote. Se o documento já tiver sido construído, ele ficará disponível para assinatura em lote na opção Assinaturas do painel do usuário. 
+
+O servidor pode utilizar a transição Devolver para correção que deixará o processo de volta na tarefa [Elaborar documento - Processo Corregedoria](corregedoria.md#elaborar-documentos-processocorregedoria).
+
+Caso o usuário assine o documento, o sistema lança o movimento de juntada e envia o processo para a tarefa  [Analisar Determinação Processo Corregedoria](corregedoria.md@analisar-determinação-processo-corregedoria).
+
+Observações para ajuste:
+
+- Dispensa requeridos está em transição não existente no Criar tarefa
+
+
+## Fluxo - Ato de Comunicação - Corregedoria
 
 ## Fluxo - Remessa para Instância Superior - Corregedoria
 
