@@ -915,7 +915,9 @@ Esse erro acontece quando algum documento de identificação de alguma das parte
 Para correção, basta ir ao menu dos autos processuais, opção: retificar autuação, aba partes, clique em selecionar (parte), aba documentos de identificação e verificar os documentos constantes de todas as partes, procedendo a correção necessária (verificar inclusive advogados). 
 
 
-## Obrigatoriedade de informações adicionais para distribuição de processos de classes criminais
+## Distribuição de processos: Abas Criminais
+
+Obrigatoriedade de informações adicionais para distribuição de processos de classes criminais.
 
 ![Abas Distribuição Classes Criminais](img/abas_distribuicao_criminal.png)
 
