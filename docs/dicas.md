@@ -934,7 +934,7 @@ Obrigatoriedade de informações adicionais para distribuição de processos de 
     *Observações:*
 
     1. O campo CEP não é obrigatório. Caso preenchido, o sistema carrega os dados de endereço. Caso contrário, os dados podem ser informados manualmente.
-    * O campo “Local do Fato” apesar do sinal de “*” do lado, é de preenchimento é opcional.
+    * O campo “Local do Fato” apesar do sinal de “*” ao lado, é de preenchimento é opcional.
     
     <br/>
 
