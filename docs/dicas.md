@@ -1,3 +1,5 @@
+[TOC]
+
 ## Cache do navegador
 
 Muitas funcionalidades do PJe executam na própria máquina do usuário, e aí ficam alguns registros da funcionalidade guardados na memória da própria estação. Quando há atualização dessas funcionalidades, deve-se limpar a memória local para que as atualizações sejam recuperadas. Essa memória local é também chamada de cache do browser ou cache do navegador. Executar funcionalidades na máquina do usuário é uma tendência das aplicações web, com o objetivo de diminuir a dependência da capacidade de processamento dos servidores.
@@ -911,3 +913,36 @@ Após o cadastro, tentar novamente a remessa, sem a necessidade de apaga-la.
 Esse erro acontece quando algum documento de identificação de alguma das partes do processo está em branco.
 
 Para correção, basta ir ao menu dos autos processuais, opção: retificar autuação, aba partes, clique em selecionar (parte), aba documentos de identificação e verificar os documentos constantes de todas as partes, procedendo a correção necessária (verificar inclusive advogados). 
+
+
+## Obrigatoriedade de informações adicionais para distribuição de processos de classes criminais
+
+![Abas Distribuição Classes Criminais](img/abas_distribuicao_criminal.png)
+
+1. Aba **LOCAL DO FATO**: Preenchimento **obrigatório** para distribuição.
+
+    Campos obrigatórios nessa aba:
+
+    * Data do Fato
+    * Estado
+    * Município
+
+    <br/>
+
+    *Observações:*
+
+    1. O campo CEP não é obrigatório. Caso preenchido, o sistema carrega os dados de endereço. Caso contrário, os dados podem ser informados manualmente.
+    * O campo “Local do Fato” apesar do sinal de “*” do lado, é de preenchimento é opcional.
+    
+    <br/>
+
+2. **Aba PROCEDIMENTO DE ORIGEM**: É **obrigatório** incluir pelo menos um (1) procedimento para conseguir distribuir o processo.
+
+    Campos obrigatórios nessa aba:
+
+    * Estado
+    * Tipo de origem
+
+    <br/>
+
+3. Aba **INDICIAMENTO**: **Não é obrigatório**, do ponto de vista de sistema, o cadastramento de incidências penais no momento da distribuição.
