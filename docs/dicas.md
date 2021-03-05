@@ -938,7 +938,7 @@ Obrigatoriedade de informações adicionais para distribuição de processos de 
     
     <br/>
 
-2. **Aba PROCEDIMENTO DE ORIGEM**: É **obrigatório** incluir pelo menos um (1) procedimento para conseguir distribuir o processo.
+2. Aba **PROCEDIMENTO DE ORIGEM**: É **obrigatório** incluir pelo menos um (1) procedimento para conseguir distribuir o processo.
 
     Campos obrigatórios nessa aba:
 
