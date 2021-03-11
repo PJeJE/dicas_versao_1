@@ -948,3 +948,49 @@ Obrigatoriedade de informações adicionais para distribuição de processos de 
     <br/>
 
 3. Aba **INDICIAMENTO**: **Não é obrigatório**, do ponto de vista de sistema, o cadastramento de incidências penais no momento da distribuição.
+
+
+## Tipos de documentos que acionam o fluxo de petição avulsa
+
+*Última atualização:* 11/03/2021
+
+|Tipo de documento|
+|-----------------|
+|Contrarrazões|
+|Avulso|
+|Documentos anexos a inicial|
+|Laudo Pericial|
+|Certidão criminal da Justiça Estadual de 2º grau|
+|Avulsos|
+|Certidão criminal da Justiça Federal de 1º grau|
+|Extrato da Prestação de Contas|
+|Parecer da Procuradoria|
+|Certidão criminal da Justiça Federal de 2º grau|
+|Contestação|
+|Informações Prestadas|
+|Petição de Habilitação|
+|Agravo Inominado/Legal|
+|Petição (3º Interessado)|
+|Petição|
+|Petição Inicial|
+|Substabelecimento|
+|Execução / Cumprimento de Sentença|
+|Dissidência partidária|
+|Declaração de bens|
+|Cota ministerial|
+|Impugnação aos embargos|
+|Impugnação|
+|Recurso|
+|Recurso Eleitoral|
+|Recurso Ordinário|
+|Informação de candidato|
+|Proposta de governo|
+|Procuração|
+|Embargos de Declaração|
+|Notícia de Inelegibilidade|
+|Recurso Adesivo|
+|Certidão criminal da Justiça Estadual de 1º grau|
+|Certidão criminal de foro por prerrogativa de função|
+|Alegações Finais|
+|Nota Explicativa|
+
