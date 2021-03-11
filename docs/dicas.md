@@ -950,7 +950,7 @@ Obrigatoriedade de informações adicionais para distribuição de processos de 
 3. Aba **INDICIAMENTO**: **Não é obrigatório**, do ponto de vista de sistema, o cadastramento de incidências penais no momento da distribuição.
 
 
-## Tipos de documentos que acionam o fluxo de petição avulsa no 1º grau
+## Documentos que acionam o fluxo de petição avulsa no 1º grau
 
 *Última atualização:* 11/03/2021
 
