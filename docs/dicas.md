@@ -956,41 +956,41 @@ Obrigatoriedade de informações adicionais para distribuição de processos de 
 
 |Tipo de documento|
 |-----------------|
-|Contrarrazões|
-|Avulso|
-|Documentos anexos a inicial|
-|Laudo Pericial|
-|Certidão criminal da Justiça Estadual de 2º grau|
-|Avulsos|
-|Certidão criminal da Justiça Federal de 1º grau|
-|Extrato da Prestação de Contas|
-|Parecer da Procuradoria|
-|Certidão criminal da Justiça Federal de 2º grau|
-|Contestação|
-|Informações Prestadas|
-|Petição de Habilitação|
 |Agravo Inominado/Legal|
-|Petição (3º Interessado)|
-|Petição|
-|Petição Inicial|
-|Substabelecimento|
-|Execução / Cumprimento de Sentença|
-|Dissidência partidária|
-|Declaração de bens|
+|Alegações Finais|
+|Avulso|
+|Avulsos|
+|Certidão criminal da Justiça Estadual de 1º grau|
+|Certidão criminal da Justiça Estadual de 2º grau|
+|Certidão criminal da Justiça Federal de 1º grau|
+|Certidão criminal da Justiça Federal de 2º grau|
+|Certidão criminal de foro por prerrogativa de função|
+|Contestação|
+|Contrarrazões|
 |Cota ministerial|
-|Impugnação aos embargos|
+|Declaração de bens|
+|Dissidência partidária|
+|Documentos anexos a inicial|
+|Embargos de Declaração|
+|Execução / Cumprimento de Sentença|
+|Extrato da Prestação de Contas|
 |Impugnação|
+|Impugnação aos embargos|
+|Informação de candidato|
+|Informações Prestadas|
+|Laudo Pericial|
+|Nota Explicativa|
+|Notícia de Inelegibilidade|
+|Parecer da Procuradoria|
+|Petição|
+|Petição (3º Interessado)|
+|Petição Inicial|
+|Petição de Habilitação|
+|Procuração|
+|Proposta de governo|
 |Recurso|
+|Recurso Adesivo|
 |Recurso Eleitoral|
 |Recurso Ordinário|
-|Informação de candidato|
-|Proposta de governo|
-|Procuração|
-|Embargos de Declaração|
-|Notícia de Inelegibilidade|
-|Recurso Adesivo|
-|Certidão criminal da Justiça Estadual de 1º grau|
-|Certidão criminal de foro por prerrogativa de função|
-|Alegações Finais|
-|Nota Explicativa|
+|Substabelecimento|
 
