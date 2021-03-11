@@ -2,6 +2,7 @@ site_name: Dicas PJe - Justica Eleitoral
 nav:
     - Home: 'index.md'
     - Dicas e Dúvidas Frequentes: 'dicas.md'
+    - Priorizar Chamado: 'prioridade.md'
     - Participe!: 'participe.md'
 plugins:
     - search:
