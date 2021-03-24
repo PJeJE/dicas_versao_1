@@ -1,4 +1,4 @@
-# Manual de configuração do computador para acessar o PJE da Justiça Eleitoral
+# Manual de configuração do computador para acesso ao PJE da Justiça Eleitoral
 
 [TOC]
 
