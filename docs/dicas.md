@@ -403,7 +403,7 @@ O processo, após remetido a outra jurisdição, não deve ficar nessa mesma tar
 
 Há uma especificidade da JE referente à distribuição de processos que afetam a eleição. Art. 260 do Código Eleitoral (CE) - Lei 4737/65: 
 
-Art. 260. A distribuição do primeiro recurso que chegar ao Tribunal Regional ou Tribunal Superior, prevenirá a competência do relator para todos os demais casos do mesmo município ou Estado. 
+**Art. 260.** *A distribuição do primeiro recurso que chegar ao Tribunal Regional ou Tribunal Superior, prevenirá a competência do relator para todos os demais casos do mesmo município ou Estado.*
 
 Perceba que o art. 260 é aplicável, apenas, aos recursos e incidentais, exemplos: tutelas de urgência e mandado de segurança, não sendo aplicado às ações originárias (representações e ações de investigação). 
 
@@ -411,83 +411,82 @@ Até as Eleições de 2020 a maioria dos Tribunais Regionais vinham optando, em 
 
 Ocorre que a Resolução TSE n.º 23.609 passou a prever, expressamente, a distribuição pelo art. 260: 
 
-Art. 64. Recebidos os autos no tribunal, a distribuição do recurso se fará:I por prevenção: a) ao relator do recurso do mesmo município que primeiro tiver chegado ao TRE ou ao TSE, quando se tratar de RRC, RRCI ou DRAP relativo ao cargo de prefeito ou vice-prefeito (Código Eleitoral, art. 260);b) ao relator do recurso do mesmo estado que primeiro tiver chegado ao TSE, quando se tratar de RRC, RRCI ou DRAP relativo ao cargo de governador ou vice-governador (Código Eleitoral, art. 260). 
+**Art. 64.** *Recebidos os autos no tribunal, a distribuição do recurso se fará:I por prevenção: a) ao relator do recurso do mesmo município que primeiro tiver chegado ao TRE ou ao TSE, quando se tratar de RRC, RRCI ou DRAP relativo ao cargo de prefeito ou vice-prefeito (Código Eleitoral, art. 260);b) ao relator do recurso do mesmo estado que primeiro tiver chegado ao TSE, quando se tratar de RRC, RRCI ou DRAP relativo ao cargo de governador ou vice-governador (Código Eleitoral, art. 260).* 
 
 A Resolução TSE n.º 23.608, por sua vez, fez previsão de distribuição com base no art. 260 do Código Eleitoral para os recursos interpostos em algumas espécies de representações: 
 
-Art. 53. Ao aportarem nos tribunais regionais eleitorais ou no Tribunal Superior Eleitoral, os recursos interpostos nos autos das representações que versem sobre as hipóteses previstas nos arts. 30-A, 41-A, 45, VI, 73, 74, 75 e 77 da Lei n° 9.50411997 serão distribuídos com observância do art. 260 do Código Eleitoral. 
+**Art. 53.** *Ao aportarem nos tribunais regionais eleitorais ou no Tribunal Superior Eleitoral, os recursos interpostos nos autos das representações que versem sobre as hipóteses previstas nos arts. 30-A, 41-A, 45, VI, 73, 74, 75 e 77 da Lei n° 9.50411997 serão distribuídos com observância do art. 260 do Código Eleitoral.*
 
-Como consequência das configurações 260: A escolha pelo usuário de qualquer dos assuntos abaixo listados na autuação de um processo fará com que novos processos que contenham "assuntos 260" e que sejam do mesmo ano de eleição e município, sejam distribuídos para o mesmo relator, com exceção das classes do item 2: 
+<u>Como consequência das configurações 260:</u> A escolha pelo usuário de qualquer dos assuntos abaixo listados na autuação de um processo fará com que novos processos que contenham "assuntos 260" e que sejam do mesmo ano de eleição e município, sejam distribuídos para o mesmo relator, com exceção das classes do item 2: 
 
-1 Assuntos para o 260 (segundo a configuração feita pelo TSE, nada impede que os TREs, seguindo os normativos, realizem configurações diferenciadas, de acordo com a realidade local): 
+1. Assuntos para o 260 (segundo a configuração feita pelo TSE, nada impede que os TREs, seguindo os normativos, realizem configurações diferenciadas, de acordo com a realidade local): 
 
-i. Abuso – Código CNJ 11717 
+    i. Abuso – Código CNJ 11717 
 
-ii. Abuso de poder econômico – Código CNJ 11718 
+    ii. Abuso de poder econômico – Código CNJ 11718 
 
-iii. Abuso de poder político/autoridade – Código CNJ 11719 
+    iii. Abuso de poder político/autoridade – Código CNJ 11719 
 
-iv. Abuso – uso indevido de meio de comunicação social – Código CNJ 11720 
+    iv. Abuso – uso indevido de meio de comunicação social – Código CNJ 11720 
 
-v. Captação ilícita de sufrágio – Código CNJ 11721 
+    v. Captação ilícita de sufrágio – Código CNJ 11721 
 
-vi. Propaganda política – propaganda institucional – Código CNJ 11723 
+    vi. Propaganda política – propaganda institucional – Código CNJ 11723 
 
-vii. Conduta vedada a agente público – Código CNJ 11558 
+    vii. Conduta vedada a agente público – Código CNJ 11558 
 
-viii. Captação ou gasto ilícito de recursos financeiros de campanha eleitoral – Código CNJ 11685 
+    viii. Captação ou gasto ilícito de recursos financeiros de campanha eleitoral – Código CNJ 11685 
 
-ix. Corrupção ou fraude – Código CNJ 11722 
+    ix. Corrupção ou fraude – Código CNJ 11722 
 
-x. Eleições – eleição suplementar – Código CNJ 11647 
+    x. Eleições – eleição suplementar – Código CNJ 11647 
 
-xi. Transgressões eleitorais – Código CNJ 11716 
+    xi. Transgressões eleitorais – Código CNJ 11716 
 
-xii. Recursos financeiros de campanha eleitoral – Código CNJ 11684 
+    xii. Recursos financeiros de campanha eleitoral – Código CNJ 11684 
 
-xiv. Eleições - Eleição Majoritária - Código CNJ 11645. 
-
- 
-
-DICA: No que se refere a recursos em registros de candidaturas, somente os processos de eleições majoritária são distribuídos com base no art. 260 do CE. Assim, como os assuntos de “registro” são comuns aos cargos proporcionais e majoritários, o assunto “Eleição Majoritária” foi criado para identificar os casos de distribuição pelo art. 260. 
+    xiv. Eleições - Eleição Majoritária - Código CNJ 11645. 
 
  
 
-2 Classes que excluem a aplicação do art. 260 do Código Eleitoral (segundo a configuração feita pelo TSE, nada impede que os TREs, seguindo os normativos, realizem configurações diferenciadas, de acordo com a realidade local). 
+    **DICA:** No que se refere a recursos em registros de candidaturas, somente os processos de eleições majoritária são distribuídos com base no art. 260 do CE. Assim, como os assuntos de “registro” são comuns aos cargos proporcionais e majoritários, o assunto “Eleição Majoritária” foi criado para identificar os casos de distribuição pelo art. 260. 
 
-i. AÇÃO DE IMPUGNAÇÃO DE MANDATO ELETIVO – Código CNJ 11526 
 
-Motivo: inexistência de previsão legal para distribuição pela prevenção do art. 260 do CE nas ações originárias. 
+2. Classes que excluem a aplicação do art. 260 do Código Eleitoral (segundo a configuração feita pelo TSE, nada impede que os TREs, seguindo os normativos, realizem configurações diferenciadas, de acordo com a realidade local). 
 
-ii. AÇÃO DE INVESTIGAÇÃO JUDICIAL ELEITORAL – Código CNJ 11527 
+    i. AÇÃO DE IMPUGNAÇÃO DE MANDATO ELETIVO – Código CNJ 11526 
 
-Motivo: inexistência de previsão legal para distribuição pela prevenção do art. 260 do CE nas ações originárias. 
+    Motivo: inexistência de previsão legal para distribuição pela prevenção do art. 260 do CE nas ações originárias. 
 
-iii. AÇÃO RESCISÓRIA – Código CNJ . 
+    ii. AÇÃO DE INVESTIGAÇÃO JUDICIAL ELEITORAL – Código CNJ 11527 
 
-Motivo: nos termos dos arts. 76 e 77 do RISTF, aplicáveis a este Tribunal por força do art. 94 do RITSE, a ação rescisória será distribuída automaticamente, excluindo-se o Relator do processo cuja decisão se pretende rescindir. 
+    Motivo: inexistência de previsão legal para distribuição pela prevenção do art. 260 do CE nas ações originárias. 
 
-iv. RECURSO CONTRA EXPEDIÇÃO DE DIPLOMA – Código CNJ 11533 e REPRESENTAÇÃO – Código CNJ 11541 contra cargo de Presidente da República e Vice (no caso do TSE) E contra cargo de Governador, Vice-Governador, Deputado Federal e Deputado Estadual ou Distrital (no caso dos TREs).
+    iii. AÇÃO RESCISÓRIA – Código CNJ . 
 
-Observação: No caso dos Recursos Contra Expedição de Diploma é possível deixá-los em PE2 nas Eleições Nacionais, uma vez que, neste caso não gera prevenção pelo art. 260 do CE e retirar a classe de PE2 para o período de Eleições Municipais, uma vez que, neste caso, gera prevenção pelo art. 260 do CE.
+    Motivo: nos termos dos arts. 76 e 77 do RISTF, aplicáveis a este Tribunal por força do art. 94 do RITSE, a ação rescisória será distribuída automaticamente, excluindo-se o Relator do processo cuja decisão se pretende rescindir. 
 
-Os assuntos abaixo não geram a prevenção do art. 260 do CE, uma vez que referem-se a processos originários para o TSE. 
+    iv. RECURSO CONTRA EXPEDIÇÃO DE DIPLOMA – Código CNJ 11533 e REPRESENTAÇÃO – Código CNJ 11541 contra cargo de Presidente da República e Vice (no caso do TSE) E contra cargo de Governador, Vice-Governador, Deputado Federal e Deputado Estadual ou Distrital (no caso dos TREs).
 
-11634 - DIREITO ELEITORAL|Eleições|Cargos|Cargo - Presidente da República 
+    **Observação:** No caso dos Recursos Contra Expedição de Diploma é possível deixá-los em PE2 nas Eleições Nacionais, uma vez que, neste caso não gera prevenção pelo art. 260 do CE e retirar a classe de PE2 para o período de Eleições Municipais, uma vez que, neste caso, gera prevenção pelo art. 260 do CE.
 
-11641 - DIREITO ELEITORAL|Eleições|Cargos|Cargo - Vice-Presidente da República 
+    Os assuntos abaixo não geram a prevenção do art. 260 do CE, uma vez que referem-se a processos originários para o TSE. 
 
-No caso dos Tribunais Regionais Eleitorais, deve-se aplicar a mesma regra para os assuntos inerentes aos cargos de Governador, Vice-Governador, Senador, Deputado Estadual e Deputado Distrital: 
+    11634 - DIREITO ELEITORAL|Eleições|Cargos|Cargo - Presidente da República 
 
-11632 - DIREITO ELEITORAL|Eleições|Cargos|Cargo – Governador 
+    11641 - DIREITO ELEITORAL|Eleições|Cargos|Cargo - Vice-Presidente da República 
 
-11639 - DIREITO ELEITORAL|Eleições|Cargos|Cargo – Vice-Governador 
+    No caso dos Tribunais Regionais Eleitorais, deve-se aplicar a mesma regra para os assuntos inerentes aos cargos de Governador, Vice-Governador, Senador, Deputado Estadual e Deputado Distrital: 
 
-11637 - DIREITO ELEITORAL|Eleições|Cargos|Cargo – Senador 
+    11632 - DIREITO ELEITORAL|Eleições|Cargos|Cargo – Governador 
 
-11630 - DIREITO ELEITORAL|Eleições|Cargos|Cargo – Deputado Estadual 
+    11639 - DIREITO ELEITORAL|Eleições|Cargos|Cargo – Vice-Governador 
 
-11631 - DIREITO ELEITORAL|Eleições|Cargos|Cargo – Deputado Federal 
+    11637 - DIREITO ELEITORAL|Eleições|Cargos|Cargo – Senador 
+
+    11630 - DIREITO ELEITORAL|Eleições|Cargos|Cargo – Deputado Estadual 
+
+    11631 - DIREITO ELEITORAL|Eleições|Cargos|Cargo – Deputado Federal 
 
  
 
@@ -495,57 +494,62 @@ No caso dos Tribunais Regionais Eleitorais, deve-se aplicar a mesma regra para o
 
  
 
-Foram criados três agrupamentos de classes e assuntos (Menu Configuração - Tabelas judiciais - Agrupamento de classes ou assuntos) para contemplar as subdivisões de classes e assuntos mencionadas acima. Por mais que um tribunal opte por não utilizar a prevenção do art. 260, via de regra os agrupamentos já estão configurados, podendo sofrer alterações de acordo com a concepção local. 
+    Foram criados três agrupamentos de classes e assuntos (Menu Configuração - Tabelas judiciais - Agrupamento de classes ou assuntos) para contemplar as subdivisões de classes e assuntos mencionadas acima. Por mais que um tribunal opte por não utilizar a prevenção do art. 260, via de regra os agrupamentos já estão configurados, podendo sofrer alterações de acordo com a concepção local. 
 
  
 
-PE1 - Agrupamento que habilita a prevenção do art 260 CE (apenas assuntos específicos) 
+    **PE1** - Agrupamento que habilita a prevenção do art 260 CE (apenas assuntos específicos) 
 
-PE2 - Agrupamento que desqualifica processo a pertencer a uma cadeia (apenas classes específicas) 
+    **PE2** - Agrupamento que desqualifica processo a pertencer a uma cadeia (apenas classes específicas) 
 
-PE3 - Agrupamento que desqualifica processo a pertencer a uma cadeia (classes E assuntos) 
-
- 
-
-Foi criado um parâmetro com uma expressão lógica (utiliza operadores que são comuns na área de TI) para relacionar as regras e os agrupamentos. Por mais que um tribunal opte por não utilizar a prevenção do art. 260, o parâmetro já está configurado, mas com a propriedade "Situação" igual a "inativo". 
+    **PE3** - Agrupamento que desqualifica processo a pertencer a uma cadeia (classes E assuntos) 
 
  
 
-listaAgrupamentosPrevencao260JE = ou+PE1,ou-PE2,ou-PE3 
+    Foi criado um parâmetro com uma expressão lógica (utiliza operadores que são comuns na área de TI) para relacionar as regras e os agrupamentos. Por mais que um tribunal opte por não utilizar a prevenção do art. 260, o parâmetro já está configurado, mas com a propriedade "Situação" igual a "inativo". 
 
  
 
-Sendo assim, para habilitar a prevenção do 260, deve-se alterar esse parâmetro para que a "Situação" seja "ativo". 
+        listaAgrupamentosPrevencao260JE = ou+PE1,ou-PE2,ou-PE3 
 
-OBS: a lista de classes e assuntos que se enquadram ou que são exceções está de acordo com o que foi especificado inicialmente na época que a pendência foi codificada. Nada impede que seja alterada. 
+ 
+
+    Sendo assim, para habilitar a prevenção do 260, deve-se alterar esse parâmetro para que a "Situação" seja "ativo". 
+
+    **Observação:** a lista de classes e assuntos que se enquadram ou que são exceções está de acordo com o que foi especificado inicialmente na época que a pendência foi codificada. Nada impede que seja alterada. 
 
 4. Como incluir assuntos em PE1 e PE3 ou classes em PE2? 
-
  
 
- 
+    Para incluir novos assuntos em PE1 ou PE3 o configurador deve seguir os seguintes passos: 
 
-Para incluir novos assuntos em PE1 ou PE3 o configurador deve seguir os seguintes passos: 
+    a) Menu; 
 
-a) Menu; 
+    b) Configuração; 
 
-b) Configuração; 
+    c) Tabelas Judiciais; 
 
-c) Tabelas Judiciais; 
+    d) Agrupamento de classes ou assuntos; 
 
-d) Agrupamento de classes ou assuntos; 
+    e) Selecionar o botão de editar em PE1 ou PE3; 
 
-e) Selecionar o botão de editar em PE1 ou PE3; 
+    f) Escolher a opção “Assuntos Vinculados ao Agrupamento” 
 
-f) Escolher a opção “Assuntos Vinculados ao Agrupamento” 
+    g) Descer a barra de rolagem até o fim para verificar os assuntos já adicionados; 
 
-g) Descer a barra de rolagem até o fim para verificar os assuntos já adicionados; 
+    h) Subir a barra de rolagem, pesquisar o assunto e, em seguida incluir por meio do botão do lado direito ao respectivo assunto encontrado. 
 
-h) Subir a barra de rolagem, pesquisar o assunto e, em seguida incluir por meio do botão do lado direito ao respectivo assunto encontrado. 
+    Para incluir novos classes em PE2 o configurador deve seguir os mesmos passos acima, com exceção do item “f”, em que deverá optar por “classes judiciais vinculadas ao agrupamento”. 
 
-Para incluir novos classes em PE2 o configurador deve seguir os mesmos passos acima, com exceção do item “f”, em que deverá optar por “classes judiciais vinculadas ao agrupamento”. 
+### Checklist para conferência de formação de novas cadeias
 
-Eventuais dúvidas sobre a configuração devem ser enviadas ao email aspje@tse.jus.br 
+Um processo deveria ter formado uma nova cadeia de prevenção, mas aparentemente não formou? O passo a passo abaixo foi criado para auxiliá-lo na conferência de sua configuração e distinguir se é um erro de configuração ou de fato foi um equívoco do sistema. 
+
+![Checklist de conferência artigo 260](img/checklist260.jpeg)
+
+Siga o passo a passo e, em caso de eventuais dúvidas, envie um email para <aspje@tse.jus.br>.
+
+
 
 ## Definir revisor 
 
