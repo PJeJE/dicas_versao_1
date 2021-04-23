@@ -41,6 +41,9 @@
 | Login Usuário Logado|#{usuarioLogado.login}|
 | Nome do Usuário Logado|#{usuarioLogado.nome}|
 | Partes formatadas| [#{processoJudicialAction.recuperarParteFormatada(true, true, 'A', 'P', 'T')}](recuperarparte.md)
+| Presidente da sessão| #{sessaoComposicaoOrdemManager.obterPresidenteSessao(sessaoPautaProcessoTrfManager.getSessaoPautaProcessoTrfJulgado(tramitacaoProcessualService.recuperaProcesso()).sessao, true)} |
+| Procurador da sessão| #{pessoaProcuradorManager.getTituloProcurador(sessaoPautaProcessoTrfManager.getSessaoPsautaProcessoTrfJulgado(tramitacaoProcessualService.recuperaProcesso()).sessao)} |
+| Revisor| #{pessoaMagistradoManager.getMagistradoTitular(orgaoJulgadorColegiadoOrgaoJulgadorManager.recuperarOrgaoJulgadorRevisorPadrao(tramitacaoProcessualService.recuperaProcesso()).orgaoJulgadorRevisor.orgaoJulgador).getNome().toUpperCase()} |
 
 
 
