@@ -372,25 +372,57 @@ Sem que isso impacte diretamente na questão e na necessidade de evolução do s
 
 Nenhum dos exemplos se adequa aos casos concretos que estamos tratando aqui, mas a ideia me parece a mesma (meu juízo aqui é apenas opinativo e não vinculativo, hehehehe). 
 
-##  Remessa 
+##  Remessa entre instâncias 
 
-Como ficam os processos após a remessa?
+Tarefas de remessa entre instâncias:
 
-Primeiro grau: Ao utilizar tarefa “Remeter processo para o TRE”, o processo fica em “Aguardando apreciacão do TRE” bloqueado para novas petições ou edições. Caso seja  retornado do TRE, deve ir automaticamente para o “Analisar processo – ZE" ou “Analisar determinações - ZE”, retirando o bloqueio de edições/novas petições. 
+1) “Remessa para outra instância” (tarefa exclusiva do PJE de 2º grau):  deve ser utilizada quando o objetivo seja enviar um processo que tenha iniciado no TRE para TSE (antiga tarefa “Remeter ao TSE”) ou primeiro grau (antiga tarefa “Expedir processos – outros órgãos”). A tarefa permite que se protocole um “novo processo” no destino, com classes e assuntos específicos e também com novas configurações de partes. As classes exibidas são as que estejam configuradas na instância de destino como remessa entre instâncias “Sim”. Caso a classe selecionada esteja configurada no destino com a marcação “exige numeração própria”, um novo número de processo será gerado.
 
-O “Retornar processo” não tem nada a ver com remessa, ele só retorna o processo de volta pro analisar determinações ou analisar processo, verificando os movimentos lançados para encaminhar para um ou outro. No ambiente de zona, para remeter a outra instância, só existe hoje a possibilidade de utilizar o Remeter processo para o TRE, mesmo quando for devolução. De toda maneira, o sistema sempre consulta o processo na instância de origem ao fazer a remessa. Encontrando o processo lá, ele vai automaticamente fazer uma devolução, e não uma nova remessa. 
+Essa tarefa deve ser utilizada, também, quando o processo é originário no 2º grau (seja originário mesmo, seja iniciado físico na zona eleitoral e migrado no TRE) e precisa descer para o 1º.
 
-Segundo grau: 
+Essa remessa lança o movimento de código 123: Remetidos os autos, com os seus complementos cadastrados, bem como o código 22: Baixa definitiva.
 
-A partir do verificar pendências, existe a transição “Remessa para outra instância” e existe a “Devolver processo à origem”. 
+Obs: as tarefas “Remeter ao TSE” e “Expedir processos – outros órgãos” foram desabilitadas da instalação dos TREs.
 
-Ao usar o “Remessa para outra instância”, o objetivo é enviar um processo que tenha iniciado no TRE para TSE ou primeiro grau. A tarefa permite que se protocole um “novo processo” no destino, com classes e assuntos específicos e também com novas configurações de partes. As classes exibidas são as classes passíveis de serem recebidas como recurso configuradas no destino. Caso a classe selecionada esteja configurada no destino com a marcação “exige numeração própria”, um novo número de processo será gerado. 
+Após a confirmação, o sistema movimentará o processo para a tarefa “Aguardando apreciação de outra instância” bloqueado para novas petições ou edições.
 
-Após a confirmação, o sistema lançará o movimento de remessa conforme o destino selecionado (TSE ou Zona eleitoral) e manterá o processo em “Aguardando apreciação de outra instância” bloqueado para novas petições ou edições. 
+2) Devolver processo à origem (tarefa exclusiva do 2º e 3º grau):  deve ser utilizada quando o objetivo seja devolver um processo para alguma instância em que ele esteve, ou seja, o processo deve existir na instância de destino (já deve ter ocorrido uma remessa entre instâncias no sistema).
 
-Em Devolver processo à origem, se existir fluxo de acórdão em execução, o processo retornará automaticamente para o Verificar pendências. Caso contrário, o processo irá para a tarefa “Expedir processo – Retorno à origem”, que apresenta um aviso pedindo que o usuário, antes de devolver o processo, verifique se não há expedientes abertos ou tarefas em andamento, de modo a evitar que o processo seja encaminhado sem o devido cumprimento. A tela da tarefa permite a seleção do motivo da devolução e o acionamento do botão “Retorno do processo à origem”. O usuário pode também desistir da tarefa, retornando ao Verificar pendências, ou encaminhar para novos cumprimentos, por meio da transição “Necessita atos de ofício”. Se selecionar o botão de retorno do processo à origem, o sistema verificará se há documentos não assinados para que o usuário possa desistir da execução da tarefa, se for o caso. Na confirmação da execução, o sistema retornará o processo para a última instância de origem (se veio do TSE, retornará para o TSE, se veio do primeiro grau, retornará para o primeiro grau). O sistema lancará o movimento de baixa e deixará o processo bloqueado na tarefa “Manter processos expedidos”. 
+Se o processo foi originário de uma remessa do 1° grau para o 2° grau, a origem é devolver para o 1° grau.
 
-As tarefas onde os processos permanecem após remessa e devolução são diferentes para que se saiba com mais facilidade qual o caminho que o processo percorreu. 
+Se o processo foi originário de uma remessa do 1° grau para o 2° grau e depois para o 3° grau, a origem é devolver para o 2° grau e, em seguida, para o 1°grau.
+
+Se o processo foi originário de uma remessa do 2° grau para o 3° grau, a origem é devolver para o 2° grau.
+
+É possível também, utilizando essa tarefa, um processo que se iniciou no 3º grau e foi remetido para o 2º, retornar para o 3º grau.
+
+Se o processo iniciou-se no 1º grau, foi remetido para o 2º grau e depois para o 3º. Ao retornar para o 2º grau, lá será apresentada uma opção para que o usuário decida se deseja remeter para o 1º grau ou para o 3º grau. 
+
+Essa remessa lança o movimento de código 22: Baixa definitiva.
+
+Após a confirmação, o sistema movimentará o processo para a tarefa “Manter processos expedidos” bloqueado para novas petições ou edições.
+
+As tarefas onde os processos permanecem após remessa ou devolução são diferentes para que se saiba com mais facilidade qual o caminho que o processo percorreu.
+
+Como a tarefa funciona: A tela da tarefa permite a seleção do motivo da devolução e o acionamento do botão “Retornar para a instância de origem”, porém antes disso apresenta um aviso para que o usuário, antes de devolver o processo, verifique se não há expedientes abertos ou tarefas em andamento, de modo a evitar que o processo seja encaminhado sem o devido cumprimento. 
+
+ O usuário pode também desistir da tarefa, retornando ao Verificar Pendências, ou encaminhar para novos cumprimentos, por meio da transição “Necessita atos de ofício”. 
+
+Ao selecionar o botão de retorno para instância de origem, o sistema verificará se há documentos não assinados para que o usuário possa desistir da execução da tarefa, se for o caso. Na confirmação da execução, o sistema retornará o processo para a última instância de origem (se veio do TSE, retornará para o TSE, se veio do primeiro grau, retornará para o primeiro grau). 
+
+3) Remeter ao TRE (tarefa exclusiva do 1º grau): deve ser utilizada quando o objetivo seja realizar a remessa de um processo da Zona Eleitoral para o TRE, independente se o processo já esteve ou não na instância de destino (2º grau).
+
+No ambiente de zona, para remeter a outra instância, só existe hoje a possibilidade de utilizar o Remeter processo para o TRE, mesmo quando for devolução. De toda maneira, o sistema sempre consulta o processo na instância de origem ao fazer a remessa. Encontrando o processo lá, ele vai automaticamente fazer uma devolução, e não uma nova remessa.
+
+Essa remessa lança o movimento de código 123: Remetidos os autos, com os seus complementos cadastrados, bem como o código 22: Baixa definitiva.
+
+Ao utilizar tarefa “Remeter processo para o TRE”, o processo fica em “Aguardando apreciação do TRE” bloqueado para novas petições ou edições. Caso seja retornado do TRE, deve ir automaticamente para o “Analisar processo – ZE" ou “Analisar determinações - ZE”, retirando o bloqueio de edições/novas petições.
+
+O “Retornar processo” não tem nada a ver com remessa, ele só retorna o processo de volta pro analisar determinações ou analisar processo, verificando os movimentos lançados para encaminhar para um ou outro. 
+
+4) Expedir a origem – outros órgãos (tarefa exclusiva do 3º grau): deve ser utilizada quando o objetivo seja remeter um processo ao TRE, quando o processo iniciou-se no TSE, seja porque realmente foi protocolado no TSE, seja porque foi migrado no TSE. Nesse caso, o processo não “existia” no TRE.
+
+Essa remessa lança o movimento de código 22: Baixa definitiva.
 
 
 ## Remessa a outra jurisdição 
