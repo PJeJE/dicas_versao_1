@@ -52,6 +52,8 @@ Cabe salientar também, que colocar uma parte como sigilosa em um processo signi
 
 A atribuição dos níveis citados acima é realizada somente pelo administrador do sistema no TSE, previamente à entrada do processo no PJe, no item de menu Cadastro de nível de acesso por competência (Configuração – Competência – sigilo) por meio da competência x classe x assunto (O nível de segredo das classes e assuntos processuais foram decididos em reunião do grupo de trabalho).
 
+![Níveis](img/sigilo1.png)
+
      Nesse contexto, é possível existir uma classe processual sem nível específico de sigilo com assunto processual que possua segredo, caso em que o processo terá segredo em razão do assunto processual e não da classe. O inverso também é possível. Assim, a definição do nível de segredo leva em conta a combinação de classe com o assunto processual e com a competência.
 
 Não existindo originariamente sigilo para a competência (competência X classe X assunto), atribui-se no sistema nível 1, que será utilizado apenas no caso de o advogado pedir sigilo no momento do peticionamento. 
