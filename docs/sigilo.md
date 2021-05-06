@@ -74,10 +74,14 @@ A tarefa servirá para que o magistrado saiba que um processo de segredo 5 foi p
     COMO O MAGISTRADO ATRIBUI VISUALIZADOR
 
       Na tarefa em que o magistrado indica qual servidor poderá visualizar o processo, ele também pode, a qualquer tempo, atribuir visualização para o polo passivo e/ou outra parte que tenha ingressado posteriormente na relação jurídica processual (terceiros interessados, por exemplo). 
-Para isso, o magistrado deverá entrar no processo, nos “Autos digitais” => “Segredo ou sigilo” => “Opções” => “Acrescentar visualizador” => “Autorizar pessoa a visualizar processo”. Pesquisa a pessoa com nome ou CPF e clica em concluído. Quadro a quadro abaixo:	  
+Para isso, o magistrado deverá entrar no processo, nos “Autos digitais” => “Segredo ou sigilo” => “Opções” => “Acrescentar visualizador” => “Autorizar pessoa a visualizar processo”. Pesquisa a pessoa com nome ou CPF e clica em concluído. Veja quadro por quadro abaixo:	  
 
 
+![Visualizador 1](img/sigilo3.png)
 
+![Visualizador 2](img/sigilo4.png)
+
+![Visualizador 3](img/sigilo5.png)
 
 
 
