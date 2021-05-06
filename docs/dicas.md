@@ -1083,5 +1083,6 @@ Lembre-se que todos os tribunais Regionais Eleitorais já estão devidamente cad
 Portanto, reiteramos que NÃO se cadastre novas partes desnecessariamente, para evitar o desencontro de informações e a poluição desnecessária da base de dados do PJE.
 
 Essa orientação serve para todo o tipo de parte a ser criada: verifique se ela já existe no sistema. E, nos processos protocolados pelo público externo, adote o hábito de verificar se o cadastro feito pelo advogado está correto, caso contrário **RETIFIQUE** a autuação.
-![Manual de Sigilo](sigilo.md)
+##manual de sigilo PJE
+![Manual de Sigilo PJE](sigilo.md)
 
