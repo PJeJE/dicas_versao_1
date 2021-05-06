@@ -159,7 +159,9 @@ Níveis de Segredo das Classes Processuais no 1º Grau
 |Pet-Adm                                                    |Não    |1                                                                      |
 |Petição Cível                                              |Não    |1                                                                      |
 
+Fixação do nível de sigilo para as novas classes habilitadas no PJE
 
+A tabela abaixo mostra o nível de sigilo que a Comissão de Acompanhamento e Atualização das Tabelas Processuais Unificadas, TPU, da Justiça Eleitoral fixou para cada uma das novas classes habilitadas no PJE. Na mesma linha do que já havia sido decidido no GT do Sigilo em reuniões anteriores, acordou-se em atribuir o nível 5 de sigilo aos assuntos que demandem competência especializada em matéria criminal.
 
 |CLASSE                                                     |CÓD.|NÍVEL DE SIGILO                                                        |ASSUNTOS COMP. ESPECIALIZADA    |NÍVEL DE SIGILO|
 |-----------------------------------------------------------|----|-----------------------------------------------------------------------|--------------------------------|---------------|
@@ -185,3 +187,11 @@ Níveis de Segredo das Classes Processuais no 1º Grau
 |Relaxamento de Prisão (RelPri)                             |306 |                                                                       |Pasta Direito Penal – cód. 287  |5              |
 |Restituição de Coisas Apreendidas (ReCoAp)                 |326 |                                                                       |Pasta Direito Penal – cód. 287  |5              |
 |Sequestro (Seques)                                         |329 |5                                                                      |                                |               |
+
+
+Fontes:
+    1 Roteiro de utilização de sigilo e segredo de justiça - http://www.cnj.jus.br/wikipje.
+    2 Ata da 1ª reunião do Grupo de Trabalho PJE Segredo de Justiça. 
+    3 Ata da 2ª reunião do Grupo de Trabalho PJE Segredo de Justiça.
+    4 Ata da 1ª reunião da Comissão de Acompanhamento e Atualização das Tabelas Processuais Unificadas (TPU) da Justiça Eleitoral.
+    5 Orientações sobre a funcionalidade de sigilo – Arquivo ASPJE.
