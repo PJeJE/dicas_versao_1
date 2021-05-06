@@ -114,6 +114,7 @@ Níveis de Segredo das Classes Processuais no 1º Grau
 	Durante a 1ª reunião do Grupo de trabalho, foi fixado o nível de segredo de todas as classes processuais que tramitam na Zona Eleitoral. Para essas classes processuais, o Grupo decidiu manter, no TSE e nos Regionais, os mesmos níveis de segredo atribuídos para a 1ª instância.
 	Nas classes processuais recursais, como recurso especial no TSE e recursos eleitorais nos regionais, o nível de segredo vai depender do nível de segredo do assunto processual. Ao recurso com assunto processual que não tenha segredo, será atribuído nível 1 se o advogado selecionar a opção segredo de justiça. Já se a classe tiver assunto que demande competência especializada em matéria criminal, como no caso de recurso especial com assunto processual da competência especializada, o nível será 5.
 
+
 |CLASSE PROCESSUAL / ASSUNTOS                               |SEGREDO|NÍVEL                                                                  |
 |-----------------------------------------------------------|-------|-----------------------------------------------------------------------|
 |Ação Cautelar                                              |Sim    |Criminal Especializada: 5<br/>Cautelar Cível:3<br/>Cautelar Criminal: 3|
