@@ -113,3 +113,47 @@ Níveis de Segredo das Classes Processuais no 1º Grau
 
 	Durante a 1ª reunião do Grupo de trabalho, foi fixado o nível de segredo de todas as classes processuais que tramitam na Zona Eleitoral. Para essas classes processuais, o Grupo decidiu manter, no TSE e nos Regionais, os mesmos níveis de segredo atribuídos para a 1ª instância.
 	Nas classes processuais recursais, como recurso especial no TSE e recursos eleitorais nos regionais, o nível de segredo vai depender do nível de segredo do assunto processual. Ao recurso com assunto processual que não tenha segredo, será atribuído nível 1 se o advogado selecionar a opção segredo de justiça. Já se a classe tiver assunto que demande competência especializada em matéria criminal, como no caso de recurso especial com assunto processual da competência especializada, o nível será 5.
+
+|CLASSE PROCESSUAL / ASSUNTOS                               |SEGREDO|NÍVEL                                                                  |
+|-----------------------------------------------------------|-------|-----------------------------------------------------------------------|
+|Ação Cautelar                                              |Sim    |Criminal Especializada: 5<br/>Cautelar Cível:3<br/>Cautelar Criminal: 3|
+|AIME                                                       |Sim    |3                                                                      |
+|AIJE                                                       |Não    |1                                                                      |
+|APE                                                        |Não    |Criminal Especializada:5<br/>Demais: 1                                 |
+|Boletim De Ocorrência                                      |Não    |Criminal Especializada: 5<br/>Demais: 1                                |
+|Apuração De Eleição                                        |Não    |1                                                                      |
+|Auto De Prisão                                             |Sim    |Criminal Especializada: 5<br/>Demais: 3                                |
+|CIE                                                        |Não    |1                                                                      |
+|Cartas Cíveis                                              |Sim    |Cautelares: 3<br/>Demais: 1                                            |
+|Cartas Criminais                                           |Sim    |Criminal Especializada: 5<br/>Cautelar Cível:3<br/>Demais: 1           |
+|CMR                                                        |Não    |1                                                                      |
+|Correição Ordinária E Extraordinária                       |Não    |1                                                                      |
+|Cumprimento De Sentença                                    |Não    |1                                                                      |
+|Direitos Políticos                                         |Não    |1                                                                      |
+|Duplicidade Pluralidade De Inscrições                      |Não    |1                                                                      |
+|Embargos À Execução                                        |Não    |1                                                                      |
+|Exceção                                                    |Não    |1                                                                      |
+|Execução De Pena                                           |Não    |1                                                                      |
+|Execução Fiscal                                            |Não    |1                                                                      |
+|Filiação Partidária                                        |Não    |1                                                                      |
+|Habeas Coropus                                             |Não    |1                                                                      |
+|Habeas Data                                                |Não    |1                                                                      |
+|ICPJE                                                      |Não    |1                                                                      |
+|IPJE                                                       |Não    |1                                                                      |
+|Incidente De Avaliação Para Atestar Dependência De Drogas  |Sim    |Criminal Especializada: 5<br/>Demais: 3                                |
+|Incidente De Desaforamento                                 |Sim    |Criminal Especializada: 5<br/>Demais: 1                                |
+|Incidente De Homoloogação Em Acordo De Colaboração Premiada|Sim    |5                                                                      |
+|Incidente De Arguição De Inconstitucionalidade Criminal    |Sim    |Criminal Especializada: 5<br/>Demais: 1                                |
+|Incidente De Falsidade                                     |Sim    |Criminal Especializada: 5<br/>Demais: 1                                |
+|Incidente De Insanidade Mental Do Acusado                  |Sim    |Criminal Especializada: 5<br/>Demais: 3                                |
+|Incidente De Uniformização De Interpretação De Lei Criminal|Não    |1                                                                      |
+|Incidente De Reabilitação                                  |Sim    |Criminal Especializada: 5<br/>Demais: 1                                |
+|Inquérito Policial                                         |Sim    |Criminal Especializada: 5<br/>Cautelares Criminais: 5<br/>Demais: 1    |
+|Inspeção                                                   |Sim    |5                                                                      |
+|LAPP                                                       |Não    |1                                                                      |
+|MI                                                         |Não    |1                                                                      |
+|MSC                                                        |Não    |1                                                                      |
+|Cautelares Criminais                                       |Sim    |5                                                                      |
+|NIP                                                        |Não    |1                                                                      |
+|Pet-Adm                                                    |Não    |1                                                                      |
+|Petição Cível                                              |Não    |1                                                                      |
