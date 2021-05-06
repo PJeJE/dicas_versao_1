@@ -159,7 +159,10 @@ Regras importantes:
 
 		Fixação do nível de sigilo para as novas classes habilitadas no PJE
 
-	A tabela abaixo mostra o nível de sigilo que a Comissão de Acompanhamento e Atualização das Tabelas Processuais Unificadas, TPU, da Justiça Eleitoral fixou para cada uma das novas classes habilitadas no PJE. Na mesma linha do que já havia sido decidido no GT do Sigilo em reuniões anteriores, acordou-se em atribuir o nível 5 de sigilo aos assuntos que demandem competência especializada em matéria criminal.
+	A tabela abaixo mostra o nível de sigilo que a Comissão de Acompanhamento e Atualização das Tabelas Processuais 
+	Unificadas, TPU, da Justiça Eleitoral fixou para cada uma das novas classes habilitadas no PJE. Na mesma linha 
+	do que já havia sido decidido no GT do Sigilo em reuniões anteriores, acordou-se em atribuir o nível 5 de sigilo
+	aos assuntos que demandem competência especializada em matéria criminal.
 
 |CLASSE                                                     |CÓD.|NÍVEL DE SIGILO                                                        |ASSUNTOS COMP. ESPECIALIZADA    |NÍVEL DE SIGILO|
 |-----------------------------------------------------------|----|-----------------------------------------------------------------------|--------------------------------|---------------|
