@@ -1030,3 +1030,57 @@ Obrigatoriedade de informações adicionais para distribuição de processos de 
 |Recurso Ordinário|
 |Substabelecimento|
 
+
+# Como Cadastrar o Ministério Público, Zonas Eleitorais e Tribunais Regionais Eleitorais nos processos:
+
+##  Como cadastrar o Ministério Público no Processo: 
+
+### Como pessoa jurídica:
+1.	Acesse o menu Cadastro de Processo;
+2.	Acesse “Partes”;
+3.	Clique na parte em que você quer cadastrar: Polo ativo, Polo passivo, Outros interessados.
+4.	No campo Tipo da Parte escolha o que quer cadastrar: Representante, Autor etc.;
+5.	No campo Tipo de Pessoa clique no botão “Jurídica”;
+6.	No campo Órgão Público clique em “Sim”;
+7.	No campo Nome digite: “MINISTÉRIO PÚBLICO DO ESTADO DE PERNAMBUCO” (ex.).
+
+Lembre-se sempre que o Ministério Público de todos os Estados já estão cadastrados no sistema.
+
+No Distrito Federal o Ministério Público está cadastrado como Ministério Público do DF e Territórios.
+
+### Como ente ou autoridade:
+1.	Acesse menu Cadastro de Processo;
+2.	Acesse “Partes”;
+3.	Clique na parte em que você quer cadastrar: Polo ativo, Polo Passivo, Outros interessados.
+4.	No campo Tipo da Parte escolha o que quer cadastrar: Representante, Autor etc.;
+5.	No campo Tipo de Pessoa clique no botão “Ente ou autoridade”;
+6.	No campo Ente ou autoridade, digite: “ PROMOTOR ELEITORAL DO ESTADO (UNIDADE DA FEDERAÇÃO). 
+
+## Como cadastrar uma Zona Eleitoral no Processo:
+1.	Acesse menu Cadastro de Processo;
+2.	Acesse “Partes”;
+3.	Clique na parte em que você quer cadastrar: Polo ativo, Polo Passivo, Outros interessados.
+4.	No campo Tipo da Parte escolha o que quer cadastrar: Representante, Autor etc.;
+5.	No campo Tipo de Pessoa clique no botão “Ente ou autoridade”;
+6.	No campo Ente ou autoridade, digite: “JUÍZO DA XXXª ZONA ELEITORAL DE (MUNICÍPIO SEDE) MG” esse campo se autocompleta, mas você precisa obedecer exatamente a esse formato. 
+
+Lembre-se que todas as Zonas eleitorais já estão devidamente cadastradas no sistema, sempre como Ente ou autoridade e no formato acima.
+
+Portanto, solicitamos que NÃO se cadastre novas partes para Zonas Eleitorais.
+
+## Como cadastrar um Tribunal Regional no Processo:
+1.	Acesse menu Cadastro de Processo;
+2.	Acesse “Partes”;
+3.	Clique na parte em que você quer cadastrar: Polo ativo, Polo Passivo, Outros interessados.
+4.	No campo Tipo da Parte escolha o que quer cadastrar: Representante, Autor etc.;
+5.	No campo Tipo de Pessoa clique no botão “Jurídica”;
+6.	No campo Órgão Público clique em “Sim”;
+7.	No campo Nome digite: “TRIBUNAL REGIONAL ELEITORAL DE (UNIDADE DA FEDERAÇÃO) e clicar em pesquisar”.
+
+Lembre-se que todos os tribunais Regionais Eleitorais já estão devidamente cadastrados no sistema como PESSOA JURÍDICA - Órgão Público, utilizando o seguinte padrão: TRIBUNAL REGIONAL ELEITORAL DE (UNIDADE DA FEDERAÇÃO).
+
+**Obs.** A “Justiça Eleitoral” “Justiça Pública Eleitoral” é uma abstração, não existe como pessoa jurídica, ente ou autoridade, apesar disso temos mais de 500 processos autuados com essa figura cadastrada como ente ou autoridade.
+Portanto, reiteramos que NÃO se cadastre novas partes desnecessariamente, para evitar o desencontro de informações e a poluição desnecessária da base de dados do PJE.
+
+Essa orientação serve para todo o tipo de parte a ser criada: verifique se ela já existe no sistema. E, nos processos protocolados pelo público externo, adote o hábito de verificar se o cadastro feito pelo advogado está correto, caso contrário **RETIFIQUE** a autuação.
+
