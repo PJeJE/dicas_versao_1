@@ -63,6 +63,8 @@ Ainda que a combinação competência X classe X assunto tenha configurada o ní
 
 Havendo a necessidade de se alterar o nível de segredo do processo, é necessário acessar o processo e os respectivos autos digitais. No menu ao lado direito, selecionar a opção segredo/sigilo, em seguida opções e alterar o nível de acesso. Esta opção estará disponível para o usuário cujo perfil tenha associado a permissão pje:manipulaSigiloso.   
 
+![Alterar nível](img/sigilo2.png)
+
 A alteração do nível de acesso será possível independentemente do valor do nível de acesso configurado na competência classe x assunto, e os níveis disponíveis para edição devem estar limitados ao nível do usuário. Caso o processo tenha um nível maior que o do usuário (usuário pode visualizar os níveis porque foi incluído como visualizador), o usuário não poderá alterar o nível do processo. 
 Vale repetir que a simples alteração do nível de sigilo do processo não fará com que o visualizador não o visualize mais. Se o juiz decide alterar o nível de acesso de 1 para 3, por exemplo, as partes que visualizavam continuarão a visualizar a menos que o servidor retire a visualização.
 
