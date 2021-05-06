@@ -158,3 +158,30 @@ Níveis de Segredo das Classes Processuais no 1º Grau
 |NIP                                                        |Não    |1                                                                      |
 |Pet-Adm                                                    |Não    |1                                                                      |
 |Petição Cível                                              |Não    |1                                                                      |
+
+
+
+|CLASSE                                                     |CÓD.|NÍVEL DE SIGILO                                                        |ASSUNTOS COMP. ESPECIALIZADA    |NÍVEL DE SIGILO|
+|-----------------------------------------------------------|----|-----------------------------------------------------------------------|--------------------------------|---------------|
+|Agravo em Recurso Especial Eleitoral                       |12626|1                                                                      |                                |               |
+|Alienação de Bens do Acusado (AlienBAc)                    |1717|1                                                                      |Pasta Direito Penal – cód. 287  |5              |
+|Arresto/Hipoteca Legal (ArrHipLeg)                         |330 |1                                                                      |Pasta Direito Penal – cód. 287  |5              |
+|Cautelar Fiscal (CauFis)                                   |83  |1                                                                      |                                |               |
+|Conflito de Competência Cível (CCCiv)                      |221 |1                                                                      |                                |               |
+|Conflito de Jurisdição (ConfJurisd)                        |325 |1                                                                      |Pasta Direito Penal – cód. 287  |5              |
+|Embargos à Execução Fiscal (EEfis)                         |1118|1                                                                      |                                |               |
+|Embargos de Terceiro Cível (Etciv)                         |37  |1                                                                      |                                |               |
+|Embargos do Acusado (EmbAc)                                |1715|1                                                                      |Pasta Direito Penal – cód. 287 5|5              |
+|Exceção da Verdade (Verdade)                               |324 |1                                                                      |                                |               |
+|Execução de Medidas Alternativas (ExMedAlt)                |12729|1                                                                      |                                |               |
+|Exibição de Documento ou Coisa Cível (ExDoCoCiv)           |228 |1                                                                      |                                |               |
+|Exibição De Documento ou Coisa Criminal (ExDoCoCrim)       |11788|1                                                                      |Pasta Direito Penal – cód. 287  |5              |
+|Liberdade Provisória Com ou Sem Fiança (LibProv)           |305 |1                                                                      |Pasta Direito Penal – cód. 287  |5              |
+|Mandado de Segurança Criminal (MSCrim)                     |1710|1                                                                      |Pasta Direito Penal – cód. 287  |5              |
+|Pedido de Novas Eleições (PNE)                             |12629|1                                                                      |                                |               |
+|Petição Criminal (PETCRIM)                                 |1727|1                                                                      |Pasta Direito Penal – cód. 287  |5              |
+|Procedimento Investigatório Criminal (PICMP)               |1733|1                                                                      |Pasta Direito Penal – cód. 287  |5              |
+|Produção Antecipada da Prova (PAP)                         |193 |3                                                                      |                                |               |
+|Relaxamento de Prisão (RelPri)                             |306 |                                                                       |Pasta Direito Penal – cód. 287  |5              |
+|Restituição de Coisas Apreendidas (ReCoAp)                 |326 |                                                                       |Pasta Direito Penal – cód. 287  |5              |
+|Sequestro (Seques)                                         |329 |5                                                                      |                                |               |
