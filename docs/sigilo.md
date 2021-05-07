@@ -11,92 +11,49 @@ ZONAS ELEITORAIS
 Para as Zonas Eleitorais, em razão do menor número de usuários, foram fixados três níveis de acesso com os respectivos visualizadores:
 Nível de acesso um
 
-a	juiz eleitoral;
-b	servidor e servidor processamento;
-c	polo ativo e seus representantes;
-d	Membros do Ministério Público, como fiscal da lei.
+a)juiz eleitoral;
+b)servidor e servidor processamento;
+c)polo ativo e seus representantes;
+d)Membros do Ministério Público, como fiscal da lei.
 
 Nível de acesso três
 
-a	juiz eleitoral;  
-b	servidor;
-c	polo ativo e seus representantes.
+a)juiz eleitoral;  
+b)servidor;
+c)polo ativo e seus representantes.
 
 Nível de acesso cinco
 
-a	polo ativo e seus representantes;
-b	juiz eleitoral.
+a)polo ativo e seus representantes;
 
 O sistema, no protocolo inicial do processo, utilizará as regras acima para estabelecer os visualizadores do processo.
 É importante ressaltar a diferença entre servidores/magistrados e partes do processo/usuários externos.
-Para servidores/magistrados, a visualização é determinada pelo nível do processo. Se o servidor/magistrado não tiver visualizapelo nível do processo, poderá estar na lista de visualizadores.
+Para servidores/magistrados, a visualização é determinada pelo nível do processo. Se o servidor/magistrado não tiver visualização pelo nível do processo, poderá estar na lista de visualizadores.
 Para partes do processo/usuários externos, a visualização sempre se dará de acordo com o cadastro na lista de visualizadores.
 
 O servidor somente consegue enxergar nas tarefas os processos cujos níveis de segredo são compatíveis com seu respectivo nível de acesso ou aqueles em que seja cadastrado como visualizador.  Além disso, para fins de abertura dos autos digitais, o usuário precisará ser visualizador do processo ou:
-a	ter o mesmo nível do processo ou maior; e
-b	ser do mesmo órgão julgador do processo ou, caso não tenha órgão julgador, ser do mesmo órgão julgador colegiado; e
-c	se estiver vinculado a um cargo (magistrados são sempre vinculados ao cargo), deve ser o cargo responsável pelo processo ou ter a visibilidade "Todos" no cadastro do órgão julgador
+a)ter o mesmo nível do processo ou maior; e
+b)ser do mesmo órgão julgador do processo ou, caso não tenha órgão julgador, ser do mesmo órgão julgador colegiado; e
+c)se estiver vinculado a um cargo (magistrados são sempre vinculados ao cargo), deve ser o cargo responsável pelo processo ou ter a visibilidade "Todos" no cadastro do órgão julgador.
+O ingresso de qualquer parte ou seus representantes posteriormente em um processo sigiloso, não implica liberação automática de visualização dos autos. O cartório terá que liberar manualmente a visualização do processo sigiloso para essas partes, se o juiz autorizar.
+Já com ato de comunicação a parte citada/intimada é automaticamente adicionada como visualizadora.
+Após uma parte ser adicionada como visualizadora em um processo, a simples alteração do nível de sigilo do processo não fará com que o visualizador não o visualize mais. Se o juiz decide alterar o nível de acesso de 1 para 3, por exemplo, as partes que visualizavam continuarão a visualizar a menos que o servidor retire a visualização.
+Cabe salientar também, que colocar uma parte como sigilosa em um processo significa que essa parte não vai ser vista pelas outras partes, mas ela visualiza o processo normalmente
 
+SEGREDO OU SIGILO DE DOCUMENTO
 
+O sigilo de documento pode ser solicitado no momento de anexar documentos no protocolo do processo, independentemente de o processo ser ou não sigiloso. Na aba “Incluir petições e documentos”, após digitar e salvar a petição inicial ao adicionar os documentos, o advogado pode clicar no botão “Sigiloso”. Dessa forma, apenas o documento escolhido vai ficar em sigilo até que o magistrado da causa decida se assim o mantém.           	
+O sigilo de documento também pode ser solicitado sempre que um documento for juntado ao processo, através de indicação em campo próprio. Em toda e qualquer petição poderá ser requerido sigilo para esta ou para documento ou arquivo a ela vinculado. Requerido o sigilo de documento ou arquivo, este permanecerá sigiloso até que o magistrado da causa decida em sentido contrário, de ofício ou a requerimento da parte contrária (http://www.pje.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN455).
+É possível, ainda, conceder acesso ao documento sigiloso, o que ocorre nos autos digitais, opção “Segredo ou Sigilo” – Documentos – Visualizadores (Sinal de +)
 
+COMO ATRIBUIR NÍVEIS AOS PROCESSOS
+	  
+A atribuição dos níveis citados acima é realizada somente pelo administrador do sistema no TSE, previamente à entrada do processo no PJe, no item de menu Cadastro de nível de acesso por competência (Configuração – Competência – sigilo) por meio da competência x classe x assunto (O nível de segredo das classes e assuntos processuais foram decididos em reunião do grupo de trabalho).
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        SEGREDO OU SIGILO NA JUSTIÇA ELEITORAL
-
-	O TSE criou o Grupo de Trabalho PJe Segredo de Justiça, com o objetivo de definir os níveis de segredo
-	de justiça dos processos de tramitação eletrônica para Justiça Eleitoral e definir o nível de segredo 
-	das classes e assuntos processuais. Esse grupo se reuniu em três eventos e dessas reuniões saíram as 
-	definições que colocamos aqui.
-
-	ZONAS ELEITORAIS 
-
-	Para as Zonas Eleitorais, em razão do menor número de usuários, foram fixados três níveis de acesso 
-	com os respectivos visualizadores:
-Nível de acesso um 
-
-    a juiz eleitoral;
-    b servidor e servidor processamento; 
-    c polo ativo e seus representantes;
-    d Membros do Ministério Público, como fiscal da lei.
-
-Nível de acesso três 
-
-    a juiz eleitoral;  
-    b servidor;
-    c polo ativo e seus representantes.
-
-Nível de acesso cinco 
-
-    a polo ativo e seus representantes; 
-
-    b juiz eleitoral.
-
-	O sistema, no protocolo inicial do processo, utilizará as regras acima para estabelecer os visualizadores do processo.
-	É importante ressaltar a diferença entre servidores/magistrados e partes do processo/usuários externos. 
-	Para servidores/magistrados, a visualização é determinada pelo nível do processo. Se o servidor/magistrado não tiver 
-visualização pelo nível do processo, poderá estar na lista de visualizadores.
-	Para partes do processo/usuários externos, a visualização sempre se dará de acordo com o cadastro na lista de visualizadores.
-
-	O servidor somente consegue enxergar nas tarefas os processos cujos níveis de segredo são compatíveis com seu respectivo nível de acesso ou aqueles em que seja cadastrado como visualizador.  Além disso, para fins de abertura dos autos digitais, o usuário precisará ser visualizador do processo ou:
-    a ter o mesmo nível do processo ou maior; e
-    b ser do mesmo órgão julgador do processo ou, caso não tenha órgão julgador, ser do mesmo órgão julgador colegiado; e
-    c se estiver vinculado a um cargo (magistrados são sempre vinculados ao cargo), deve ser o cargo responsável pelo processo ou ter a visibilidade "Todos" no cadastro do órgão julgador
+        
+	
+	
+	
 
 	O ingresso de qualquer parte ou seus representantes posteriormente em um processo sigiloso, não implica liberação automática de visualização dos autos. O cartório terá que liberar manualmente a visualização do processo sigiloso para essas partes, se o juiz autorizar.Já com ato de comunicação a parte citada/intimada é automaticamente adicionada como visualizadora.
 	Após uma parte ser adicionada como visualizadora em um processo, a simples alteração do nível de sigilo do processo não fará com que o visualizador não o visualize mais. Se o juiz decide alterar o nível de acesso de 1 para 3, por exemplo, as partes que visualizavam continuarão a visualizar a menos que o servidor retire a visualização.Cabe salientar também, que colocar uma parte como sigilosa em um processo significa que essa parte não vai ser vista pelas outras partes, mas ela visualiza o processo normalmente
