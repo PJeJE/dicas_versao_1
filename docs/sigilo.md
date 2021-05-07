@@ -13,31 +13,46 @@ Para as Zonas Eleitorais, em razão do menor número de usuários, foram fixados
 Nível de acesso um
 
 a.juiz eleitoral;
+
 b.servidor e servidor processamento;
+
 c.polo ativo e seus representantes;
+
 d.Membros do Ministério Público, como fiscal da lei.
+
 
 Nível de acesso três
 
 a)juiz eleitoral;  
+
 b)servidor;
+
 c)polo ativo e seus representantes.
+
 
 Nível de acesso cinco
 
 a)polo ativo e seus representantes;
 
 O sistema, no protocolo inicial do processo, utilizará as regras acima para estabelecer os visualizadores do processo.
+
 É importante ressaltar a diferença entre servidores/magistrados e partes do processo/usuários externos.
 Para servidores/magistrados, a visualização é determinada pelo nível do processo. Se o servidor/magistrado não tiver visualização pelo nível do processo, poderá estar na lista de visualizadores.
+
 Para partes do processo/usuários externos, a visualização sempre se dará de acordo com o cadastro na lista de visualizadores.
 
 O servidor somente consegue enxergar nas tarefas os processos cujos níveis de segredo são compatíveis com seu respectivo nível de acesso ou aqueles em que seja cadastrado como visualizador.  Além disso, para fins de abertura dos autos digitais, o usuário precisará ser visualizador do processo ou:
+
 a)ter o mesmo nível do processo ou maior; e
+
 b)ser do mesmo órgão julgador do processo ou, caso não tenha órgão julgador, ser do mesmo órgão julgador colegiado; e
+
 c)se estiver vinculado a um cargo (magistrados são sempre vinculados ao cargo), deve ser o cargo responsável pelo processo ou ter a visibilidade "Todos" no cadastro do órgão julgador.
+
 O ingresso de qualquer parte ou seus representantes posteriormente em um processo sigiloso, não implica liberação automática de visualização dos autos. O cartório terá que liberar manualmente a visualização do processo sigiloso para essas partes, se o juiz autorizar.
+
 Já com ato de comunicação a parte citada/intimada é automaticamente adicionada como visualizadora.
+
 Após uma parte ser adicionada como visualizadora em um processo, a simples alteração do nível de sigilo do processo não fará com que o visualizador não o visualize mais. Se o juiz decide alterar o nível de acesso de 1 para 3, por exemplo, as partes que visualizavam continuarão a visualizar a menos que o servidor retire a visualização.
 Cabe salientar também, que colocar uma parte como sigilosa em um processo significa que essa parte não vai ser vista pelas outras partes, mas ela visualiza o processo normalmente
 
@@ -67,6 +82,7 @@ Havendo a necessidade de se alterar o nível de segredo do processo, é necessá
 ![Alterar nível](img/sigilo2.png)
 
 A alteração do nível de acesso será possível independentemente do valor do nível de acesso configurado na competência classe x assunto, e os níveis disponíveis para edição devem estar limitados ao nível do usuário. Caso o processo tenha um nível maior que o do usuário (usuário pode visualizar os níveis porque foi incluído como visualizador), o usuário não poderá alterar o nível do processo.
+
 Vale repetir que a simples alteração do nível de sigilo do processo não fará com que o visualizador não o visualize mais. Se o juiz decide alterar o nível de acesso de 1 para 3, por exemplo, as partes que visualizavam continuarão a visualizar a menos que o servidor retire a visualização.
 
 Somente aos MAGISTRADOS liberou-se nível de acesso 5. Dessa forma, o processo peticionado na competência específica que gere nível 5 de segredo de justiça, entrará na tarefa “Atribuir visualização de processo”.
