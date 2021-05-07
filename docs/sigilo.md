@@ -10,29 +10,34 @@ ZONAS ELEITORAIS
 
 Para as Zonas Eleitorais, em razão do menor número de usuários, foram fixados três níveis de acesso com os respectivos visualizadores:
 
-Nível de acesso um
 
-a.juiz eleitoral;
+Nível de acesso um:
 
-b.servidor e servidor processamento;
+a. juiz eleitoral;
 
-c.polo ativo e seus representantes;
+b. servidor e servidor processamento;
 
-d.Membros do Ministério Público, como fiscal da lei.
+c. polo ativo e seus representantes;
 
-
-Nível de acesso três
-
-a)juiz eleitoral;  
-
-b)servidor;
-
-c)polo ativo e seus representantes.
+d. Membros do Ministério Público, como fiscal da lei.
 
 
-Nível de acesso cinco
 
-a)polo ativo e seus representantes;
+Nível de acesso três:
+
+a. juiz eleitoral;  
+
+b. servidor;
+
+c. polo ativo e seus representantes.
+
+
+
+Nível de acesso cinco:
+
+a. polo ativo e seus representantes;
+
+
 
 O sistema, no protocolo inicial do processo, utilizará as regras acima para estabelecer os visualizadores do processo.
 
@@ -43,11 +48,11 @@ Para partes do processo/usuários externos, a visualização sempre se dará de 
 
 O servidor somente consegue enxergar nas tarefas os processos cujos níveis de segredo são compatíveis com seu respectivo nível de acesso ou aqueles em que seja cadastrado como visualizador.  Além disso, para fins de abertura dos autos digitais, o usuário precisará ser visualizador do processo ou:
 
-a)ter o mesmo nível do processo ou maior; e
+a) ter o mesmo nível do processo ou maior; e
 
-b)ser do mesmo órgão julgador do processo ou, caso não tenha órgão julgador, ser do mesmo órgão julgador colegiado; e
+b) ser do mesmo órgão julgador do processo ou, caso não tenha órgão julgador, ser do mesmo órgão julgador colegiado; e
 
-c)se estiver vinculado a um cargo (magistrados são sempre vinculados ao cargo), deve ser o cargo responsável pelo processo ou ter a visibilidade "Todos" no cadastro do órgão julgador.
+c) se estiver vinculado a um cargo (magistrados são sempre vinculados ao cargo), deve ser o cargo responsável pelo processo ou ter a visibilidade "Todos" no cadastro do órgão julgador.
 
 O ingresso de qualquer parte ou seus representantes posteriormente em um processo sigiloso, não implica liberação automática de visualização dos autos. O cartório terá que liberar manualmente a visualização do processo sigiloso para essas partes, se o juiz autorizar.
 
@@ -56,17 +61,22 @@ Já com ato de comunicação a parte citada/intimada é automaticamente adiciona
 Após uma parte ser adicionada como visualizadora em um processo, a simples alteração do nível de sigilo do processo não fará com que o visualizador não o visualize mais. Se o juiz decide alterar o nível de acesso de 1 para 3, por exemplo, as partes que visualizavam continuarão a visualizar a menos que o servidor retire a visualização.
 Cabe salientar também, que colocar uma parte como sigilosa em um processo significa que essa parte não vai ser vista pelas outras partes, mas ela visualiza o processo normalmente
 
+
 SEGREDO OU SIGILO DE DOCUMENTO
+
 
 O sigilo de documento pode ser solicitado no momento de anexar documentos no protocolo do processo, independentemente de o processo ser ou não sigiloso. Na aba “Incluir petições e documentos”, após digitar e salvar a petição inicial ao adicionar os documentos, o advogado pode clicar no botão “Sigiloso”. Dessa forma, apenas o documento escolhido vai ficar em sigilo até que o magistrado da causa decida se assim o mantém.           	
 O sigilo de documento também pode ser solicitado sempre que um documento for juntado ao processo, através de indicação em campo próprio. Em toda e qualquer petição poderá ser requerido sigilo para esta ou para documento ou arquivo a ela vinculado. Requerido o sigilo de documento ou arquivo, este permanecerá sigiloso até que o magistrado da causa decida em sentido contrário, de ofício ou a requerimento da parte contrária (http://www.pje.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN455).
 É possível, ainda, conceder acesso ao documento sigiloso, o que ocorre nos autos digitais, opção “Segredo ou Sigilo” – Documentos – Visualizadores (Sinal de +)
 
+
 COMO ATRIBUIR NÍVEIS AOS PROCESSOS
-	  
+
+
 A atribuição dos níveis citados acima é realizada somente pelo administrador do sistema no TSE, previamente à entrada do processo no PJe, no item de menu Cadastro de nível de acesso por competência (Configuração – Competência – sigilo) por meio da competência x classe x assunto (O nível de segredo das classes e assuntos processuais foram decididos em reunião do grupo de trabalho).
 
 ![Níveis](img/sigilo1.png)
+
 
 Nesse contexto, é possível existir uma classe processual sem nível específico de sigilo com assunto processual que possua segredo, caso em que o processo terá segredo em razão do assunto processual e não da classe. O inverso também é possível. Assim, a definição do nível de segredo leva em conta a combinação de classe com o assunto processual e com a competência.
 
@@ -74,12 +84,16 @@ Não existindo originariamente sigilo para a competência (competência X classe
 
 Assim, quando uma classe é considerada pública (prestação de contas, por exemplo), o advogado pode pedir sigilo, indicando durante o peticionamento da inicial, que o processo é sigiloso, marcando na aba “Características”, “Segredo de justiça”, a opção “Sim” e informando o motivo dentre as opções disponíveis. Em seguida, clica novamente no botão “Gravar Sigilo”. O Sistema não poderá recusar a escolha do advogado e atribui nível 1 ao segredo desse processo, até o pedido de sigilo ser apreciado pelo magistrado.
 Ainda que a combinação competência X classe X assunto tenha configurada o nível 5 como padrão, o processo protocolado naquela combinação só será sigiloso se o usuário protocolador assim o solicitar. O sistema, então, atribuirá o nível 5 a esse processo.
-               
+
+
 ALTERAÇÃO DO NÍVEL DE SEGREDO
+
 
 Havendo a necessidade de se alterar o nível de segredo do processo, é necessário acessar o processo e os respectivos autos digitais. No menu ao lado direito, selecionar a opção segredo/sigilo, em seguida opções e alterar o nível de acesso. Esta opção estará disponível para o usuário cujo perfil tenha associado a permissão pje:manipulaSigiloso.   
 
+
 ![Alterar nível](img/sigilo2.png)
+
 
 A alteração do nível de acesso será possível independentemente do valor do nível de acesso configurado na competência classe x assunto, e os níveis disponíveis para edição devem estar limitados ao nível do usuário. Caso o processo tenha um nível maior que o do usuário (usuário pode visualizar os níveis porque foi incluído como visualizador), o usuário não poderá alterar o nível do processo.
 
@@ -88,7 +102,9 @@ Vale repetir que a simples alteração do nível de sigilo do processo não far�
 Somente aos MAGISTRADOS liberou-se nível de acesso 5. Dessa forma, o processo peticionado na competência específica que gere nível 5 de segredo de justiça, entrará na tarefa “Atribuir visualização de processo”.
 A tarefa servirá para que o magistrado saiba que um processo de segredo 5 foi peticionado e, se desejar, incluir visualizador.
 
+
 COMO O MAGISTRADO ATRIBUI VISUALIZADOR
+
 
 Na tarefa em que o magistrado indica qual servidor poderá visualizar o processo, ele também pode, a qualquer tempo, atribuir visualização para o polo passivo e/ou outra parte que tenha ingressado posteriormente na relação jurídica processual (terceiros interessados, por exemplo).
 Para isso, o magistrado deverá entrar no processo, nos “Autos digitais” => “Segredo ou sigilo” => “Opções” => “Acrescentar visualizador” => “Autorizar pessoa a visualizar processo”. Pesquisa a pessoa com nome ou CPF e clica em concluído. Quadro a quadro abaixo:	  
@@ -97,7 +113,9 @@ Para isso, o magistrado deverá entrar no processo, nos “Autos digitais” => 
 
 ![Visualizador 1](img/sigilo3.png)
 
+
 ![Visualizador 2](img/sigilo4.png)
+
 
 ![Visualizador 3](img/sigilo5.png)
 
