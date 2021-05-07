@@ -2,11 +2,15 @@ Os atos processuais são, em regra, públicos. Todavia, alguns processos correm 
 
 Outros processos, por suas próprias características, como classe ou assuntos, são tratados como sigilosos, a exemplo da Ação de Impugnação de Mandato Eletivo, nos termos do que prescreve o art. 14, § 11 da Constituição da República.
 
+
 SEGREDO OU SIGILO NA JUSTIÇA ELEITORAL
+
 
 O TSE criou o Grupo de Trabalho PJe Segredo de Justiça, com o objetivo de definir os níveis de segredo de justiça dos processos de tramitação eletrônica para Justiça Eleitoral e definir o nível de segredo das classes e assuntos processuais. Esse grupo se reuniu em três eventos e dessas reuniões saíram as definições que colocamos aqui.
 
+
 ZONAS ELEITORAIS
+
 
 Para as Zonas Eleitorais, em razão do menor número de usuários, foram fixados três níveis de acesso com os respectivos visualizadores:
 
@@ -62,7 +66,9 @@ Após uma parte ser adicionada como visualizadora em um processo, a simples alte
 Cabe salientar também, que colocar uma parte como sigilosa em um processo significa que essa parte não vai ser vista pelas outras partes, mas ela visualiza o processo normalmente
 
 
+
 SEGREDO OU SIGILO DE DOCUMENTO
+
 
 
 O sigilo de documento pode ser solicitado no momento de anexar documentos no protocolo do processo, independentemente de o processo ser ou não sigiloso. Na aba “Incluir petições e documentos”, após digitar e salvar a petição inicial ao adicionar os documentos, o advogado pode clicar no botão “Sigiloso”. Dessa forma, apenas o documento escolhido vai ficar em sigilo até que o magistrado da causa decida se assim o mantém.           	
@@ -70,7 +76,9 @@ O sigilo de documento também pode ser solicitado sempre que um documento for ju
 É possível, ainda, conceder acesso ao documento sigiloso, o que ocorre nos autos digitais, opção “Segredo ou Sigilo” – Documentos – Visualizadores (Sinal de +)
 
 
+
 COMO ATRIBUIR NÍVEIS AOS PROCESSOS
+
 
 
 A atribuição dos níveis citados acima é realizada somente pelo administrador do sistema no TSE, previamente à entrada do processo no PJe, no item de menu Cadastro de nível de acesso por competência (Configuração – Competência – sigilo) por meio da competência x classe x assunto (O nível de segredo das classes e assuntos processuais foram decididos em reunião do grupo de trabalho).
@@ -86,7 +94,9 @@ Assim, quando uma classe é considerada pública (prestação de contas, por exe
 Ainda que a combinação competência X classe X assunto tenha configurada o nível 5 como padrão, o processo protocolado naquela combinação só será sigiloso se o usuário protocolador assim o solicitar. O sistema, então, atribuirá o nível 5 a esse processo.
 
 
+
 ALTERAÇÃO DO NÍVEL DE SEGREDO
+
 
 
 Havendo a necessidade de se alterar o nível de segredo do processo, é necessário acessar o processo e os respectivos autos digitais. No menu ao lado direito, selecionar a opção segredo/sigilo, em seguida opções e alterar o nível de acesso. Esta opção estará disponível para o usuário cujo perfil tenha associado a permissão pje:manipulaSigiloso.   
@@ -103,7 +113,9 @@ Somente aos MAGISTRADOS liberou-se nível de acesso 5. Dessa forma, o processo p
 A tarefa servirá para que o magistrado saiba que um processo de segredo 5 foi peticionado e, se desejar, incluir visualizador.
 
 
+
 COMO O MAGISTRADO ATRIBUI VISUALIZADOR
+
 
 
 Na tarefa em que o magistrado indica qual servidor poderá visualizar o processo, ele também pode, a qualquer tempo, atribuir visualização para o polo passivo e/ou outra parte que tenha ingressado posteriormente na relação jurídica processual (terceiros interessados, por exemplo).
@@ -140,7 +152,9 @@ Regras importantes:
     
 
 
+
 ATUAÇÃO DE JUIZ SUBSTITUTO EM PROCESSO SIGILOSO NAS ZONAS ELEITORAIS
+
 
 
 Na hipótese de atuação de um juiz substituto na zona eleitoral, deve-se levar em consideração algumas peculiaridades do PJE:
@@ -152,7 +166,9 @@ Para que o substituto tenha acesso apenas ao processo no qual deverá atuar, dev
 Não será possível impedir a visualização do juiz titular, a menos que o processo seja distribuído a outro órgão julgador ao qual o juiz não faça parte.
 
 
+
 SEGREDO OU SIGILO DO PROCESSO NO 2º GRAU
+
 
 
 No segundo e terceiro grau da Justiça Eleitoral o grupo de trabalho decidiu acrescentar um nível de sigilo a mais que no primeiro grau. Esse quarto nível foi atribuído exclusivamente ao Secretário Judiciário, ao Secretário da Corregedoria, aos Assessores-chefes dos Gabinetes e ao Assessor-chefe de Plenário.
@@ -163,12 +179,14 @@ Para isso, o Ministro deverá entrar no processo, nos “Autos digitais” => �
 Para os processos sigilosos de nível 1 e 3, o Assessor de Plenário abrirá a visualização dos autos aos demais Ministros. Nesse caso, quando o processo estiver na aba “Aptos para Julgamento”, o Assessor de Plenário já poderá executar o procedimento mencionado no parágrafo anterior.
 
 
+
 Níveis de Segredo das Classes Processuais no 1º Grau
 
 
-	Durante a 1ª reunião do Grupo de trabalho, foi fixado o nível de segredo de todas as classes processuais que tramitam na Zona Eleitoral. Para essas classes processuais, o Grupo decidiu manter, no TSE e nos Regionais, os mesmos níveis de segredo atribuídos para a 1ª instância.
+
+Durante a 1ª reunião do Grupo de trabalho, foi fixado o nível de segredo de todas as classes processuais que tramitam na Zona Eleitoral. Para essas classes processuais, o Grupo decidiu manter, no TSE e nos Regionais, os mesmos níveis de segredo atribuídos para a 1ª instância.
 	
-	Nas classes processuais recursais, como recurso especial no TSE e recursos eleitorais nos regionais, o nível de segredo vai depender do nível de segredo do assunto processual. Ao recurso com assunto processual que não tenha segredo, será atribuído nível 1 se o advogado selecionar a opção segredo de justiça. Já se a classe tiver assunto que demande competência especializada em matéria criminal, como no caso de recurso especial com assunto processual da competência especializada, o nível será 5.
+Nas classes processuais recursais, como recurso especial no TSE e recursos eleitorais nos regionais, o nível de segredo vai depender do nível de segredo do assunto processual. Ao recurso com assunto processual que não tenha segredo, será atribuído nível 1 se o advogado selecionar a opção segredo de justiça. Já se a classe tiver assunto que demande competência especializada em matéria criminal, como no caso de recurso especial com assunto processual da competência especializada, o nível será 5.
 	
 	
 
@@ -221,6 +239,7 @@ Níveis de Segredo das Classes Processuais no 1º Grau
 
 
 Fixação do nível de sigilo para as novas classes habilitadas no PJE
+
 
 A tabela abaixo mostra o nível de sigilo que a Comissão de Acompanhamento e Atualização das Tabelas Processuais 
 Unificadas, TPU, da Justiça Eleitoral fixou para cada uma das novas classes habilitadas no PJE. Na mesma linha 
