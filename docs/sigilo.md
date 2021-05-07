@@ -1,13 +1,24 @@
-	Os atos processuais são, em regra, públicos. Todavia, alguns processos correm em segredo de justiça, sendo limitado o acesso aos dados do processo às partes e a seus representantes. Além dos processos, podem também ser tratados como sigilosos documentos do processo. Na propositura da ação, o autor poderá requerer segredo de justiça para os autos processuais ou sigilo para um ou mais documentos ou arquivos do processo, através de indicação em campo próprio. Da mesma forma, em toda e qualquer petição poderá ser requerido sigilo para esta ou para documento ou arquivo a ela vinculado. 
-	Outros processos, por suas próprias características, como classe ou assuntos, são tratados como sigilosos, a exemplo da Ação de Impugnação de Mandato Eletivo, nos termos do que prescreve o art. 14, § 11 da Constituição da República.
+	Os atos processuais são, em regra, públicos. Todavia, alguns processos correm em segredo de justiça, 
+	sendo limitado o acesso aos dados do processo às partes e a seus representantes. Além dos processos,
+	podem também ser tratados como sigilosos documentos do processo. Na propositura da ação, o autor 
+	poderá requerer segredo de justiça para os autos processuais ou sigilo para um ou mais documentos ou 
+	arquivos do processo, através de indicação em campo próprio. Da mesma forma, em toda e qualquer
+	petição poderá ser requerido sigilo para esta ou para documento ou arquivo a ela vinculado. 
+	Outros processos, por suas próprias características, como classe ou assuntos, são tratados como
+	sigilosos, a exemplo da Ação de Impugnação de Mandato Eletivo, nos termos do que prescreve o art. 14,
+	§ 11 da Constituição da República.
 
         SEGREDO OU SIGILO NA JUSTIÇA ELEITORAL
 
-	O TSE criou o Grupo de Trabalho PJe Segredo de Justiça, com o objetivo de definir os níveis de segredo de justiça dos processos de tramitação eletrônica para Justiça Eleitoral e definir o nível de segredo das classes e assuntos processuais. Esse grupo se reuniu em três eventos e dessas reuniões saíram as definições que colocamos aqui.
+	O TSE criou o Grupo de Trabalho PJe Segredo de Justiça, com o objetivo de definir os níveis de segredo
+	de justiça dos processos de tramitação eletrônica para Justiça Eleitoral e definir o nível de segredo 
+	das classes e assuntos processuais. Esse grupo se reuniu em três eventos e dessas reuniões saíram as 
+	definições que colocamos aqui.
 
 	ZONAS ELEITORAIS 
 
-	Para as Zonas Eleitorais, em razão do menor número de usuários, foram fixados três níveis de acesso com os respectivos visualizadores:
+	Para as Zonas Eleitorais, em razão do menor número de usuários, foram fixados três níveis de acesso 
+	com os respectivos visualizadores:
 Nível de acesso um 
 
     a juiz eleitoral;
