@@ -105,23 +105,36 @@ Para isso, o magistrado deverá entrar no processo, nos “Autos digitais” => 
 
 
 Regras importantes: 
-    a a atribuição de visualizador é apenas por processo e a indicação uma por vez; 
-    b é possível atribuir a visualização a mais de uma pessoa; 
-    c para retirar a visualização, basta clicar na lixeira;
-    d o usuário somente consegue alterar o nível de segredo do processo se os níveis de segredo de justiça do processo e o nível de acesso do usuário forem compatíveis, ou seja, nível do     
-    usuário maior ou igual ao nível do processo; 
-    e nas zonas eleitorais, embora sejam apenas 3 níveis, aparecerão, na alteração do nível do processo, os 5 níveis. Os usuários devem utilizar apenas os níveis 1, 3 e 5;
-    f O usuário que peticiona não escolhe o nível de segredo do processo, isso é configurado pelo administrador do sistema, nos termos descritos linhas acima;  
-    g Para que ao processo seja atribuído o nível de segredo que se deseja, é necessário escolher adequadamente a classe e o assunto processual.  
 
-                 ATUAÇÃO DE JUIZ SUBSTITUTO EM PROCESSO SIGILOSO NAS ZONAS ELEITORAIS
+    a a atribuição de visualizador é apenas por processo e a indicação uma por vez; 
+    
+    b é possível atribuir a visualização a mais de uma pessoa; 
+    
+    c para retirar a visualização, basta clicar na lixeira;
+    
+    d o usuário somente consegue alterar o nível de segredo do processo se os níveis de segredo de justiça do processo e o nível de acesso do usuário forem compatíveis, ou seja, nível do usuário maior ou igual ao nível do processo; 
+    
+    e nas zonas eleitorais, embora sejam apenas 3 níveis, aparecerão, na alteração do nível do processo, os 5 níveis. Os usuários devem utilizar apenas os níveis 1, 3 e 5;
+    
+    f O usuário que peticiona não escolhe o nível de segredo do processo, isso é configurado pelo administrador do sistema, nos termos descritos linhas acima;  
+    
+    g Para que ao processo seja atribuído o nível de segredo que se deseja, é necessário escolher adequadamente a classe e o assunto processual. 
+    
+
+ATUAÇÃO DE JUIZ SUBSTITUTO EM PROCESSO SIGILOSO NAS ZONAS ELEITORAIS
+		 
 
 	Na hipótese de atuação de um juiz substituto na zona eleitoral, deve-se levar em consideração algumas peculiaridades do PJE:
+	
 	Por definição negocial, apenas o magistrado titular tem a marcação de “recebe distribuição? sim”; portanto, todos os processos serão distribuídos ao titular (mesmo se ele se declarar suspeito).
+	
 	Para que o substituto tenha acesso apenas ao processo no qual deverá atuar, deve-se configurar a visibilidade do juiz substituto só para o cargo dele e adicioná-lo como visualizador do processo (Ele terá acesso ao processo porque é visualizador e terá acesso às tarefas porque é juiz).
+	
 	Não será possível impedir a visualização do juiz titular, a menos que o processo seja distribuído a outro órgão julgador ao qual o juiz não faça parte. 
+	
 
      		SEGREDO OU SIGILO DO PROCESSO NO 2º GRAU
+		
 
 	No segundo e terceiro grau da Justiça Eleitoral o grupo de trabalho decidiu acrescentar um nível de sigilo a mais que no primeiro grau. Esse quarto nível foi atribuído exclusivamente ao Secretário Judiciário, ao Secretário da Corregedoria, aos Assessores-chefes dos Gabinetes e ao Assessor-chefe de Plenário. 
 	No nível cinco de sigilo somente o Ministro Relator terá acesso aos autos e poderá atribuir visualização aos demais ministros. Assim, a partir do momento em que um processo sigiloso chegue na tarefa “Aguarda sessão de julgamento” do Gabinete, o Ministro Relator pode fazer o procedimento de atribuição de visualização dos autos aos demais julgadores.
