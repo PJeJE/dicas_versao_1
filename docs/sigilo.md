@@ -139,31 +139,38 @@ Regras importantes:
     g Para que ao processo seja atribuído o nível de segredo que se deseja, é necessário escolher adequadamente a classe e o assunto processual. 
     
 
+
 ATUAÇÃO DE JUIZ SUBSTITUTO EM PROCESSO SIGILOSO NAS ZONAS ELEITORAIS
-		 
 
-	Na hipótese de atuação de um juiz substituto na zona eleitoral, deve-se levar em consideração algumas peculiaridades do PJE:
-	
-	Por definição negocial, apenas o magistrado titular tem a marcação de “recebe distribuição? sim”; portanto, todos os processos serão distribuídos ao titular (mesmo se ele se declarar suspeito).
-	
-	Para que o substituto tenha acesso apenas ao processo no qual deverá atuar, deve-se configurar a visibilidade do juiz substituto só para o cargo dele e adicioná-lo como visualizador do processo (Ele terá acesso ao processo porque é visualizador e terá acesso às tarefas porque é juiz).
-	
-	Não será possível impedir a visualização do juiz titular, a menos que o processo seja distribuído a outro órgão julgador ao qual o juiz não faça parte. 
-	
 
-     		SEGREDO OU SIGILO DO PROCESSO NO 2º GRAU
-		
+Na hipótese de atuação de um juiz substituto na zona eleitoral, deve-se levar em consideração algumas peculiaridades do PJE:
 
-	No segundo e terceiro grau da Justiça Eleitoral o grupo de trabalho decidiu acrescentar um nível de sigilo a mais que no primeiro grau. Esse quarto nível foi atribuído exclusivamente ao Secretário Judiciário, ao Secretário da Corregedoria, aos Assessores-chefes dos Gabinetes e ao Assessor-chefe de Plenário. 
-	No nível cinco de sigilo somente o Ministro Relator terá acesso aos autos e poderá atribuir visualização aos demais ministros. Assim, a partir do momento em que um processo sigiloso chegue na tarefa “Aguarda sessão de julgamento” do Gabinete, o Ministro Relator pode fazer o procedimento de atribuição de visualização dos autos aos demais julgadores.
-    	Para isso, o Ministro deverá entrar no processo, nos “Autos digitais” => “Segredo ou sigilo” => “Opções” => “Acrescentar visualizador” => “Autorizar pessoa a visualizar processo” (ver quadros pág. 6), inserir o CPF de um Ministro e clicar no botão “Concluído”. Esse procedimento deve ser utilizado para cada um dos ministros.
-	Para os processos sigilosos de nível 1 e 3, o Assessor de Plenário abrirá a visualização dos autos aos demais Ministros. Nesse caso, quando o processo estiver na aba “Aptos para Julgamento”, o Assessor de Plenário já poderá executar o procedimento mencionado no parágrafo anterior.
+Por definição negocial, apenas o magistrado titular tem a marcação de “recebe distribuição? sim”; portanto, todos os processos serão distribuídos ao titular (mesmo se ele se declarar suspeito).
 
-		Níveis de Segredo das Classes Processuais no 1º Grau
+Para que o substituto tenha acesso apenas ao processo no qual deverá atuar, deve-se configurar a visibilidade do juiz substituto só para o cargo dele e adicioná-lo como visualizador do processo (Ele terá acesso ao processo porque é visualizador e terá acesso às tarefas porque é juiz).
+
+Não será possível impedir a visualização do juiz titular, a menos que o processo seja distribuído a outro órgão julgador ao qual o juiz não faça parte.
+
+
+SEGREDO OU SIGILO DO PROCESSO NO 2º GRAU
+
+
+No segundo e terceiro grau da Justiça Eleitoral o grupo de trabalho decidiu acrescentar um nível de sigilo a mais que no primeiro grau. Esse quarto nível foi atribuído exclusivamente ao Secretário Judiciário, ao Secretário da Corregedoria, aos Assessores-chefes dos Gabinetes e ao Assessor-chefe de Plenário.
+No nível cinco de sigilo somente o Ministro Relator terá acesso aos autos e poderá atribuir visualização aos demais ministros. Assim, a partir do momento em que um processo sigiloso chegue na tarefa “Aguarda sessão de julgamento” do Gabinete, o Ministro Relator pode fazer o procedimento de atribuição de visualização dos autos aos demais julgadores.
+
+Para isso, o Ministro deverá entrar no processo, nos “Autos digitais” => “Segredo ou sigilo” => “Opções” => “Acrescentar visualizador” => “Autorizar pessoa a visualizar processo” (ver quadros pág. 6), inserir o CPF de um Ministro e clicar no botão “Concluído”. Esse procedimento deve ser utilizado para cada um dos ministros.
+
+Para os processos sigilosos de nível 1 e 3, o Assessor de Plenário abrirá a visualização dos autos aos demais Ministros. Nesse caso, quando o processo estiver na aba “Aptos para Julgamento”, o Assessor de Plenário já poderá executar o procedimento mencionado no parágrafo anterior.
+
+
+Níveis de Segredo das Classes Processuais no 1º Grau
+
 
 	Durante a 1ª reunião do Grupo de trabalho, foi fixado o nível de segredo de todas as classes processuais que tramitam na Zona Eleitoral. Para essas classes processuais, o Grupo decidiu manter, no TSE e nos Regionais, os mesmos níveis de segredo atribuídos para a 1ª instância.
+	
 	Nas classes processuais recursais, como recurso especial no TSE e recursos eleitorais nos regionais, o nível de segredo vai depender do nível de segredo do assunto processual. Ao recurso com assunto processual que não tenha segredo, será atribuído nível 1 se o advogado selecionar a opção segredo de justiça. Já se a classe tiver assunto que demande competência especializada em matéria criminal, como no caso de recurso especial com assunto processual da competência especializada, o nível será 5.
-
+	
+	
 
 |CLASSE PROCESSUAL / ASSUNTOS                               |SEGREDO|NÍVEL                                                                  |
 |-----------------------------------------------------------|-------|-----------------------------------------------------------------------|
@@ -209,12 +216,23 @@ ATUAÇÃO DE JUIZ SUBSTITUTO EM PROCESSO SIGILOSO NAS ZONAS ELEITORAIS
 |Pet-Adm                                                    |Não    |1                                                                      |
 |Petição Cível                                              |Não    |1                                                                      |
 
-		Fixação do nível de sigilo para as novas classes habilitadas no PJE
 
-	A tabela abaixo mostra o nível de sigilo que a Comissão de Acompanhamento e Atualização das Tabelas Processuais 
-	Unificadas, TPU, da Justiça Eleitoral fixou para cada uma das novas classes habilitadas no PJE. Na mesma linha 
-	do que já havia sido decidido no GT do Sigilo em reuniões anteriores, acordou-se em atribuir o nível 5 de sigilo
-	aos assuntos que demandem competência especializada em matéria criminal.
+
+
+
+Fixação do nível de sigilo para as novas classes habilitadas no PJE
+
+A tabela abaixo mostra o nível de sigilo que a Comissão de Acompanhamento e Atualização das Tabelas Processuais 
+Unificadas, TPU, da Justiça Eleitoral fixou para cada uma das novas classes habilitadas no PJE. Na mesma linha 
+do que já havia sido decidido no GT do Sigilo em reuniões anteriores, acordou-se em atribuir o nível 5 de sigilo
+aos assuntos que demandem competência especializada em matéria criminal.
+
+
+
+
+
+
+
 
 |CLASSE                                                     |CÓD.|NÍVEL DE SIGILO                                                        |ASSUNTOS COMP. ESPECIALIZADA    |NÍVEL DE SIGILO|
 |-----------------------------------------------------------|----|-----------------------------------------------------------------------|--------------------------------|---------------|
@@ -244,7 +262,11 @@ ATUAÇÃO DE JUIZ SUBSTITUTO EM PROCESSO SIGILOSO NAS ZONAS ELEITORAIS
 
 Fontes:
     1 Roteiro de utilização de sigilo e segredo de justiça - http://www.cnj.jus.br/wikipje.
+    
     2 Ata da 1ª reunião do Grupo de Trabalho PJE Segredo de Justiça. 
+    
     3 Ata da 2ª reunião do Grupo de Trabalho PJE Segredo de Justiça.
+    
     4 Ata da 1ª reunião da Comissão de Acompanhamento e Atualização das Tabelas Processuais Unificadas (TPU) da Justiça Eleitoral.
+    
     5 Orientações sobre a funcionalidade de sigilo – Arquivo ASPJE.
