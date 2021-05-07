@@ -136,22 +136,22 @@ Para isso, o magistrado deverá entrar no processo, nos “Autos digitais” => 
 
 
 
-Regras importantes: 
+Regras importantes:
 
-    a a atribuição de visualizador é apenas por processo e a indicação uma por vez; 
-    
-    b é possível atribuir a visualização a mais de uma pessoa; 
-    
-    c para retirar a visualização, basta clicar na lixeira;
-    
-    d o usuário somente consegue alterar o nível de segredo do processo se os níveis de segredo de justiça do processo e o nível de acesso do usuário forem compatíveis, ou seja, nível do usuário maior ou igual ao nível do processo; 
-    
-    e nas zonas eleitorais, embora sejam apenas 3 níveis, aparecerão, na alteração do nível do processo, os 5 níveis. Os usuários devem utilizar apenas os níveis 1, 3 e 5;
-    
-    f O usuário que peticiona não escolhe o nível de segredo do processo, isso é configurado pelo administrador do sistema, nos termos descritos linhas acima;  
-    
-    g Para que ao processo seja atribuído o nível de segredo que se deseja, é necessário escolher adequadamente a classe e o assunto processual. 
-    
+a. a atribuição de visualizador é apenas por processo e a indicação uma por vez;
+
+b. é possível atribuir a visualização a mais de uma pessoa;
+
+c. para retirar a visualização, basta clicar na lixeira;
+
+d. o usuário somente consegue alterar o nível de segredo do processo se os níveis de segredo de justiça do processo e o nível de acesso do usuário forem compatíveis, ou seja, nível do usuário maior ou igual ao nível do processo;
+
+e. nas zonas eleitorais, embora sejam apenas 3 níveis, aparecerão, na alteração do nível do processo, os 5 níveis. Os usuários devem utilizar apenas os níveis 1, 3 e 5;
+
+f. O usuário que peticiona não escolhe o nível de segredo do processo, isso é configurado pelo administrador do sistema, nos termos descritos linhas acima;  
+
+g. Para que ao processo seja atribuído o nível de segredo que se deseja, é necessário escolher adequadamente a classe e o assunto processual.  
+
 
 
 
@@ -282,6 +282,7 @@ aos assuntos que demandem competência especializada em matéria criminal.
 
 
 Fontes:
+
     1 Roteiro de utilização de sigilo e segredo de justiça - http://www.cnj.jus.br/wikipje.
     
     2 Ata da 1ª reunião do Grupo de Trabalho PJE Segredo de Justiça. 
