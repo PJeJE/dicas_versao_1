@@ -27,6 +27,7 @@ d. Membros do Ministério Público, como fiscal da lei.
 
 
 
+
 Nível de acesso três:
 
 a. juiz eleitoral;  
@@ -34,6 +35,7 @@ a. juiz eleitoral;
 b. servidor;
 
 c. polo ativo e seus representantes.
+
 
 
 
