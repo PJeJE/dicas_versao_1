@@ -1,5 +1,60 @@
 Os atos processuais são, em regra, públicos. Todavia, alguns processos correm em segredo de justiça, sendo limitado o acesso aos dados do processo às partes e a seus representantes. Além dos processos, podem também ser tratados como sigilosos documentos do processo. Na propositura da ação, o autor poderá requerer segredo de justiça para os autos processuais ou sigilo para um ou mais documentos ou arquivos do processo, através de indicação em campo próprio. Da mesma forma, em toda e qualquer petição poderá ser requerido sigilo para esta ou para documento ou arquivo a ela vinculado.
+
 Outros processos, por suas próprias características, como classe ou assuntos, são tratados como sigilosos, a exemplo da Ação de Impugnação de Mandato Eletivo, nos termos do que prescreve o art. 14, § 11 da Constituição da República.
+
+SEGREDO OU SIGILO NA JUSTIÇA ELEITORAL
+
+O TSE criou o Grupo de Trabalho PJe Segredo de Justiça, com o objetivo de definir os níveis de segredo de justiça dos processos de tramitação eletrônica para Justiça Eleitoral e definir o nível de segredo das classes e assuntos processuais. Esse grupo se reuniu em três eventos e dessas reuniões saíram as definições que colocamos aqui.
+
+ZONAS ELEITORAIS
+
+Para as Zonas Eleitorais, em razão do menor número de usuários, foram fixados três níveis de acesso com os respectivos visualizadores:
+Nível de acesso um
+
+a	juiz eleitoral;
+b	servidor e servidor processamento;
+c	polo ativo e seus representantes;
+d	Membros do Ministério Público, como fiscal da lei.
+
+Nível de acesso três
+
+a	juiz eleitoral;  
+b	servidor;
+c	polo ativo e seus representantes.
+
+Nível de acesso cinco
+
+a	polo ativo e seus representantes;
+b	juiz eleitoral.
+
+O sistema, no protocolo inicial do processo, utilizará as regras acima para estabelecer os visualizadores do processo.
+É importante ressaltar a diferença entre servidores/magistrados e partes do processo/usuários externos.
+Para servidores/magistrados, a visualização é determinada pelo nível do processo. Se o servidor/magistrado não tiver visualizapelo nível do processo, poderá estar na lista de visualizadores.
+Para partes do processo/usuários externos, a visualização sempre se dará de acordo com o cadastro na lista de visualizadores.
+
+O servidor somente consegue enxergar nas tarefas os processos cujos níveis de segredo são compatíveis com seu respectivo nível de acesso ou aqueles em que seja cadastrado como visualizador.  Além disso, para fins de abertura dos autos digitais, o usuário precisará ser visualizador do processo ou:
+a	ter o mesmo nível do processo ou maior; e
+b	ser do mesmo órgão julgador do processo ou, caso não tenha órgão julgador, ser do mesmo órgão julgador colegiado; e
+c	se estiver vinculado a um cargo (magistrados são sempre vinculados ao cargo), deve ser o cargo responsável pelo processo ou ter a visibilidade "Todos" no cadastro do órgão julgador
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
         SEGREDO OU SIGILO NA JUSTIÇA ELEITORAL
