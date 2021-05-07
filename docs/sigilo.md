@@ -1,4 +1,4 @@
-Os atos processuais são, em regra, públicos. Todavia, alguns processos correm em segredo de justiça, sendo limitado o acesso aos dados do processo às partes e a seus representantes. Além dos processos, podem também ser tratados como sigilosos documentos do processo. Na propositura da ação, o autor poderá requerer segredo de justiça para os autos processuais ou sigilo para um ou mais documentos ou arquivos do processo, através de indicação em campo próprio. Da mesma forma, em toda e qualquer petição poderá ser requerido sigilo para esta ou para documento ou arquivo a ela vinculado.
+Os atos processuais são, em regra, públicos. Todavia, alguns processos correm em segredo de justiça, sendo o acesso aos dados do processo limitado às partes e a seus representantes. Além dos processos, podem também ser tratados como sigilosos documentos do processo. Na propositura da ação, o autor poderá requerer segredo de justiça para os autos processuais ou sigilo para um ou mais documentos ou arquivos do processo, através de indicação em campo próprio. Da mesma forma, em toda e qualquer petição poderá ser requerido sigilo para esta ou para documento ou arquivo a ela vinculado.
 
 Outros processos, por suas próprias características, como classe ou assuntos, são tratados como sigilosos, a exemplo da Ação de Impugnação de Mandato Eletivo, nos termos do que prescreve o art. 14, § 11 da Constituição da República.
 
@@ -15,6 +15,8 @@ ZONAS ELEITORAIS
 Para as Zonas Eleitorais, em razão do menor número de usuários, foram fixados três níveis de acesso com os respectivos visualizadores:
 
 
+
+
 Nível de acesso um:
 
 a. juiz eleitoral;
@@ -28,6 +30,7 @@ d. Membros do Ministério Público, como fiscal da lei.
 
 
 
+
 Nível de acesso três:
 
 a. juiz eleitoral;  
@@ -35,6 +38,7 @@ a. juiz eleitoral;
 b. servidor;
 
 c. polo ativo e seus representantes.
+
 
 
 
@@ -144,9 +148,11 @@ b. é possível atribuir a visualização a mais de uma pessoa;
 
 c. para retirar a visualização, basta clicar na lixeira;
 
-d. o usuário somente consegue alterar o nível de segredo do processo se os níveis de segredo de justiça do processo e o nível de acesso do usuário forem compatíveis, ou seja, nível do usuário maior ou igual ao nível do processo;
+d. o usuário somente consegue alterar o nível de segredo do processo se os níveis de segredo de justiça do processo e o nível de acesso do usuário forem 
+compatíveis,ou seja, nível do usuário maior ou igual ao nível do processo;
 
-e. nas zonas eleitorais, embora sejam apenas 3 níveis, aparecerão, na alteração do nível do processo, os 5 níveis. Os usuários devem utilizar apenas os níveis 1, 3 e 5;
+e. nas zonas eleitorais, embora sejam apenas 3 níveis, aparecerão, na alteração do nível do processo, os 5 níveis. Os usuários devem utilizar apenas os 
+níveis 1, 3 e 5;
 
 f. O usuário que peticiona não escolhe o nível de segredo do processo, isso é configurado pelo administrador do sistema, nos termos descritos linhas acima;  
 
@@ -182,7 +188,7 @@ Para os processos sigilosos de nível 1 e 3, o Assessor de Plenário abrirá a v
 
 
 
-Níveis de Segredo das Classes Processuais no 1º Grau
+NÍVEIS DE SEGREDO DAS CLASSES PROCESSUAIS NO 1º GRAU
 
 
 
@@ -240,7 +246,7 @@ Nas classes processuais recursais, como recurso especial no TSE e recursos eleit
 
 
 
-Fixação do nível de sigilo para as novas classes habilitadas no PJE
+FIXAÇÃO DO NÍVEL DE SIGILO PARA AS NOVAS CLASSES HABILITADAS NO PJE
 
 
 A tabela abaixo mostra o nível de sigilo que a Comissão de Acompanhamento e Atualização das Tabelas Processuais 
@@ -282,6 +288,7 @@ aos assuntos que demandem competência especializada em matéria criminal.
 
 
 Fontes:
+
 
     1 Roteiro de utilização de sigilo e segredo de justiça - http://www.cnj.jus.br/wikipje.
     
