@@ -3,7 +3,6 @@ nav:
     - Home: 'index.md'
     - Dicas e Dúvidas Frequentes: 'dicas.md'
     - Configuração do Computador: 'configuracao_computador.md'
-    - Priorizar Chamado: 'prioridade.md'
     - Participe!: 'participe.md'
 plugins:
     - search:

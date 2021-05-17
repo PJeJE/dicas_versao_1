@@ -25,12 +25,6 @@ Sessões de compartilhamento de conhecimento com os servidores.
 | 16/10/2020 |  Minutar em lote | [Parte 1](https://www.dropbox.com/s/3w96wuamjhisk82/pje1g45965874363115%20on%202020-10-16%2017-34.mp4?dl=0) [Parte 2](https://www.dropbox.com/s/q346i6014b6t5xz/pje1g45965874363115%20on%202020-10-16%2018-17.mp4?dl=0)
 | 06/11/2020 |    Sessões - Publicar decisão em sessão e selecionar documentos para acórdão   |   [Parte 1](https://www.dropbox.com/s/q7tm6cbsrr5842u/pje2grauprimeirareuniaoaspje%20on%202020-11-06%2018-04.mp4?dl=0) [Parte 2](https://www.dropbox.com/s/q4pf7j9kym8poux/pje2grauprimeirareuniaoaspje%20on%202020-11-06%2018-26.mp4?dl=0) |
 
-
-## Priorizar Chamado
-
-Ferramenta destinada a pedidos de priorização no atendimento de chamados. O formulário somente pode ser preenchido por servidores dos Tribunais Regionais Eleitorais. É necessário fazer constar justificativa razoável para o pedido da priorização (ex.: problema técnico que impeça o peticionamento).
-
-[Link para a ferramenta.](prioridade.md)
 ## Participe!
 
 Tem uma nova dica pra gente? Tem melhorias e/ou gostaria de complementar alguma dica? Quer saber mais sobre alguma funcionalidade do sistema? O Dicas PJe foi criado para compartilharmos conhecimento!
