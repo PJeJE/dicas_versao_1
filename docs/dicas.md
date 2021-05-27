@@ -1084,7 +1084,7 @@ Portanto, reiteramos que NÃO se cadastre novas partes desnecessariamente, para 
 
 Essa orientação serve para todo o tipo de parte a ser criada: verifique se ela já existe no sistema. E, nos processos protocolados pelo público externo, adote o hábito de verificar se o cadastro feito pelo advogado está correto, caso contrário **RETIFIQUE** a autuação.
 
-## Manual de sigilo PJe
+# Manual de sigilo PJe
 
 [Clique e acesse](sigilo.md)
 
