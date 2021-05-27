@@ -290,12 +290,12 @@ aos assuntos que demandem competência especializada em matéria criminal.
 Fontes:
 
 
-    1 Roteiro de utilização de sigilo e segredo de justiça - http://www.cnj.jus.br/wikipje.
+1 Roteiro de utilização de sigilo e segredo de justiça - http://www.pje.jus.br/wiki/index.php/Roteiro_de_utiliza%C3%A7%C3%A3o_de_sigilo_e_segredo_de_justi%C3%A7a.
     
-    2 Ata da 1ª reunião do Grupo de Trabalho PJE Segredo de Justiça. 
+2 Ata da 1ª reunião do Grupo de Trabalho PJE Segredo de Justiça. 
     
-    3 Ata da 2ª reunião do Grupo de Trabalho PJE Segredo de Justiça.
+3 Ata da 2ª reunião do Grupo de Trabalho PJE Segredo de Justiça.
     
-    4 Ata da 1ª reunião da Comissão de Acompanhamento e Atualização das Tabelas Processuais Unificadas (TPU) da Justiça Eleitoral.
+4 Ata da 1ª reunião da Comissão de Acompanhamento e Atualização das Tabelas Processuais Unificadas (TPU) da Justiça Eleitoral.
     
-    5 Orientações sobre a funcionalidade de sigilo – Arquivo ASPJE.
+5 Orientações sobre a funcionalidade de sigilo – Arquivo ASPJE.
