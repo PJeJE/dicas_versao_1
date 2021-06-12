@@ -24,7 +24,7 @@
 * **Pronto!** Dentro de 5 minutos a nova versão estará no ar!
 
 
-## Formatação básica
+## Formatação Básica
 
 ### Títulos, subtítulos, seções e subseções
 
