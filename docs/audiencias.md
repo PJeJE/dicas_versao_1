@@ -4,11 +4,24 @@
 
 ### Quero marcar uma audiência (procedimento atual):
 
-Pelo "Analisar Determinação" / "Analisar Processos", selecione "Gerenciar Audiência"
+Pelo "Analisar Novo Processo - ZE", "Analisar Determinação - ZE" / "Analisar Processo - ZE", selecione "Gerenciar Audiência"
 
 Estando na tarefa "Gerenciar Audiência - ZE", você terá as opções: "Designar Audiência", "Verificar existência de audiência" e "Cancelar". Pelo "Cancelar", você retornará à tarefa anterior. Pelo "Designar Audiência", você poderá agendar audiência ou realizar audiências já agendadas.
 
-A tela será exibida com algumas opções, conforme descrito em http://www.pje.jus.br/wiki/index.php/Funcionalidades#Tarefas_de_audi.C3.AAncia, mas deve-se ir até o final da tela, no agrupador "Audiência". Vc poderá agendar uma nova audiência. Ao clicar em "Reservar sala", o sistema agendará a audiência gerando a movimentação de designação nos autos. 
+A tela será exibida com algumas opções, conforme descrito [na wiki do PJe](http://www.pje.jus.br/wiki/index.php/Funcionalidades#Tarefas_de_audi.C3.AAncia).
+
+![Tarefa](img/audiencia1.png)
+
+Deve-se ir até o final da tela, no agrupador "Audiência".
+
+![Marcação](img/audiencia2.png)
+
+Vc poderá agendar uma nova audiência apertando em "Reservar sala".
+
+![Reserva](img/audiencia3.png)
+
+ Ao clicar em "Reservar sala", o sistema agendará a audiência gerando a movimentação de designação nos autos. 
+ 
 
 ** Configurações necessárias para o correto funcionamento:
 
@@ -51,15 +64,13 @@ Ao finalizar, a audiência ficará marcada como finalizada. As seguintes opçõe
 Parâmetro "pje:audiencia:realizacaoEmFluxo" esteja marcado como "true"
 
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
 ## Novo procedimento (até 31/08/2021)
 
 ### Quero marcar uma audiência (novo procedimento):
 
 Pelo "Analisar Determinação" / "Analisar Processos", selecione "Audiências"
 
-Estando na tarefa "Audiências", pelo "Cancelar", você retornará à tarefa anterior. As opções da tela atual estão descritas em http://www.pje.jus.br/wiki/index.php/Funcionalidades#Tarefas_de_audi.C3.AAncia.
+Estando na tarefa "Audiências", pelo "Cancelar", você retornará à tarefa anterior. As opções da tela atual estão descritas [na wiki do PJe](http://www.pje.jus.br/wiki/index.php/Funcionalidades#Tarefas_de_audi.C3.AAncia.
 
 Para marcar uma nova audiência, deve-se ir até o final da tela, no agrupador "Audiência". Serão exibidas as opções de designação sugerida e designação manual. Selecione designação sugerida, o tipo de audiência e selecione "Procurar horário". O sistema exibirá o próximo horário disponível. Ao clicar em "Reservar sala", o sistema agendará a audiência gerando a movimentação de designação nos autos. 
 
