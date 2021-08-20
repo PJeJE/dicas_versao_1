@@ -2,7 +2,7 @@ Instruções sobre audiências
 
 # Procedimento atual no primeiro grau (até 31/08/2021)
 
-## Quero marcar uma audiência:
+## Quero marcar uma audiência (procedimento atual):
 
 Pelo "Analisar Determinação" / "Analisar Processos", selecione "Gerenciar Audiência"
 
@@ -23,7 +23,7 @@ Se já houver audiência marcada anteriormente não realizada, o usuário só co
 
 Deve ser configurada essa expressão em uma ação do evento entrar no nó.
 
-## Opções para audiências já designadas
+## Opções para audiências já designadas (procedimento atual)
 
 Após agendada, as audiências marcadas aparecerão no agrupador "Últimas audiências do processo". Na coluna "Ações" da tabela de audiências desse agrupador estarão disponíveis as seguintes opções:
 
@@ -38,7 +38,7 @@ Pela tarefa atual, o usuário tem a opção de "Retornar ao Gerenciar Audiência
 Parâmetro "pje:audiencia:realizacaoEmFluxo" esteja marcado como "true"
 
 
-## Quero realizar uma audiência já marcada:
+## Quero realizar uma audiência já marcada (procedimento atual):
 
 A partir da tarefa "Gerenciar Audiência - ZE", o usuário deve selecionar "Verificar existência de audiência". Se houver audiência pendente de realização, o sistema encaminhará o usuário para a tarefa "Informar Dados da Audiência - ZE". A tarefa permitirá que o usuário registre a realização da primeira audiência pendente de realização. O usuário poderá informar se a audiência foi realizada e, em caso afirmativo, os nomes do realizador e conciliador, assim como dados do acordo.
 
@@ -55,7 +55,7 @@ Parâmetro "pje:audiencia:realizacaoEmFluxo" esteja marcado como "true"
 
 # Novo procedimento (até 31/08/2021)
 
-## Quero marcar uma audiência:
+## Quero marcar uma audiência (novo procedimento):
 
 Pelo "Analisar Determinação" / "Analisar Processos", selecione "Audiências"
 
@@ -77,7 +77,7 @@ Se já houver audiência marcada anteriormente não realizada, o usuário só co
 
 Deve ser configurada essa expressão em uma ação do evento entrar no nó.
 
-## Opções para audiências já designadas
+## Opções para audiências já designadas (novo procedimento)
 
 Após agendada, as audiências marcadas aparecerão no agrupador "Últimas audiências do processo". Na coluna "Ações" da tabela de audiências desse agrupador estarão disponíveis as seguintes opções:
 
@@ -86,7 +86,7 @@ Após agendada, as audiências marcadas aparecerão no agrupador "Últimas audi�
 - Cancelamento
 - Converter em Diligência
 
-## Quero realizar uma audiência já marcada:
+## Quero realizar uma audiência já marcada (novo procedimento):
 
  O usuário deverá clicar em "Realização".
 
@@ -97,12 +97,12 @@ O sistema apresentará no final da tela um quadro denominado "REALIZAR AUDIÊNCI
 Caso o parâmetro "pje:audiencia:realizacaoEmFluxo" esteja marcado como "false".
 
 
-## "Finalizei a audiência, mas não houve movimento de realização".  
+## "Finalizei a audiência, mas não houve movimento de realização" (novo procedimento)
 
 O movimento de realização será lançado após o botão "Concluir" ser acionado. Caso o botão não seja acionado, o documento eventualmente produzido aparece nos autos, mas sem movimento associado. Nesse caso, na tarefa "Audiências" será apresentada a opção "Ata de audiência". A opção exibirá, no final da tela, os dados da realização e permitirá ao usuário clicar em "Proximo". A tela para construção do documento será exibida, mas o usuário deve clicar em "Concluir". O movimento será lançado nos autos vinculado ao documento já gerado.
 
 
-## "Finalizei a audiência, mas não fiz a ata"
+## "Finalizei a audiência, mas não fiz a ata" (novo procedimento)
 
 O documento da audiência será produzido quando a aba "Anexar documento a audiência". Caso o usuário não finalize a ata, mas já tiver informado os dados de realização, na tarefa "Audiências" será apresentada a opção "Ata de audiência". A opção exibirá, no final da tela, os dados da realização e permitirá ao usuário clicar em "Proximo" para construir o documento. Para finalizar, após assinatura, o usuário deve clicar em "Concluir".
 
