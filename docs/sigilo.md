@@ -1,21 +1,24 @@
+# Instruções sobre sigilo e segredo 
+
 Os atos processuais são, em regra, públicos. Todavia, alguns processos correm em segredo de justiça, sendo o acesso aos dados do processo limitado às partes e a seus representantes. Além dos processos, podem também ser tratados como sigilosos documentos do processo. Na propositura da ação, o autor poderá requerer segredo de justiça para os autos processuais ou sigilo para um ou mais documentos ou arquivos do processo, através de indicação em campo próprio. Da mesma forma, em toda e qualquer petição poderá ser requerido sigilo para esta ou para documento ou arquivo a ela vinculado.
 
 Outros processos, por suas próprias características, como classe ou assuntos, são tratados como sigilosos, a exemplo da Ação de Impugnação de Mandato Eletivo, nos termos do que prescreve o art. 14, § 11 da Constituição da República.
 
 
-SEGREDO OU SIGILO NA JUSTIÇA ELEITORAL
+## SEGREDO OU SIGILO NA JUSTIÇA ELEITORAL
 
 
 O TSE criou o Grupo de Trabalho PJe Segredo de Justiça, com o objetivo de definir os níveis de segredo de justiça dos processos de tramitação eletrônica para Justiça Eleitoral e definir o nível de segredo das classes e assuntos processuais. Esse grupo se reuniu em três eventos e dessas reuniões saíram as definições que colocamos aqui.
 
 
-ZONAS ELEITORAIS
+## ZONAS ELEITORAIS
 
 
 Para as Zonas Eleitorais, em razão do menor número de usuários, foram fixados três níveis de acesso com os respectivos visualizadores:
 
 
 
+### Níveis 
 
 Nível de acesso um:
 
@@ -28,9 +31,6 @@ c. polo ativo e seus representantes;
 d. Membros do Ministério Público, como fiscal da lei.
 
 
-
-
-
 Nível de acesso três:
 
 a. juiz eleitoral;  
@@ -40,14 +40,12 @@ b. servidor;
 c. polo ativo e seus representantes.
 
 
-
-
-
 Nível de acesso cinco:
 
 a. polo ativo e seus representantes;
 
 
+### Visualização de processos em segredo de justiça
 
 O sistema, no protocolo inicial do processo, utilizará as regras acima para estabelecer os visualizadores do processo.
 
@@ -73,17 +71,17 @@ Cabe salientar também, que colocar uma parte como sigilosa em um processo signi
 
 
 
-SEGREDO OU SIGILO DE DOCUMENTO
+### SEGREDO OU SIGILO DE DOCUMENTO
 
 
 
-O sigilo de documento pode ser solicitado no momento de anexar documentos no protocolo do processo, independentemente de o processo ser ou não sigiloso. Na aba “Incluir petições e documentos”, após digitar e salvar a petição inicial ao adicionar os documentos, o advogado pode clicar no botão “Sigiloso”. Dessa forma, apenas o documento escolhido vai ficar em sigilo até que o magistrado da causa decida se assim o mantém.           	
+O sigilo de documento pode ser solicitado no momento de anexar documentos no protocolo do processo, independentemente de o processo ser ou não sigiloso. Na aba “Incluir petições e documentos”, após digitar e salvar a petição inicial ao adicionar os documentos, o advogado pode clicar no botão “Sigiloso”. Dessa forma, apenas o documento escolhido vai ficar em sigilo até que o magistrado da causa decida se assim o mantém. 
 O sigilo de documento também pode ser solicitado sempre que um documento for juntado ao processo, através de indicação em campo próprio. Em toda e qualquer petição poderá ser requerido sigilo para esta ou para documento ou arquivo a ela vinculado. Requerido o sigilo de documento ou arquivo, este permanecerá sigiloso até que o magistrado da causa decida em sentido contrário, de ofício ou a requerimento da parte contrária (http://www.pje.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN455).
 É possível, ainda, conceder acesso ao documento sigiloso, o que ocorre nos autos digitais, opção “Segredo ou Sigilo” – Documentos – Visualizadores (Sinal de +)
 
 
 
-COMO ATRIBUIR NÍVEIS AOS PROCESSOS
+### COMO ATRIBUIR NÍVEIS AOS PROCESSOS
 
 
 
@@ -101,7 +99,7 @@ Ainda que a combinação competência X classe X assunto tenha configurada o ní
 
 
 
-ALTERAÇÃO DO NÍVEL DE SEGREDO
+### ALTERAÇÃO DO NÍVEL DE SEGREDO
 
 
 
@@ -120,7 +118,7 @@ A tarefa servirá para que o magistrado saiba que um processo de segredo 5 foi p
 
 
 
-COMO O MAGISTRADO ATRIBUI VISUALIZADOR
+### COMO O MAGISTRADO ATRIBUI VISUALIZADOR
 
 
 
@@ -161,7 +159,7 @@ g. Para que ao processo seja atribuído o nível de segredo que se deseja, é ne
 
 
 
-ATUAÇÃO DE JUIZ SUBSTITUTO EM PROCESSO SIGILOSO NAS ZONAS ELEITORAIS
+### ATUAÇÃO DE JUIZ SUBSTITUTO EM PROCESSO SIGILOSO NAS ZONAS ELEITORAIS
 
 
 
@@ -175,7 +173,7 @@ Não será possível impedir a visualização do juiz titular, a menos que o pro
 
 
 
-SEGREDO OU SIGILO DO PROCESSO NO 2º GRAU
+## SEGREDO OU SIGILO DO PROCESSO NO 2º GRAU
 
 
 
@@ -188,7 +186,7 @@ Para os processos sigilosos de nível 1 e 3, o Assessor de Plenário abrirá a v
 
 
 
-NÍVEIS DE SEGREDO DAS CLASSES PROCESSUAIS NO 1º GRAU
+## NÍVEIS DE SEGREDO DAS CLASSES PROCESSUAIS NO 1º GRAU
 
 
 
@@ -243,22 +241,13 @@ Nas classes processuais recursais, como recurso especial no TSE e recursos eleit
 |Petição Cível                                              |Não    |1                                                                      |
 
 
-
-
-
-FIXAÇÃO DO NÍVEL DE SIGILO PARA AS NOVAS CLASSES HABILITADAS NO PJE
+## FIXAÇÃO DO NÍVEL DE SIGILO PARA AS NOVAS CLASSES HABILITADAS NO PJE
 
 
 A tabela abaixo mostra o nível de sigilo que a Comissão de Acompanhamento e Atualização das Tabelas Processuais 
 Unificadas, TPU, da Justiça Eleitoral fixou para cada uma das novas classes habilitadas no PJE. Na mesma linha 
 do que já havia sido decidido no GT do Sigilo em reuniões anteriores, acordou-se em atribuir o nível 5 de sigilo
 aos assuntos que demandem competência especializada em matéria criminal.
-
-
-
-
-
-
 
 
 |CLASSE                                                     |CÓD.|NÍVEL DE SIGILO                                                        |ASSUNTOS COMP. ESPECIALIZADA    |NÍVEL DE SIGILO|
