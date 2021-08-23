@@ -6,7 +6,7 @@
 
 Pelo "Analisar Novo Processo - ZE", "Analisar Determinação - ZE" / "Analisar Processo - ZE" (e nas respectivas tarefas com processos urgentes), selecione "Audiências"
 
-Estando na tarefa "Audiências", pelo "Cancelar", você retornará à tarefa anterior. As opções da tela atual estão descritas [na wiki do PJe](http://www.pje.jus.br/wiki/index.php/Funcionalidades#Tarefas_de_audi.C3.AAncia.
+Estando na tarefa "Audiências", pelo "Cancelar", você retornará à tarefa anterior. As opções da tela atual estão descritas [na wiki do PJe](http://www.pje.jus.br/wiki/index.php/Funcionalidades#Tarefas_de_audi.C3.AAncia).
 
 ![Tarefa](img/audiencia1.png)
 
