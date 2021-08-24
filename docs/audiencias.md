@@ -146,9 +146,9 @@ dirigida_por - preenchido com o realizador da audiência. Exemplo: nome do magis
 data_hora - data da audiência. Se uma audiência é agendada no dia 23/08/2021 para ocorrer no dia 08/09/2021, às 13:30, o movimento informará "08/09/2021 13:30"
 local - nome do órgão julgador da audiência. Exemplo: 001ª ZONA ELEITORAL DE RIO BRANCO AC
 
-No caso da designação, como o realizador ainda não é conhecido, o PJe recupera o primeiro magistrado da lista de magistrados cadastrados com o cargo que recebe distribuição do órgão julgador do processo. 
+No caso da designação, o PJe atribuirá Juiz(a), de acordo com tabela do SGT.
 
-No caso da realização, o PJe preenche o realizador com o valor informado no registro da realização da audiência.
+No caso da realização, o PJe preenche o realizador com o valor Juiz(a) ou Conciliador(a), conforme perfil que o realizador tiver no sistema.
 
 ## Procedimento antigo no primeiro grau (até 31/08/2021)
 
