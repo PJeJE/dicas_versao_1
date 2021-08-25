@@ -872,6 +872,10 @@ Na construção de documentos, o usuário pode utilizar modelos preparados previ
 
 Outras referências de variáveis podem ser encontradas [aqui](variaveis.md).
 
+## Etiquetas
+
+[Clique e acesse](etiquetas.md)
+
 ## Papel para cadastrar etiqueta
 
 É por meio dos PAPEIS (Configuração / Controle de Acesso / Papeis) que se atribui essa permissão (o sistema chama isso de Recurso).
