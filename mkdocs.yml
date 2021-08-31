@@ -10,6 +10,8 @@ plugins:
     - exclude-search:
         exclude:
           - como_editar_pagina.md
+          - videoteste.md
+    - mkdocs-video:
 theme:
   name: material
   language: pt
