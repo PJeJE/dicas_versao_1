@@ -1,6 +1,6 @@
 # Instruções sobre audiências
 
-## Novo procedimento (até 31/08/2021)
+## Novo procedimento (a partir de 04/09/2021)
 
 ### Quero marcar uma audiência (novo procedimento):
 
@@ -150,7 +150,7 @@ No caso da designação, o PJe atribuirá Juiz(a), de acordo com tabela do SGT.
 
 No caso da realização, o PJe preenche o realizador com o valor Juiz(a) ou Conciliador(a), conforme perfil que o realizador tiver no sistema.
 
-## Procedimento antigo no primeiro grau (até 31/08/2021)
+## Procedimento antigo no primeiro grau (até 03/09/2021)
 
 ### Quero marcar uma audiência (procedimento antigo):
 
