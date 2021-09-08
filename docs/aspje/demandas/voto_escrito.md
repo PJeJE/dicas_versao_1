@@ -1,5 +1,7 @@
 # Voto Escrito dos Vogais em Paralelo
 
+[TOC]
+
 **Situação Atual da Demanda:** Disponível para homologação em [http://pje3g-ead.tse.jus.br:8080/pje-web/](http://pje3g-ead.tse.jus.br:8080/pje-web/)
 
 ## Envio para os Gabinetes
