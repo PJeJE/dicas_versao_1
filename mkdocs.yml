@@ -9,8 +9,7 @@ plugins:
         lang: pt
     - exclude-search:
         exclude:
-          - como_editar_pagina.md
-          - voto_escrito.md
+          - aspje/*
 
     - mkdocs-video:
 theme:
