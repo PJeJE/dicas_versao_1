@@ -1033,11 +1033,11 @@ Obrigatoriedade de informações adicionais para distribuição de processos de 
 |Substabelecimento|
 
 
-# Como Cadastrar o Ministério Público, Zonas Eleitorais e Tribunais Regionais Eleitorais nos processos:
+## Como cadastrar o Ministério Público, zonas eleitorais e Tribunais Regionais Eleitorais nos processos
 
-##  Como cadastrar o Ministério Público no Processo: 
+###  Como cadastrar o Ministério Público no processo 
 
-### Como pessoa jurídica:
+#### Como pessoa jurídica
 1.	Acesse o menu Cadastro de Processo;
 2.	Acesse “Partes”;
 3.	Clique na parte em que você quer cadastrar: Polo ativo, Polo passivo, Outros interessados.
@@ -1050,7 +1050,7 @@ Lembre-se sempre que o Ministério Público de todos os Estados já estão cadas
 
 No Distrito Federal o Ministério Público está cadastrado como Ministério Público do DF e Territórios.
 
-### Como ente ou autoridade:
+#### Como ente ou autoridade
 1.	Acesse menu Cadastro de Processo;
 2.	Acesse “Partes”;
 3.	Clique na parte em que você quer cadastrar: Polo ativo, Polo Passivo, Outros interessados.
@@ -1058,7 +1058,7 @@ No Distrito Federal o Ministério Público está cadastrado como Ministério Pú
 5.	No campo Tipo de Pessoa clique no botão “Ente ou autoridade”;
 6.	No campo Ente ou autoridade, digite: “ PROMOTOR ELEITORAL DO ESTADO (UNIDADE DA FEDERAÇÃO). 
 
-## Como cadastrar uma Zona Eleitoral no Processo:
+### Como cadastrar uma zona eleitoral no processo
 1.	Acesse menu Cadastro de Processo;
 2.	Acesse “Partes”;
 3.	Clique na parte em que você quer cadastrar: Polo ativo, Polo Passivo, Outros interessados.
@@ -1070,7 +1070,7 @@ Lembre-se que todas as Zonas eleitorais já estão devidamente cadastradas no si
 
 Portanto, solicitamos que NÃO se cadastre novas partes para Zonas Eleitorais.
 
-## Como cadastrar um Tribunal Regional no Processo:
+### Como cadastrar um Tribunal Regional no processo
 1.	Acesse menu Cadastro de Processo;
 2.	Acesse “Partes”;
 3.	Clique na parte em que você quer cadastrar: Polo ativo, Polo Passivo, Outros interessados.
@@ -1086,8 +1086,34 @@ Portanto, reiteramos que NÃO se cadastre novas partes desnecessariamente, para 
 
 Essa orientação serve para todo o tipo de parte a ser criada: verifique se ela já existe no sistema. E, nos processos protocolados pelo público externo, adote o hábito de verificar se o cadastro feito pelo advogado está correto, caso contrário **RETIFIQUE** a autuação.
 
-# Manual de sigilo PJe
+## Manual de sigilo PJe
 
 [Clique e acesse](sigilo.md)
 
+## Tipos de arquivos aceitos como anexo
 
+É permitido o envio de até 40 arquivos por vez. A tabela a seguir lista
+quais os tipos de arquivos aceitos, suas extensões e os tamanhos máximos permitidos.
+
+|  Tipo de Arquivo  | Extensão | Tamanho Máx. Permitido (MBytes) |
+|:------------------|:---------:|:--------------------------------:|
+| application/pdf	| .pdf | 	10 |
+| audio/mp4 | 	.m4a | 	5 |
+| audio/mpeg | 	.mp3 | 	5 |
+| audio/mpeg | 	.mpga | 	5 |
+| audio/ogg | 	.oga | 	5 |
+| audio/vorbis | 	.ogg | 	5 |
+| image/jpeg | 	jpg | 	5 |
+| image/png | 	.png | 	5 |
+| video/ogg | 	.ogv | 	10 |
+| video/mp4 | 	.mp4 | 	30 |
+| video/mpeg | 	.mpeg | 	10 |
+| video/quicktime | 	mov	 | 10 |
+| text/html | 	.html | 	1,5 |
+| audio/mpeg3 | 	.mpeg3 | 	5 |
+| audio/mp3 | 	.mp3 | 	5 |
+
+
+## Como parear seu celular com o Token PJe
+
+[Clique e acesse](tokenpje.md)
