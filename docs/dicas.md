@@ -211,6 +211,8 @@ O “Assessor de plenário” pode liberar o processo para ser visualizado no me
 
 O “Assessor de plenário” pode liberar o voto/documentos para que sejam visualizados por meio do menu “Púlpito de sustentação oral” em julgamentos de sessões não contínuas quando clicar no ícone de olho disponível nos processos que estão “Em julgamento” (ícone balancinha sendo exibido). Se o magistrado tiver liberado seu documento para visualização por meio da opção respectiva na tarefa, voto/documentos serão exibidos no “Púlpito de sustentação oral” 
 
+## Paineis de visualização das sessões para advogados e procuradores
+
 Orientação passada para o TSE quando foram disponilizados os paineis: 
 
 De ordem da assessora-chefe da Assessoria do PJe , informamos que a versão disponibilizada hoje no TSE, 18 de maio de 2020, contempla um painel aos advogados e ao ministério público para acompanhamento das sessões virtuais e por videoconferência. 
