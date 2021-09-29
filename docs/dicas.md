@@ -1,66 +1,66 @@
 [TOC]
 
 ## Cache do navegador
+Cache do browser ou cache do navegador é a memória local do seu computador.
 
-Muitas funcionalidades do PJe executam na própria máquina do usuário, e aí ficam alguns registros da funcionalidade guardados na memória da própria estação. Quando há atualização dessas funcionalidades, deve-se limpar a memória local para que as atualizações sejam recuperadas. Essa memória local é também chamada de cache do browser ou cache do navegador. Executar funcionalidades na máquina do usuário é uma tendência das aplicações web, com o objetivo de diminuir a dependência da capacidade de processamento dos servidores.
+Dados em cache são informações como imagens, scripts e outras partes de sites visitados, salvas temporariamente em navegadores de Internet como Chrome, Firefox ou Safari. Eles tornam a navegação mais rápida, já que recursos como fotos e documentos ficam salvos no computador do usuário. Muitas funcionalidades do PJe são executadas na própria máquina do usuário, onde ficam guardados registros na memória da própria estação.  Por conta disso, às vezes pode ser necessário limpar o cache, seja para liberar espaço em disco, para que alguns sites recarreguem o conteúdo ou quando você faz alguma atualização.
+
 
 ## Como limpar memória local do navegador (cache do browser)
 
-Acesse, no navegador, o ícone que fica no canto superior direito que contém três tracinhos horizontais 
-Selecione Preferências 
-Selecione o painel Privacidade e Segurança. 
-Na seção "Histórico", tem um botão "Limpar histórico" 
-Acione o botão e selecione a opção "tudo" com a marcação "cache", em seguida confirmando a limpeza. 
-Atualize a página do PJe. 
-Segue o sítio que contém essas orientações que passei sobre a limpeza do histórico: 
-https://support.mozilla.org/pt-BR/kb/como-limpar-cache-firefox 
+Acesse, no navegador, o ícone que fica no canto superior direito que contém três tracinhos horizontais:
+
+1.	Selecione Configurações. 
+2.	Selecione o painel Privacidade e Segurança. 
+3.	Na seção "Histórico", clique em "Limpar histórico". 
+4.	Acione o botão e selecione a opção "tudo" com a marcação "cache", e, em seguida, confirme a limpeza. 
+5.	Atualize a página do PJe. 
+
+Segue link sobre a limpeza do histórico: https://support.mozilla.org/pt-BR/kb/como-limpar-cache-firefox 
+ 
 
 ## Esqueci minha senha e senha bloqueada
 
-Por vezes o servidor gera uma nova senha para o usuário, que recebe um link para cadastrar uma nova senha em seu email. Ao acessar esse link, o usuário finaliza o cadastramento mas o sistema sinaliza que a senha está bloqueada. Nesses casos, o desbloqueio só ocorre se for utilizada a opção esqueci minha senha pelo próprio usuário. Ao passar essa orientação, o usuário às vezes tenta segui-la, mas se atrapalha com outros emails enviados com links de geração de senha e o problema não se resolve. Recomendamos fazer, então, o seguinte:
+Sempre recebemos muitos e-mails ou chamados são abertos para resolver problemas de usuários que não conseguem cadastrar uma nova senha. 
 
-1) Vai no cadastro da pessoa física, troca o email do usuário e coloca o seu próprio email 
-2) Em seguida, vá na tela inicial do pje e clique no link "esqueci minha senha". Na Tela aberta, digite o CPF do usuário e o seu e-mail 
-3) Acesse novamente seu e-mail para abrir o link de redefinição de senha. Você conseguirá cadastrar uma nova senha e desbloquear o cadastro do usuário
-4) Por fim, acesse novamente o cadastro do usuário e substitua o seu e-mail pelo email original da pessoa e clique no botão para gerar novo link de cadastro de senha para que ela possa gerar uma nova senha.
+Normalmente, o servidor gera uma nova senha para o usuário, que recebe um link para cadastrar uma nova senha em seu e-mail. Ao acessar esse link, o usuário finaliza o cadastramento, mas, às vezes, o sistema sinaliza que a senha está bloqueada. Nesses casos, o desbloqueio só ocorre se for utilizada a opção esqueci minha senha pelo próprio usuário. 
+
+Ao passar essa orientação para o usuário, este nem sempre consegue resolver e termina clicando mais de uma vez na opção esqueci minha senha e se atrapalha com vários e-mails enviados com links de geração de senha e o problema não se resolve. 
+
+Recomendamos, então, ao servidor, o seguinte:
+1) Ir ao cadastro da pessoa física, trocar o e-mail do usuário e colocar o seu próprio e-mail;
+2) Em seguida, ir à tela inicial do PJe e clicar no link "esqueci minha senha". Na Tela aberta, digitar o CPF do usuário e o seu e-mail;
+3) Acessar novamente seu e-mail para abrir o link de redefinição de senha. Você conseguirá cadastrar uma nova senha e desbloquear o cadastro do usuário;
+4) Por fim, acesse novamente o cadastro do usuário e substitua o seu e-mail pelo e-mail original da pessoa e clique no botão para gerar novo link de cadastro de senha para que ela possa gerar uma nova senha.
+
 
 ## Documentos não lidos 
 
-O PJe tem um controle bem antigo para sinalizar ao servidor que documentos novos foram incluídos pelo usuário externo. A possibilidade de se iniciar fluxo de petição avulsa nem sempre existiu e o controle era feito anteriormente por essa opção. 
+Controle que visa sinalizar ao servidor que documentos novos foram incluídos pelo usuário externo.
 
-Esse controle é só um aviso, ele não impede o usuário de ver o documento. 
+Esse controle é só um aviso, e para que o aviso não seja mais exibido, basta o usuário sinalizar que já viu o documento, não significando que ele efetivamente foi visto. Pode-se marcar que o documento foi lido sem nem ter aberto o documento. A marcação significa que o usuário quer que o aviso desapareça. Se o usuário abrir o documento, mas não marcar que já viu, o sistema vai continuar exibindo que há documentos não lidos. 
 
-Para que o aviso não seja mais exibido, o usuário sinaliza que já viu o documento, mas não significa que ele efetivamente foi visto. Pode-se marcar que o documento foi lido sem nem ter aberto o documento. A marcação significa que o usuário quer que o aviso desapareça. Se o usuário abrir o documento, mas não marcar que já viu, o sistema vai continuar exibindo que há documentos não lidos. 
+Mais informações sobre o comportamento da opção: http://www.pje.jus.br/wiki/index.php/Funcionalidades#Processos_com_documentos_n.C3.A3o_lidos 
 
-Esse aviso era exibido apenas por meio de um agrupador, que não utilizamos muito na Justiça Eleitoral, já que são muito onerosos para a performance. Todos os agrupadores são muito onerosos. 
 
-Outros tribunais utilizam bastante e queriam que o aviso aparecesse nos autos do processo. 
+## Atuação de Juiz Eleitoral Substituto na Zona Eleitoral e sigilo dos processos
 
-Por isso apareceu essa novidade, a partir da versão 2.1.2.6. 
+Quando um juiz eleitoral se declara suspeito, novo juiz é designado para o processo. Para que o juiz eleitoral substituto visualize apenas o processo para o qual foi designado, sem ter acesso a todos os outros processos da Zona Eleitoral, inclusive aos sigilosos, deve-se, na configuração do PJe,  em órgão julgador, na aba visibilidade, configurar a visibilidade apenas para o cargo dele (juiz substituto) e, caso o processo seja sigiloso, adicioná-lo como visualizador do processo. 
 
-Quando entrou em produção, como nunca utilizamos, todos os processos com documentos protocolados pelo usuário externo exibirão nos autos o aviso de documentos não lidos. 
+Esse procedimento é necessário porque na justiça eleitoral determinou-se, por definição negocial, que apenas o juiz titular receba distribuição. Assim, quando um juiz titular se considera suspeito para julgar determinado processo, a menos que o processo seja redistribuído a outro órgão julgador, não é possível impedir a visualização do juiz titular que se declarou suspeito, nem mesmo quando esse processo é sigiloso. 
 
-Mais informações sobre o comportamento da opção: 
 
-http://www.pje.jus.br/wiki/index.php/Funcionalidades#Processos_com_documentos_n.C3.A3o_lidos 
 
-## Juiz substituto - sigilo 
 
-Atuação de juiz substituto em processo sigiloso na zona 
 
-Exemplo de situação: O juiz de uma zona especializada (002ZE) se declarou suspeito. 
 
-Foi designado para atuar no processo o juiz titular da outra especializada (003ZE). 
 
-No sistema, para que cada zona concorra em igualdade de condições, e também porque não existe dois juízes ativos concomitantemente no mesmo juízo eleitoral, a distribuição foi configurada apenas com o cargo de juiz titular respondendo “Sim” para “recebe distribuição”. 
 
-Logo, esse processo em que ele se declarou suspeito foi distribuído para o cargo de juiz eleitoral titular. 
 
-O que pode ser feito para que o juiz designado não visualize os demais processos sigilosos (inclusive com nível 5) e enxergue apenas o feito para o qual ele foi indicado? 
 
-Resposta: Configurar a visibilidade do juiz substituto só pro cargo dele e adiciona ele como visualizador do processo. Ele terá acesso ao processo porque é visualizador e terá acesso às tarefas porque é juiz. 
 
-Resumo: se cadastrar um juiz no cargo Juiz Eleitoral Designado, limitar a visibilidade dele apenas a esse cargo e acrescentar seu cpf como visualizador do processo sigiloso, ele vai visualizar o processo na tarefa minutar ato, assim como o Juiz titular, mesmo que o processo seja nível 5. 
+
+
 
 ## Publicar em sessão
 
