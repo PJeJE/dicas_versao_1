@@ -240,32 +240,38 @@ Há um erro conhecido em processos migrados. Os documentos não aparecem na aba 
 
 
 
-## Selecionar documento para acórdão
+## Selecionar documentos para acórdão
 
 A tarefa Selecionar documentos para acórdão é apresentada no início do fluxo de elaboração do acórdão.
 
-O fluxo é iniciado automaticamente após o encerramento de julgamento do processo quando ele é julgado ou quando o usuário seleciona, por meio de tarefas que já tem disponível no seu perfil, para iniciar novo fluxo de acórdão.
+O fluxo é iniciado automaticamente após o encerramento do julgamento do processo ou quando o usuário seleciona, por meio de tarefas que já tem disponível no seu perfil, iniciar novo fluxo de acórdão.
 
-Por meio da tarefa, o usuário poderá fazer a vinculação manual dos documentos de um julgamento à respectiva sessão de julgamento, assim como selecionar quais documentos serão utilizadas para a produção do acórdão.
+Por meio da tarefa, o usuário poderá fazer a vinculação manual dos documentos de um julgamento à respectiva sessão de julgamento, como também selecionar quais documentos serão utilizados para a produção do acórdão.
 
-O objetivo é que a tarefa exiba:
-. Todos as pautas onde o processo tem registro e não foi excluído;
-. Todos os documentos dos tipos relatório, ementa e voto vinculados ao processo. Essas informações são exibidas em abas separadas. Assim, o usuário pode selecionar quais desses documentos serão o relatório, a ementa, o voto do relator, o voto do vencedor e os votos de vogais do acórdão a ser realizado, assim como para qual pauta será feito o acórdão. 
+O objetivo é que a tarefa exiba todas as pautas onde o processo tem registro e  os documentos do tipo relatório, ementa e voto vinculados ao processo. Essas informações são exibidas em abas separadas, assim o usuário pode selecionar quais desses documentos serão o relatório, a ementa, o voto do relator, o voto do vencedor e os votos de vogais do acórdão a ser realizado, assim como para qual pauta será feito o acórdão. 
+
 	
 
 ![Tarefa](img/acordao1.png)
 
-Como se pode ver pela área marcada, o registro contém:
-- O nome do órgão julgador que pautou o processo (Ministro Luís Roberto Barroso ao lado do campo de opção - círculo vazado)
-- A sessão junto com o voto vencedor (10/03/20 - Ministro Luís Roberto Barroso)
-- A situação ao final da sessão (Julgado)
-- A proclamação (Processo 1 - Relator ganhando com 1 julgamento somente)
-- O momento de inclusão na pauta (20/03/19 19h43)
 
+Como se pode ver pela área marcada, o registro contém:  
+
+1.   O nome do órgão julgador que pautou o processo (Ministro Luís Roberto Barroso ao lado do campo de opção - círculo vazado); 
+
+2.   A sessão junto com o voto vencedor (10/03/20 - Ministro Luís Roberto Barroso);
+
+3.   A situação ao final da sessão (Julgado); 
+
+4.  A proclamação (Processo 1 - Relator ganhando com 1 julgamento somente);
+
+5.  O momento de inclusão na pauta (20/03/19 19h43).
 
 Se houver recursos internos vinculados, o sistema também exibirá os dados do recurso. 
 
 As abas Ementa, Relatório, Voto Relator, Voto Vencedor e Acórdão permitem a seleção de apenas uma opção de documento, mas a seleção não é obrigatória. Dessa forma, se não houver seleção para uma determinada aba, ao enviar o processo para elaboração do acórdão a aba correspondente não terá documento previamente construído. Essa seleção refletirá na elaboração do acórdão desde que, após selecionadas todas as opções conjuntamente, o usuário utilize o botão "Salvar seleção". 
+ 
+ 
 
 ![Ementa](img/acordao7.png)
 
@@ -275,93 +281,128 @@ As abas Ementa, Relatório, Voto Relator, Voto Vencedor e Acórdão permitem a s
 
 ![Vencedor](img/acordao9.png)
 
+
 Para cada documento, serão exibidas as informações:
 
-- Identificador do documento -> esse número é o mesmo número pelo qual o documento pode ser visto, caso o usuário tenha permissão, na lista de documentos nos autos. 
-- O nome do usuário que incluiu o documento e o setor de inclusão do documento
-- Localização -> as lotações que o usuário que incluir o documento tinha no momento da inclusão
-- Sessão - Órgão julgador -> A sessão à qual o documento está vinculado e o órgão julgador vinculado ao documento
-- Um ícone de visualização do documento
-- Um ícone para sinalizar que o documento já foi assinado, quando for o caso (cadeado fechado)
-- Um ícone para permitir ajustar órgão julgador do documento (lápis)
-- Um ícone para permitir desvincular órgão e sessão do documento (lixeira)
-
-Para o caso das abas de voto, também é exibida indicação do voto. Por exemplo, "Nego provimento".
+1.  Identificador do documento: esse número é o mesmo número pelo qual o documento pode ser visto, caso o usuário tenha permissão, na lista de documentos nos autos;
+  
+2.  O nome do usuário que incluiu o documento e o setor de inclusão do documento;
+  
+3.  Localização: as lotações que o usuário que incluiu o documento tinha no momento da inclusão;
+ 
+4.  Sessão/ Órgão julgador:  a sessão à qual o documento está vinculado e o órgão julgador vinculado ao documento;
+  
+5.  Um ícone de visualização do documento;
+  
+6.  Um ícone para sinalizar que o documento já foi assinado, quando for o caso (cadeado fechado);
+  
+7.  Um ícone para permitir ajustar órgão julgador do documento (lápis);
+  
+8. Um ícone para permitir desvincular órgão e sessão do documento (lixeira);
+ 
+Nas abas de voto também é exibida indicação do voto. Por exemplo, "Nego provimento".
 
 A aba de votos vogais permite a seleção de mais de um documento. 
 
+
 ![Relatório](img/acordao11.png)
 
-As regras que determinam o funcionamento das abas são as seguintes:
 
-1 - As abas de votos (voto relator, voto vencedor e votos vogais) exibirão sempre o mesmo conteúdo, ou seja, todos os documentos construídos e não excluídos da instância atual cujos tipos sejam os configurados nos parâmetros: idTipoProcessoDocumentoVoto, pje:painel:magistrado:sessao:tiposVotoVogal:ids e pje:flx:votacaoVogal:tiposVoto:ids. A aba de ementa trará todos os documentos do tipo configurado no parâmetro idTipoProcessoDocumentoEmenta, a aba relatório trará todos os documentos do tipo configurado no parâmetro idTipoProcessoDocumentoRelatorio e a aba acórdão trará todos os documentos do tipo configurado no parâmetro idTipoProcessoDocumentoAcordao.
+As abas de votos (voto relator, voto vencedor e votos vogais) exibirão sempre o mesmo conteúdo, ou seja, todos os documentos construídos e não excluídos da instância atual cujos tipos sejam os configurados nos parâmetros: idTipoProcessoDocumentoVoto, pje:painel:magistrado:sessao:tiposVotoVogal:ids e pje:flx:votacaoVogal:tiposVoto:ids. 
 
-2 - O ícone de lixeira desvincula o documento correspondente à sessão/órgão julgador vinculados.
+A aba de ementa trará todos os documentos do tipo configurado no parâmetro: idTipoProcessoDocumentoEmenta.
+
+A aba relatório trará todos os documentos do tipo configurado no parâmetro: idTipoProcessoDocumentoRelatorio.
+
+ A aba acórdão trará todos os documentos do tipo configurado no parâmetro: idTipoProcessoDocumentoAcordao.
+ 
+O ícone de lixeira desvincula o documento correspondente à sessão/órgão julgador vinculados.
+
 
 ![Desvincular](img/acordao5.png)
 
 ![Confirmar](img/acordao6.png)
 
-3 - O ícone de lápis permite que o documento correspondente seja vinculado a um órgão julgador
+
+O ícone de lápis permite que o documento correspondente seja vinculado a um órgão julgador.
 
 ![Ajustar](img/acordao3.png)
 
 ![Órgão](img/acordao4.png)
 
-4 - O ícone de seleção permite a visualizaçao do conteúdo do documento
+O ícone de seleção permite a visualizaçao do conteúdo do documento.
+
 
 ![Visualizar](img/acordao2.png)
 
-5 - O ícone de cadeado fechado permite a visualização dos assinadores do documento, quando existirem
+O ícone de cadeado fechado permite a visualização dos assinadores do documento, quando existirem.
+
 
 ![Cadeado](img/acordao12.png)
 
-6 - Caso não seja selecionado um acórdão na aba correspondente, o sistema criará um documento de acórdão em branco e o utilizará na tarefa seguinte.
 
-7 - Na tarefa de elaboração do acórdão, a aba de seleção de documentos para o acórdão, além dos documentos já carregados pela regra atual, incluirá os documentos que tenham sido marcados na tarefa de seleção de documentos.
+1. Caso não seja selecionado um acórdão na aba correspondente, o sistema criará um documento de acórdão em branco e o utilizará na tarefa seguinte.
 
-8 - Caso alguma aba da tarefa Selecionar documentos para acórdão não tenha seleção de documento correspondente, o elaborar acórdão deverá carregar, em lugar do documento não selecionado, um documento em branco para que o usuário possa construir um novo, de acordo com as permissões já existentes na elaboração de acórdão. 
+2. Na tarefa de elaboração do acórdão, a aba de seleção de documentos para o acórdão, além dos documentos já carregados pela regra atual, incluirá os documentos que tenham sido marcados na tarefa de seleção de documentos.
 
-Ao selecionar "Salvar seleção", o sistema notificará o usuário sobre a seleção realizada. O alerta avisará quais abas não tiveram documentos selecionados. É só um alerta. 
+3.  Caso alguma aba da tarefa Selecionar documentos para acórdão não tenha seleção de documento correspondente, o elaborar acórdão deverá carregar, em lugar do documento não selecionado, um documento em branco para que o usuário possa construir um novo, de acordo com as permissões já existentes na elaboração de acórdão. 
+
+4.  Ao selecionar "Salvar seleção", o sistema notificará o usuário sobre a seleção realizada. O alerta avisará quais abas não tiveram documentos selecionados. É só um alerta. 
+ 
 
 ![Alerta](img/acordao13.png)
 
-Ao selecionar "Não", o sistema não gravará a seleção. Ao selecionar "Sim", o sistema exibirá uma mensagem notificando as divergências relacionadas à seleção. 
+5. Ao selecionar "Não", o sistema não gravará a seleção. Ao selecionar "Sim", o sistema exibirá uma mensagem notificando as divergências relacionadas à seleção. 
 
 ![Divergência](img/acordao14.png)
 
-As possíveis divergências são notificarão o usuário quando:
 
-- Voto do relator não for do gabinete que pautou o processo
-- Relatório não for do gabinete que pautou o processo
-- Voto do vencedor não for do gabinete vencedor do julgamento
-- Votos de vogais estiverem vinculados ao gabinete que pautou o processo
-- Ementa não for do gabinete vencedor do julgamento
-- Acórdão não for do gabinete vencedor do julgamento
-- Documentos não estiverem vinculados à sessão ou estiverem vinculados à sessão distinta da sessão selecionada
+As possíveis divergências serão notificadas ao usuário quando:
+
+•	O voto do relator não for do gabinete que pautou o processo;
+
+•	O relatório não for do gabinete que pautou o processo;
+
+•	O voto do vencedor não for do gabinete vencedor do julgamento;
+
+•	Os votos de vogais estiverem vinculados ao gabinete que pautou o processo;
+
+•	A ementa não for do gabinete vencedor do julgamento;
+
+•	O acórdão não for do gabinete vencedor do julgamento;
+
+•	Os documentos não estiverem vinculados à sessão ou estiverem vinculados à sessão distinta da sessão selecionada.
 
 O usuário poderá selecionar "Cancelar" para desistir da seleção. Pode selecionar "Prosseguir sem ajustar informações", o que, em alguns casos, fará com que os documentos selecionados possam não ser devidamente carregados na tarefa seguinte. Ao selecionar "Prosseguir ajustando informações", o sistema vinculará todos os documentos à sessão selecionada.
+Não selecionando o botão "Cancelar", o sistema exibirá a mensagem de que a seleção foi gravada com sucesso.
 
-Não selecionando o "Cancelar", o sistema exibirá a mensagem de que a seleção foi gravada com sucesso.
 
 ![Divergência](img/acordao15.png)
 
+
 As atualizações realizadas podem não estar disponíveis ainda nas abas. Atualize a página para poder verificar, caso tenha solicitado "Prosseguir ajustando informações".
 
-O usuário poderá selecionar, pelos três pontinhos da tarefa, para prosseguir por meio do "Elaborar acórdão ou resolução" ou "Iniciar novo fluxo de acórdão", caso tenha mais de um acórdão para construir.
+O usuário poderá selecionar, pelos três pontinhos da tarefa, prosseguir por meio do "Elaborar acórdão ou resolução" ou "Iniciar novo fluxo de acórdão", caso tenha mais de
+um acórdão para construir.
+
 
 
 ## Perfil de consulta  
 
-No ambiente do primeiro grau, há um perfil de servidor chamado "Consulta de processos para servidor de outra instância". Nesse perfil, só é permitida a consulta processual. Não é possível consultar processos sigilosos. O cadastro dos usuários vinculado a esse perfil deve ser feito pela funcionalidade "Configuração - Pessoa - Servidor", selecionando órgão julgador ou selecionando estado e selecionando, na opção Papel, o nome desse perfil.
+No ambiente do primeiro grau, há um perfil de servidor chamado "Consulta de processos para servidor de outra instância". Nesse perfil só é permitida a consulta processual
+e não é possível consultar processos sigilosos.  O cadastro dos usuários vinculados a esse perfil  deve  ser feito pela funcionalidade  "Configuração/Pessoa/Servidor", selecionando órgão julgador ou selecionando estado e na opção Papel, o nome desse perfil.
 
 Para o ambiente do segundo grau, os servidores administradores podem fazer o cadastro do perfil. 
 
-Em "Configuração - Controle de Acesso - Papeis", criar um novo papel com o nome "Consulta de processos para servidor de outra instância" e identificador "consulta". Depois de criado, vai na aba "Herdeiros" desse papel e vincula o papel "Colaborador". Depois vai na aba "Recursos"  associa o recurso "Página Processo/Consulta/Consulta de Processo".
+Em "Configuração - Controle de Acesso - Papeis", criar um papel com o nome "Consulta de processos para servidor de outra instância" com identificador "consulta". Depois de criado, na aba "Herdeiros" desse papel vincula o papel "Colaborador" e na aba "Recursos" associa o recurso "Página Processo/Consulta/Consulta de Processo".
 
-O cadastro dos usuários vinculado a esse perfil deve ser feito de forma similar ao primeiro grau, ou seja, pela funcionalidade "Configuração - Pessoa - Servidor", selecionando órgão julgador ou não, selecionando Colegiado ou não, selecionando na localização a opção Tribunal Regional Eleitoral e, na opção Papel, o nome desse perfil.
+O cadastro dos usuários vinculados a esse perfil deve ser feito de forma similar ao primeiro grau, ou seja, pela funcionalidade "Configuração/ Pessoa/Servidor", selecionando órgão julgador ou não, selecionando Colegiado ou não, selecionando em localização a opção Tribunal Regional Eleitoral e, na opção Papel, o nome desse perfil.
+
+
+
 
 ##  Prazo em horas 
+
 
 O prazo em horas, no PJe,  tem problemas que necessitam de correção, e enquanto elas não vêm, a recomendação é que se converta em dias.
 
@@ -592,36 +633,34 @@ Siga o passo a passo e, em caso de eventuais dúvidas, envie um email para <aspj
 
 ## Definir revisor 
 
-Um processo, ao ser protocolado, vai incluir o nome do revisor automaticamente se a classe tiver marcada como exige revisor. Nesse caso, na configuração do órgão julgador colegiado, temos que colocar quem é o revisor padrão de cada gabinete. 
 
- 
-Se for facultativo, ele pode ter ou não o revisor. 
+Um processo, ao ser protocolado, vai incluir o nome do revisor automaticamente, se a classe tiver marcada como exige revisor. Nesse caso, na configuração do órgão julgador colegiado, temos que colocar quem é o revisor padrão de cada gabinete. 
 
- 
+Se a classe estiver marcada com revisão facultativa, o processo pode ter ou não revisor.  
+
 Após o protocolo de processos, dependendo da atualização do fluxo, existe uma tarefa depois do analisar determinação que permite a determinação do revisor para processos cujas classes tenham revisão marcada como facultativa. Se assim estiver, a tarefa permite que se marque ou desmarque que o processo exige revisão e também permite que o revisor seja alterado. 
  
-
-Você poderá verificar o nome do revisor pelos autos digitais, na opção de exibir mais detalhes do cabeçalho 
+Você poderá verificar o nome do revisor pelos autos digitais, na opção de exibir mais detalhes do cabeçalho. 
 
 Quando um processo está no fluxo de colegiadas, na tarefa “Conferir relatório, voto e ementa”, o sistema verifica se o processo exige revisor, e isso foi selecionado no protocolo, ou se o processo tem uma classe que a revisão é facultativa. Se uma dessas condições for satisfeita, aparece uma transição para que o usuário envie o processo para o revisor, que será o que aparece nos autos. 
 
 Quando a classe exige revisão, o processo só poderá ser pautado se o revisor tiver incluído o voto. 
 
-Para corrigir um revisor no processo utilizando a tarefa, deve-se colocar o revisor correto na configuração do colegiado, depois marcar a classe com "exige revisor" facultativo, depois colocar o processo, a partir do analisar determinação, na tarefa de definir o revisor. Na tarefa, alterar as marcações (exige revisor e nome do revisor) e, por fim, deixe selecionado o revisor correto, retornando depois o processo para analisar determinação. FAÇA ALTERAÇÕES gerais na tela para garantir que o sistema atualizará a definição de acordo com o valor selecionado, já que a tarefa não tem o botão salvar e a alteração será refletida após tramitação quando o sistema detecta que houve mudança. 
+Para corrigir um revisor no processo utilizando a tarefa, deve-se colocar o revisor correto na configuração do colegiado, depois marcar a classe com "exige revisor" facultativo, depois colocar o processo, a partir do analisar determinação, na tarefa de definir o revisor. Na tarefa, alterar as marcações (exige revisor e nome do revisor) e, por fim, deixe selecionado o revisor correto, retornando depois o processo para analisar determinação. FAÇA ALTERAÇÕES gerais na tela para garantir que o sistema atualizará a definição de acordo com o valor selecionado, já que a tarefa não tem o botão salvar e a alteração será refletida após tramitação quando o sistema detecta que houve mudança.  
+Pode ocorrer também a situação em que o processo tem uma classe que exige revisão, mas o julgamento será do recurso. O procedimento correto é marcar facultativo para exige revisão na classe e pautar o processo após o procedimento. Nesse caso, quem envia o processo para a pauta é o relator, não o revisor. Depois, pode-se alterar a classe de volta. Se o processo já tiver sido pautado, pode-se fazer o seguinte: 
 
-Há também a situação em que o processo tem uma classe que exige revisão, mas o julgamento será do recurso. O procedimento correto é marcar o facultativo para exige revisão na classe e pautar o processo após o procedimento. Nesse caso, quem envia o processo para a pauta é o relator, não o revisor. Depois, pode-se alterar a classe de volta. Se o processo já tiver sido pautado, pode-se fazer o seguinte: 
+-  Tirar da sessão: para processo com pauta fechada, o sistema gerará a certidão de cancelamento de pauta; 
 
-·         Tirar da sessão: Para processo com pauta fechada, o sistema gerará a certidão de cancelamento de pauta; 
+-  Marcar a classe como facultativo, em “exige revisor”;
 
-·         Marcar facultativa a classe para “Exigir Revisor”: Feito. 
+-  Ir na tarefa “Analisar determinação”: Pode-se cancelar a decisão colegiada e remeter o processo para SJD. Os documentos construídos de voto, relatório e ementa não serão perdidos. 
 
-·         Ir na tarefa “Analisar determinação”: Pode-se cancelar a decisão colegiada e remeter o processo para SJD. Os documentos construídos de voto, relatório e ementa não serão perdidos. 
+- Tirar o revisor pela tarefa;
 
-·         Tirar o revisor pela tarefa. 
+-  Colocar na sessão novamente: Adicionar por mesa na sessão de julgamento. 
 
-·         Coloca na sessão novamente: Adicionar por mesa na sessão de julgamento. 
+Dessa forma, pode-se alterar a ordem de votação do processo, já que com o revisor, o sistema não permite. 
 
- Dessa forma, pode-se alterar a ordem de votação do processo, já que com o revisor, o sistema não permite. 
  
 
 ## Advogado não validado
@@ -645,17 +684,14 @@ A diferença entre elas é que as partes baixadas ainda podem ser utilizadas com
 
 
 
-## Intimação sistema - defensoria 
+## Intimação de pessoa representada por defensoria 
 
- Intimação de pessoa representada por defensoria 
+Não há restrições para se intimar via sistema uma pessoa física vinculada a uma defensoria, desde que pelo menos um defensor tenha feito o login. Se a pessoa física tiver o cadastrado validado, o sistema também permitirá o envio eletrônico. A intimação eletrônica de partes vinculadas à defensoria é permitida. Não há restrições técnicas para se intimar via sistema uma pessoa física vinculada a uma defensoria. 
 
-Não há restrições para se intimar via sistema uma pessoa física vinculada a uma defensoria, desde que pelo menos um defensor tenha feito o login direitinho. Se a pessoa física tiver o cadastrado validado, o sistema também permitirá o envio eletrônico. **A intimação eletrônica de partes vinculadas a defensoria é permitida sim. Então não há restrições para se intimar via sistema uma pessoa física vinculada a uma defensoria, desde que pelo menos um defensor tenha feito o login direitinho.** 
 
-## Máscara - classe 
+## Campo máscara no preenchimento de configuração da classe 
 
-Campo máscara no preenchimento de configuração da classe 
-
-O campo de máscara na configuração da classe judicial é para quando é marcada a opção anterior de processo referência. Significa que ao digitar o número do processo referência, o sistema vai colocar máscara, fazendo com que pontinhos e tracinhos apareçam no lugar certo 
+O campo de máscara  na  configuração da classe judicial é para quando é marcada a opção anterior de processo referência.   Significa que ao digitar o número do processo referência, o sistema vai colocar máscara, fazendo com que pontinhos e tracinhos apareçam no lugar certo. 
 
 ## Sobre distribuição e pesos
 
@@ -707,16 +743,16 @@ Após finalizada essa etapa, você deve vincular o magistrado como titular do ó
 
 
 
-
+## Audiências
 [Clique e acesse](audiencias.md)
+
 
 ## Unificação de pessoas  
 
-A unificação de pessoas existe para que partes cadastradas repetidas vezes possam ser unificadas no mesmo cadastro. Dessa forma, fica valendo o cadastro principal e os outros que o usuário vincular serão enxergados como a mesma pessoa. Pode-se fazer isso com pessoa físicas, jurídicas ou entes. Os processos onde as pessoas unificadas estiverem cadastradas como partes serão todos refletidos de forma a prevalecer o cadastro principal. A unificação tem volta, ou seja, se você unificou um cadastro e percebeu que não era isso que você queria fazer, pode desunificar. No entanto, se em um processo há uma parte cadastrada com a pessoa principal e a pessoa sendo unificadas, a desunificação não será possível para esse caso não será possível. 
+A unificação de pessoas existe para que partes cadastradas repetidas vezes possam ser unificadas no mesmo cadastro. Dessa forma, fica valendo o cadastro principal e os outros que o usuário vincular serão enxergados como a mesma pessoa. Pode-se fazer isso com pessoas físicas, jurídicas ou entes. Os processos em que as pessoas unificadas estiverem cadastradas como partes serão todos refletidos de forma a prevalecer o cadastro principal. A unificação tem volta, ou seja, se você unificou um cadastro e percebeu que não era isso que você queria fazer, pode desunificar através do "Desunificar"  que fica no menu Atividades. 
 
-O botão "Unificar" presente no cadastro dos tipos de pessoa citados permitirá que se faça uma pesquisa e recupere que outras pessoas serão vinculadas àquele cadastro. Ao final da pesquisa, o usuário poderá finalizar a unificação. 
+No entanto, se em um processo há outra parte cadastrada com a pessoa unificada, a desunificação não será possível. 
 
-O "Desunificar" fica no menu Atividades 
 
 ## Publicações no DJe – sigilo
 
