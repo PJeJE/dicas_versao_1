@@ -1,9 +1,11 @@
 [TOC]
 
 ## Cache do navegador
+
 Cache do browser ou cache do navegador é a memória local do seu computador.
 
 Dados em cache são informações como imagens, scripts e outras partes de sites visitados, salvas temporariamente em navegadores de Internet como Chrome, Firefox ou Safari. Eles tornam a navegação mais rápida, já que recursos como fotos e documentos ficam salvos no computador do usuário. Muitas funcionalidades do PJe são executadas na própria máquina do usuário, onde ficam guardados registros na memória da própria estação.  Por conta disso, às vezes pode ser necessário limpar o cache, seja para liberar espaço em disco, para que alguns sites recarreguem o conteúdo ou quando você faz alguma atualização.
+
 
 
 ## Como limpar memória local do navegador (cache do browser)
@@ -18,6 +20,7 @@ Acesse, no navegador, o ícone que fica no canto superior direito que contém tr
 
 Segue link sobre a limpeza do histórico: https://support.mozilla.org/pt-BR/kb/como-limpar-cache-firefox 
  
+
 
 ## Esqueci minha senha e senha bloqueada
 
@@ -34,6 +37,7 @@ Recomendamos, então, ao servidor, o seguinte:
 4) Por fim, acesse novamente o cadastro do usuário e substitua o seu e-mail pelo e-mail original da pessoa e clique no botão para gerar novo link de cadastro de senha para que ela possa gerar uma nova senha.
 
 
+
 ## Documentos não lidos 
 
 Controle que visa sinalizar ao servidor que documentos novos foram incluídos pelo usuário externo.
@@ -41,6 +45,7 @@ Controle que visa sinalizar ao servidor que documentos novos foram incluídos pe
 Esse controle é só um aviso, e para que o aviso não seja mais exibido, basta o usuário sinalizar que já viu o documento, não significando que ele efetivamente foi visto. Pode-se marcar que o documento foi lido sem nem ter aberto o documento. A marcação significa que o usuário quer que o aviso desapareça. Se o usuário abrir o documento, mas não marcar que já viu, o sistema vai continuar exibindo que há documentos não lidos. 
 
 Mais informações sobre o comportamento da opção: http://www.pje.jus.br/wiki/index.php/Funcionalidades#Processos_com_documentos_n.C3.A3o_lidos 
+
 
 
 ## Atuação de Juiz Eleitoral Substituto na Zona Eleitoral e sigilo dos processos
@@ -51,42 +56,29 @@ Esse procedimento é necessário porque na justiça eleitoral determinou-se, por
 
 
 
+## Publicar em sessão de julgamento 
 
+Em sessão podemos publicar acórdão ou certidão de julgamento. 
 
+No papel de assessor de plenário, deve-se ir ao menu "Audiência e Sessões" - "Publicação de decisões em sessão". 
 
+Ao entrar na tela, deve-se selecionar uma data de sessão e mandar pesquisar. As sessões que tiverem acórdão ou certidão de julgamento associados retornarão na pesquisa. 
 
+Depois, deve-se preencher, na linha do(s) processo(s) correspondente que se quer publicar as opções da publicação: data, tipo do prazo, o prazo. Se houver dois documentos, ou seja, o acórdão e a certidão, na coluna Documento deve-se marcar qual se quer publicar. Geralmente a certidão já vem marcada. Os processos que serão publicados devem estar selecionados por meio da caixa de seleção da primeira coluna. 
 
+Os documentos só aparecerão se estiverem devidamente vinculados à sessão e se estiverem assinados. Depois de tudo pronto, deve-se selecionar o botão salvar e depois o publicar.  
 
+Por meio dessa mesma tela, o usuário pode publicar em sessão decisões monocráticas. O procedimento é o mesmo, mas para que as decisões apareçam na consulta, o gabinete tem que usar uma tarefa específica sinalizando que a decisão monocrática deve ser  publicada. 
 
-
-
-
-
-## Publicar em sessão
-
-Sobre publicação do acórdão em sessão, a partir da mesma opção pode-se publicar o acórdão ou a certidão de julgamento. Os documentos só aparecerão se estiverem devidamente vinculados à sessão e se estiverem assinados. 
-
-Como assessor de plenário, deve-se ir no menu "Audiência e Sessões" - "Publicação de decisões em sessão" 
-
-Ao entrar na tela, ele deve selecionar uma data de sessão e mandar pesquisar. As sessões que tiverem acórdão ou certidão de julgamento associados retornarão na pesquisa. 
-
-Depois ele vai preencher, na linha do(s) processo(s) correspondentes que ele quer publicar as opções da publicação: data, tipo do prazo, o prazo em si. Se houver dois documentos, ou seja, o acórdão e a certidão, na coluna Documento ele precisa marcar qual que ele quer. Geralmente a certidão já vem marcada. Os processos que serão publicados devem estar selecionados por meio da caixa de seleção da primeira coluna. 
-
-Depois de tudo pronto, ele deve selecionar o botão salvar e depois ele seleciona o publicar 
-
-O botão publicar, até a versão 2.0.0.0.71, só habilita quando a url do parâmetro PJE_JE_SERVICOS_WSDL estiver disponível. O erro foi corrigido nas versões posteriores.
-
-Por meio dessa mesma tela, o usuário poderia publicar em sessão decisões monocráticas. Seria o mesmo procedimento, mas para que as decisões aparecessem na consulta, o gabinete teria que ter usado uma tarefa específica sinalizando que a decisão monocrática seria publicada. 
-
-Depois de finalizado tudo, o PJe gera uma intimação para as partes envolvidas de acordo com o que foi preenchido. De acordo com parâmetros configurados, ou seja, 
+Depois de tudo finalizado, o PJe gera uma intimação para as partes envolvidas de acordo com o que foi preenchido, com os parâmetros configurados, ou seja:  
 
 - pje:intimarEmSessaoColegiada:fiscalDaLei - Notifica que o fiscal da lei será intimado nas publicações em sessão de decisões colegiadas
 	
 - pje:intimarEmSessaoMonocratica:fiscalDaLei - Notifica que o fiscal da lei será intimado nas publicações em sessão de decisões monocrátivas
-		
-o Ministério Público como fiscal da lei pode não ser intimado. No caso do TSE, ele não é para decisões colegiadas. 
 
-Há um defeito conhecido quando a pesquisa retorna muitos processos e o usuário seleciona para publicação processos de páginas posteriores à primeira no resultado da pesquisa. A solução de contorno é restringir a pesquisa de forma que o resultado não venha paginado para evitar o erro na publicação.
+O Ministério Público, como fiscal da lei, pode não ser intimado (de forma automática), salvo pela própria publicação. 
+
+
 
 ## Intimação de pauta 
 
@@ -143,6 +135,7 @@ Para processos da justiça eleitoral:
     municipio 
 
 
+
 ## Problemas com sessão na 2.0 
 
  -  Fluxo com órgão julgador deslocado temporariamente (substituição por recesso, por exemplo, ou Recurso Extraordinário no TSE) : O órgão julgador responsável não consegue salvar o voto, dá um erro e fica gerando um monte de cópia do voto. Pode-se verificar as cópias no item Documentos dos autos. 
@@ -171,73 +164,81 @@ Pode ser que ocorram problemas se for necessário retificar voto de relator desl
 
 -  Processo não aparecer para ser incluído em mesa mesmo após sessão anterior ser finalizada em geral, é porque o processo está em outra sessão. Se não tem outra sessão em andamento, é porque o cara deixou o processo em uma sessão antiga e inativou a sessão (isso era possível antes da versão 2.0.0.0.64). Para pesquisar em que sessões o processo está, utilizem o menu Audiência e sessões - Processos pautados em sessão. 
 
-## Documentos da sessão
 
-Visualização de documentos da sessão - Votos antes da sessão, Visualização de votos pelo painel do procurador na sessão, painel do membro da OAB na sessão, painel do púlpito, Internet sem usuário e senha 
 
-O relatório, ementa e voto são construídos no PJe da JE por meio da tarefa “Minutar relatório voto e ementa” pelo relator do processo. Se o usuário autenticado estiver em um órgão julgador diferente do relator do processo, é gerada uma inconsistência só resolvida via banco de dados (verificar item 10.1). Por voto, entenda-se que é o conjunto da indicação do voto e o próprio documento de voto. A visualização desses itens/documentos não assinados só é possível se as respectivas marcações “Liberar voto”, “Liberar relatório” e “Liberar ementa” forem realizadas. 
+## Visualização de documentos da sessão
 
-Os pontos do sistema onde poderão ser visualizadas são: painel do secretário da sessão, painel do magistrado na sessão, painel do membro da OAB na sessão/painel do membro do ministério público na sessão, púlpito de sustentação oral, Internet - opção Pautas de julgamento (http://www.tse.jus.br/servicos-judiciais/sessoes-de-julgamento/pautas-de-julgamento/pje) e tarefas de vogais. 
 
-Depois que inicia a sessão, quando o Assessor de plenário colocar em julgamento, vai aparecer na Internet, sem usuário e senha, o "tipo de voto", ou seja, concedo, nego, mas não aparece o documento.  Na Internet, sem login e senha, só aparece o documento depois de assinado. Já no painel  do membro da OAB,  basta iniciar a sessão.  Em todos os casos, é sempre necessário liberar por meio da tarefa do gabinete 
+O relatório, voto e ementa,  são construídos no PJe da Justiça Eleitoral,  por meio da tarefa “Minutar relatório, voto e ementa” pelo relator do processo.  Se o usuário autenticado estiver em um órgão julgador diferente do relator do processo, é gerada uma inconsistência só resolvida via banco de dados.Por voto, entenda-se que é o conjunto da indicação do voto e o próprio documento de voto. A visualização desses itens/documentos não assinados só é possível se as respectivas marcações “Liberar voto”, “Liberar relatório” e “Liberar ementa” forem realizadas. 
 
-    Painel do secretário da sessão 
+Os pontos do sistema onde poderão ser visualizadas são:
 
-Se o parâmetro “pje:sessao:ocultarVotosAntecipadosNaoMagistrado” estiver marcado como false e o magistrado tiver liberado seu documento para visualização por meio da opção respectiva na tarefa, voto/documentos serão exibidos para o “Assessor de plenário”. 
+1.  Painel do secretário da sessão;
 
-O “Assessor de plenário” pode liberar os processos para que sejam visualizados na Internet - opção “Pautas de julgamento”, quando inicia a sessão não contínua. Para sessões contínuas, os processos são apresentados após o início da sessão, que é automática, de acordo com o horário planejado. 
+2.  Painel do magistrado na sessão; 
+  
+3.  Painel do membro da OAB na sessão; 
 
-O “Assessor de plenário” pode liberar o voto/documentos para que sejam visualizados na Internet - opção “Pautas de julgamento”, quando finaliza a sessão. Se o magistrado tiver liberado seu documento para visualização por meio da opção respectiva na tarefa, os votos serão exibidos na opção “Pautas de julgamento” desde que: 
+4. Painel do membro do ministério público na sessão; 
 
-1. parâmetro “pje:sessao:plenarioVirtual:documentoAssinado" tem deve estar configurado como false 
+5. Púlpito de sustentação oral;	
 
-2. o gabinete tem que ter construído e liberado o voto 
+6. Internet - opção Pautas de julgamento (http://www.tse.jus.br/servicos-judiciais/sessoes-de-julgamento/pautas-de-julgamento/pje); 
 
-3. o processo foi julgado 
+7.  Tarefas de vogais. 
 
-4. a sessão esteja encerrada 
+Depois que inicia a sessão, quando o Assessor de plenário colocar em julgamento, vai aparecer na Internet, sem necessidade de usuário e senha, o "tipo de voto",  ou seja, concedo, nego, mas não aparece o documento do voto. Na Internet, sem login e senha, só aparece o documento depois de assinado. Já no painel do membro da OAB, basta iniciar
+a sessão. Em todos os casos, é sempre necessário liberação por meio da tarefa do gabinete. 
+
+Painel do secretário da sessão 
+
+Se o magistrado tiver liberado seu documento para visualização por meio da opção respectiva na tarefa, e o parâmetro  “pje:sessao:ocultarVotosAntecipadosNaoMagistrado” estiver marcado como false o voto/documentos serão exibidos para o “Assessor de plenário”. 
+
+Nas sessões contínuas,  os processos são colocados em julgamento automaticamente após o início da sessão, de acordo com o horário planejado.  Nas sessões não contínuas o Assessor de plenário pode liberar os processos para que sejam visualizados na Internet - opção “Pautas de julgamento”, quando inicia a sessão.
+
+O Assessor de plenário pode liberar o voto/documentos para que sejam visualizados na Internet-opção “Pautas de julgamento”, quando finaliza a sessão. Se o magistrado tiver liberado seu documento para visualização por meio da opção respectiva na tarefa, os votos serão exibidos na opção “Pautas de julgamento” desde que: 
+
+1. O parâmetro “pje:sessao:plenarioVirtual:documentoAssinado" deve estar configurado como false;
+
+2. O gabinete tem que ter construído e liberado o voto; 
+
+3. O processo foi julgado; 
+
+4. A sessão esteja encerrada. 
 
 Se o parâmetro  “pje:sessao:plenarioVirtual:documentoAssinado" estiver com o valor “true”, o documento só aparecerá em “Pautas de julgamento” após assinatura do acórdão. 
 
-Os processos são colocados em julgamento automaticamente em sessões contínuas após o início da sessão. 
-
 Os processos e votos/documentos serão visualizados no menu “Painel do membro da OAB na sessão” em sessões contínuas quando iniciada a sessão. Se o parâmetro “pje:sessao:ocultarVotosAntecipadosNaoMagistrado” estiver marcado como false e o magistrado tiver liberado seu documento para visualização por meio da opção respectiva na tarefa, voto/documentos serão exibidos no “Painel do membro da OAB na sessão”. 
 
-Os processos e votos/documentos serão visualizados no menu “Painel do membro do ministério público na sessão” em sessões contínuas quando iniciada a sessão. Se o parâmetro “pje:sessao:ocultarVotosAntecipadosNaoMagistrado” estiver marcado como false e o magistrado tiver liberado seu documento para visualização por meio da opção respectiva na tarefa, voto/documentos serão exibidos no “Painel do membro do ministério público na sessão”. 
+O Assessor de plenário pode liberar os processos e votos/documentos para que sejam visualizados no menu “Painel do membro do ministério público na sessão” do procurador que está cadastrado naquela sessão em sessões não contínuas quando inicia a sessão. Se o parâmetro “pje:sessao:ocultarVotosAntecipadosNaoMagistrado” estiver marcado como false e o magistrado tiver liberado seu documento para visualização por meio da opção respectiva na tarefa, voto/documentos serão exibidos no “Painel do membro do ministério público na sessão”. 
 
-O “Assessor de plenário” pode liberar os processos e votos/documentos para que sejam visualizados no menu “Painel do membro do ministério público na sessão” do procurador que está cadastrado naquela sessão em sessões não contínuas quando inicia a sessão. Se o parâmetro “pje:sessao:ocultarVotosAntecipadosNaoMagistrado” estiver marcado como false e o magistrado tiver liberado seu documento para visualização por meio da opção respectiva na tarefa, voto/documentos serão exibidos no “Painel do membro do ministério público na sessão”. 
+O Assessor de plenário pode liberar o processo para ser visualizado no menu “Púlpito de sustentação oral” em julgamentos de sessões não contínuas quando colocar o processo “Em julgamento” (ícone balancinha sendo exibido). 
 
-O “Assessor de plenário” pode liberar o processo para ser visualizado no menu “Púlpito de sustentação oral” em julgamentos de sessões não contínuas quando colocar o processo “Em julgamento” (ícone balancinha sendo exibido). 
+O Assessor de plenário pode liberar o voto/documentos para que sejam visualizados por meio do menu “Púlpito de sustentação oral” em julgamentos de sessões não contínuas, quando clicar no ícone de olho disponível nos processos que estão “Em julgamento” (ícone balancinha sendo exibido). Se o magistrado tiver liberado seu documento para visualização por meio da opção respectiva na tarefa, voto/documentos serão exibidos no “Púlpito de sustentação oral”.
 
-O “Assessor de plenário” pode liberar o voto/documentos para que sejam visualizados por meio do menu “Púlpito de sustentação oral” em julgamentos de sessões não contínuas quando clicar no ícone de olho disponível nos processos que estão “Em julgamento” (ícone balancinha sendo exibido). Se o magistrado tiver liberado seu documento para visualização por meio da opção respectiva na tarefa, voto/documentos serão exibidos no “Púlpito de sustentação oral” 
+Orientação passada para o TSE quando foram disponilizados os painéis: 
 
-## Paineis de visualização das sessões para advogados e procuradores
+De ordem da assessora-chefe da Assessoria do PJe, informamos que a versão disponibilizada hoje no TSE, 18 de maio de 2020, contempla um painel aos advogados e ao ministério público para acompanhamento das sessões virtuais e por videoconferência. 
 
-Orientação passada para o TSE quando foram disponilizados os paineis: 
+Para as sessões iniciadas, virtuais ou não, o painel da OAB e do MP exibe documentos de relatório, voto e ementa produzidos pelos gabinetes, desde que liberados para visualização. 
 
-De ordem da assessora-chefe da Assessoria do PJe , informamos que a versão disponibilizada hoje no TSE, 18 de maio de 2020, contempla um painel aos advogados e ao ministério público para acompanhamento das sessões virtuais e por videoconferência. 
+Conforme já ocorria antes dessa melhoria,  a liberação de visualização dos documentos é realizada pelo gabinete,  a partir das opções já existentes "Liberar relatório", "Liberar ementa" e Liberar voto", disponíveis nas tarefas de conferência dos documentos. 
 
- Para as sessões iniciadas, virtuais ou não, o painel da OAB e do MP exibe documentos de relatório, voto e ementa produzidos pelos gabinetes, desde que liberados para visualização. 
+A liberação pode ocorrer por documento, ou seja, o gabinete pode escolher liberar apenas o relatório, assim como pode escolher não liberar documento algum. 
 
- Conforme já ocorria antes dessa melhoria, a liberação de visualização dos documentos é realizada pelo gabinete, a partir das opções já existentes "Liberar relatório", "Liberar ementa" e Liberar voto", disponíveis nas tarefas de conferência dos documentos. 
-
- A liberação pode ocorrer por documento, ou seja, o gabinete pode escolher liberar apenas o relatório, assim como pode escolher não liberar documento algum. 
-
-Orientação passada para os TREs quando foram disponilizados os paineis: 
+Orientação passada para os TREs quando foram disponilizados os painéis: 
 
 A versão 2.0.0.0.49.3 do PJe nos regionais e no TSE traz uma melhoria solicitada pela OAB e pelo ministério público para que advogados e MP possam enxergar os documentos de voto, relatório e ementa, desde que liberados pelo gabinete, a partir das opções já existentes "Liberar relatório", "Liberar ementa" e Liberar voto", disponíveis nas tarefas de "Aguarda sessão de julgamento" inclusive para julgamento virtual. Caso liberados os documentos, os processos que estejam em sessão aberta terão a opção do placar, que exibe os votos dos magistrados. 
 
- As permissões para esse painel podem ser encontradas no menu Configuração - Controle de acesso - Funcionalidades, pesquisando pelo identificador "/pages/Painel/ProcuradorMP/sessaoAbertaProcuradorMP.seam". Às permissões que já existem, pode ser acrescentada a permissão para o perfil de advogado. Ou ainda, se for o desejo, retirar permissões. 
+As permissões para esse painel podem ser encontradas no menu Configuração - Controle de acesso - Funcionalidades, pesquisando pelo identificador "/pages/Painel/ProcuradorMP/sessaoAbertaProcuradorMP.seam". Às permissões que já existem, pode ser acrescentada a permissão para o perfil de advogado. Ou ainda, se for o desejo, retirar permissões. 
 
-Além da melhoria nessa funcionalidade, foi disponibilizada uma nova, que só permite acesso aos documentos liberados pelo gabinete de processos em julgamento de sessões abertas não contínuas e que tenham visualização liberada pelo Assessor de plenário. A liberação ocorre por meio de um novo ícone em forma de olho no painel do secretário da sessão que aparece para cada processo. Ao clicar nesse ícone, a visualização dos documentos está liberada para esse novo painel. Além disso, a permissão para o painel deve ser também configurada por meio do controle de acesso - funcionalidades, identificador "/pages/Painel/painel_usuario/painelPulpito.seam" juntamente com a associação do papel "pje:papel:pulpitoSustentacaoOral" ao perfil ao qual vc deseja dar acesso ao novo painel. 
+Além da melhoria nessa funcionalidade,  foi disponibilizada uma nova,  que só permite acesso aos documentos liberados pelo gabinete de processos em julgamento de sessões abertas não contínuas e que tenham visualização liberada pelo Assessor de plenário. A liberação ocorre por meio de um novo ícone em forma de olho no painel do secretário da sessão que aparece para cada processo. Ao clicar nesse ícone, a visualização dos documentos está liberada para esse novo painel. Além disso, a permissão para o painel deve ser também configurada por meio do controle de acesso - funcionalidades, identificador "/pages/Painel/painel_usuario/painelPulpito.seam" juntamente com a associação do papel "pje:papel:pulpitoSustentacaoOral" ao perfil ao qual vc deseja dar acesso ao novo painel. 
 
 SOBRE ESSAS DUAS FUNCIONALIDADES, A LIBERAÇÃO do ASSESSOR DE PLENÁRIO SÓ É NECESSÁRIA QUANDO SE USA O PAINEL DO PÚLPITO. 
 
-Cada tribunal deve decidir qual painel se aplica a qual situação sua e configurar conforme desejar. 
+Há um erro conhecido em processos migrados. Os documentos não aparecem na aba para selecionar documentos para acórdão, e a orientação para a TI é ajustar o nr_instancia do client.tb_processo_trf para o mesmo ds_instancia do core.tb_processo_documento.  A migração tem que ser também ajustada para preencher esse campo e o problema  deixar de ocorrer.
 
-Há um erro conhecido em processos migrados. Os documentos não aparecem na aba para selecionar documentos para acórdão.
 
-A orientação para a TI é ajustar o nr_instancia do client.tb_processo_trf para o mesmo ds_instancia do core.tb_processo_documento. A migração tem que ser também ajustada para preencher esse campo e o problema deixar de ocorrer.
 
 ## Selecionar documento para acórdão
 
@@ -362,76 +363,80 @@ O cadastro dos usuários vinculado a esse perfil deve ser feito de forma similar
 
 ##  Prazo em horas 
 
-Prazo em em horas dá problema nas suspensões de prazo no PJe. A recomendação é que se converta em dias. 
+O prazo em horas, no PJe,  tem problemas que necessitam de correção, e enquanto elas não vêm, a recomendação é que se converta em dias.
 
-Sobre a determinação da regulamentação e do magistrado, além de pedido para que o registro do AR abra opção de inseriri o horário, Bruney ressaltou: 
+Sem que isso impacte diretamente na questão e na necessidade de evolução do sistema, a jurisprudência do TSE é bem farta no que se refere à conversão de prazos em horas para prazos em dias: 
+TSE - Agravo Regimental em Agravo de Instrumento AgR-AI 85876 GO (TSE)
 
-Temos aqui dois pontos: uma é a questão de poder registrar o horário quando da devolução do A.R. (isso seria uma melhoria, quando desenvolvido o sistema essa funcionalidade não foi pensada); outra é a questão da suspensão de prazo em horas (aqui é um defeito). 
+Jurisprudência • Data de publicação: 11/02/2011
 
-Nos dois casos precisaríamos evoluir, entretanto, ao mesmo tempo, precisamos priorizar as demandas, de forma a atender, em primeiro lugar, as que impactam no processo eleitoral. 
+AGRAVO REGIMENTAL. AGRAVO DE INSTRUMENTO. RECURSO ESPECIAL ELEITORAL. CAPTAÇÃO ILÍCITA DE SUFRÁGIO. ELEIÇÕES 2008. CONTAGEM DO PRAZO EM HORAS. CONVERSÃO EM DIA. POSSIBILIDADE. NÃO PROVIMENTO. 1 . O prazo fixado em horas pode ser convertido em dias. (Precedentes: AgR- ED -Rp nº 789/DF, Relator designado Min. Março Aurélio Mello, PSESS de 18.10.2005; AgR-AI nº 11.755 /GO, Rel. Min. Arnaldo Versiani, DJe de 23.6.2010). 2. Agravo regimental não provido.
 
-Sem que isso impacte diretamente na questão e na necessidade de evolução do sistema, a jurisprudência do TSE é bem farta no que se refere à conversão de prazos em horas para prazos em dias: Ac. de 23.11.2010 no AgR-AI nº 85876, rel. Min. Aldir Passarinho Junior; Ac. de 6.8.2013 no AgR-REspe nº 664, rel. Min. Dias Toffoli 
+TSE - RESPE: 2521020126040051 Presidente Figueiredo/AM 30642013, Relator: Min. Henrique Neves Da Silva, Data de Julgamento: 12/06/2013, Data de Publicação: DJE - Diário de justiça eletrônico - 18/06/2013 - Página 41-42
+TSE - RESPE: 69795520106060000 Fortaleza/CE 17632012, Relator: Min. Henrique Neves Da Silva, Data de Julgamento: 01/08/2013, Data de Publicação: DJE - Diário de justiça eletrônico - 05/08/2013 - Página 340-343
 
-Nenhum dos exemplos se adequa aos casos concretos que estamos tratando aqui, mas a ideia me parece a mesma (meu juízo aqui é apenas opinativo e não vinculativo, hehehehe). 
+
 
 ##  Remessa entre instâncias 
 
-Tarefas de remessa entre instâncias:
+Remessa para outra instância:
 
-1) “Remessa para outra instância” (tarefa exclusiva do PJE de 2º grau):  deve ser utilizada quando o objetivo seja enviar um processo que tenha iniciado no TRE para TSE (antiga tarefa “Remeter ao TSE”) ou primeiro grau (antiga tarefa “Expedir processos – outros órgãos”). A tarefa permite que se protocole um “novo processo” no destino, com classes e assuntos específicos e também com novas configurações de partes. As classes exibidas são as que estejam configuradas na instância de destino como remessa entre instâncias “Sim”. Caso a classe selecionada esteja configurada no destino com a marcação “exige numeração própria”, um novo número de processo será gerado.
+“Remessa para outra instância” tarefa exclusiva do PJE de 2º grau, deve ser utilizada quando o  objetivo seja enviar um processo que tenha iniciado no TRE, para o TSE. Deve ser utilizada também, quando o processo foi iniciado físico na Zona Eleitoral, migrado no TRE, e precisa descer para o 1º.
 
-Essa tarefa deve ser utilizada, também, quando o processo é originário no 2º grau (seja originário mesmo, seja iniciado físico na zona eleitoral e migrado no TRE) e precisa descer para o 1º.
+Essa tarefa permite que se protocole um “novo processo” no destino, com classes e assuntos específicos e com novas configurações de partes. As classes exibidas são as que estejam configuradas na instância de destino como remessa entre instâncias “Sim”. Caso a classe selecionada esteja configurada no destino com a marcação  “exige numeração própria”, um novo número de processo será gerado.
 
-Essa remessa lança o movimento de código 123: Remetidos os autos, com os seus complementos cadastrados, bem como o código 22: Baixa definitiva.
+Essa remessa lança o movimento de código 123: remetidos os autos, com os seus complementos cadastrados, bem como o código 22: baixa definitiva.
 
-Obs: as tarefas “Remeter ao TSE” e “Expedir processos – outros órgãos” foram desabilitadas da instalação dos TREs.
+Após a confirmação, o sistema movimentará o processo para a tarefa “Aguardando apreciação de outra instância” e ficará bloqueado para novas petições ou edições.
 
-Após a confirmação, o sistema movimentará o processo para a tarefa “Aguardando apreciação de outra instância” bloqueado para novas petições ou edições.
 
-2) Devolver processo à origem (tarefa exclusiva do 2º e 3º grau):  deve ser utilizada quando o objetivo seja devolver um processo para alguma instância em que ele esteve, ou seja, o processo deve existir na instância de destino (já deve ter ocorrido uma remessa entre instâncias no sistema).
+"Devolver processo à origem", tarefa exclusiva do 2º e 3º grau: deve ser utilizada quando o objetivo seja devolver um processo para alguma instância em que ele esteve, ou seja, o processo deve existir na instância de destino (já deve ter ocorrido uma remessa entre instâncias no sistema).
 
-Se o processo foi originário de uma remessa do 1° grau para o 2° grau, a origem é devolver para o 1° grau.
+Se o processo foi remetido do 1° grau para o 2° grau, devolver à origem é devolver para o 1° grau.
 
-Se o processo foi originário de uma remessa do 1° grau para o 2° grau e depois para o 3° grau, a origem é devolver para o 2° grau e, em seguida, para o 1°grau.
+Se o processo foi remetido do 1° grau para o 2° grau e depois para o 3° grau, devolver à origem é devolver para o 2° grau e, em seguida, para o 1°grau.
 
-Se o processo foi originário de uma remessa do 2° grau para o 3° grau, a origem é devolver para o 2° grau.
+Se o processo foi remetido do 2° grau para o 3° grau, remeter à origem é devolver para o 2° grau.
 
-É possível também, utilizando essa tarefa, um processo que se iniciou no 3º grau e foi remetido para o 2º, retornar para o 3º grau.
+É possível também, utilizando essa tarefa, retornar para o 3º grau um processo que se iniciou no 3º grau e foi remetido para o 2º.
 
-Se o processo iniciou-se no 1º grau, foi remetido para o 2º grau e depois para o 3º. Ao retornar para o 2º grau, lá será apresentada uma opção para que o usuário decida se deseja remeter para o 1º grau ou para o 3º grau. 
+Se o processo se iniciou no 1º grau, foi remetido para o 2º grau e depois para o 3º, ao retornar para o 2º grau, lá será apresentada uma opção para que o usuário decida se deseja remeter para o 1º grau ou para o 3º grau. Essa remessa lança o movimento de código 22: baixa definitiva.
 
-Essa remessa lança o movimento de código 22: Baixa definitiva.
-
-Após a confirmação, o sistema movimentará o processo para a tarefa “Manter processos expedidos” bloqueado para novas petições ou edições.
+Após a confirmação, o sistema movimentará o processo para a tarefa “Manter processos expedidos” e ele ficará bloqueado para novas petições ou edições.
 
 As tarefas onde os processos permanecem após remessa ou devolução são diferentes para que se saiba com mais facilidade qual o caminho que o processo percorreu.
 
-Como a tarefa funciona: A tela da tarefa permite a seleção do motivo da devolução e o acionamento do botão “Retornar para a instância de origem”, porém antes disso apresenta um aviso para que o usuário, antes de devolver o processo, verifique se não há expedientes abertos ou tarefas em andamento, de modo a evitar que o processo seja encaminhado sem o devido cumprimento. 
+Como a tarefa funciona: A tela da tarefa permite a seleção do motivo da devolução e o acionamento do botão “Retornar para a instância de origem”, porém, nesse momento, o sistema verificará se há documentos não assinados, expedientes abertos ou tarefas em andamento, de modo a evitar que o processo seja encaminhado sem o devido cumprimento.Na confirmação da execução, o sistema retornará o processo para a última instância de origem (se veio do TSE, retornará para o TSE, se veio do primeiro grau, retornará para o primeiro grau). 
 
- O usuário pode também desistir da tarefa, retornando ao Verificar Pendências, ou encaminhar para novos cumprimentos, por meio da transição “Necessita atos de ofício”. 
+O usuário pode também desistir da tarefa, retornando na tarefa “Retornar para Verificar Pendências”, ou encaminhar para novos cumprimentos, por meio da transição “Necessita atos de ofício”. 
 
-Ao selecionar o botão de retorno para instância de origem, o sistema verificará se há documentos não assinados para que o usuário possa desistir da execução da tarefa, se for o caso. Na confirmação da execução, o sistema retornará o processo para a última instância de origem (se veio do TSE, retornará para o TSE, se veio do primeiro grau, retornará para o primeiro grau). 
+Na confirmação da execução, o sistema retornará o processo para a última instância de origem (se veio do TSE, retornará para o TSE, se veio do primeiro grau, retornará para o primeiro grau). 
 
-3) Remeter ao TRE (tarefa exclusiva do 1º grau): deve ser utilizada quando o objetivo seja realizar a remessa de um processo da Zona Eleitoral para o TRE, independente se o processo já esteve ou não na instância de destino (2º grau).
+Remeter processo para o TRE
+
+"Remeter ao TRE" (tarefa exclusiva do 1º grau): deve ser utilizada quando o objetivo seja realizar a remessa de um processo da Zona Eleitoral para o TRE, independente se o processo já esteve ou não na instância de destino (2º grau).
 
 No ambiente de zona, para remeter a outra instância, só existe hoje a possibilidade de utilizar o Remeter processo para o TRE, mesmo quando for devolução. De toda maneira, o sistema sempre consulta o processo na instância de origem ao fazer a remessa. Encontrando o processo lá, ele vai automaticamente fazer uma devolução, e não uma nova remessa.
 
-Essa remessa lança o movimento de código 123: Remetidos os autos, com os seus complementos cadastrados, bem como o código 22: Baixa definitiva.
+Essa remessa lança o movimento de código 123: remetidos os autos, com os seus complementos cadastrados, bem como o código 22: baixa definitiva.
 
-Ao utilizar tarefa “Remeter processo para o TRE”, o processo fica em “Aguardando apreciação do TRE” bloqueado para novas petições ou edições. Caso seja retornado do TRE, deve ir automaticamente para o “Analisar processo – ZE" ou “Analisar determinações - ZE”, retirando o bloqueio de edições/novas petições.
+Ao utilizar tarefa “Remeter processo para o TRE”, o processo fica em “Aguardando apreciação do TRE” e bloqueado para novas petições ou edições. Caso seja devolvido do TRE, deve ir automaticamente para o “Analisar processo – ZE" ou “Analisar determinações - ZE”, retirando o bloqueio de edições/novas petições.
 
-O “Retornar processo” não tem nada a ver com remessa, ele só retorna o processo de volta pro analisar determinações ou analisar processo, verificando os movimentos lançados para encaminhar para um ou outro. 
+O “Retornar processo” não tem nada a ver com remessa, ele só retorna o processo de volta para o analisar determinações ou analisar processo, verificando os movimentos lançados para encaminhar para um ou outro. 
 
-4) Expedir a origem – outros órgãos (tarefa exclusiva do 3º grau): deve ser utilizada quando o objetivo seja remeter um processo ao TRE, quando o processo iniciou-se no TSE, seja porque realmente foi protocolado no TSE, seja porque foi migrado no TSE. Nesse caso, o processo não “existia” no TRE.
+Expedir processo – retorno à origem   
+
+"Expedir processo - Retorno à origem – outros órgãos" (tarefa exclusiva do 3º grau): deve ser utilizada quando o objetivo seja remeter um processo ao TRE, quando o processo se iniciou no TSE, seja porque realmente foi protocolado no TSE, seja porque foi migrado no TSE. Nesse caso, o processo não “existia” no TRE.
 
 Essa remessa lança o movimento de código 22: Baixa definitiva.
 
 
-## Remessa a outra jurisdição 
+# Remessa a outra jurisdição 
 
 Como ficam os processos após finalização?
 
-O processo, após remetido a outra jurisdição, não deve ficar nessa mesma tarefa. Se gera novo número, é para ficar o número originário em processo arquivado e o novo em analisar novo processo. Se não gera novo número, fica um processo apenas também no analisar novo processo. Pode ser que fique na mesma tarefa se há problema no nosso balanceamento. É que as máquinas do PJe funcionam direcionando requisições para uma ou outra máquina de acordo com a carga maior de um e de outro. Ocorre que quando um usuário estabelece uma sessão em uma máquina, o balanceador deve continuar sempre enviando suas requisições daquela sessão para o mesmo servidor. A requisição para mudar o processo de tarefa foi enviada para outra máquina, o que ocasiona o erro de o processo não tramitar. 
+O processo, após remetido a outra jurisdição, não fica na mesma tarefa. Se gera novo número (quando de um Estado para outro), é para ficar o número originário em processo arquivado na Zona Eleitoral inicial,  e o novo número em analisar novo processo, na ZE de destino. Se não gera novo número (remessa entre Zonas do mesmo Estado), fica apenas um processo em analisar novo processo, na ZE de destino. 
+
 
 ## Artigo 260 no PJe 
 
@@ -619,29 +624,26 @@ Há também a situação em que o processo tem uma classe que exige revisão, ma
  Dessa forma, pode-se alterar a ordem de votação do processo, já que com o revisor, o sistema não permite. 
  
 
-## Situação do advogado 
+## Advogado não validado
 
-Sobre aparecer "Advogado (não validado)", tanto no cadastro como na retificação da autuação, ocorre o seguinte: 
+Por vezes, o cadastro do advogado no PJe é feito mesmo o advogado estando com problemas na OAB, o sistema permite e o cadastro é realizado.
 
-O Pje, ao acessar a OAB, guarda os dados da validação realizada 
+Nesse momento, o PJe, ao acessar a OAB, guarda os dados da validação realizada. Após realizar novas validações, o sistema não apaga as anteriores.
 
-Por vezes, o advogado estava com algum problema por lá, mas foi feito o cadastro mesmo assim por parte do servidor. O sistema deixa, o servidor assume que a pessoa é um advogado e que a situação está ativa. 
+Quando se cadastra um advogado no processo, seja na autuação ou na retificação da autuação, o PJe realiza nova validação, e nesse momento pode ocorrer de virem dados de uma validação mais antiga, em que ele estava com o cadastro, por qualquer motivo, irregular.  
 
-Após realizar novas validações, o sistema não apaga a antiga. 
+Se você, como servidor, sabe que aquele advogado está regular, não há problema, isso é só um alerta que aparece apenas para os servidores. 
 
-Aí, na hora de exibir o advogado, o sistema pega a primeira validação das que vierem, e aí pode ser que venha aquela de quando ele estava com o cadastro irregular. 
 
-Se vc, como servidor, sabe que aquele advogado é válido, não há problema, isso é só um alerta. Esse alerta só aparece para servidores 
+## Situação das partes no processo: Suspensa, inativa e baixada
 
-Isso ocorre no cadastro do processo e na retificação 
+Parte suspensa é aquela que no processo criminal, na fase de execução da sentença, está cumprindo normalmente as medidas restritivas a qual foi condenado. Se ele para de cumprir o que foi determinado na sentença, volta a ficar ativo no processo.
 
-## Inativo, baixado, suspenso 
+Parte inativa  (situação da parte marcada como "I") e parte baixada (situação da parte marcada como "B") é a parte cuja relação processual foi extinta por qualquer motivo.
 
-Sobre situação de partes, pode-se ter partes ativas, inativas, baixadas e suspensas.
+A diferença entre elas é que as partes baixadas ainda podem ser utilizadas como parâmetro nas consultas processuais, e são retornadas no detalhamento do processo. Quando se utiliza as partes inativas como parâmetro na consulta processual, os processos respectivos não serão retornados. 
 
-A suspensão é mais para execução criminal, já que um réu pode ser suspenso se estiver cumprindo medidas restritivas e observando-as. Se tinha que comparecer de tempos em tempos e sumiu, volta a estar ativo 
 
-A inativação (situação da parte marcada como "I") e baixa (situação da parte marcada como "B") de parte no processo contempla o mesmo significado, ou seja, a parte cuja relação processual tenha sido extinta por qualquer motivo. A diferença é que partes baixadas ainda podem ser utilizadas como parâmetro nas consultas processuais, assim como são retornadas no detalhamento do processo. Ao realizar consultas processuais utilizando partes inativas como parâmetro, os processos respectivos não serão retornados. 
 
 ## Intimação sistema - defensoria 
 
@@ -663,37 +665,48 @@ Regras de cálculo dos pesos estão no item 4 de:
 
 https://www.cnj.jus.br/wiki/index.php/Distribui%C3%A7%C3%A3o#Procedimento_de_distribui.C3.A7.C3.A3o 
 
-Tenho um magistrado que vai começar a atuar e não quero que ele entre recebendo tudo quanto é processo. Na versão 2.0, fazer o seguinte: 
+As regras de distribuição do PJe se baseiam essencialmente na ideia de que cada processo representa uma determinada carga de trabalho, a que chamamos de peso, e que essa carga é resultado da composição de alguns aspectos inerentes ao processo judicial. As características adotadas foram: a classe processual, os assuntos processuais, a quantidade de partes componentes do processo, a existência ou não de situação de prevenção e circunstâncias próprias dos órgãos julgadores.
 
-Ao criar um novo cargo judicial em um órgão julgador, o sistema pergunta se ele deve ser inicializado com os valores dos outros cargos existentes. Sendo assim, o sistema faz cria o novo cargo já com os pesos acumulados dos outros que já existem e estão recebendo distribuição. Orientamos, então, a criar um novo cargo judicial dentro do órgão com as seguintes características: 
+Ao criar um cargo judicial em um órgão julgador, o sistema pergunta se ele deve ser inicializado com os valores dos outros cargos existentes. Se sim, o sistema cria o cargo já com os pesos acumulados dos outros que já existem e estão recebendo distribuição.
 
-Descrição: Podem fornecer a que melhor lhes convier 
+Assim, para um magistrado que vai começar a atuar em uma ZE ou tribunal e não se deseja que ele inicie recebendo processos a mais, deve-se agir da seguinte forma:  
 
- Sigla: Podem fornecer a que melhor lhes convier 
+1.	criar um cargo judicial dentro do órgão, com as seguintes características:
 
- Cargo: Ministro 
 
- Recebe distribuição: Sim 
+2.	Descrição: podem fornecer a que melhor lhes convier;
 
- Cargo Auxiliar: Não 
 
- Divisor do peso do proceso: 1.0 
+3.	Sigla: Podem fornecer a que melhor lhes convier;
 
- Ativo: Sim 
 
+4.	Cargo: Ministro; 
+
+
+5.	Recebe distribuição: Sim; 
+
+
+6.	Cargo Auxiliar: Não; 
+
+
+7.	Divisor do peso do processo: 1.0;
+
+
+8.	Ativo: Sim.
 
 Ao selecionar a opção "Incluir", o sistema exibirá a seguinte mensagem: 
 
-
 "Deseja que o acumulador de cargos seja atualizado para não haver compensação na distribuição?" 
- 
 
 A resposta deve ser "Sim". 
 
+Após finalizada essa etapa, você deve vincular o magistrado como titular do órgão vinculado a esse novo cargo judicial.
 
-Após finalizado essa etapa, você deve vincular o magistrado como titular do órgão vinculado a esse novo cargo judicial.
 
-## Audiências
+
+
+
+
 
 [Clique e acesse](audiencias.md)
 
