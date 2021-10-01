@@ -4,7 +4,8 @@
 
 Cache do browser ou cache do navegador é a memória local do seu computador.
 
-Dados em cache são informações como imagens, scripts e outras partes de sites visitados, salvas temporariamente em navegadores de Internet como Chrome, Firefox ou Safari. Eles tornam a navegação mais rápida, já que recursos como fotos e documentos ficam salvos no computador do usuário. Muitas funcionalidades do PJe são executadas na própria máquina do usuário, onde ficam guardados registros na memória da própria estação.  Por conta disso, às vezes pode ser necessário limpar o cache, seja para liberar espaço em disco, para que alguns sites recarreguem o conteúdo ou quando você faz alguma atualização.
+Dados em cache são informações como imagens, scripts e outras partes de sites visitados, salvas temporariamente em  navegadores de Internet como Chrome, Firefox ou Safari. Eles tornam a navegação mais rápida,já que recursos como fotos e documentos ficam salvos no computador do usuário. Muitas funcionalidades do PJe são executadas na própria máquina do usuário, onde ficam guardados registros na memória da própria estação.  Por conta disso, às vezes pode ser necessário limpar o cache, seja para  liberar espaço 
+em disco, para que alguns sites recarreguem o conteúdo ou quando você faz alguma atualização.
 
 
 
@@ -26,7 +27,7 @@ Segue link sobre a limpeza do histórico: https://support.mozilla.org/pt-BR/kb/c
 
 Sempre recebemos muitos e-mails ou chamados são abertos para resolver problemas de usuários que não conseguem cadastrar uma nova senha. 
 
-Normalmente, o servidor gera uma nova senha para o usuário, que recebe um link para cadastrar uma nova senha em seu e-mail. Ao acessar esse link, o usuário finaliza o cadastramento, mas, às vezes, o sistema sinaliza que a senha está bloqueada. Nesses casos, o desbloqueio só ocorre se for utilizada a opção esqueci minha senha pelo próprio usuário. 
+Normalmente, o servidor gera uma  nova senha  para o usuário, que recebe um  link para cadastrar uma nova senha em  seu e-mail. Ao acessar esse link, o usuário finaliza o cadastramento, mas, às vezes, o sistema sinaliza que a senha está bloqueada. Nesses casos, o desbloqueio só ocorre se for utilizada a opção esqueci minha senha pelo próprio usuário. 
 
 Ao passar essa orientação para o usuário, este nem sempre consegue resolver e termina clicando mais de uma vez na opção esqueci minha senha e se atrapalha com vários e-mails enviados com links de geração de senha e o problema não se resolve. 
 
@@ -42,7 +43,7 @@ Recomendamos, então, ao servidor, o seguinte:
 
 Controle que visa sinalizar ao servidor que documentos novos foram incluídos pelo usuário externo.
 
-Esse controle é só um aviso, e para que o aviso não seja mais exibido, basta o usuário sinalizar que já viu o documento, não significando que ele efetivamente foi visto. Pode-se marcar que o documento foi lido sem nem ter aberto o documento. A marcação significa que o usuário quer que o aviso desapareça. Se o usuário abrir o documento, mas não marcar que já viu, o sistema vai continuar exibindo que há documentos não lidos. 
+Esse controle é só um aviso, e para  que o aviso não seja mais exibido, basta o usuário sinalizar que já viu o documento, não significando que ele efetivamente foi visto. Pode-se marcar que o documento foi lido sem sequer ter aberto o documento. A marcação significa que o usuário quer que o aviso desapareça. Se o usuário abrir o documento, mas não marcar que já viu, o sistema vai continuar exibindo que há documentos não lidos. 
 
 Mais informações sobre o comportamento da opção: http://www.pje.jus.br/wiki/index.php/Funcionalidades#Processos_com_documentos_n.C3.A3o_lidos 
 
@@ -50,9 +51,9 @@ Mais informações sobre o comportamento da opção: http://www.pje.jus.br/wiki/
 
 ## Atuação de Juiz Eleitoral Substituto na Zona Eleitoral e sigilo dos processos
 
-Quando um juiz eleitoral se declara suspeito, novo juiz é designado para o processo. Para que o juiz eleitoral substituto visualize apenas o processo para o qual foi designado, sem ter acesso a todos os outros processos da Zona Eleitoral, inclusive aos sigilosos, deve-se, na configuração do PJe,  em órgão julgador, na aba visibilidade, configurar a visibilidade apenas para o cargo dele (juiz substituto) e, caso o processo seja sigiloso, adicioná-lo como visualizador do processo. 
+Quando  um  juiz eleitoral  se  declara suspeito, novo juiz é designado para o processo. Para que  o juiz eleitoral substituto visualize apenas o processo para o qual foi designado, sem ter acesso a todos os outros processos da Zona Eleitoral, inclusive aos sigilosos, deve-se, na configuração do PJe,  em órgão julgador, na aba visibilidade, configurar a visibilidade apenas para o cargo dele (juiz substituto) e, caso o processo seja sigiloso, adicioná-lo como visualizador do processo. 
 
-Esse procedimento é necessário porque na justiça eleitoral determinou-se, por definição negocial, que apenas o juiz titular receba distribuição. Assim, quando um juiz titular se considera suspeito para julgar determinado processo, a menos que o processo seja redistribuído a outro órgão julgador, não é possível impedir a visualização do juiz titular que se declarou suspeito, nem mesmo quando esse processo é sigiloso. 
+Esse procedimento é  necessário  porque na justiça eleitoral  determinou-se, por  definição negocial, que apenas o juiz titular receba distribuição. Assim, quando um juiz titular se considera suspeito para julgar determinado processo, a menos que o processo seja redistribuído a outro órgão julgador, não é possível impedir a visualização do juiz titular que se declarou suspeito, nem mesmo quando esse processo é sigiloso. 
 
 
 
@@ -406,30 +407,35 @@ O cadastro dos usuários vinculados a esse perfil deve ser feito de forma simila
 
 O prazo em horas, no PJe,  tem problemas que necessitam de correção, e enquanto elas não vêm, a recomendação é que se converta em dias.
 
-Sem que isso impacte diretamente na questão e na necessidade de evolução do sistema, a jurisprudência do TSE é bem farta no que se refere à conversão de prazos em horas para prazos em dias: 
+Sem que isso impacte diretamente na questão e na necessidade de evolução do sistema, a jurisprudência do TSE é bem farta no que se refere à conversão de prazos em horas 
+para prazos em dias: 
+
 TSE - Agravo Regimental em Agravo de Instrumento AgR-AI 85876 GO (TSE)
 
 Jurisprudência • Data de publicação: 11/02/2011
 
-AGRAVO REGIMENTAL. AGRAVO DE INSTRUMENTO. RECURSO ESPECIAL ELEITORAL. CAPTAÇÃO ILÍCITA DE SUFRÁGIO. ELEIÇÕES 2008. CONTAGEM DO PRAZO EM HORAS. CONVERSÃO EM DIA. POSSIBILIDADE. NÃO PROVIMENTO. 1 . O prazo fixado em horas pode ser convertido em dias. (Precedentes: AgR- ED -Rp nº 789/DF, Relator designado Min. Março Aurélio Mello, PSESS de 18.10.2005; AgR-AI nº 11.755 /GO, Rel. Min. Arnaldo Versiani, DJe de 23.6.2010). 2. Agravo regimental não provido.
+AGRAVO REGIMENTAL.   AGRAVO DE INSTRUMENTO.  RECURSO ESPECIAL ELEITORAL.  CAPTAÇÃO ILÍCITA DE SUFRÁGIO.  ELEIÇÕES  2008.  CONTAGEM  DO PRAZO EM HORAS.  CONVERSÃO EM DIA. POSSIBILIDADE. NÃO PROVIMENTO. 1 . O prazo fixado em horas pode ser convertido em dias. (Precedentes: AgR- ED -Rp nº 789/DF, Relator designado Min.  Março Aurélio Mello, PSESS de 18.10.2005; AgR-AI nº 11.755 /GO, Rel. Min. Arnaldo Versiani, DJe de 23.6.2010). 2. Agravo regimental não provido.
 
-TSE - RESPE: 2521020126040051 Presidente Figueiredo/AM 30642013, Relator: Min. Henrique Neves Da Silva, Data de Julgamento: 12/06/2013, Data de Publicação: DJE - Diário de justiça eletrônico - 18/06/2013 - Página 41-42
+TSE - RESPE: 2521020126040051,  Presidente Figueiredo/AM 30642013, Relator: Min. Henrique Neves Da Silva, Data de Julgamento: 12/06/2013, Data de Publicação: DJE Diário
+de justiça eletrônico - 18/06/2013 - Página 41-42
+
 TSE - RESPE: 69795520106060000 Fortaleza/CE 17632012, Relator: Min. Henrique Neves Da Silva, Data de Julgamento: 01/08/2013, Data de Publicação: DJE - Diário de justiça eletrônico - 05/08/2013 - Página 340-343
 
 
 
-##  Remessa entre instâncias 
+#  Remessa entre instâncias 
 
-Remessa para outra instância:
+## Remessa para outra instância:
 
-“Remessa para outra instância” tarefa exclusiva do PJE de 2º grau, deve ser utilizada quando o  objetivo seja enviar um processo que tenha iniciado no TRE, para o TSE. Deve ser utilizada também, quando o processo foi iniciado físico na Zona Eleitoral, migrado no TRE, e precisa descer para o 1º.
+“Remessa para outra instância” tarefa exclusiva do PJE de 2º grau, deve ser utilizada quando o objetivo seja enviar um processo que tenha iniciado no TRE, para o TSE. Deve ser utilizada também, quando o processo foi iniciado físico na Zona Eleitoral, migrado no TRE, e precisa descer para o 1º.
 
-Essa tarefa permite que se protocole um “novo processo” no destino, com classes e assuntos específicos e com novas configurações de partes. As classes exibidas são as que estejam configuradas na instância de destino como remessa entre instâncias “Sim”. Caso a classe selecionada esteja configurada no destino com a marcação  “exige numeração própria”, um novo número de processo será gerado.
+Essa tarefa permite que se protocole um “novo processo” no destino, com classes e assuntos específicos e com  novas configurações de partes. As classes exibidas são as que estejam configuradas na instância de destino como remessa entre instâncias  “Sim”. Caso a classe selecionada esteja configurada no destino com a marcação  “exige numeração própria”, um novo número de processo será gerado.
 
 Essa remessa lança o movimento de código 123: remetidos os autos, com os seus complementos cadastrados, bem como o código 22: baixa definitiva.
 
 Após a confirmação, o sistema movimentará o processo para a tarefa “Aguardando apreciação de outra instância” e ficará bloqueado para novas petições ou edições.
 
+##Expedir processo -  Retorno à origem
 
 "Devolver processo à origem", tarefa exclusiva do 2º e 3º grau: deve ser utilizada quando o objetivo seja devolver um processo para alguma instância em que ele esteve, ou seja, o processo deve existir na instância de destino (já deve ter ocorrido uma remessa entre instâncias no sistema).
 
@@ -453,21 +459,22 @@ O usuário pode também desistir da tarefa, retornando na tarefa “Retornar par
 
 Na confirmação da execução, o sistema retornará o processo para a última instância de origem (se veio do TSE, retornará para o TSE, se veio do primeiro grau, retornará para o primeiro grau). 
 
-Remeter processo para o TRE
+## ,Remeter processo para o TRE
 
 "Remeter ao TRE" (tarefa exclusiva do 1º grau): deve ser utilizada quando o objetivo seja realizar a remessa de um processo da Zona Eleitoral para o TRE, independente se o processo já esteve ou não na instância de destino (2º grau).
 
-No ambiente de zona, para remeter a outra instância, só existe hoje a possibilidade de utilizar o Remeter processo para o TRE, mesmo quando for devolução. De toda maneira, o sistema sempre consulta o processo na instância de origem ao fazer a remessa. Encontrando o processo lá, ele vai automaticamente fazer uma devolução, e não uma nova remessa.
+No ambiente de zona, para remeter a outra instância, só existe hoje a possibilidade de utilizar o Remeter processo para o TRE, mesmo quando for devolução. De toda maneira,
+o sistema  sempre consulta o processo na instância de origem, ao fazer a remessa.  Encontrando o processo lá, ele vai automaticamente  fazer  uma devolução, e não uma nova remessa.
 
 Essa remessa lança o movimento de código 123: remetidos os autos, com os seus complementos cadastrados, bem como o código 22: baixa definitiva.
 
 Ao utilizar tarefa “Remeter processo para o TRE”, o processo fica em “Aguardando apreciação do TRE” e bloqueado para novas petições ou edições. Caso seja devolvido do TRE, deve ir automaticamente para o “Analisar processo – ZE" ou “Analisar determinações - ZE”, retirando o bloqueio de edições/novas petições.
 
-O “Retornar processo” não tem nada a ver com remessa, ele só retorna o processo de volta para o analisar determinações ou analisar processo, verificando os movimentos lançados para encaminhar para um ou outro. 
+O “ Retornar processo”  não tem nada a ver com remessa, ele só retorna o processo  de volta para o analisar determinações ou analisar processo, verificando os movimentos lançados para encaminhar para um ou outro. 
 
-Expedir processo – retorno à origem   
+## Expedir processo – retorno à origem   
 
-"Expedir processo - Retorno à origem – outros órgãos" (tarefa exclusiva do 3º grau): deve ser utilizada quando o objetivo seja remeter um processo ao TRE, quando o processo se iniciou no TSE, seja porque realmente foi protocolado no TSE, seja porque foi migrado no TSE. Nesse caso, o processo não “existia” no TRE.
+"Expedir processo - Retorno à origem – outros órgãos"(tarefa exclusiva do 3º grau): deve ser utilizada quando o objetivo seja remeter um processo ao TRE, quando o processo se iniciou no TSE, seja porque realmente foi protocolado no TSE, seja porque foi migrado no TSE. Nesse caso, o processo não “existia” no TRE.
 
 Essa remessa lança o movimento de código 22: Baixa definitiva.
 
@@ -479,7 +486,7 @@ Como ficam os processos após finalização?
 O processo, após remetido a outra jurisdição, não fica na mesma tarefa. Se gera novo número (quando de um Estado para outro), é para ficar o número originário em processo arquivado na Zona Eleitoral inicial,  e o novo número em analisar novo processo, na ZE de destino. Se não gera novo número (remessa entre Zonas do mesmo Estado), fica apenas um processo em analisar novo processo, na ZE de destino. 
 
 
-## Artigo 260 no PJe 
+# Artigo 260 no PJe 
 
 Há uma especificidade da JE referente à distribuição de processos que afetam a eleição. Art. 260 do Código Eleitoral (CE) - Lei 4737/65: 
 
@@ -631,14 +638,14 @@ Siga o passo a passo e, em caso de eventuais dúvidas, envie um email para <aspj
 
 
 
-## Definir revisor 
+# Definir revisor 
 
 
-Um processo, ao ser protocolado, vai incluir o nome do revisor automaticamente, se a classe tiver marcada como exige revisor. Nesse caso, na configuração do órgão julgador colegiado, temos que colocar quem é o revisor padrão de cada gabinete. 
+Um processo, ao ser protocolado, vai incluir o nome do revisor automaticamente, se a classe tiver marcada como "exige revisor". Nesse caso, na configuração do órgão julgador colegiado, temos que colocar quem é o revisor padrão de cada gabinete. 
 
 Se a classe estiver marcada com revisão facultativa, o processo pode ter ou não revisor.  
 
-Após o protocolo de processos, dependendo da atualização do fluxo, existe uma tarefa depois do analisar determinação que permite a determinação do revisor para processos cujas classes tenham revisão marcada como facultativa. Se assim estiver, a tarefa permite que se marque ou desmarque que o processo exige revisão e também permite que o revisor seja alterado. 
+Após o protocolo de processos, dependendo da atualização do fluxo, existe uma tarefa depois do "analisar determinação" que permite a determinação do revisor para processos cujas classes tenham revisão marcada como facultativa. Se assim estiver, a tarefa permite que se marque ou desmarque que o processo exige revisão e também permite que o revisor seja alterado. 
  
 Você poderá verificar o nome do revisor pelos autos digitais, na opção de exibir mais detalhes do cabeçalho. 
 
@@ -646,20 +653,21 @@ Quando um processo está no fluxo de colegiadas, na tarefa “Conferir relatóri
 
 Quando a classe exige revisão, o processo só poderá ser pautado se o revisor tiver incluído o voto. 
 
-Para corrigir um revisor no processo utilizando a tarefa, deve-se colocar o revisor correto na configuração do colegiado, depois marcar a classe com "exige revisor" facultativo, depois colocar o processo, a partir do analisar determinação, na tarefa de definir o revisor. Na tarefa, alterar as marcações (exige revisor e nome do revisor) e, por fim, deixe selecionado o revisor correto, retornando depois o processo para analisar determinação. FAÇA ALTERAÇÕES gerais na tela para garantir que o sistema atualizará a definição de acordo com o valor selecionado, já que a tarefa não tem o botão salvar e a alteração será refletida após tramitação quando o sistema detecta que houve mudança.  
+Para corrigir um revisor no processo utilizando a tarefa, deve-se colocar o revisor correto na configuração do colegiado, depois marcar a classe com "exige revisor" facultativo, depois colocar o processo, a partir do analisar determinação, na tarefa de definir o revisor. Na tarefa, alterar as marcações (exige revisor e nome do revisor) e, por fim, deixe selecionado o revisor correto, retornando depois o processo para analisar determinação. FAÇA ALTERAÇÕES gerais na tela para garantir que o sistema atualizará a definição de acordo com o valor selecionado, já que a tarefa não tem o botão salvar e a alteração será refletida após tramitação, quando o sistema detecta que houve mudança. 
+
 Pode ocorrer também a situação em que o processo tem uma classe que exige revisão, mas o julgamento será do recurso. O procedimento correto é marcar facultativo para exige revisão na classe e pautar o processo após o procedimento. Nesse caso, quem envia o processo para a pauta é o relator, não o revisor. Depois, pode-se alterar a classe de volta. Se o processo já tiver sido pautado, pode-se fazer o seguinte: 
 
 -  Tirar da sessão: para processo com pauta fechada, o sistema gerará a certidão de cancelamento de pauta; 
 
 -  Marcar a classe como facultativo, em “exige revisor”;
 
--  Ir na tarefa “Analisar determinação”: Pode-se cancelar a decisão colegiada e remeter o processo para SJD. Os documentos construídos de voto, relatório e ementa não serão perdidos. 
+-  Ir na tarefa “Analisar determinação”: pode-se cancelar a decisão colegiada e remeter o processo para SJD. Os documentos construídos de voto, relatório e ementa não serão perdidos. 
 
 - Tirar o revisor pela tarefa;
 
--  Colocar na sessão novamente: Adicionar por mesa na sessão de julgamento. 
+-  Colocar na sessão novamente: adicionar por mesa na sessão de julgamento. 
 
-Dessa forma, pode-se alterar a ordem de votação do processo, já que com o revisor, o sistema não permite. 
+Dessa forma, pode-se alterar a ordem de votação do processo, já que com o revisor o sistema não permite. 
 
  
 
