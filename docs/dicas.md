@@ -167,12 +167,12 @@ Pode ser que ocorram problemas se for necessário retificar voto de relator desl
 
 
 
-## Visualização de documentos da sessão
+# Visualização de documentos da sessão
 
 
-O relatório, voto e ementa,  são construídos no PJe da Justiça Eleitoral,  por meio da tarefa “Minutar relatório, voto e ementa” pelo relator do processo.  Se o usuário autenticado estiver em um órgão julgador diferente do relator do processo, é gerada uma inconsistência só resolvida via banco de dados.Por voto, entenda-se que é o conjunto da indicação do voto e o próprio documento de voto. A visualização desses itens/documentos não assinados só é possível se as respectivas marcações “Liberar voto”, “Liberar relatório” e “Liberar ementa” forem realizadas. 
+O relatório, voto e ementa,  são  construídos no PJe da Justiça Eleitoral,  por meio  da  tarefa “Minutar relatório, voto e  ementa” pelo relator do processo. Se o usuário autenticado estiver em um órgão julgador diferente do relator do processo, é gerada uma inconsistência só resolvida via banco de dados.Por voto, entenda-se que é o conjunto da indicação do voto e o próprio documento de voto. A visualização desses itens/documentos não assinados só é possível se as respectivas marcações “Liberar voto”,  “Liberar relatório” e “Liberar ementa” forem realizadas. 
 
-Os pontos do sistema onde poderão ser visualizadas são:
+Os pontos do sistema onde poderão ser visualizadas:
 
 1.  Painel do secretário da sessão;
 
@@ -180,22 +180,22 @@ Os pontos do sistema onde poderão ser visualizadas são:
   
 3.  Painel do membro da OAB na sessão; 
 
-4. Painel do membro do ministério público na sessão; 
+4.  Painel do membro do ministério público na sessão; 
 
-5. Púlpito de sustentação oral;	
+5.  Púlpito de sustentação oral;	
 
-6. Internet - opção Pautas de julgamento (http://www.tse.jus.br/servicos-judiciais/sessoes-de-julgamento/pautas-de-julgamento/pje); 
+6.  Internet - opção Pautas de julgamento (http://www.tse.jus.br/servicos-judiciais/sessoes-de-julgamento/pautas-de-julgamento/pje); 
 
 7.  Tarefas de vogais. 
 
 Depois que inicia a sessão, quando o Assessor de plenário colocar em julgamento, vai aparecer na Internet, sem necessidade de usuário e senha, o "tipo de voto",  ou seja, concedo, nego, mas não aparece o documento do voto. Na Internet, sem login e senha, só aparece o documento depois de assinado. Já no painel do membro da OAB, basta iniciar
 a sessão. Em todos os casos, é sempre necessário liberação por meio da tarefa do gabinete. 
 
-Painel do secretário da sessão 
+## Painel do secretário da sessão 
 
-Se o magistrado tiver liberado seu documento para visualização por meio da opção respectiva na tarefa, e o parâmetro  “pje:sessao:ocultarVotosAntecipadosNaoMagistrado” estiver marcado como false o voto/documentos serão exibidos para o “Assessor de plenário”. 
+Se o magistrado tiver liberado seu documento para  visualização por meio da opção respectiva na tarefa, e o parâmetro    “pje:sessao:ocultarVotosAntecipadosNaoMagistrado” estiver marcado como false o voto/documentos serão exibidos para o “Assessor de plenário”. 
 
-Nas sessões contínuas,  os processos são colocados em julgamento automaticamente após o início da sessão, de acordo com o horário planejado.  Nas sessões não contínuas o Assessor de plenário pode liberar os processos para que sejam visualizados na Internet - opção “Pautas de julgamento”, quando inicia a sessão.
+Nas sessões contínuas,  os processos são colocados em julgamento automaticamente após o início da sessão, de acordo com o horário planejado.  Nas sessões não contínuas  o Assessor de plenário pode liberar os processos para que sejam visualizados na Internet - opção “Pautas de julgamento”, quando inicia a sessão.
 
 O Assessor de plenário pode liberar o voto/documentos para que sejam visualizados na Internet-opção “Pautas de julgamento”, quando finaliza a sessão. Se o magistrado tiver liberado seu documento para visualização por meio da opção respectiva na tarefa, os votos serão exibidos na opção “Pautas de julgamento” desde que: 
 
@@ -209,21 +209,21 @@ O Assessor de plenário pode liberar o voto/documentos para que sejam visualizad
 
 Se o parâmetro  “pje:sessao:plenarioVirtual:documentoAssinado" estiver com o valor “true”, o documento só aparecerá em “Pautas de julgamento” após assinatura do acórdão. 
 
-Os processos e votos/documentos serão visualizados no menu “Painel do membro da OAB na sessão” em sessões contínuas quando iniciada a sessão. Se o parâmetro “pje:sessao:ocultarVotosAntecipadosNaoMagistrado” estiver marcado como false e o magistrado tiver liberado seu documento para visualização por meio da opção respectiva na tarefa, voto/documentos serão exibidos no “Painel do membro da OAB na sessão”. 
+Os  processos  e  votos/documentos serão visualizados  no menu  “Painel  do  membro  da  OAB  na  sessão”  em  sessões contínuas quando iniciada a sessão. Se o parâmetro “pje:sessao:ocultarVotosAntecipadosNaoMagistrado” estiver marcado como false e o magistrado tiver liberado seu documento para visualização por meio da opção respectiva na tarefa, voto/documentos serão exibidos no “Painel do membro da OAB na sessão”. 
 
-O Assessor de plenário pode liberar os processos e votos/documentos para que sejam visualizados no menu “Painel do membro do ministério público na sessão” do procurador que está cadastrado naquela sessão em sessões não contínuas quando inicia a sessão. Se o parâmetro “pje:sessao:ocultarVotosAntecipadosNaoMagistrado” estiver marcado como false e o magistrado tiver liberado seu documento para visualização por meio da opção respectiva na tarefa, voto/documentos serão exibidos no “Painel do membro do ministério público na sessão”. 
+O Assessor de plenário pode liberar os processos e votos/documentos para que sejam visualizados no menu “Painel do membro do ministério público na sessão” do procurador que está cadastrado naquela sessão, em sessões não contínuas, quando inicia a sessão.  Se o parâmetro  “pje:sessao:ocultarVotosAntecipadosNaoMagistrado”  estiver  marcado como false, e  o  magistrado tiver liberado seu documento para visualização por meio da  opção  respectiva  na  tarefa,  voto/documentos  serão  exibidos no “Painel do membro do ministério público na sessão”. 
 
 O Assessor de plenário pode liberar o processo para ser visualizado no menu “Púlpito de sustentação oral” em julgamentos de sessões não contínuas quando colocar o processo “Em julgamento” (ícone balancinha sendo exibido). 
 
-O Assessor de plenário pode liberar o voto/documentos para que sejam visualizados por meio do menu “Púlpito de sustentação oral” em julgamentos de sessões não contínuas, quando clicar no ícone de olho disponível nos processos que estão “Em julgamento” (ícone balancinha sendo exibido). Se o magistrado tiver liberado seu documento para visualização por meio da opção respectiva na tarefa, voto/documentos serão exibidos no “Púlpito de sustentação oral”.
+O Assessor de plenário pode liberar o voto/documentos para que sejam visualizados por meio do menu “Púlpito de sustentação oral” em julgamentos de  sessões  não  contínuas, quando  clicar  no  ícone  de  olho disponível nos processos que estão  “Em julgamento” (ícone balancinha sendo exibido). Se o magistrado tiver liberado seu documento para visualização por meio da opção respectiva na tarefa, voto/documentos serão exibidos no “Púlpito de sustentação oral”.
 
 Orientação passada para o TSE quando foram disponilizados os painéis: 
 
 De ordem da assessora-chefe da Assessoria do PJe, informamos que a versão disponibilizada hoje no TSE, 18 de maio de 2020, contempla um painel aos advogados e ao ministério público para acompanhamento das sessões virtuais e por videoconferência. 
 
-Para as sessões iniciadas, virtuais ou não, o painel da OAB e do MP exibe documentos de relatório, voto e ementa produzidos pelos gabinetes, desde que liberados para visualização. 
+Para as sessões  iniciadas,  virtuais ou não,  o painel da OAB e do MP  exibe documentos de relatório, voto e ementa produzidos pelos gabinetes,  desde  que liberados  para visualização. 
 
-Conforme já ocorria antes dessa melhoria,  a liberação de visualização dos documentos é realizada pelo gabinete,  a partir das opções já existentes "Liberar relatório", "Liberar ementa" e Liberar voto", disponíveis nas tarefas de conferência dos documentos. 
+Conforme  já  ocorria  antes  dessa melhoria,  a liberação de visualização dos documentos é realizada pelo gabinete,  a partir das opções já existentes "Liberar relatório", "Liberar ementa" e Liberar voto", disponíveis nas tarefas de conferência dos documentos. 
 
 A liberação pode ocorrer por documento, ou seja, o gabinete pode escolher liberar apenas o relatório, assim como pode escolher não liberar documento algum. 
 
@@ -233,7 +233,7 @@ A versão 2.0.0.0.49.3 do PJe nos regionais e no TSE traz uma melhoria solicitad
 
 As permissões para esse painel podem ser encontradas no menu Configuração - Controle de acesso - Funcionalidades, pesquisando pelo identificador "/pages/Painel/ProcuradorMP/sessaoAbertaProcuradorMP.seam". Às permissões que já existem, pode ser acrescentada a permissão para o perfil de advogado. Ou ainda, se for o desejo, retirar permissões. 
 
-Além da melhoria nessa funcionalidade,  foi disponibilizada uma nova,  que só permite acesso aos documentos liberados pelo gabinete de processos em julgamento de sessões abertas não contínuas e que tenham visualização liberada pelo Assessor de plenário. A liberação ocorre por meio de um novo ícone em forma de olho no painel do secretário da sessão que aparece para cada processo. Ao clicar nesse ícone, a visualização dos documentos está liberada para esse novo painel. Além disso, a permissão para o painel deve ser também configurada por meio do controle de acesso - funcionalidades, identificador "/pages/Painel/painel_usuario/painelPulpito.seam" juntamente com a associação do papel "pje:papel:pulpitoSustentacaoOral" ao perfil ao qual vc deseja dar acesso ao novo painel. 
+Além da melhoria nessa funcionalidade,  foi disponibilizada uma nova,  que só  permite  acesso  aos documentos liberados pelo gabinete de processos em julgamento de sessões abertas não contínuas e que tenham visualização liberada pelo Assessor de plenário. A liberação ocorre por meio de um novo ícone em forma de olho no painel do secretário da sessão que aparece para cada processo. Ao clicar nesse ícone, a visualização dos documentos está liberada para esse novo painel. Além disso, a permissão para o painel deve ser também configurada por meio do controle de acesso - funcionalidades, identificador "/pages/Painel/painel_usuario/painelPulpito.seam" juntamente com a associação do papel "pje:papel:pulpitoSustentacaoOral" ao perfil ao qual vc deseja dar acesso ao novo painel. 
 
 SOBRE ESSAS DUAS FUNCIONALIDADES, A LIBERAÇÃO do ASSESSOR DE PLENÁRIO SÓ É NECESSÁRIA QUANDO SE USA O PAINEL DO PÚLPITO. 
 
@@ -245,11 +245,12 @@ Há um erro conhecido em processos migrados. Os documentos não aparecem na aba 
 
 A tarefa Selecionar documentos para acórdão é apresentada no início do fluxo de elaboração do acórdão.
 
-O fluxo é iniciado automaticamente após o encerramento do julgamento do processo ou quando o usuário seleciona, por meio de tarefas que já tem disponível no seu perfil, iniciar novo fluxo de acórdão.
+O fluxo  é  iniciado automaticamente após o encerramento do julgamento do processo, ou quando o usuário seleciona, por meio de tarefas que já tem disponível no seu perfil, iniciar novo fluxo de acórdão.
 
-Por meio da tarefa, o usuário poderá fazer a vinculação manual dos documentos de um julgamento à respectiva sessão de julgamento, como também selecionar quais documentos serão utilizados para a produção do acórdão.
+Por meio da tarefa, o usuário poderá fazer a vinculação manual dos documentos de um julgamento à respectiva sessão de julgamento, como  também selecionar quais documentos serão utilizados para a produção do acórdão.
 
-O objetivo é que a tarefa exiba todas as pautas onde o processo tem registro e  os documentos do tipo relatório, ementa e voto vinculados ao processo. Essas informações são exibidas em abas separadas, assim o usuário pode selecionar quais desses documentos serão o relatório, a ementa, o voto do relator, o voto do vencedor e os votos de vogais do acórdão a ser realizado, assim como para qual pauta será feito o acórdão. 
+O objetivo é que a tarefa exiba todas as pautas onde o processo tem registro e  os documentos do tipo relatório, ementa  e  voto vinculados ao processo. Essas informações 
+são exibidas em abas separadas, assim o usuário pode selecionar quais desses documentos serão o relatório, a ementa, o voto do relator, o voto do vencedor  e os  votos de vogais do acórdão a ser realizado, assim como para qual pauta será feito o acórdão. 
 
 	
 
@@ -270,7 +271,7 @@ Como se pode ver pela área marcada, o registro contém:
 
 Se houver recursos internos vinculados, o sistema também exibirá os dados do recurso. 
 
-As abas Ementa, Relatório, Voto Relator, Voto Vencedor e Acórdão permitem a seleção de apenas uma opção de documento, mas a seleção não é obrigatória. Dessa forma, se não houver seleção para uma determinada aba, ao enviar o processo para elaboração do acórdão a aba correspondente não terá documento previamente construído. Essa seleção refletirá na elaboração do acórdão desde que, após selecionadas todas as opções conjuntamente, o usuário utilize o botão "Salvar seleção". 
+As abas  Ementa, Relatório, Voto Relator, Voto Vencedor e Acórdão permitem a seleção de apenas uma opção de documento, mas a seleção não é obrigatória. Dessa forma, se não houver seleção  para  uma  determinada  aba, ao  enviar  o processo para elaboração do acórdão a aba correspondente não terá documento previamente construído. Essa seleção efletirá na elaboração do acórdão desde que, após selecionadas todas as opções conjuntamente, o usuário utilize o botão "Salvar seleção". 
  
  
 
@@ -317,7 +318,7 @@ A aba relatório trará todos os documentos do tipo configurado no parâmetro: i
 
  A aba acórdão trará todos os documentos do tipo configurado no parâmetro: idTipoProcessoDocumentoAcordao.
  
-O ícone de lixeira desvincula o documento correspondente à sessão/órgão julgador vinculados.
+O ícone de lixeira desvincula o documento correspondente à sessão/órgão julgador vinculados:
 
 
 ![Desvincular](img/acordao5.png)
@@ -325,18 +326,18 @@ O ícone de lixeira desvincula o documento correspondente à sessão/órgão jul
 ![Confirmar](img/acordao6.png)
 
 
-O ícone de lápis permite que o documento correspondente seja vinculado a um órgão julgador.
+O ícone de lápis permite que o documento correspondente seja vinculado a um órgão julgador:
 
 ![Ajustar](img/acordao3.png)
 
 ![Órgão](img/acordao4.png)
 
-O ícone de seleção permite a visualizaçao do conteúdo do documento.
+O ícone de seleção permite a visualizaçao do conteúdo do documento:
 
 
 ![Visualizar](img/acordao2.png)
 
-O ícone de cadeado fechado permite a visualização dos assinadores do documento, quando existirem.
+O ícone de cadeado fechado permite a visualização dos assinadores do documento, quando existirem:
 
 
 ![Cadeado](img/acordao12.png)
@@ -344,11 +345,11 @@ O ícone de cadeado fechado permite a visualização dos assinadores do document
 
 1. Caso não seja selecionado um acórdão na aba correspondente, o sistema criará um documento de acórdão em branco e o utilizará na tarefa seguinte.
 
-2. Na tarefa de elaboração do acórdão, a aba de seleção de documentos para o acórdão, além dos documentos já carregados pela regra atual, incluirá os documentos que tenham sido marcados na tarefa de seleção de documentos.
+2. Na tarefa de elaboração do acórdão, a aba de seleção de documentos para o acórdão, além dos documentos já carregados pela regra atual,  incluirá os documentos que tenham sido marcados na tarefa de seleção de documentos.
 
 3.  Caso alguma aba da tarefa Selecionar documentos para acórdão não tenha seleção de documento correspondente, o elaborar acórdão deverá carregar, em lugar do documento não selecionado, um documento em branco para que o usuário possa construir um novo, de acordo com as permissões já existentes na elaboração de acórdão. 
 
-4.  Ao selecionar "Salvar seleção", o sistema notificará o usuário sobre a seleção realizada. O alerta avisará quais abas não tiveram documentos selecionados. É só um alerta. 
+4.  Ao selecionar  "Salvar seleção",  o sistema  notificará  o  usuário sobre  a seleção realizada. O alerta avisará quais abas não tiveram documentos selecionados. É só um alerta. 
  
 
 ![Alerta](img/acordao13.png)
@@ -381,7 +382,7 @@ Não selecionando o botão "Cancelar", o sistema exibirá a mensagem de que a se
 ![Divergência](img/acordao15.png)
 
 
-As atualizações realizadas podem não estar disponíveis ainda nas abas. Atualize a página para poder verificar, caso tenha solicitado "Prosseguir ajustando informações".
+As atualizações realizadas podem  não estar disponíveis ainda nas abas.  Atualize a página para poder verificar, caso tenha solicitado "Prosseguir ajustando informações".
 
 O usuário poderá selecionar, pelos três pontinhos da tarefa, prosseguir por meio do "Elaborar acórdão ou resolução" ou "Iniciar novo fluxo de acórdão", caso tenha mais de
 um acórdão para construir.
@@ -453,13 +454,14 @@ Após a confirmação, o sistema movimentará o processo para a tarefa “Manter
 
 As tarefas onde os processos permanecem após remessa ou devolução são diferentes para que se saiba com mais facilidade qual o caminho que o processo percorreu.
 
-Como a tarefa funciona: A tela da tarefa permite a seleção do motivo da devolução e o acionamento do botão “Retornar para a instância de origem”, porém, nesse momento, o sistema verificará se há documentos não assinados, expedientes abertos ou tarefas em andamento, de modo a evitar que o processo seja encaminhado sem o devido cumprimento.Na confirmação da execução, o sistema retornará o processo para a última instância de origem (se veio do TSE, retornará para o TSE, se veio do primeiro grau, retornará para o primeiro grau). 
+Como a tarefa funciona: a  tela da tarefa permite  a seleção do motivo da devolução e o acionamento do botão “Retornar para a instância de origem”, porém, nesse momento,  o sistema verificará se há documentos não assinados, expedientes abertos ou tarefas em andamento, de modo  a evitar que o processo seja encaminhado  sem o devido cumprimento.
+Na confirmação da execução, o sistema retornará o processo para a última instância de origem (se veio do TSE, retornará para o TSE, se veio do primeiro grau, retornará para o primeiro grau). 
 
 O usuário pode também desistir da tarefa, retornando na tarefa “Retornar para Verificar Pendências”, ou encaminhar para novos cumprimentos, por meio da transição “Necessita atos de ofício”. 
 
 Na confirmação da execução, o sistema retornará o processo para a última instância de origem (se veio do TSE, retornará para o TSE, se veio do primeiro grau, retornará para o primeiro grau). 
 
-## ,Remeter processo para o TRE
+## Remeter processo para o TRE
 
 "Remeter ao TRE" (tarefa exclusiva do 1º grau): deve ser utilizada quando o objetivo seja realizar a remessa de um processo da Zona Eleitoral para o TRE, independente se o processo já esteve ou não na instância de destino (2º grau).
 
@@ -470,7 +472,7 @@ Essa remessa lança o movimento de código 123: remetidos os autos, com os seus 
 
 Ao utilizar tarefa “Remeter processo para o TRE”, o processo fica em “Aguardando apreciação do TRE” e bloqueado para novas petições ou edições. Caso seja devolvido do TRE, deve ir automaticamente para o “Analisar processo – ZE" ou “Analisar determinações - ZE”, retirando o bloqueio de edições/novas petições.
 
-O “ Retornar processo”  não tem nada a ver com remessa, ele só retorna o processo  de volta para o analisar determinações ou analisar processo, verificando os movimentos lançados para encaminhar para um ou outro. 
+O “ Retornar processo”  não tem nada a ver com remessa, ele só retorna o processo  de volta  para o analisar determinações ou analisar processo,  verificando os movimentos lançados para encaminhar para um ou outro. 
 
 ## Expedir processo – retorno à origem   
 
@@ -645,17 +647,17 @@ Um processo, ao ser protocolado, vai incluir o nome do revisor automaticamente, 
 
 Se a classe estiver marcada com revisão facultativa, o processo pode ter ou não revisor.  
 
-Após o protocolo de processos, dependendo da atualização do fluxo, existe uma tarefa depois do "analisar determinação" que permite a determinação do revisor para processos cujas classes tenham revisão marcada como facultativa. Se assim estiver, a tarefa permite que se marque ou desmarque que o processo exige revisão e também permite que o revisor seja alterado. 
+Após o protocolo de processos, dependendo da atualização do fluxo, existe uma tarefa depois do "analisar determinação" que permite a determinação  do revisor para processos cujas classes tenham revisão marcada como facultativa. Se assim estiver, a tarefa permite que se marque ou desmarque  que  o  processo  exige revisão e também permite que o revisor seja alterado. 
  
 Você poderá verificar o nome do revisor pelos autos digitais, na opção de exibir mais detalhes do cabeçalho. 
 
-Quando um processo está no fluxo de colegiadas, na tarefa “Conferir relatório, voto e ementa”, o sistema verifica se o processo exige revisor, e isso foi selecionado no protocolo, ou se o processo tem uma classe que a revisão é facultativa. Se uma dessas condições for satisfeita, aparece uma transição para que o usuário envie o processo para o revisor, que será o que aparece nos autos. 
+Quando  um  processo  está  no fluxo de colegiadas, na tarefa “Conferir relatório, voto e ementa”, o sistema verifica se o processo exige revisor, e isso foi selecionado no protocolo, ou se o processo tem uma classe que a revisão é facultativa.  Se  uma  dessas condições for satisfeita, aparece uma transição para que o usuário envie o processo para o revisor, que será o que aparece nos autos. 
 
 Quando a classe exige revisão, o processo só poderá ser pautado se o revisor tiver incluído o voto. 
 
-Para corrigir um revisor no processo utilizando a tarefa, deve-se colocar o revisor correto na configuração do colegiado, depois marcar a classe com "exige revisor" facultativo, depois colocar o processo, a partir do analisar determinação, na tarefa de definir o revisor. Na tarefa, alterar as marcações (exige revisor e nome do revisor) e, por fim, deixe selecionado o revisor correto, retornando depois o processo para analisar determinação. FAÇA ALTERAÇÕES gerais na tela para garantir que o sistema atualizará a definição de acordo com o valor selecionado, já que a tarefa não tem o botão salvar e a alteração será refletida após tramitação, quando o sistema detecta que houve mudança. 
+Para corrigir um revisor no processo utilizando a tarefa, deve-se  colocar o revisor correto na configuração do colegiado,  depois  marcar  a  classe  com  "exige revisor" facultativo, depois colocar o processo, a partir do analisar determinação, na tarefa de definir o revisor. Na tarefa, alterar as marcações exige revisor e nome do revisor) e,  por fim,  deixe  selecionado  o  revisor  correto, retornando depois o processo para analisar determinação. FAÇA ALTERAÇÕES gerais na tela para garantir que o sistema atualizará a definição de acordo com o valor selecionado, já que a tarefa não tem o botão salvar e a alteração será refletida após tramitação, quando o sistema detecta que houve mudança. 
 
-Pode ocorrer também a situação em que o processo tem uma classe que exige revisão, mas o julgamento será do recurso. O procedimento correto é marcar facultativo para exige revisão na classe e pautar o processo após o procedimento. Nesse caso, quem envia o processo para a pauta é o relator, não o revisor. Depois, pode-se alterar a classe de volta. Se o processo já tiver sido pautado, pode-se fazer o seguinte: 
+Pode ocorrer também a situação em que o processo tem uma classe que exige revisão, mas o julgamento será do recurso. O procedimento correto é marcar facultativo para exige revisão na classe e pautar  o processo após o procedimento. Nesse caso, quem  envia o processo para a pauta é o relator, não o revisor. Depois, pode-se alterar a classe de volta. Se o processo já tiver sido pautado, pode-se fazer o seguinte: 
 
 -  Tirar da sessão: para processo com pauta fechada, o sistema gerará a certidão de cancelamento de pauta; 
 
@@ -694,12 +696,17 @@ A diferença entre elas é que as partes baixadas ainda podem ser utilizadas com
 
 ## Intimação de pessoa representada por defensoria 
 
-Não há restrições para se intimar via sistema uma pessoa física vinculada a uma defensoria, desde que pelo menos um defensor tenha feito o login. Se a pessoa física tiver o cadastrado validado, o sistema também permitirá o envio eletrônico. A intimação eletrônica de partes vinculadas à defensoria é permitida. Não há restrições técnicas para se intimar via sistema uma pessoa física vinculada a uma defensoria. 
+Não há restrições para se intimar via sistema uma pessoa física vinculada a uma defensoria, desde que pelo menos um defensor tenha feito o login. Se a pessoa física tiver o cadastrado validado, o sistema também permitirá o envio eletrônico. 
+
+A intimação eletrônica de partes vinculadas à defensoria é permitida. Não há restrições técnicas para se intimar via sistema uma pessoa física vinculada a uma defensoria. 
+
 
 
 ## Campo máscara no preenchimento de configuração da classe 
 
 O campo de máscara  na  configuração da classe judicial é para quando é marcada a opção anterior de processo referência.   Significa que ao digitar o número do processo referência, o sistema vai colocar máscara, fazendo com que pontinhos e tracinhos apareçam no lugar certo. 
+
+
 
 ## Sobre distribuição e pesos
 
@@ -709,34 +716,33 @@ Regras de cálculo dos pesos estão no item 4 de:
 
 https://www.cnj.jus.br/wiki/index.php/Distribui%C3%A7%C3%A3o#Procedimento_de_distribui.C3.A7.C3.A3o 
 
-As regras de distribuição do PJe se baseiam essencialmente na ideia de que cada processo representa uma determinada carga de trabalho, a que chamamos de peso, e que essa carga é resultado da composição de alguns aspectos inerentes ao processo judicial. As características adotadas foram: a classe processual, os assuntos processuais, a quantidade de partes componentes do processo, a existência ou não de situação de prevenção e circunstâncias próprias dos órgãos julgadores.
+As regras de distribuição do PJe se baseiam essencialmente na ideia de que cada processo representa  uma  determinada carga de trabalho, a que chamamos de peso, e que essa carga é  resultado da  composição de  alguns  aspectos inerentes ao processo judicial. As  características  adotadas foram: a classe processual, os assuntos processuais, a quantidade de partes componentes do processo, a existência ou não de situação de prevenção e circunstâncias próprias dos órgãos julgadores.
 
 Ao criar um cargo judicial em um órgão julgador, o sistema pergunta se ele deve ser inicializado com os valores dos outros cargos existentes. Se sim, o sistema cria o cargo já com os pesos acumulados dos outros que já existem e estão recebendo distribuição.
 
-Assim, para um magistrado que vai começar a atuar em uma ZE ou tribunal e não se deseja que ele inicie recebendo processos a mais, deve-se agir da seguinte forma:  
-
-1.	criar um cargo judicial dentro do órgão, com as seguintes características:
+Assim, para um magistrado que vai começar a atuar em uma ZE ou tribunal e não se deseja que ele inicie recebendo processos a mais, deve-se criar um cargo judicial dentro do órgão, com as seguintes características:
 
 
-2.	Descrição: podem fornecer a que melhor lhes convier;
+1.	Descrição: podem fornecer a que melhor lhes convier;
 
 
-3.	Sigla: Podem fornecer a que melhor lhes convier;
+2.	Sigla: Podem fornecer a que melhor lhes convier;
 
 
-4.	Cargo: Ministro; 
+3.	Cargo: Ministro; 
 
 
-5.	Recebe distribuição: Sim; 
+4.	Recebe distribuição: Sim; 
 
 
-6.	Cargo Auxiliar: Não; 
+5.	Cargo Auxiliar: Não; 
 
 
-7.	Divisor do peso do processo: 1.0;
+6.	Divisor do peso do processo: 1.0;
 
 
-8.	Ativo: Sim.
+7.	Ativo: Sim.
+
 
 Ao selecionar a opção "Incluir", o sistema exibirá a seguinte mensagem: 
 
@@ -751,11 +757,12 @@ Após finalizada essa etapa, você deve vincular o magistrado como titular do ó
 
 
 
-## Audiências
+# Audiências
 [Clique e acesse](audiencias.md)
 
 
-## Unificação de pessoas  
+
+# Unificação de pessoas  
 
 A unificação de pessoas existe para que partes cadastradas repetidas vezes possam ser unificadas no mesmo cadastro. Dessa forma, fica valendo o cadastro principal e os outros que o usuário vincular serão enxergados como a mesma pessoa. Pode-se fazer isso com pessoas físicas, jurídicas ou entes. Os processos em que as pessoas unificadas estiverem cadastradas como partes serão todos refletidos de forma a prevalecer o cadastro principal. A unificação tem volta, ou seja, se você unificou um cadastro e percebeu que não era isso que você queria fazer, pode desunificar através do "Desunificar"  que fica no menu Atividades. 
 
