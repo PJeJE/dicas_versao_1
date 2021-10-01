@@ -137,37 +137,8 @@ Para processos da justiça eleitoral:
 
 
 
-## Problemas com sessão na 2.0 
 
- -  Fluxo com órgão julgador deslocado temporariamente (substituição por recesso, por exemplo, ou Recurso Extraordinário no TSE) : O órgão julgador responsável não consegue salvar o voto, dá um erro e fica gerando um monte de cópia do voto. Pode-se verificar as cópias no item Documentos dos autos. 
-
-O que acontece é que o sistema salva o voto no nome do órgão julgador relator, mas na hora que a tela recarrega, ele tenta recuperar um voto vinculado ao órgão julgador autenticado (que é o deslocado), e não tem. 
-
-A solução é alterar o órgão julgador que fará a decisão colegiada antes que seja iniciada a construção dos documentos. Ao final da sessão, depois de assinado o acórdão, o processo pode retornar para o relator original. Foi feita alteração de fluxo para permitir que isso aconteça no TSE.
-
-Se já tiver sido iniciada a construção dos documentos, tem que alterar no banco o órgão julgador do voto que foi salvo pra ser do órgão deslocado e aí os documentos são recuperados. 
-
-Na sessão de julgamento, o relator do processo precisará votar como vogal e novamente terá problemas. Para resolver, tem que alterar o órgão julgador responsável pelo processo no banco, deixar o vogal votar, e depois alterar de volta o órgão. 
-
-Pode ser que ocorram problemas se for necessário retificar voto de relator deslocado ou desse vogal relator depois do julgamento. A solução é mexer na relatoria por meio do banco novamente, alterando de volta depois. 
-
- - Ao desvincular documento no selecionar documentos para acórdão, em algumas vezes o sistema está apagando o registro do documento na sessão. Esse problema foi corrigido na versão 2.0.0.0.69
-
- - Ao excluir processo de pauta não fechada, incluir processo em outra pauta e fechar a pauta, o sistema não está vinculando os documentos - resolve com o selecionar documentos para acórdão 
-
- - No selecionar documentos para acórdão, ao vincular documentos de voto vogal ao acórdão, o sistema não está obedecendo 
-
- - Ao excluir processo com pauta fechada, pode dar um erro vermelho. Deve-se configurar o parâmetro idProcessoRetiradoPauta  para 273 e tentar novamente 
-
- - Editor de tarefa antes da versão 2.0.0.0.64 não exibe conteúdo porque dá problema com caracteres ' (denominado "aspas simples" ou "apóstrofo"), ' ("acento agudo" sem vinculação a uma letra), ` ("acento grave" sem vinculação a uma letra) e \ (denominado "contrabarra" ou "barra inversa"). Para documentos de sessão, a solução é ir no selecionar documentos para acórdão, não selecionar o documento que está com problema e enviar o processo para a unidade que produziu o documento originalmente. Lá, o servidor poderá acessar o conteúdo do documento por meio dos autos digitais, copiar em um editor externo, retirar as aspas, copiar o documento sem as aspas de volta no editor, que está em branco, salvar, e mandar de novo para a COARE. O documento novo criado sem as aspas deve aparecer na tarefa de acórdão da COARE. 
-
- - Processo cujo julgamento foi encerrado individualmente não aparece para ser incluído em outra sessão, só depois que a sessão é finalizada. Para contornar, o assessor de plenário tem acionado a ASPJe para que o processo seja retirado da sessão via banco e possa incluir na sessão seguinte. O problema foi corrigido a partir da versão 2.0.0.0.69. 
-
--  Processo não aparecer para ser incluído em mesa mesmo após sessão anterior ser finalizada em geral, é porque o processo está em outra sessão. Se não tem outra sessão em andamento, é porque o cara deixou o processo em uma sessão antiga e inativou a sessão (isso era possível antes da versão 2.0.0.0.64). Para pesquisar em que sessões o processo está, utilizem o menu Audiência e sessões - Processos pautados em sessão. 
-
-
-
-# Visualização de documentos da sessão
+## Visualização de documentos da sessão
 
 
 O relatório, voto e ementa,  são  construídos no PJe da Justiça Eleitoral,  por meio  da  tarefa “Minutar relatório, voto e  ementa” pelo relator do processo. Se o usuário autenticado estiver em um órgão julgador diferente do relator do processo, é gerada uma inconsistência só resolvida via banco de dados.Por voto, entenda-se que é o conjunto da indicação do voto e o próprio documento de voto. A visualização desses itens/documentos não assinados só é possível se as respectivas marcações “Liberar voto”,  “Liberar relatório” e “Liberar ementa” forem realizadas. 
@@ -241,7 +212,7 @@ Há um erro conhecido em processos migrados. Os documentos não aparecem na aba 
 
 
 
-# Selecionar documentos para acórdão
+## Selecionar documentos para acórdão
 
 A tarefa Selecionar documentos para acórdão é apresentada no início do fluxo de elaboração do acórdão.
 
@@ -257,6 +228,7 @@ são exibidas em abas separadas, assim o usuário pode selecionar quais desses d
 ![Tarefa](img/acordao1.png)
 
 
+
 Como se pode ver pela área marcada, o registro contém:  
 
 1.   O nome do órgão julgador que pautou o processo (Ministro Luís Roberto Barroso ao lado do campo de opção - círculo vazado); 
@@ -265,9 +237,9 @@ Como se pode ver pela área marcada, o registro contém:
 
 3.   A situação ao final da sessão (Julgado); 
 
-4.  A proclamação (Processo 1 - Relator ganhando com 1 julgamento somente);
+4.   A proclamação (Processo 1 - Relator ganhando com 1 julgamento somente);
 
-5.  O momento de inclusão na pauta (20/03/19 19h43).
+5.   O momento de inclusão na pauta (20/03/19 19h43).
 
 Se houver recursos internos vinculados, o sistema também exibirá os dados do recurso. 
 
@@ -277,11 +249,15 @@ As abas  Ementa, Relatório, Voto Relator, Voto Vencedor e Acórdão permitem a 
 
 ![Ementa](img/acordao7.png)
 
+
 ![Relatório](img/acordao10.png)
+
 
 ![Relator](img/acordao8.png)
 
+
 ![Vencedor](img/acordao9.png)
+
 
 
 Para cada documento, serão exibidas as informações:
@@ -307,7 +283,9 @@ Nas abas de voto também é exibida indicação do voto. Por exemplo, "Nego prov
 A aba de votos vogais permite a seleção de mais de um documento. 
 
 
+
 ![Relatório](img/acordao11.png)
+
 
 
 As abas de votos (voto relator, voto vencedor e votos vogais) exibirão sempre o mesmo conteúdo, ou seja, todos os documentos construídos e não excluídos da instância atual cujos tipos sejam os configurados nos parâmetros: idTipoProcessoDocumentoVoto, pje:painel:magistrado:sessao:tiposVotoVogal:ids e pje:flx:votacaoVogal:tiposVoto:ids. 
@@ -316,26 +294,31 @@ A aba de ementa trará todos os documentos do tipo configurado no parâmetro: id
 
 A aba relatório trará todos os documentos do tipo configurado no parâmetro: idTipoProcessoDocumentoRelatorio.
 
- A aba acórdão trará todos os documentos do tipo configurado no parâmetro: idTipoProcessoDocumentoAcordao.
+A aba acórdão trará todos os documentos do tipo configurado no parâmetro: idTipoProcessoDocumentoAcordao.
  
 O ícone de lixeira desvincula o documento correspondente à sessão/órgão julgador vinculados:
 
 
 ![Desvincular](img/acordao5.png)
 
+
 ![Confirmar](img/acordao6.png)
 
 
+
 O ícone de lápis permite que o documento correspondente seja vinculado a um órgão julgador:
+
 
 ![Ajustar](img/acordao3.png)
 
 ![Órgão](img/acordao4.png)
 
+
 O ícone de seleção permite a visualizaçao do conteúdo do documento:
 
 
 ![Visualizar](img/acordao2.png)
+
 
 O ícone de cadeado fechado permite a visualização dos assinadores do documento, quando existirem:
 
@@ -354,9 +337,12 @@ O ícone de cadeado fechado permite a visualização dos assinadores do document
 
 ![Alerta](img/acordao13.png)
 
+
 5. Ao selecionar "Não", o sistema não gravará a seleção. Ao selecionar "Sim", o sistema exibirá uma mensagem notificando as divergências relacionadas à seleção. 
 
+
 ![Divergência](img/acordao14.png)
+
 
 
 As possíveis divergências serão notificadas ao usuário quando:
@@ -389,11 +375,11 @@ um acórdão para construir.
 
 
 
-# Perfil de consulta  
+## Perfil de consulta  
 
 
 No ambiente do primeiro grau, há um perfil de servidor chamado "Consulta de processos para servidor de outra instância". Nesse perfil só é permitida a consulta processual
-e não é possível consultar processos sigilosos.  O cadastro dos usuários vinculados a esse perfil  deve  ser feito pela funcionalidade  "Configuração/Pessoa/Servidor", selecionando órgão julgador ou selecionando estado e na opção Papel, o nome desse perfil.
+e não é possível consultar processos sigilosos.  O cadastro dos usuários vinculados a esse perfil  deve  ser  feito  pela  funcionalidade  "Configuração/Pessoa/Servidor", selecionando órgão julgador ou selecionando estado e na opção Papel, o nome desse perfil.
 
 Para o ambiente do segundo grau, os servidores administradores podem fazer o cadastro do perfil. 
 
@@ -403,7 +389,7 @@ O cadastro dos usuários vinculados a esse perfil deve ser feito de forma simila
 
 
 
-#  Prazo em horas 
+##  Prazo em horas 
 
 O prazo em horas, no PJe,  tem problemas que necessitam de correção, e enquanto elas não vêm, a recomendação é que se converta em dias.
 
@@ -412,18 +398,18 @@ para prazos em dias:
 
 TSE - Agravo Regimental em Agravo de Instrumento AgR-AI 85876 GO (TSE)
 
-Jurisprudência • Data de publicação: 11/02/2011
+Jurisprudência • Data de publicação: 11/02/2011.
 
 AGRAVO REGIMENTAL.   AGRAVO DE INSTRUMENTO.  RECURSO ESPECIAL ELEITORAL.  CAPTAÇÃO ILÍCITA DE SUFRÁGIO.  ELEIÇÕES  2008.  CONTAGEM  DO PRAZO EM HORAS.  CONVERSÃO EM DIA. POSSIBILIDADE. NÃO PROVIMENTO. 1 . O prazo fixado em horas pode ser convertido em dias. (Precedentes: AgR- ED -Rp nº 789/DF, Relator designado Min.  Março Aurélio Mello, PSESS de 18.10.2005; AgR-AI nº 11.755 /GO, Rel. Min. Arnaldo Versiani, DJe de 23.6.2010). 2. Agravo regimental não provido.
 
 TSE - RESPE: 2521020126040051,  Presidente Figueiredo/AM 30642013, Relator: Min. Henrique Neves Da Silva, Data de Julgamento: 12/06/2013, Data de Publicação: DJE Diário
-de justiça eletrônico - 18/06/2013 - Página 41-42
+de justiça eletrônico - 18/06/2013 - Página 41-42.
 
-TSE - RESPE: 69795520106060000 Fortaleza/CE 17632012, Relator: Min. Henrique Neves Da Silva, Data de Julgamento: 01/08/2013, Data de Publicação: DJE - Diário de justiça eletrônico - 05/08/2013 - Página 340-343
+TSE - RESPE: 69795520106060000 Fortaleza/CE 17632012, Relator: Min. Henrique Neves Da Silva, Data de Julgamento: 01/08/2013, Data de Publicação: DJE - Diário de justiça eletrônico - 05/08/2013 - Página 340-343.
 
 
 
-#  Remessa entre instâncias 
+##  Remessa entre instâncias 
 
 ## Remessa para outra instância:
 
@@ -435,7 +421,7 @@ Essa remessa lança o movimento de código 123: remetidos os autos, com os seus 
 
 Após a confirmação, o sistema movimentará o processo para a tarefa “Aguardando apreciação de outra instância” e ficará bloqueado para novas petições ou edições.
 
-##Expedir processo -  Retorno à origem
+## Expedir processo -  Retorno à origem
 
 "Devolver processo à origem", tarefa exclusiva do 2º e 3º grau: deve ser utilizada quando o objetivo seja devolver um processo para alguma instância em que ele esteve, ou seja, o processo deve existir na instância de destino (já deve ter ocorrido uma remessa entre instâncias no sistema).
 
@@ -473,21 +459,21 @@ Ao utilizar tarefa “Remeter processo para o TRE”, o processo fica em “Agua
 
 O “ Retornar processo”  não tem nada a ver com remessa, ele só retorna o processo  de volta  para o analisar determinações ou analisar processo,  verificando os movimentos lançados para encaminhar para um ou outro. 
 
-## Expedir processo – retorno à origem   
+## Expedir processo – retorno à origem - outros órgãos   
 
 "Expedir processo - Retorno à origem – outros órgãos"(tarefa exclusiva do 3º grau): deve ser utilizada quando o objetivo seja remeter um processo ao TRE, quando o processo se iniciou no TSE, seja porque realmente foi protocolado no TSE, seja porque foi migrado no TSE. Nesse caso, o processo não “existia” no TRE.
 
 Essa remessa lança o movimento de código 22: Baixa definitiva.
 
 
-# Remessa a outra jurisdição 
+## Remessa a outra jurisdição 
 
 Como ficam os processos após finalização?
 
 O processo, após remetido a outra jurisdição, não fica na mesma tarefa. Se gera novo número (quando de um Estado para outro), é para ficar o número originário em processo arquivado na Zona Eleitoral inicial,  e o novo número em analisar novo processo, na ZE de destino. Se não gera novo número (remessa entre Zonas do mesmo Estado), fica apenas um processo em analisar novo processo, na ZE de destino. 
 
 
-# Artigo 260 no PJe 
+## Artigo 260 no PJe 
 
 Há uma especificidade da JE referente à distribuição de processos que afetam a eleição. Art. 260 do Código Eleitoral (CE) - Lei 4737/65: 
 
