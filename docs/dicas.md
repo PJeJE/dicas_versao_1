@@ -1047,40 +1047,22 @@ Para correção, basta ir ao menu dos autos processuais, opção retificar autua
 
 # Distribuição de processos: Abas Criminais
 
-Obrigatoriedade de informações adicionais para distribuição de processos de classes criminais.
+Obrigatoriedade de informações adicionais para distribuição de processos de classes criminais:
+
+Os processos criminais exigem informações adicionais para distribuição, são elas:
+
 
 ![Abas Distribuição Classes Criminais](img/abas_distribuicao_criminal.png)
 
-1. Aba **LOCAL DO FATO**: Preenchimento **obrigatório** para distribuição.
-
-    Campos obrigatórios nessa aba:
-
-    * Data do Fato
-    * Estado
-    * Município
-
-    <br/>
-
-    *Observações:*
-
-    1. O campo CEP não é obrigatório. Caso preenchido, o sistema carrega os dados de endereço. Caso contrário, os dados podem ser informados manualmente.
-    * O campo “Local do Fato” apesar do sinal de “*” ao lado, é de preenchimento é opcional.
+1. Aba **LOCAL DO FATO**, tem como campos obrigatórios a Data do Fato, o Estado e o Município onde ocorreu o fato. Observações: O campo CEP não é obrigatório,  se for preenchido o sistema carrega os dados de endereço, se não,  os  dados  podem ser informados manualmente.  O campo “Local do Fato” apesar do sinal de “*” ao lado, é de preenchimento opcional.
     
-    <br/>
+  
+2. Aba **PROCEDIMENTO DE ORIGEM**, é obrigatório incluir pelo menos um (1) procedimento para conseguir distribuir o processo. É obrigatório também informar o Estado e o Tipo de origem.
 
-2. Aba **PROCEDIMENTO DE ORIGEM**: É **obrigatório** incluir pelo menos um (1) procedimento para conseguir distribuir o processo.
-
-    Campos obrigatórios nessa aba:
-
-    * Estado
-    * Tipo de origem
-
-    <br/>
-
-3. Aba **INDICIAMENTO**: **Não é obrigatório**, do ponto de vista de sistema, o cadastramento de incidências penais no momento da distribuição.
+3. Aba **INDICIAMENTO**, não é obrigatório, do ponto de vista de sistema, o cadastramento de incidências penais no momento da distribuição.
 
 
-## Documentos que acionam o fluxo de petição avulsa no 1º grau
+# Documentos que acionam o fluxo de petição avulsa no 1º grau
 
 *Última atualização:* 11/03/2021
 
