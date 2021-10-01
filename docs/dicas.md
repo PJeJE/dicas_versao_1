@@ -83,7 +83,7 @@ O Ministério Público, como fiscal da lei, pode não ser intimado (de forma aut
 
 ## Intimação de pauta 
 
-Intimação de pauta na publicação da lista e no fechamento da pauta 
+Intimação de pauta na publicação da lista e no fechamento da pauta. 
 
 A publicação de pauta (última aba na Relação de julgamento) no diário utiliza a pessoa Destinatário para ciência pública. A intimação não é gerada para pessoas individuais, já que aquele é um aviso geral da sessão que acontecerá. 
 
@@ -182,7 +182,7 @@ Se o parâmetro  “pje:sessao:plenarioVirtual:documentoAssinado" estiver com o 
 
 Os  processos  e  votos/documentos serão visualizados  no menu  “Painel  do  membro  da  OAB  na  sessão”  em  sessões contínuas quando iniciada a sessão. Se o parâmetro “pje:sessao:ocultarVotosAntecipadosNaoMagistrado” estiver marcado como false e o magistrado tiver liberado seu documento para visualização por meio da opção respectiva na tarefa, voto/documentos serão exibidos no “Painel do membro da OAB na sessão”. 
 
-O Assessor de plenário pode liberar os processos e votos/documentos para que sejam visualizados no menu “Painel do membro do ministério público na sessão” do procurador que está cadastrado naquela sessão, em sessões não contínuas, quando inicia a sessão.  Se o parâmetro  “pje:sessao:ocultarVotosAntecipadosNaoMagistrado”  estiver  marcado como false, e  o  magistrado tiver liberado seu documento para visualização por meio da  opção  respectiva  na  tarefa,  voto/documentos  serão  exibidos no “Painel do membro do ministério público na sessão”. 
+O Assessor de plenário pode liberar os processos e votos/documentos para que sejam visualizados no menu “Painel do membro do ministério público na sessão” do procurador que está cadastrado naquela sessão, em sessões não contínuas, quando  inicia a sessão.  Se o parâmetro  “pje:sessao:ocultarVotosAntecipadosNaoMagistrado”  estiver  marcado como false, e  o  magistrado tiver liberado seu documento para visualização por meio da  opção  respectiva  na  tarefa,  voto/documentos  serão  exibidos no “Painel do membro do ministério público na sessão”. 
 
 O Assessor de plenário pode liberar o processo para ser visualizado no menu “Púlpito de sustentação oral” em julgamentos de sessões não contínuas quando colocar o processo “Em julgamento” (ícone balancinha sendo exibido). 
 
@@ -194,7 +194,7 @@ De ordem da assessora-chefe da Assessoria do PJe, informamos que a versão dispo
 
 Para as sessões  iniciadas,  virtuais ou não,  o painel da OAB e do MP  exibe documentos de relatório, voto e ementa produzidos pelos gabinetes,  desde  que liberados  para visualização. 
 
-Conforme  já  ocorria  antes  dessa melhoria,  a liberação de visualização dos documentos é realizada pelo gabinete,  a partir das opções já existentes "Liberar relatório", "Liberar ementa" e Liberar voto", disponíveis nas tarefas de conferência dos documentos. 
+Conforme  já  ocorria  antes  dessa melhoria,  a liberação de visualização dos documentos é realizada pelo  gabinete,  a partir das opções já existentes "Liberar relatório", "Liberar ementa" e Liberar voto", disponíveis nas tarefas de conferência dos documentos. 
 
 A liberação pode ocorrer por documento, ou seja, o gabinete pode escolher liberar apenas o relatório, assim como pode escolher não liberar documento algum. 
 
@@ -243,20 +243,24 @@ Como se pode ver pela área marcada, o registro contém:
 
 Se houver recursos internos vinculados, o sistema também exibirá os dados do recurso. 
 
-As abas  Ementa, Relatório, Voto Relator, Voto Vencedor e Acórdão permitem a seleção de apenas uma opção de documento, mas a seleção não é obrigatória. Dessa forma, se não houver seleção  para  uma  determinada  aba, ao  enviar  o processo para elaboração do acórdão a aba correspondente não terá documento previamente construído. Essa seleção efletirá na elaboração do acórdão desde que, após selecionadas todas as opções conjuntamente, o usuário utilize o botão "Salvar seleção". 
+As abas  Ementa, Relatório, Voto Relator, Voto Vencedor e Acórdão permitem a seleção de apenas uma opção de documento, mas a seleção não é obrigatória. Dessa forma, se não houver seleção  para  uma  determinada  aba, ao  enviar  o processo para elaboração do acórdão a aba correspondente não terá documento previamente construído. Essa seleção refletirá na elaboração do acórdão desde que, após selecionadas todas as opções conjuntamente, o usuário utilize o botão "Salvar seleção". 
  
  
 
 ![Ementa](img/acordao7.png)
 
 
+
 ![Relatório](img/acordao10.png)
+
 
 
 ![Relator](img/acordao8.png)
 
 
+
 ![Vencedor](img/acordao9.png)
+
 
 
 
@@ -379,11 +383,11 @@ um acórdão para construir.
 
 
 No ambiente do primeiro grau, há um perfil de servidor chamado "Consulta de processos para servidor de outra instância". Nesse perfil só é permitida a consulta processual
-e não é possível consultar processos sigilosos.  O cadastro dos usuários vinculados a esse perfil  deve  ser  feito  pela  funcionalidade  "Configuração/Pessoa/Servidor", selecionando órgão julgador ou selecionando estado e na opção Papel, o nome desse perfil.
+e não é possível consultar processos sigilosos.  O cadastro dos usuários vinculados a esse perfil  deve  ser  feito  pela  funcionalidade  "Configuração/Pessoa/Servidor", selecionando órgão julgador ou selecionando Estado e na opção Papel, o nome desse perfil.
 
 Para o ambiente do segundo grau, os servidores administradores podem fazer o cadastro do perfil. 
 
-Em "Configuração - Controle de Acesso - Papeis", criar um papel com o nome "Consulta de processos para servidor de outra instância" com identificador "consulta". Depois de criado, na aba "Herdeiros" desse papel vincula o papel "Colaborador" e na aba "Recursos" associa o recurso "Página Processo/Consulta/Consulta de Processo".
+Em "Configuração - Controle de Acesso - Papéis", criar um papel com o nome "Consulta de processos para servidor de outra instância" com identificador "consulta". Depois de criado, na aba "Herdeiros" desse papel vincula o papel "Colaborador" e na aba "Recursos" associa o recurso "Página Processo/Consulta/Consulta de Processo".
 
 O cadastro dos usuários vinculados a esse perfil deve ser feito de forma similar ao primeiro grau, ou seja, pela funcionalidade "Configuração/ Pessoa/Servidor", selecionando órgão julgador ou não, selecionando Colegiado ou não, selecionando em localização a opção Tribunal Regional Eleitoral e, na opção Papel, o nome desse perfil.
 
@@ -396,7 +400,7 @@ O prazo em horas, no PJe,  tem problemas que necessitam de correção, e enquant
 Sem que isso impacte diretamente na questão e na necessidade de evolução do sistema, a jurisprudência do TSE é bem farta no que se refere à conversão de prazos em horas 
 para prazos em dias: 
 
-TSE - Agravo Regimental em Agravo de Instrumento AgR-AI 85876 GO (TSE)
+TSE - Agravo Regimental em Agravo de Instrumento AgR-AI 85876 GO (TSE).
 
 Jurisprudência • Data de publicação: 11/02/2011.
 
@@ -415,9 +419,7 @@ TSE - RESPE: 69795520106060000 Fortaleza/CE 17632012, Relator: Min. Henrique Nev
 
 “Remessa para outra instância” tarefa exclusiva do PJE de 2º grau, deve ser utilizada quando o objetivo seja enviar um processo que tenha iniciado no TRE, para o TSE. Deve ser utilizada também, quando o processo foi iniciado físico na Zona Eleitoral, migrado no TRE, e precisa descer para o 1º.
 
-Essa tarefa permite que se protocole um “novo processo” no destino, com classes e assuntos específicos e com  novas configurações de partes. As classes exibidas são as que estejam configuradas na instância de destino como remessa entre instâncias  “Sim”. Caso a classe selecionada esteja configurada no destino com a marcação  “exige numeração própria”, um novo número de processo será gerado.
-
-Essa remessa lança o movimento de código 123: remetidos os autos, com os seus complementos cadastrados, bem como o código 22: baixa definitiva.
+Essa tarefa permite que se protocole um “novo processo” no destino, com classes e assuntos específicos e com  novas configurações de partes. As classes exibidas são as que estejam configuradas na instância de destino como remessa entre instâncias  “Sim”. Caso a classe selecionada esteja configurada no destino com a marcação  “exige numeração própria”, um novo número de processo será gerado. Essa remessa lança o movimento de código 123: remetidos os autos, com os seus complementos cadastrados, bem como o código 22: baixa definitiva.
 
 Após a confirmação, o sistema movimentará o processo para a tarefa “Aguardando apreciação de outra instância” e ficará bloqueado para novas petições ou edições.
 
@@ -451,9 +453,7 @@ Na confirmação da execução, o sistema retornará o processo para a última i
 "Remeter ao TRE" (tarefa exclusiva do 1º grau): deve ser utilizada quando o objetivo seja realizar a remessa de um processo da Zona Eleitoral para o TRE, independente se o processo já esteve ou não na instância de destino (2º grau).
 
 No ambiente de zona, para remeter a outra instância, só existe hoje a possibilidade de utilizar o Remeter processo para o TRE, mesmo quando for devolução. De toda maneira,
-o sistema  sempre consulta o processo na instância de origem, ao fazer a remessa.  Encontrando o processo lá, ele vai automaticamente  fazer  uma devolução, e não uma nova remessa.
-
-Essa remessa lança o movimento de código 123: remetidos os autos, com os seus complementos cadastrados, bem como o código 22: baixa definitiva.
+o sistema  sempre consulta o processo na instância de origem, ao fazer a remessa.  Encontrando o processo lá, ele vai automaticamente  fazer  uma devolução, e não uma nova remessa. Essa remessa lança o movimento de código 123: remetidos os autos, com os seus complementos cadastrados, bem como o código 22: baixa definitiva.
 
 Ao utilizar tarefa “Remeter processo para o TRE”, o processo fica em “Aguardando apreciação do TRE” e bloqueado para novas petições ou edições. Caso seja devolvido do TRE, deve ir automaticamente para o “Analisar processo – ZE" ou “Analisar determinações - ZE”, retirando o bloqueio de edições/novas petições.
 
@@ -461,9 +461,7 @@ O “ Retornar processo”  não tem nada a ver com remessa, ele só retorna o p
 
 ## Expedir processo – retorno à origem - outros órgãos   
 
-"Expedir processo - Retorno à origem – outros órgãos"(tarefa exclusiva do 3º grau): deve ser utilizada quando o objetivo seja remeter um processo ao TRE, quando o processo se iniciou no TSE, seja porque realmente foi protocolado no TSE, seja porque foi migrado no TSE. Nesse caso, o processo não “existia” no TRE.
-
-Essa remessa lança o movimento de código 22: Baixa definitiva.
+"Expedir processo - Retorno à origem – outros órgãos"(tarefa exclusiva do 3º grau): deve ser utilizada quando o objetivo seja remeter um processo ao TRE, quando o processo se iniciou no TSE, seja porque realmente foi protocolado no TSE, seja porque foi migrado no TSE. Nesse caso, o processo não “existia” no TRE. Essa remessa lança o movimento de código 22: Baixa definitiva.
 
 
 ## Remessa a outra jurisdição 
