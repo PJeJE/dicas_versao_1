@@ -241,7 +241,7 @@ Há um erro conhecido em processos migrados. Os documentos não aparecem na aba 
 
 
 
-## Selecionar documentos para acórdão
+# Selecionar documentos para acórdão
 
 A tarefa Selecionar documentos para acórdão é apresentada no início do fluxo de elaboração do acórdão.
 
@@ -389,7 +389,8 @@ um acórdão para construir.
 
 
 
-## Perfil de consulta  
+# Perfil de consulta  
+
 
 No ambiente do primeiro grau, há um perfil de servidor chamado "Consulta de processos para servidor de outra instância". Nesse perfil só é permitida a consulta processual
 e não é possível consultar processos sigilosos.  O cadastro dos usuários vinculados a esse perfil  deve  ser feito pela funcionalidade  "Configuração/Pessoa/Servidor", selecionando órgão julgador ou selecionando estado e na opção Papel, o nome desse perfil.
@@ -402,9 +403,7 @@ O cadastro dos usuários vinculados a esse perfil deve ser feito de forma simila
 
 
 
-
-##  Prazo em horas 
-
+#  Prazo em horas 
 
 O prazo em horas, no PJe,  tem problemas que necessitam de correção, e enquanto elas não vêm, a recomendação é que se converta em dias.
 
@@ -673,7 +672,7 @@ Dessa forma, pode-se alterar a ordem de votação do processo, já que com o rev
 
  
 
-## Advogado não validado
+# Advogado não validado
 
 Por vezes, o cadastro do advogado no PJe é feito mesmo o advogado estando com problemas na OAB, o sistema permite e o cadastro é realizado.
 
@@ -684,7 +683,8 @@ Quando se cadastra um advogado no processo, seja na autuação ou na retificaç�
 Se você, como servidor, sabe que aquele advogado está regular, não há problema, isso é só um alerta que aparece apenas para os servidores. 
 
 
-## Situação das partes no processo: Suspensa, inativa e baixada
+
+# Situação das partes no processo: Suspensa, inativa e baixada
 
 Parte suspensa é aquela que no processo criminal, na fase de execução da sentença, está cumprindo normalmente as medidas restritivas a qual foi condenado. Se ele para de cumprir o que foi determinado na sentença, volta a ficar ativo no processo.
 
@@ -694,7 +694,7 @@ A diferença entre elas é que as partes baixadas ainda podem ser utilizadas com
 
 
 
-## Intimação de pessoa representada por defensoria 
+# Intimação de pessoa representada por defensoria 
 
 Não há restrições para se intimar via sistema uma pessoa física vinculada a uma defensoria, desde que pelo menos um defensor tenha feito o login. Se a pessoa física tiver o cadastrado validado, o sistema também permitirá o envio eletrônico. 
 
@@ -702,13 +702,13 @@ A intimação eletrônica de partes vinculadas à defensoria é permitida. Não 
 
 
 
-## Campo máscara no preenchimento de configuração da classe 
+# Campo máscara no preenchimento de configuração da classe 
 
 O campo de máscara  na  configuração da classe judicial é para quando é marcada a opção anterior de processo referência.   Significa que ao digitar o número do processo referência, o sistema vai colocar máscara, fazendo com que pontinhos e tracinhos apareçam no lugar certo. 
 
 
 
-## Sobre distribuição e pesos
+# Distribuição e pesos
 
 https://www.cnj.jus.br/wiki/index.php/Distribui%C3%A7%C3%A3o 
 
@@ -754,9 +754,6 @@ Após finalizada essa etapa, você deve vincular o magistrado como titular do ó
 
 
 
-
-
-
 # Audiências
 [Clique e acesse](audiencias.md)
 
@@ -764,54 +761,54 @@ Após finalizada essa etapa, você deve vincular o magistrado como titular do ó
 
 # Unificação de pessoas  
 
-A unificação de pessoas existe para que partes cadastradas repetidas vezes possam ser unificadas no mesmo cadastro. Dessa forma, fica valendo o cadastro principal e os outros que o usuário vincular serão enxergados como a mesma pessoa. Pode-se fazer isso com pessoas físicas, jurídicas ou entes. Os processos em que as pessoas unificadas estiverem cadastradas como partes serão todos refletidos de forma a prevalecer o cadastro principal. A unificação tem volta, ou seja, se você unificou um cadastro e percebeu que não era isso que você queria fazer, pode desunificar através do "Desunificar"  que fica no menu Atividades. 
+A unificação  de  pessoas  existe  para que partes cadastradas repetidas vezes possam ser unificadas no  mesmo cadastro. Dessa forma, fica valendo o cadastro principal  e os outros que o usuário vincular  serão  enxergados como  a mesma pessoa. Pode-se fazer isso com pessoas físicas, jurídicas ou entes. Os processos em que as pessoas  unificadas estiverem cadastradas como partes serão todos refletidos de forma a prevalecer o cadastro principal. A unificação tem volta, ou seja, se você unificou um cadastro e percebeu que não era isso que você queria fazer, pode desunificar através do "Desunificar"  que fica no menu Atividades. 
 
 No entanto, se em um processo há outra parte cadastrada com a pessoa unificada, a desunificação não será possível. 
 
 
-## Publicações no DJe – sigilo
 
-Como o sigilo é verificado? 
+# Publicações no DJe – sigilo
 
 A única propriedade que é levada em consideração para marcar uma publicação como sigilosa ou não é se o processo é sigiloso. 
 
-A dúvida surgiu porque na tarefa “Preparar ato de comunicação”, no 2o passo, existe a opção “sigiloso” ao lado do nome da parte Marcar essa opção não tem efeito na publicação do DJe. Ou seja, caso o processo não seja sigiloso, os dados da parte aparecerão mesmo que esta opção esteja selecionada. 
+A dúvida surgiu  porque  na  tarefa  “Preparar ato de comunicação”,  no 2o  passo,  existe  a opção “sigiloso” ao lado do nome da parte. Marcar essa opção não tem efeito na publicação do DJe, ou seja, se o processo não for sigiloso, os dados da parte aparecerão mesmo que esta opção esteja selecionada. 
 
 Então qual a finalidade da opção “Sigiloso” na tarefa “Preparar ato de comunicação?” 
 
-Marcar essa opção, deveria refletir no documento que será criado/selecionado em “Instrumento de comunicação” após clicar no “lápis”. E diz respeito ao sigilo do documento ao ser listado nos autos digitais. No entanto, a recomendação é NÃO utilizar essa marcação. Ela não se comporta como o esperado e precisará de correção. 
+Marcar essa opção deveria refletir no documento que será criado/selecionado em “Instrumento de comunicação” após clicar no “lápis”. E diz respeito ao sigilo do documento ao ser listado nos autos digitais. No entanto, a recomendação é NÃO utilizar essa marcação. Ela não se comporta como o esperado e precisará de correção. 
+ 
 
-## Carta Precatória
-
- - Visualização promotor deprecado. 
-
+# Carta Precatória: Visualização pelo promotor deprecado 
+ 
 Há duas formas de distribuir carta precatória ao juízo deprecado:
 
-**1º Quando a Carta Precatória é distribuída pelo deprecante diretamente na zona deprecada**, observa-se manutenção da numeração única do processo (da zona deprecada) e  que os autos ficam vinculados a caixa do Procurador deprecado. 
+1. A Carta Precatória é distribuída pelo deprecante diretamente na zona deprecada, observa-se manutenção da numeração única do processo (da zona deprecada) e que os autos ficam vinculados a caixa do Procurador deprecado. 
 
-2º Na hipótese de os autos serem autuados na zona deprecante e remetidos à zona deprecada, observam-se duas situações: 
+2. A carta precatória é distribuída e os autos autuados na zona deprecante, sendo remetidos à zona deprecada, quando se observam duas situações possíveis: 
 
-a)  Quando a remessa é para outra zona do mesmo Estado, a  numeração permanece e, a princípio, o processo ainda fica vinculado na caixa do Promotor deprecante. Entretanto, no primeiro ato de comunicação, o processo migra para caixa correta, ou seja, na primeira intimação ao Ministério Público, o promotor do juízo deprecado é comunicado, de forma a ser viabilizada a atuação; 
+a. Quando a remessa é para outra zona do mesmo Estado, a numeração permanece e, a princípio, o processo ainda fica vinculado na caixa do Promotor deprecante. Entretanto, no primeiro ato de comunicação, o processo migra para caixa correta, ou seja, na primeira intimação ao Ministério Público, o promotor do juízo deprecado é comunicado, de forma a ser viabilizada a atuação; 
 
-b) A remessa entre zonas de Estados distintos não é praxe, entretanto, tecnicamente, quando a remessa é para zona de outro Estado o número do processo é alterado (art. 5º da Resolução CNJ n.º 65/2008), mas as partes permanecem as mesmas, ou seja, não atualiza para o Ministério Público do Estado deprecado. Neste caso, é necessário que o Cartório Eleitoral deprecado atualize os dados do processo, de forma a inserir o Ministério Público deprecado na autuação.
+b. A remessa entre zonas de Estados distintos não é praxe, entretanto, tecnicamente, quando a remessa é para zona de outro Estado o número do processo é alterado (art. 5º da Resolução CNJ n.º 65/2008), mas as partes permanecem as mesmas, ou seja, não atualiza para o Ministério Público do Estado deprecado. Neste caso, é necessário que o Cartório Eleitoral deprecado atualize os dados do processo, de forma a inserir o Ministério Público deprecado na autuação.
 
-A despeito de todas as viabilidades técnicas, **recomenda-se a utilização da primeira opção, qual seja, autuação diretamente na zona eleitoral deprecada**. Verifica-se, neste, o procedimento mais seguro e tendente a resolver a demanda sem necessidade de adequações (sejam automáticas ou manuais).
+A despeito de todas as viabilidades técnicas, recomenda-se a utilização da primeira opção, qual seja, autuação diretamente na zona eleitoral deprecada. Este é o procedimento mais seguro e tendente a resolver a demanda sem necessidade de adequações (sejam automáticas ou manuais).
 
-## Minutar em lote
 
-As tarefas de construção de documentos (minutar ato, elaborar documentos) podem ser executadas em lote (mais de um processo por vez) ou individualmente. Para construir documentos em lote, deve-se selecionar os processos de alguma tarefa onde a minuta em lote esteja habilitada por meio do campo de seleção disponível ao lado do cabeçalho do processo. 
+
+# Minutar em lote
+
+As tarefas de construção de documentos  como minutar ato, elaborar documentos, podem ser executadas individualmente ou em lote (mais de um processo por vez). Para construir documentos em lote, deve-se selecionar os processos de alguma tarefa onde a minuta em lote esteja habilitada (atualmente quase todas estão), por meio do campo de seleção disponível ao lado do cabeçalho do processo. 
 
 ![Campo de seleção](img/minutalote1.png)
 
-Pode-se também selecionar todos os processos daquela página por meio do campo de seleção que fica logo abaixo dos agrupadores de PROCESSOS / ETIQUETAS. Selecionando essa opção, todos os processos daquela página serão incluídos no lote. Lembramos que o limite de processos por página é 30. 
+Pode-se também selecionar todos os processos daquela página por meio do campo de seleção que fica logo abaixo dos agrupadores de  PROCESSOS/ETIQUETAS.  Selecionando essa opção, todos os processos daquela página serão incluídos no lote. Lembramos que o limite de processos por página é 30.  
 
 ![Processos e Etiquetas](img/minutarlote2.png)
 
-Segue imagem de exemplo de como ficam os processos e os ícones abaixo dos agrupadores de PROCESSOS / ETIQUETAS após selecionados os processos para os quais se deseja construir documentos em lote: 
+Seguem imagens de exemplos de como ficam os processos e os ícones abaixo dos agrupadores de PROCESSOS/ETIQUETAS, após  selecionados os processos para  os quais se deseja construir documentos em lote: 
 
 ![Visão geral](img/minutalote3.png)
 
-O minutar em lote está habilitado, já que o ícone correspondente é exibido 
+O minutar em lote está habilitado, já que o ícone correspondente é exibido: 
 
 ![Ícone do minutar em lote](img/minutalote4.png)
 
@@ -827,11 +824,12 @@ Perceba que o ícone de assinatura fica sempre desabilitado no minutar em lote. 
 
 ![Ícone assinatura desabilitado](img/minutalote7.png)
 
-Ao selecionar o tipo e o modelo de documento, o sistema carrega na área de exibição de texto do editor o conteúdo do modelo de documento. Perceba que, se o modelo contiver variáveis, elas serão carregadas sem a tradução, já que o sistema tem vários processos no lote e não exibirá na área de texto a tradução para cada documento. 
+Ao selecionar o tipo e o modelo de documento, o sistema carrega na área de exibição de texto do editor o conteúdo do modelo de documento.  Se o  modelo contiver variáveis, elas serão carregadas sem a tradução, já que o sistema tem vários processos no lote e não exibirá na área de texto a tradução para cada documento. 
+ 
 
 ![Variáveis não traduzidas](img/minutalote8.png)
 
-Ao salvar, clicando no ícone correspondente, o sistema fará a tradução das variáveis de acordo com cada processo. Finalizada a edição, o usuário pode simplesmente fechar a tela ou tramitar o processo para outra tarefa. Ao baixar a barra lateral de rolagem da tela, o sistema exibe as opções de tramitação, similarmente à tela a seguir: 
+Ao salvar, clicando no ícone correspondente, o sistema fará a tradução das variáveis de acordo com cada processo. Finalizada a edição, o usuário pode simplesmente fechar a tela ou tramitar o processo para outra tarefa. Ao baixar a barra lateral de rolagem da tela, o sistema exibe as opções de tramitação, como na tela a seguir: 
 
 ![Transições](img/minutalote9.png)
 
@@ -845,9 +843,10 @@ Caso seja confirmada a movimentação, o sistema exibirá um alerta para que o u
 
 ![Aviso](img/minutalote11.png)
 
-Ao confirmar, o sistema tramitará o processo automaticamente para as respectivas tarefas selecionadas para cada processo. Se a próxima tarefa for uma tarefa de assinatura e o usuário tiver permissão para assinar aqueles documentos, os processos serão exibidos no item “Assinaturas” do painel de tarefas.  
+Ao confirmar, o sistema tramitará o processo automaticamente para as respectivas tarefas selecionadas para cada processo. Se a próxima tarefa for uma tarefa de assinatura e o usuário tiver permissão para assinar aqueles documentos, os processos serão exibidos no item “Assinaturas” do painel de tarefas. 
 
-Para o caso da tarefa “Elaborar documentos – ZE", não há necessidade de tramitação para uma tarefa de assinatura. Sendo assim, ao fechar a janela do “Minutar em lote”, seja pelo botão “Cancelar” ou pelo próprio ícone de fechamento da janela, os processos estarão com os documentos produzidos. Caso o usuário tenha permissão para assinar os tipos de documentos, eles estarão disponíveis para assinatura, individual ou em lote. Se desejar assinar em lote, o usuário deve selecionar o item “Assinaturas”, disponível no painel do usuário. 
+No caso da tarefa “Elaborar documentos – ZE", não há necessidade de tramitação para uma tarefa de assinatura. Sendo assim, ao fechar a janela do “Minutar em lote”, seja pelo botão “Cancelar” ou pelo próprio ícone de fechamento da janela, os processos estarão com os documentos produzidos. Caso o usuário tenha permissão para assinar os tipos de documentos, eles estarão disponíveis para assinatura, individual ou em lote. Se desejar assinar em lote, o usuário deve selecionar o item “Assinaturas”, disponível no painel do usuário. 
+ 
 
 ![Assinaturas](img/minutalote12.png)
 
@@ -859,39 +858,43 @@ Pode ser que o painel não tenha sido atualizado com os documentos produzidos e 
 
 A assinatura em lote permitirá que se assine todos os documentos pendentes de assinatura. Pode-se também utilizar a opção de conferência, mas ela é opcional. Utilizando a opção de conferência antes da assinatura como método de trabalho, o usuário assinador pode optar por assinar apenas os conferidos, de forma a garantir que o conteúdo foi revisado por outra pessoa.
 
-## Caixas de procuradores 
 
-O PJe do primeiro grau tem uma funcionalidade que, ao ser protocolado novo processo, os filtros cadastrados nas caixas de advogados e procuradores são automaticamente acionados de forma a preencher as caixas com os processos respectivos. O acionamento se dá no protocolo de novos processos e na construção de atos de comunicação e na redistribuição. 
 
-Em versões anteriores à 2.1.2.6.17, quando o processo é remetido a outra zona, se não há mudança de UF, o número do processo permanece o mesmo. Para o sistema, o que ocorreu não foi um novo protocolo. Os filtros não são acionados automaticamente nesses casos. Para eles, o procurador gestor deve utilizar a distribuição disponível por meio do ícone de seu painel, uma varinha, como se fosse de mágica, que coloca cada processo na caixa respectiva. 
+# Caixas de procuradores 
 
-O painel do procurador tem jurisdições, onde ele pode protocolar processos e acompanhar processos onde é parte/foi intimado, e pode ter caixas ou não. Em geral, as caixas que já existem hoje são caixas cujos nomes são os nomes das zonas, mas o procurador gestor pode ter apagado essas caixas, mudado de nome... Só há como ter certeza se consultar pelo log. Não se cria caixa dentro de caixa. Sendo assim, se ele foi criar uma outra caixa, serão exibidas todas as caixas para o gestor. A caixa não fica dentro de uma zona, mas o nome das caixas iniciais que criamos coincide com o nome da zona. 
+O PJe do primeiro grau tem uma funcionalidade em que, ao ser protocolado um novo processo, os filtros cadastrados nas caixas de advogados e procuradores são automaticamente acionados, de forma a preencher as caixas com os processos respectivos. O acionamento se dá no protocolo de novos processos, na redistribuição e na construção de atos de comunicação.
 
-O procurador gestor é responsável pela gestão de suas caixas. Se ele vir que alguém tem que ter acesso a apenas um processo, ele mesmo pode criar uma caixa nova e colocar esse outro promotor nessa caixa nova e ele mesmo pode mover o processo da caixa geral para essa caixa nova. Ele também pode criar filtros de forma a tentar distribuir os processos em caixas e apagar a caixa que criamos para cada zona. As caixas que criamos é uma sugestão de organização, apenas. Mas a gestão é toda do procurador gestor. 
+O painel do procurador tem jurisdições, onde ele pode protocolar processos e acompanhar processos em que é parte ou foi intimado, e pode ter caixas ou não. Em geral, as caixas que existem hoje são aquelas que foram criadas inicialmente, pela ASPJE, cujos nomes são os nomes das zonas. Essas caixas são uma sugestão de organização, apenas.
+
+O procurador gestor é responsável pela gestão de suas caixas e pode criar filtros de forma a distribuir os processos como melhor lhe prouver, por exemplo, criar caixa para um procurador designado exclusivamente para determinado processo. No caso, ele vai usar a varinha mágica para arrastar o processo até a caixa.
+
+Em versões anteriores à 2.1.2.6.17, quando o processo é remetido a outra zona, se não há mudança de UF, o número do processo permanece o mesmo. Para o sistema, o que ocorreu não foi um novo protocolo. Os filtros não são acionados automaticamente nesses casos. Para eles, o procurador gestor deve utilizar a distribuição disponível por meio do ícone de seu painel, uma varinha mágica, que coloca cada processo na caixa respectiva.
+ 
 
 ## Filtros - procurador
 
 ![Caixas](img/caixas1.png)
 
-Criando novas caixas
+1. Criando caixas:
 
 ![Nova caixa](img/caixas2.png)
 
 - Não há restrições para os nomes das caixas;
 - Não há restrições para a quantidade de caixas existentes;
-- É possível definir quem vê cada uma caixas;
-- Não é possível criar uma caixa dentro de outra caixa (subcaixas)
+- É possível definir quem vê cada caixa;
+- Não é possível criar uma caixa dentro de outra caixa (subcaixas).
 
-Criando novos filtros
+2. Criando filtros:
 
 ![Nova filtro](img/caixas3.png)
 
 ![Opções do caixa](img/caixas4.png)
 
-- Filtros da Caixa: indicar o critério utilizado para que os processos venham automaticamente para esta caixa
-- Pessoas Associadas - indicar quem pode ver esta caixa
+- Filtros da Caixa: indicar o critério utilizado para que os processos venham automaticamente para esta caixa;
+- Pessoas Associadas - indicar quem pode ver esta caixa.
 
-As caixas para o Ministério Público no ambiente do primeiro grau da Justiça Eleitoral foram organizadas em zonas eleitorais, que por sua vez são vinculadas à Jurisdição do processo.
+As caixas para o Ministério Público, no ambiente do primeiro grau da Justiça Eleitoral, foram, inicialmente, organizadas em Zonas Eleitorais, que por sua vez são vinculadas à Jurisdição do processo.
+ 
 
 ![Jurisdições](img/caixas5.png)
 
@@ -901,18 +904,19 @@ Pode-se, no entanto, organizar as caixas de várias maneiras. Exemplos:
 
 ![Procuradores](img/caixas6.png)
 
-- Organização de caixas por Procurador e/ou grupo de Procuradores em conjunto com a zona
+- Organização de caixas por Procurador e/ou grupo de Procuradores em conjunto com a zona;
 
 ![Procuradores e zonas](img/caixas7.png)
 
-Se o procurador gestor desejar alterar a organização de suas caixas, não é necessário fazer a alteração de todas as caixas de uma vez só. Pode-se começar, por exemplo, por uma zona A de uma pequena jurisdição, adicionando as novas caixas de procuradores e definindo novos filtros. Após testar e avaliar, os procuradores gestores podem optar por implantar a solução para todas as caixas.
+Se o procurador gestor desejar alterar a organização de suas caixas, não é necessário fazer a alteração de todas as caixas de uma só vez. Pode-se começar, por exemplo,  por uma zona A de uma pequena jurisdição, adicionando as novas caixas de procuradores e definindo novos filtros. Após testar e avaliar, os procuradores gestores podem optar por implantar a solução para todas as caixas.
 
-Opções na tela de filtros
+Opções na tela de filtros:
 
 ![Filtros disponíveis](img/caixas8.png)
 
 
-## Disponibilizando chaves de acesso aos documentos
+
+# Disponibilizando chaves de acesso aos documentos
 
 [Passo a passo aqui.](chaves_de_acesso.md)
 
@@ -921,105 +925,127 @@ Exemplo:
 
 
 
-## Meio de comunicação **Telefone**
+## Meio de comunicação: Telefone
 
-* Para que o meio de comunicação **Telefone** apareça como opção na tarefa **Preparar Ato de Comunicação**,
 
     ![Meio de comunicação Telefone](img/meio_telefone.png)
 
-* **é necessário** que a parte tenha pelo menos um número de telefone cadastrado.
+Para que o meio de comunicação Telefone apareça como opção na tarefa Preparar Ato de Comunicação, é necessário que a parte tenha pelo menos um número de telefone cadastrado.
 
     ![Cadastro de telefone de pessoa física](img/cadastro_telefone.png)
     
     
-## Variáveis de modelo 
+# Variáveis de modelo 
 
-Na construção de documentos, o usuário pode utilizar modelos preparados previamente para que algumas informações já venham preenchidas por padrão. Para recuperar valores na construção de um documento utilizam-se variáveis. Algumas variáveis foram listadas [na wiki do PJe](http://www.pje.jus.br/wiki/index.php/Roteiro_de_configura%C3%A7%C3%A3o_de_documentos#Vari.C3.A1veis).
+Na construção de documentos, o usuário pode utilizar modelos preparados previamente para que algumas informações já venham preenchidas por padrão. Para recuperar valores na construção  de  um  documento  utilizam-se  variáveis.  Algumas  variáveis  foram  listadas [na wiki do PJe](http://www.pje.jus.br/wiki/index.php/Roteiro_de_configura%C3%A7%C3%A3o_de_documentos#Vari.C3.A1veis).
 
 Outras referências de variáveis podem ser encontradas [aqui](variaveis.md).
 
-## Etiquetas
+# Etiquetas
 
 [Clique e acesse](etiquetas.md)
 
+
+
 ## Papel para cadastrar etiqueta
 
-É por meio dos PAPEIS (Configuração / Controle de Acesso / Papeis) que se atribui essa permissão (o sistema chama isso de Recurso).
+É por meio dos PAPEIS (Configuração/Controle de Acesso/Papeis) que se atribui essa permissão (o sistema chama isso de Recurso).
 
 Para que um perfil tenha a permissão de criar etiquetas, ele precisa ter o recurso "Página Painel/Organização do Painel (Caixas)" a ele associado. 
 
-Como os papéis funcionam de forma hierárquica (onde o papel hierarquicamente superior herda recursos e papéis atribuídos ao papel inferior a ele), todos os papéis acima do que tiver esse recurso associado também terão permissão para criar etiquetas.
+Como os papéis funcionam de forma hierárquica (onde o papel hierarquicamente superior herda recursos e papéis atribuídos ao papel inferior), todos os papéis acima  do que tiver esse recurso associado também terão permissão para criar etiquetas.
+
 
 ![Papeis](img/papel.png)
+
     
 Na imagem acima você observa um exemplo de como e onde o recurso deve ser incluído.
 
-Neste caso, colocamos o recurso no papel Servidor, de maneira que os papéis que estão acima dele (Chefe de Seção, Coordenador, Secretário) também terão essa permissão. 
+Neste caso, colocamos o recurso no papel Servidor, de maneira que os papéis que estão acima dele (Chefe de Seção, Coordenador, Secretário) também  terão  essa  permissão. 
+
+
 
 ## Erros de remessa que podem ser corrigidos pelo usuário
 
-A remessa é uma das tarefas em que mais ocorrem erros no sistema PJE, isso porque ela faz uma série de validações na instância de origem, bem como na instância de destino.
+A remessa é uma das tarefas em que mais ocorrem erros no sistema PJE, isso porque ela faz uma  série  de  validações  na  instância  de  origem, e na instância de destino.
 
-**1) CEP**
+1. CEP:
+
 
  ![Erro de remessa - CEP](img/erro_de_remessa_1.png)
  
+ 
 Esse erro aparece quando alguma das partes do processo está com o CEP inválido ou em branco. 
 
-Para correção, basta ir ao menu dos autos processuais, opção: retificar autuação, aba partes,  clique em selecionar (parte), aba endereço e verificar o CEP de todas as partes, procedendo a correção necessária (verificar inclusive advogados). 
+Para correção, basta ir ao menu dos autos processuais, na  opção retificar autuação, aba partes,  clique em selecionar (parte), aba endereço e verificar o CEP de  todas as partes, procedendo a correção necessária (verificar inclusive advogados). 
 
 Deve-se deletar as informações da remessa e preencher novamente, para nova tentativa de envio.
 
-**2) Tipo de documento**
+2. Tipo de documento:
+
 
  ![Erro de remessa - Tipo de documento](img/erro_de_remessa_2.png)
  
+ 
 Esse erro acontece quando existe no processo a ser remetido um documento que foi classificado por um tipo inexistente na instância de destino.
 
-Para correção, deve-se, primeiro verificar de qual tipo de documento deverá ser alterado: pesquisando o número do id do documento na árvore processual. Após, delete a remessa e tramite o processo para a tarefa  “Classificar documentos” e altere o tipo de documento para uma opção diferente. Ao fim dessa alteração, realize os procedimentos de remessa novamente.
+Para correção, deve-se, primeiro verificar de qual tipo de documento deverá ser alterado, pesquisando o número do id  do  documento  na  árvore processual.  Após, delete a remessa e tramite o processo para a tarefa  “Classificar documentos”, altere o tipo de documento para uma opção diferente. Ao fim dessa alteração, realize os procedimentos de remessa novamente.
 
-**3) Falta de vinculação de ente ou autoridade**
+3. Falta de vinculação de ente ou autoridade:
+
 
  ![Erro de remessa - Falta de vinculação de ente ou autoridade](img/erro_de_remessa_3.png)
  
-Esse erro acontece quando o ente ou autoridade, quando foi criado, foi vinculado a uma pessoa jurídica cadastrada no sistema sem CNPJ.
+ 
+Esse erro acontece porque o ente ou autoridade, quando criado, foi vinculado a uma pessoa jurídica cadastrada no sistema sem CNPJ.
 
-Para correção, deve-se ir no Menu: Configuração > Pessoa > Ente ou autoridade, do PJE da instância de origem e, após localizar a autoridade informada no erro, vincular (na aba Formulário)uma pessoa jurídica que possua CNPJ. 
+Para correção, deve-se ir ao Menu: Configuração/ Pessoa/Ente ou autoridade, do PJE da instância de origem e, após localizar a autoridade informada no erro, vincular, na aba Formulário, uma pessoa jurídica que possua CNPJ. 
 
 Outra opção, é corrigir o cadastro da pessoa jurídica vinculada no ente ou autoridade, incluindo o seu CNPJ.
 
 Deve-se deletar as informações da remessa e preencher novamente, para nova tentativa de envio.
 
-**4) Expedientes abertos**
+
+4.  Expedientes abertos:
+
 
  ![Erro de remessa - Expedientes abertos](img/erro_de_remessa_4.png)
  
+ 
 Esse erro acontece quando o processo que está sendo remetido ainda tem algum expediente aberto. Normalmente o expediente que ainda está aberto é sem prazo.
 
-Para correção, deve-se deletar a remessa e tramitar o processo para a tarefa de “Fechar expediente manualmente”, na qual os expediente abertos deverão ser fechados.
+Para  correção,  deve-se  deletar  a  remessa e  tramitar  o processo para a tarefa de “Fechar expediente manualmente”, na qual os expedientes abertos deverão ser fechados.
 
-Se, quando for realizar a tarefa não aparecer nenhum expediente em aberto, deve-se ir no Menu: Processo > Pesquisar > Consulta de prazos, pesquisar o número do processo, marcar os expedientes de status aberto e clicar em fechar expedientes em lote.
+Se, quando for realizar a tarefa, não aparecer nenhum expediente em aberto, deve-se ir ao Menu: Processo/Pesquisar/Consulta de prazos, pesquisar o número do processo, marcar os expedientes de status aberto e clicar em fechar expedientes em lote.
 
-**5) Cadastro de pessoa**
+
+5.  Cadastro de pessoa:
+
 
  ![Erro de remessa - Cadastro de pessoa](img/erro_de_remessa_5.png)
  
-Esse erro acontece quando na hora da remessa, por alguma instabilidade da integração com o sistema da Receita Federal, alguma parte ou pessoa que assinou algum documento no processo não consegue ser cadastrada automaticamente na aplicação de destino.
+ 
+ 
+Esse erro acontece quando na hora da remessa, por alguma instabilidade da integração com o sistema da Receita Federal, alguma parte ou pessoa que assinou algum documento no processo, não consegue ser cadastrada automaticamente na aplicação de destino.
 
-Para correção, basta que o Administrador do Sistema do PJE da instância de destino, vá no Menu: Configuração > Pessoa > Física (ou Jurídica se for o caso), e, na opção pré-cadastro, faça o cadastro manual do CPF (ou CNPJ) que constar no erro.
+Para correção, basta que o Administrador do Sistema do PJE da instância de destino, vá no Menu: Configuração/Pessoa/Física  ou  Jurídica, se for o caso, e,  na  opção  pré-cadastro, faça o cadastro manual do CPF ou CNPJ que constar no erro.
 
-Após o cadastro, tentar novamente a remessa, sem a necessidade de apaga-la.
+Após o cadastro, tentar novamente a remessa, sem a necessidade de apagá-la.
 
- **6) Documento de identificação**
+
+6.  Documento de identificação:
+
  
  ![Erro de remessa - Documento de identificação](img/erro_de_remessa_6.png)
  
-Esse erro acontece quando algum documento de identificação de alguma das partes do processo está em branco.
+ 
+Esse erro acontece quando algum documento de identificação de uma das partes do processo está em branco.
 
-Para correção, basta ir ao menu dos autos processuais, opção: retificar autuação, aba partes, clique em selecionar (parte), aba documentos de identificação e verificar os documentos constantes de todas as partes, procedendo a correção necessária (verificar inclusive advogados). 
+Para correção, basta ir ao menu dos autos processuais, opção retificar autuação, aba partes, clique em selecionar (parte), aba documentos de identificação e verificar os documentos constantes de todas as partes, procedendo a correção necessária (verificar inclusive advogados). 
 
 
-## Distribuição de processos: Abas Criminais
+
+# Distribuição de processos: Abas Criminais
 
 Obrigatoriedade de informações adicionais para distribuição de processos de classes criminais.
 
