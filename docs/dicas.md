@@ -1172,6 +1172,8 @@ quais os tipos de arquivos aceitos, suas extensões e os tamanhos máximos permi
 | audio/mp3 | 	.mp3 | 	5 |
 
 
-## Como parear seu celular com o Token PJe
+## Token PJe (PJe Mobile)
+
+Como utilizar a ferramenta que permite ao usuário logar no PJe e assinar documentos sem a necessidade do certificado digital em token físico.
 
 [Clique e acesse](tokenpje.md)
