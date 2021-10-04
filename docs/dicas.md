@@ -63,11 +63,11 @@ Em sessão podemos publicar acórdão ou certidão de julgamento.
 
 No papel de assessor de plenário, deve-se ir ao menu "Audiência e Sessões" - "Publicação de decisões em sessão". 
 
-Ao entrar na tela, deve-se selecionar uma data de sessão e mandar pesquisar. As sessões que tiverem acórdão ou certidão de julgamento associados retornarão na pesquisa. 
+Ao entrar na tela, deve-se selecionar uma data de sessão e mandar pesquisar. As sessões que tiverem acórdão ou certidão de julgamento associados, retornarão na pesquisa. 
 
-Depois, deve-se preencher, na linha do(s) processo(s) correspondente que se quer publicar as opções da publicação: data, tipo do prazo, o prazo. Se houver dois documentos, ou seja, o acórdão e a certidão, na coluna Documento deve-se marcar qual se quer publicar. Geralmente a certidão já vem marcada. Os processos que serão publicados devem estar selecionados por meio da caixa de seleção da primeira coluna. 
+Depois, deve-se preencher, na linha do(s) processo(s) correspondente que se quer publica,r as opções da publicação: data, tipo do prazo,  prazo. Se houver dois documentos, ou seja, o acórdão e a certidão, na coluna Documento deve-se marcar qual se quer publicar. Geralmente a certidão já vem marcada. Os processos que serão   publicados devem estar selecionados por meio da caixa de seleção da primeira coluna. 
 
-Os documentos só aparecerão se estiverem devidamente vinculados à sessão e se estiverem assinados. Depois de tudo pronto, deve-se selecionar o botão salvar e depois o publicar.  
+Os documentos só aparecerão se estiverem devidamente vinculados à sessão e se estiverem assinados. Depois de tudo pronto,  deve-se selecionar o  botão  salvar  e  depois o publicar.  
 
 Por meio dessa mesma tela, o usuário pode publicar em sessão decisões monocráticas. O procedimento é o mesmo, mas para que as decisões apareçam na consulta, o gabinete tem que usar uma tarefa específica sinalizando que a decisão monocrática deve ser  publicada. 
 
@@ -83,13 +83,13 @@ O Ministério Público, como fiscal da lei, pode não ser intimado (de forma aut
 
 ## Intimação de pauta 
 
-Intimação de pauta na publicação da lista e no fechamento da pauta. 
+Intimação de pauta na publicação da lista e no fechamento da pauta: 
 
-A publicação de pauta (última aba na Relação de julgamento) no diário utiliza a pessoa Destinatário para ciência pública. A intimação não é gerada para pessoas individuais, já que aquele é um aviso geral da sessão que acontecerá. 
+A publicação de pauta (última aba na Relação de julgamento) no diário, utiliza a pessoa Destinatário, para ciência pública. A intimação não é gerada para pessoas individuais, já que aquele é um aviso geral da sessão que acontecerá. 
 
-As intimações individuais são geradas no fechamento mesmo (primeira aba da Relação de julgamento), ou se você quiser fazer via fluxo do Preparar ato de comunicação. Para inibir as intimações gerais, tem que usar a configuração do Órgão julgador colegiado, onde há um campo indicando a intimação automática da pauta. 
+As intimações individuais são geradas no fechamento mesmo (primeira aba da Relação de julgamento), ou se você quiser fazer via fluxo em "Preparar ato de comunicação". Para inibir as intimações gerais, tem que usar a configuração do Órgão julgador colegiado, onde há um campo indicando a intimação automática da pauta. 
 
-Campos na intimação de pauta 
+Campos na intimação de pauta: 
 
 No documento de intimação de pauta só funcionam as variáveis listadas na regra abaixo: 
 
@@ -101,13 +101,13 @@ A regra é a seguinte:
 
 A publicação da pauta utiliza os processos selecionados pelo usuário na aba Aptos para publicação e monta um documento de acordo com os seguintes parâmetros: 
 
--   Pessoa que será utilizada para registrar ciência quando a publicação ocorrer no DJ conforme configuração do parâmetro pje:fluxo:publicacao:idDestinacaoPessoaCienciaPublica 
+-   Pessoa que será utilizada para registrar ciência, quando a publicação ocorrer no DJ, conforme configuração do parâmetro pje:fluxo:publicacao:idDestinacaoPessoaCienciaPublica. 
 
--    Tipo de processo documento conforme configuração do parâmetro idTipoProcessoDocumentoIntimacaoPauta 
+-   Tipo de processo documento, conforme configuração do parâmetro: idTipoProcessoDocumentoIntimacaoPauta. 
 
--    Modelo de documento conforme configuração do parâmetro idModeloIntimacaoPauta  (deve ser usado tanto para o fechamento da pauta quanto para sua publicação) 
+-   Modelo de documento conforme configuração do parâmetro idModeloIntimacaoPauta  (deve ser usado tanto para o fechamento da pauta quanto para sua publicação) 
 
-Para cada processo selecionado, o sistema construirá um documento de acordo com o modelo referenciado, e o utilizará para registrar o ato de comunicação eletronicamente via diário sem prazo para resposta. O movimento de código 60 conforme tabela unificada de movimentos do SGT no CNJ com complemento código 4 com elemento do tipo domínio de código 80 é lançado no processo associado ao documento gerado. Essas configurações de movimento dizem respeito ao registro final no processo "Expedição de outros documentos". 
+Para cada processo selecionado, o sistema construirá um documento de acordo com o  modelo referenciado, e o utilizará para  registrar o ato de comunicação eletronicamente via diário sem prazo para resposta. O movimento de código 60 conforme tabela unificada de movimentos do SGT no  CNJ com complemento código 4 com elemento do tipo domínio de código 80 é lançado no processo associado ao documento gerado. Essas configurações de movimento dizem respeito ao registro final no processo "Expedição de outros documentos". 
 
 No modelo de documento utilizado nessa funcionalidade, as seguintes variáveis, e apenas elas, estão disponíveis para uso: 
 
@@ -117,9 +117,9 @@ No modelo de documento utilizado nessa funcionalidade, as seguintes variáveis, 
 
     orgaoJulgador; 
 
-    poloAtivo, contendo a lista de partes do polo ativo com seus respectivos tipos e a lista de advogados que representam partes do polo ativo com seus respectivos números de OAB; 
+    poloAtivo, contendo a lista de partes do polo ativo com seus respectivos tipos e a lista de advogados  que  representam partes do polo ativo com seus respectivos números de OAB; 
 
-    poloPassivo, contendo a lista de partes do polo passivo com seus respectivos tipos e a lista de advogados que representam partes do polo passivo com seus respectivos números de OAB; 
+    poloPassivo, contendo a lista de partes do polo passivo com seus respectivos tipos e a lista de  advogados que  representam  partes do  polo passivo com seus respectivos números de OAB; 
 
     localSessao; 
 
@@ -131,9 +131,9 @@ No modelo de documento utilizado nessa funcionalidade, as seguintes variáveis, 
 
 Para processos da justiça eleitoral: 
 
-    estado; 
+    Estado; 
 
-    municipio 
+    Municipio.
 
 
 
@@ -141,7 +141,7 @@ Para processos da justiça eleitoral:
 ## Visualização de documentos da sessão
 
 
-O relatório, voto e ementa,  são  construídos no PJe da Justiça Eleitoral,  por meio  da  tarefa “Minutar relatório, voto e  ementa” pelo relator do processo. Se o usuário autenticado estiver em um órgão julgador diferente do relator do processo, é gerada uma inconsistência só resolvida via banco de dados.Por voto, entenda-se que é o conjunto da indicação do voto e o próprio documento de voto. A visualização desses itens/documentos não assinados só é possível se as respectivas marcações “Liberar voto”,  “Liberar relatório” e “Liberar ementa” forem realizadas. 
+O relatório,  voto e  ementa,  são   construídos  no PJe  da  Justiça  Eleitoral,   por  meio  da  tarefa “Minutar relatório, voto e  ementa” pelo relator do processo. Se o usuário autenticado  estiver  em  um  órgão  julgador diferente do relator do processo, é gerada uma inconsistência só resolvida via banco de dados.Por voto, entenda-se que é o conjunto da indicação do voto e o próprio documento de voto. . A visualização desses itens/documentos não assinados só é possível se as respectivas marcações “Liberar voto”, “Liberar relatório” e “Liberar ementa” forem realizadas. 
 
 Os pontos do sistema onde poderão ser visualizadas:
 
@@ -157,18 +157,17 @@ Os pontos do sistema onde poderão ser visualizadas:
 
 6.  Internet - opção Pautas de julgamento (http://www.tse.jus.br/servicos-judiciais/sessoes-de-julgamento/pautas-de-julgamento/pje); 
 
-7.  Tarefas de vogais. 
+7.  Tarefas de vogais.  
 
-Depois que inicia a sessão, quando o Assessor de plenário colocar em julgamento, vai aparecer na Internet, sem necessidade de usuário e senha, o "tipo de voto",  ou seja, concedo, nego, mas não aparece o documento do voto. Na Internet, sem login e senha, só aparece o documento depois de assinado. Já no painel do membro da OAB, basta iniciar
-a sessão. Em todos os casos, é sempre necessário liberação por meio da tarefa do gabinete. 
+Depois que inicia a sessão, quando  o Assessor  de plenário colocar em julgamento, vai aparecer na Internet, sem necessidade de usuário e senha, o "tipo de voto",  ou seja, concedo, nego, mas não aparece o documento do voto. Na Internet, sem login e senha, só aparece o documento depois de assinado. Já no painel do membro da OAB, basta iniciar a sessão. Em todos os casos, é sempre necessário liberação por meio da tarefa do gabinete. 
 
 ## Painel do secretário da sessão 
 
-Se o magistrado tiver liberado seu documento para  visualização por meio da opção respectiva na tarefa, e o parâmetro    “pje:sessao:ocultarVotosAntecipadosNaoMagistrado” estiver marcado como false o voto/documentos serão exibidos para o “Assessor de plenário”. 
+Se o magistrado tiver liberado seu  documento para  visualização por meio  da opção respectiva na tarefa,  e o parâmetro    “pje:sessao:ocultarVotosAntecipadosNaoMagistrado” estiver marcado como false o voto/documentos serão exibidos para o “Assessor de plenário”. 
 
-Nas sessões contínuas,  os processos são colocados em julgamento automaticamente após o início da sessão, de acordo com o horário planejado.  Nas sessões não contínuas  o Assessor de plenário pode liberar os processos para que sejam visualizados na Internet - opção “Pautas de julgamento”, quando inicia a sessão.
+Nas sessões contínuas, os processos são colocados em  julgamento automaticamente após o início da sessão, de acordo com o horário planejado. Nas sessões não contínuas  o Assessor de plenário pode liberar os processos para que sejam visualizados na Internet - opção “Pautas de julgamento”, quando inicia a sessão.
 
-O Assessor de plenário pode liberar o voto/documentos para que sejam visualizados na Internet-opção “Pautas de julgamento”, quando finaliza a sessão. Se o magistrado tiver liberado seu documento para visualização por meio da opção respectiva na tarefa, os votos serão exibidos na opção “Pautas de julgamento” desde que: 
+O Assessor de plenário pode liberar o voto/documentos para que sejam visualizados na Internet-opção “Pautas de julgamento”, quando finaliza a sessão.  Se o magistrado tiver liberado seu documento para visualização por meio da opção respectiva na tarefa, os votos serão exibidos na opção “Pautas de julgamento” desde que: 
 
 1. O parâmetro “pje:sessao:plenarioVirtual:documentoAssinado" deve estar configurado como false;
 
@@ -180,35 +179,36 @@ O Assessor de plenário pode liberar o voto/documentos para que sejam visualizad
 
 Se o parâmetro  “pje:sessao:plenarioVirtual:documentoAssinado" estiver com o valor “true”, o documento só aparecerá em “Pautas de julgamento” após assinatura do acórdão. 
 
-Os  processos  e  votos/documentos serão visualizados  no menu  “Painel  do  membro  da  OAB  na  sessão”  em  sessões contínuas quando iniciada a sessão. Se o parâmetro “pje:sessao:ocultarVotosAntecipadosNaoMagistrado” estiver marcado como false e o magistrado tiver liberado seu documento para visualização por meio da opção respectiva na tarefa, voto/documentos serão exibidos no “Painel do membro da OAB na sessão”. 
+Os   processos  e  votos/documentos serão visualizados  no   menu  “Painel  do  membro  da  OAB  na  sessão”  em  sessões  contínuas  quando  iniciada  a  sessão.  Se  o  parâmetro “pje:sessao:ocultarVotosAntecipadosNaoMagistrado”  estiver  marcado  como false e o magistrado tiver liberado seu documento para visualização por meio da opção respectiva na tarefa, voto/documentos serão exibidos no “Painel do membro da OAB na sessão”. 
 
-O Assessor de plenário pode liberar os processos e votos/documentos para que sejam visualizados no menu “Painel do membro do ministério público na sessão” do procurador que está cadastrado naquela sessão, em sessões não contínuas, quando  inicia a sessão.  Se o parâmetro  “pje:sessao:ocultarVotosAntecipadosNaoMagistrado”  estiver  marcado como false, e  o  magistrado tiver liberado seu documento para visualização por meio da  opção  respectiva  na  tarefa,  voto/documentos  serão  exibidos no “Painel do membro do ministério público na sessão”. 
+O Assessor de plenário pode liberar os processos e votos/documentos para que sejam visualizados  no menu  “Painel do  membro do  ministério público na sessão” do procurador que está cadastrado naquela sessão, em sessões não contínuas, quando  inicia a  sessão.  Se  o parâmetro  “pje:sessao:ocultarVotosAntecipadosNaoMagistrado”  estiver  marcado como false, e  o  magistrado tiver liberado seu documento para visualização por meio da  opção  respectiva  na  tarefa,  voto/documentos  serão  exibidos no “Painel do membro do ministério público na sessão”. 
 
-O Assessor de plenário pode liberar o processo para ser visualizado no menu “Púlpito de sustentação oral” em julgamentos de sessões não contínuas quando colocar o processo “Em julgamento” (ícone balancinha sendo exibido). 
+O Assessor  de  plenário  pode  liberar  o  processo para ser visualizado no menu “Púlpito de sustentação oral” em julgamentos de sessões não contínuas quando colocar o processo “Em julgamento” (ícone balancinha sendo exibido). 
 
-O Assessor de plenário pode liberar o voto/documentos para que sejam visualizados por meio do menu “Púlpito de sustentação oral” em julgamentos de  sessões  não  contínuas, quando  clicar  no  ícone  de  olho disponível nos processos que estão  “Em julgamento” (ícone balancinha sendo exibido). Se o magistrado tiver liberado seu documento para visualização por meio da opção respectiva na tarefa, voto/documentos serão exibidos no “Púlpito de sustentação oral”.
+O Assessor de plenário  pode  liberar o voto/documentos para que sejam visualizados por meio do menu “Púlpito de sustentação oral” em julgamentos de  sessões  não  contínuas, quando  clicar  no  ícone  de  olho disponível  nos processos que estão  “Em julgamento” (ícone balancinha sendo exibido). Se o magistrado tiver liberado seu documento para visualização por meio da opção respectiva na tarefa, voto/documentos serão exibidos no “Púlpito de sustentação oral”.
 
 Orientação passada para o TSE quando foram disponilizados os painéis: 
 
 De ordem da assessora-chefe da Assessoria do PJe, informamos que a versão disponibilizada hoje no TSE, 18 de maio de 2020, contempla um painel aos advogados e ao ministério público para acompanhamento das sessões virtuais e por videoconferência. 
 
-Para as sessões  iniciadas,  virtuais ou não,  o painel da OAB e do MP  exibe documentos de relatório, voto e ementa produzidos pelos gabinetes,  desde  que liberados  para visualização. 
+Para as sessões iniciadas, virtuais ou não, o painel da OAB e do MP exibe documentos de relatório, voto e ementa produzidos pelos gabinetes, desde  que liberados  para visualização. 
 
-Conforme  já  ocorria  antes  dessa melhoria,  a liberação de visualização dos documentos é realizada pelo  gabinete,  a partir das opções já existentes "Liberar relatório", "Liberar ementa" e Liberar voto", disponíveis nas tarefas de conferência dos documentos. 
+Conforme já ocorria antes  dessa  melhoria,  a liberação de visualização dos documentos é  realizada pelo  gabinete,  a partir das opções já existentes "Liberar relatório", "Liberar ementa" e Liberar voto", disponíveis nas tarefas de conferência dos documentos. 
 
 A liberação pode ocorrer por documento, ou seja, o gabinete pode escolher liberar apenas o relatório, assim como pode escolher não liberar documento algum. 
 
 Orientação passada para os TREs quando foram disponilizados os painéis: 
 
-A versão 2.0.0.0.49.3 do PJe nos regionais e no TSE traz uma melhoria solicitada pela OAB e pelo ministério público para que advogados e MP possam enxergar os documentos de voto, relatório e ementa, desde que liberados pelo gabinete, a partir das opções já existentes "Liberar relatório", "Liberar ementa" e Liberar voto", disponíveis nas tarefas de "Aguarda sessão de julgamento" inclusive para julgamento virtual. Caso liberados os documentos, os processos que estejam em sessão aberta terão a opção do placar, que exibe os votos dos magistrados. 
+A versão 2.0.0.0.49.3 do PJe nos regionais e no TSE traz uma melhoria  solicitada pela OAB e pelo ministério público para que advogados  e MP possam enxergar os documentos de voto, relatório e ementa, desde que liberados pelo gabinete, a partir das opções já  existentes "Liberar relatório", "Liberar ementa" e Liberar voto", disponíveis nas tarefas de "Aguarda sessão de julgamento" inclusive para julgamento virtual. Caso liberados os  documentos, os  processos  que  estejam em sessão aberta terão a opção do placar, que exibe os votos dos magistrados. 
 
-As permissões para esse painel podem ser encontradas no menu Configuração - Controle de acesso - Funcionalidades, pesquisando pelo identificador "/pages/Painel/ProcuradorMP/sessaoAbertaProcuradorMP.seam". Às permissões que já existem, pode ser acrescentada a permissão para o perfil de advogado. Ou ainda, se for o desejo, retirar permissões. 
+As permissões para esse painel podem ser encontradas no menu Configuração  -  Controle de acesso  -  Funcionalidades,  pesquisando  pelo  identificador  "/pages/Painel/ProcuradorMP/sessaoAbertaProcuradorMP.seam". Às permissões que já existem, pode ser acrescentada a permissão para o perfil de advogado. Ou ainda, se for o desejo, retirar permissões. 
 
-Além da melhoria nessa funcionalidade,  foi disponibilizada uma nova,  que só  permite  acesso  aos documentos liberados pelo gabinete de processos em julgamento de sessões abertas não contínuas e que tenham visualização liberada pelo Assessor de plenário. A liberação ocorre por meio de um novo ícone em forma de olho no painel do secretário da sessão que aparece para cada processo. Ao clicar nesse ícone, a visualização dos documentos está liberada para esse novo painel. Além disso, a permissão para o painel deve ser também configurada por meio do controle de acesso - funcionalidades, identificador "/pages/Painel/painel_usuario/painelPulpito.seam" juntamente com a associação do papel "pje:papel:pulpitoSustentacaoOral" ao perfil ao qual vc deseja dar acesso ao novo painel. 
+Além da melhoria nessa funcionalidade,  foi disponibilizada uma nova,  que só  permite  acesso  aos documentos liberados pelo gabinete de processos em julgamento de sessões abertas não  contínuas  e  que  tenham  visualização liberada pelo Assessor de plenário. A liberação ocorre por meio de um novo ícone em forma de olho no painel do secretário da sessão que aparece para cada processo.  Ao clicar  nesse  ícone,  a  visualização  dos  documentos  está  liberada para esse novo painel. Além disso, a permissão para o painel deve ser também configurada por meio do controle de acesso - funcionalidades, identificador "/pages/Painel/painel_usuario/painelPulpito.seam" juntamente com a associação do papel:
+"pje:papel:pulpitoSustentacaoOral" ao perfil ao qual vc deseja dar acesso ao novo painel. 
 
-SOBRE ESSAS DUAS FUNCIONALIDADES, A LIBERAÇÃO do ASSESSOR DE PLENÁRIO SÓ É NECESSÁRIA QUANDO SE USA O PAINEL DO PÚLPITO. 
+SOBRE ESSAS DUAS FUNCIONALIDADES, A LIBERAÇÃO DO ASSESSOR DE PLENÁRIO SÓ É NECESSÁRIA QUANDO SE USA O PAINEL DO PÚLPITO. 
 
-Há um erro conhecido em processos migrados. Os documentos não aparecem na aba para selecionar documentos para acórdão, e a orientação para a TI é ajustar o nr_instancia do client.tb_processo_trf para o mesmo ds_instancia do core.tb_processo_documento.  A migração tem que ser também ajustada para preencher esse campo e o problema  deixar de ocorrer.
+Há  um  erro  conhecido  em  processos  migrados. Os  documentos  não aparecem na aba para selecionar documentos para acórdão, e a orientação para a TI  é ajustar o nr_instancia  do client.tb_processo_trf para o mesmo ds_instancia do core.tb_processo_documento.  A migração tem que ser também ajustada para preencher esse campo  e  o  problema  deixar de ocorrer.
 
 
 
