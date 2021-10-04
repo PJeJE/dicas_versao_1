@@ -141,7 +141,7 @@ Para processos da justiça eleitoral:
 ## Visualização de documentos da sessão
 
 
-O relatório,  voto e  ementa,  são   construídos  no PJe  da  Justiça  Eleitoral,   por  meio  da  tarefa “Minutar relatório, voto e  ementa” pelo relator do processo. Se o usuário autenticado  estiver  em  um  órgão  julgador diferente do relator do processo, é gerada uma inconsistência só resolvida via banco de dados.Por voto, entenda-se que é o conjunto da indicação do voto e o próprio documento de voto. . A visualização desses itens/documentos não assinados só é possível se as respectivas marcações “Liberar voto”, “Liberar relatório” e “Liberar ementa” forem realizadas. 
+O relatório,  voto e  ementa,  são   construídos  no PJe  da  Justiça  Eleitoral,   por  meio  da  tarefa “Minutar relatório, voto e  ementa” pelo relator do processo. Se o usuário autenticado  estiver  em  um  órgão  julgador diferente do relator do processo, é gerada uma inconsistência só resolvida via banco de dados.Por voto, entenda-se que é o conjunto da indicação do voto e o próprio documento de voto.  A visualização  desses itens/documentos não assinados só é possível se as respectivas marcações “Liberar voto”, “Liberar relatório” e “Liberar ementa” forem realizadas. 
 
 Os pontos do sistema onde poderão ser visualizadas:
 
