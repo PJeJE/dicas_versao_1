@@ -14,9 +14,13 @@ em disco, para que alguns sites recarreguem o conteúdo ou quando você faz algu
 Acesse, no navegador, o ícone que fica no canto superior direito que contém três tracinhos horizontais:
 
 1.	Selecione Configurações; 
+
 2.	Selecione o painel Privacidade e Segurança; 
+
 3.	Na seção "Histórico", clique em "Limpar histórico"; 
+
 4.	Acione o botão e selecione a opção "tudo" com a marcação "cache",  e,  em seguida, confirme a limpeza; 
+
 5.	Atualize a página do PJe. 
 
 Segue link sobre a limpeza do histórico: https://support.mozilla.org/pt-BR/kb/como-limpar-cache-firefox 
@@ -66,7 +70,7 @@ No papel de assessor de plenário, deve-se ir ao menu "Audiência e Sessões" - 
 
 Ao entrar  na  tela, deve-se selecionar uma data de sessão e mandar pesquisar. As sessões que tiverem acórdão ou certidão de julgamento  associados,  retornarão na pesquisa. 
 
-Depois,  deve-se  preencher, na linha do(s) processo(s) correspondente que se quer publica,r as opções da publicação: data, tipo do prazo,  prazo. Se houver dois documentos, ou  seja, o acórdão e  a certidão, na coluna Documento deve-se marcar qual se quer publicar. Geralmente a certidão já vem marcada. Os processos que serão   publicados  devem estar selecionados por meio da caixa de seleção da primeira coluna. 
+Depois,  deve-se  preencher, na linha do(s) processo(s) correspondente que se quer publicar, as opções da publicação: data, tipo do prazo,  prazo. Se houver dois documentos, ou  seja, o acórdão e  a certidão, na coluna Documento deve-se marcar qual se quer publicar. Geralmente a certidão já vem marcada. Os processos que serão   publicados  devem estar selecionados por meio da caixa de seleção da primeira coluna. 
 
 Os  documentos  só aparecerão se estiverem devidamente vinculados à sessão e se estiverem assinados. Depois de tudo pronto,  deve-se selecionar o  botão  salvar  e  depois o publicar.  
 
@@ -98,17 +102,14 @@ http://www.cnj.jus.br/wiki/index.php/Regras_de_neg%C3%B3cio#RN618
 
 A inserção de outras informações pode gerar inconsistência técnica. 
 
-A regra é a seguinte:
+A  regra é a seguinte, a  publicação  da  pauta  utiliza  os processos selecionados pelo usuário na aba Aptos para publicação e monta um documento de acordo com os seguintes parâmetros: 
 
-A publicação da pauta utiliza os processos selecionados pelo usuário na aba Aptos para publicação e monta um documento de acordo com os seguintes parâmetros: 
+Pessoa que será utilizada para registrar ciência, quando a publicação ocorrer no DJ, conform configuração do parâmetro:pje:fluxo:publicacao:idDestinacaoPessoaCienciaPublica.  
+Tipo de processo documento, conforme configuração do parâmetro: idTipoProcessoDocumentoIntimacaoPauta. 
 
--   Pessoa que será utilizada para registrar ciência, quando a publicação ocorrer no DJ, conforme configuração do parâmetro pje:fluxo:publicacao:idDestinacaoPessoaCienciaPublica. 
+Modelo de documento, conforme configuração do parâmetro: idModeloIntimacaoPauta (deve ser usado tanto para o fechamento da pauta quanto para sua publicação).
 
--   Tipo de processo documento, conforme configuração do parâmetro: idTipoProcessoDocumentoIntimacaoPauta. 
-
--   Modelo de documento conforme configuração do parâmetro idModeloIntimacaoPauta  (deve ser usado tanto para o fechamento da pauta quanto para sua publicação) 
-
-Para  cada  processo  selecionado, o sistema construirá um documento de acordo com o  modelo referenciado, e o utilizará para  registrar o ato de comunicação eletronicamente via  diário  sem  prazo  para resposta. O movimento de código 60 conforme tabela unificada de movimentos do SGT no  CNJ com complemento código 4 com elemento do tipo domínio de  código  80  é  lançado  no processo  associado  ao  documento  gerado. Essas configurações de movimento dizem respeito ao registro final no processo "Expedição de outros documentos". 
+Para  cada  processo  selecionado, o sistema construirá um documento de acordo com o  modelo referenciado, e o utilizará para  registrar o ato de comunicação eletronicamente via  diário,  sem  prazo  para resposta. O  movimento  de  código 60, conforme tabela unificada de movimentos do SGT no  CNJ, com complemento código 4 e com elemento do tipo domínio de  código  80,  é  lançado  no processo  associado  ao  documento  gerado. Essas configurações de movimento dizem respeito ao registro final no processo "Expedição de outros documentos". 
 
 No modelo de documento utilizado nessa funcionalidade, as seguintes variáveis, e apenas elas, estão disponíveis para uso: 
 
@@ -142,7 +143,7 @@ Para processos da justiça eleitoral:
 ## Visualização de documentos da sessão
 
 
-O relatório,  voto e  ementa,  são   construídos  no PJe  da  Justiça  Eleitoral,   por  meio  da  tarefa “Minutar relatório, voto e  ementa” pelo relator do processo. Se o usuário autenticado  estiver  em  um  órgão  julgador diferente do relator do processo, é gerada uma inconsistência só resolvida via banco de dados.Por voto, entenda-se que é  o  conjunto da indicação do voto e o próprio documento de voto.  A visualização  desses itens/documentos não assinados só é possível se as respectivas marcações “Liberar voto”, “Liberar relatório” e “Liberar ementa” forem realizadas. 
+O relatório,  voto e  ementa,  são   construídos  no PJe  da  Justiça  Eleitoral,   por  meio  da  tarefa “Minutar relatório, voto e  ementa” pelo relator do processo.  Se o usuário autenticado  estiver  em  um  órgão  julgador diferente do relator do processo, é gerada uma inconsistência só resolvida via banco de dados. Por voto, entenda-se que é  o  conjunto da indicação do voto e o próprio documento de voto.  A visualização  desses itens/documentos  não assinados só é possível se as respectivas marcações “Liberar voto”, “Liberar relatório” e “Liberar ementa” forem realizadas. 
 
 Os pontos do sistema onde poderão ser visualizadas:
 
@@ -162,11 +163,13 @@ Os pontos do sistema onde poderão ser visualizadas:
 
 Depois  que inicia a sessão, quando  o Assessor  de plenário colocar em julgamento, vai aparecer na Internet, sem necessidade de usuário e senha, o "tipo de voto",  ou seja, concedo, nego, mas não aparece o documento do voto. Na Internet, sem login e senha, só aparece o documento depois de assinado. Já no painel do membro da OAB, basta iniciar a sessão. Em todos os casos, é sempre necessário liberação por meio da tarefa do gabinete. 
 
+
 ## Painel do secretário da sessão 
+
 
 Se o magistrado tiver liberado seu  documento para  visualização por meio  da opção respectiva na tarefa,  e o parâmetro    “pje:sessao:ocultarVotosAntecipadosNaoMagistrado” estiver marcado como false o voto/documentos serão exibidos para o “Assessor de plenário”. 
 
-Nas  sessões  contínuas, os  processos são colocados em  julgamento automaticamente após o início da sessão, de acordo com o horário planejado. Nas sessões não contínuas  o Assessor de plenário pode liberar os processos para que sejam visualizados na Internet - opção “Pautas de julgamento”, quando inicia a sessão.
+Nas  sessões  contínuas, os  processos são colocados em  julgamento automaticamente após o início da sessão, de acordo com  o horário planejado. Nas sessões não contínuas  o Assessor de plenário pode liberar os processos para que sejam visualizados na Internet - opção “Pautas de julgamento”, quando inicia a sessão.
 
 O Assessor de plenário  pode liberar o voto/documentos para que sejam visualizados na Internet-opção “Pautas de julgamento”, quando finaliza a sessão.  Se o magistrado tiver liberado seu documento para visualização por meio da opção respectiva na tarefa, os votos serão exibidos na opção “Pautas de julgamento” desde que: 
 
@@ -180,13 +183,13 @@ O Assessor de plenário  pode liberar o voto/documentos para que sejam visualiza
 
 Se  o  parâmetro  “pje:sessao:plenarioVirtual:documentoAssinado"  estiver  com o valor “true”, o documento só aparecerá em “Pautas de julgamento” após assinatura do acórdão. 
 
-Os   processos  e  votos/documentos serão  visualizados   no   menu   “Painel   do  membro  da  OAB  na  sessão”  em  sessões  contínuas  quando  iniciada  a  sessão.  Se  o  parâmetro   “pje:sessao:ocultarVotosAntecipadosNaoMagistrado”   estiver   marcado  como false e o magistrado tiver liberado seu documento para visualização por meio da opção respectiva na tarefa, voto/documentos serão exibidos no “Painel do membro da OAB na sessão”. 
+Os   processos  e  votos/documentos serão  visualizados   no   menu   “Painel   do  membro  da  OAB  na  sessão”  em   sessões  contínuas,  quando  iniciada  a  sessão.  Se  o  parâmetro   “pje:sessao:ocultarVotosAntecipadosNaoMagistrado”   estiver   marcado  como false e o magistrado tiver liberado seu documento para visualização   por meio da opção respectiva na tarefa, voto/documentos serão exibidos no “Painel do membro da OAB na sessão”. 
 
 O Assessor de plenário pode liberar os processos e votos/documentos para que sejam visualizados  no  menu  “Painel do  membro do  ministério público na sessão” do procurador que está cadastrado naquela sessão, em sessões não contínuas, quando  inicia a  sessão.  Se  o parâmetro  “pje:sessao:ocultarVotosAntecipadosNaoMagistrado”  estiver  marcado como  false,   e  o   magistrado  tiver  liberado seu documento para visualização por meio da  opção  respectiva  na  tarefa,  voto/documentos  serão  exibidos no “Painel do membro do ministério público na sessão”. 
 
 O  Assessor  de  plenário  pode  liberar  o  processo para ser visualizado  no  menu “Púlpito de sustentação oral”  em  julgamentos de sessões não contínuas quando colocar o processo “Em julgamento” (ícone balancinha sendo exibido). 
 
-O Assessor de plenário  pode liberar o voto/documentos para que sejam visualizados por meio do menu “Púlpito de sustentação oral” em julgamentos de  sessões  não  contínuas, quando  clicar  no  ícone  de  olho disponível  nos processos que estão  “Em julgamento” (ícone balancinha sendo exibido). Se o magistrado tiver liberado seu documento para visualização por meio da opção respectiva na tarefa, voto/documentos serão exibidos no “Púlpito de sustentação oral”.
+O Assessor de plenário  pode liberar o voto/documentos para que sejam visualizados por meio do menu “Púlpito de sustentação oral” em julgamentos de  sessões  não  contínuas, quando  clicar  no  ícone  de  olho, disponível  nos processos que estão  “Em julgamento” (ícone balancinha sendo exibido). Se o magistrado tiver liberado seu documento para visualização por meio da opção respectiva na tarefa, voto/documentos serão exibidos no “Púlpito de sustentação oral”.
 
 Orientação passada para o TSE quando foram disponilizados os painéis: 
 
@@ -217,12 +220,12 @@ Há um erro conhecido em  processos  migrados. Os  documentos  não aparecem na 
 
 A tarefa Selecionar documentos para acórdão é apresentada no início do fluxo de elaboração do acórdão.
 
-O fluxo  é  iniciado automaticamente após o encerramento do julgamento do processo, ou quando o usuário seleciona, por meio de tarefas que já tem disponível no seu perfil, "iniciar novo fluxo de acórdão".
+O fluxo  é  iniciado automaticamente após o encerramento do julgamento do processo, ou quando o usuário seleciona, por  meio  de  tarefas que já tem disponível no seu perfil "iniciar novo fluxo de acórdão".
 
-Por meio da tarefa, o usuário poderá fazer a vinculação manual dos documentos de um julgamento à respectiva sessão de julgamento, como  também selecionar quais documentos serão utilizados para a produção do acórdão.
+Por  meio  da  tarefa, o usuário poderá fazer a vinculação manual dos documentos de um julgamento à respectiva sessão de julgamento, como  também selecionar quais documentos serão utilizados para a produção do acórdão.
 
-O objetivo é que a tarefa exiba todas as pautas onde o processo tem registro e  os documentos do tipo relatório, ementa  e  voto vinculados ao processo. Essas informações 
-são exibidas em abas separadas, assim o usuário pode selecionar quais desses documentos serão o relatório, a ementa, o voto do relator, o voto do vencedor  e os  votos de vogais do acórdão a ser realizado, assim como para qual pauta será feito o acórdão. 
+O objetivo é que a tarefa exiba todas as pautas onde o processo tem registro e  os documentos do tipo relatório, ementa  e  voto  vinculados  ao processo. Essas  informações 
+são  exibidas  em  abas  separadas, assim  o  usuário pode selecionar quais desses documentos serão o relatório, a ementa, o voto do relator, o voto do vencedor  e os  votos de vogais do acórdão a ser realizado, assim como para qual pauta será feito o acórdão. 
 
 	
 
@@ -244,7 +247,7 @@ Como se pode ver pela área marcada, o registro contém:
 
 Se houver recursos internos vinculados, o sistema também exibirá os dados do recurso. 
 
-As abas  Ementa, Relatório, Voto Relator, Voto Vencedor e Acórdão permitem a seleção de apenas uma opção de documento, mas a seleção não é obrigatória. Dessa forma, se não houver seleção  para  uma  determinada  aba, ao  enviar  o processo para elaboração do acórdão, a aba correspondente não terá documento previamente construído. Essa seleção refletirá na elaboração do acórdão desde que, após selecionadas todas as opções conjuntamente, o usuário utilize o botão "Salvar seleção". 
+As abas  Ementa, Relatório, Voto Relator, Voto Vencedor e Acórdão permitem a seleção de apenas uma opção de documento, mas a seleção não é obrigatória. Dessa forma,  se  não houver seleção  para  uma  determinada  aba,  ao  enviar  o processo para elaboração do acórdão, a aba correspondente não terá documento previamente construído. Essa seleção refletirá na elaboração do acórdão desde que, após selecionadas todas as opções conjuntamente, o usuário utilize o botão "Salvar seleção". 
  
  
 
@@ -281,9 +284,10 @@ Para cada documento, serão exibidas as informações:
   
 7.  Um ícone para permitir ajustar órgão julgador do documento (lápis);
   
-8. Um ícone para permitir desvincular órgão e sessão do documento (lixeira);
+8.  Um ícone para permitir desvincular órgão e sessão do documento (lixeira).
  
-Nas abas de voto também é exibida indicação do voto. Por exemplo, "Nego provimento".
+9.  Nas abas de voto é exibida indicação do voto. Por exemplo, "Nego provimento".
+
 
 A aba de votos vogais permite a seleção de mais de um documento: 
 
@@ -293,7 +297,7 @@ A aba de votos vogais permite a seleção de mais de um documento:
 
 
 
-As abas de votos (voto relator, voto vencedor e votos vogais) exibirão sempre o mesmo conteúdo, ou seja, todos os documentos construídos e não excluídos da instância atual, cujos tipos sejam os configurados nos parâmetros: idTipoProcessoDocumentoVoto, pje:painel:magistrado:sessao:tiposVotoVogal:ids e pje:flx:votacaoVogal:tiposVoto:ids. 
+As abas de votos (voto relator, voto vencedor e votos vogais) exibirão sempre  o mesmo conteúdo, ou seja, todos os documentos construídos e não excluídos da instância atual, cujos tipos sejam os configurados nos parâmetros: idTipoProcessoDocumentoVoto, pje:painel:magistrado:sessao:tiposVotoVogal:ids e pje:flx:votacaoVogal:tiposVoto:ids. 
 
 A aba de ementa trará todos os documentos do tipo, configurado no parâmetro: idTipoProcessoDocumentoEmenta.
 
@@ -383,12 +387,12 @@ um acórdão para construir.
 ## Perfil de consulta  
 
 
-No ambiente do primeiro grau, há um perfil de servidor chamado "Consulta de processos para servidor de outra instância". Nesse perfil só é permitida a consulta processual
-e não é possível consultar processos sigilosos.  O cadastro dos usuários vinculados a esse perfil  deve  ser  feito  pela  funcionalidade  "Configuração/Pessoa/Servidor", selecionando órgão julgador ou selecionando Estado e na opção Papel, o nome desse perfil.
+No ambiente do  primeiro grau,  há  um perfil de servidor chamado "Consulta de processos para servidor de outra instância". Nesse perfil só é permitida a consulta processual
+e  não  é  possível consultar processos sigilosos.  O cadastro dos usuários vinculados a esse perfil  deve  ser  feito  pela  funcionalidade  "Configuração/Pessoa/Servidor", selecionando órgão julgador ou selecionando Estado e na opção Papel, o nome desse perfil.
 
 Para o ambiente do segundo grau, os servidores administradores podem fazer o cadastro do perfil. 
 
-Em "Configuração - Controle de Acesso - Papéis", criar um papel com o nome "Consulta de processos para servidor de outra instância" com identificador "consulta". Depois de criado, na aba "Herdeiros" desse papel vincula o papel "Colaborador" e na aba "Recursos" associa o recurso "Página Processo/Consulta/Consulta de Processo".
+Em "Configuração - Controle de Acesso - Papéis", criar um papel com o nome "Consulta de processos para servidor de outra instância" com identificador "consulta". Depois de criado, na aba "Herdeiros" desse papel, vincula o papel "Colaborador", e na aba "Recursos" associa o recurso "Página Processo/Consulta/Consulta de Processo".
 
 O cadastro dos usuários vinculados a esse perfil deve ser feito de forma similar ao primeiro grau, ou seja, pela funcionalidade "Configuração/ Pessoa/Servidor", selecionando órgão julgador ou não, selecionando Colegiado ou não, selecionando em localização a opção Tribunal Regional Eleitoral e, na opção Papel, o nome desse perfil.
 
@@ -398,19 +402,18 @@ O cadastro dos usuários vinculados a esse perfil deve ser feito de forma simila
 
 O prazo em horas, no PJe,  tem problemas que necessitam de correção, e enquanto elas não vêm, a recomendação é que se converta em dias.
 
-Sem que isso impacte diretamente na questão e na necessidade de evolução do sistema, a jurisprudência do TSE é bem farta no que se refere à conversão de prazos em horas 
+Sem  que  isso  impacte  diretamente na questão e na necessidade de evolução do sistema, a jurisprudência do TSE é bem farta no que se refere à conversão  de prazos em horas 
 para prazos em dias: 
 
 TSE - Agravo Regimental em Agravo de Instrumento AgR-AI 85876 GO (TSE).
 
 Jurisprudência • Data de publicação: 11/02/2011.
 
-AGRAVO REGIMENTAL.   AGRAVO DE INSTRUMENTO.  RECURSO ESPECIAL ELEITORAL.  CAPTAÇÃO ILÍCITA DE SUFRÁGIO.  ELEIÇÕES  2008.  CONTAGEM  DO PRAZO EM HORAS.  CONVERSÃO EM DIA. POSSIBILIDADE. NÃO PROVIMENTO. 1 . O prazo fixado em horas pode ser convertido em dias. (Precedentes: AgR- ED -Rp nº 789/DF, Relator designado Min.  Março Aurélio Mello, PSESS de 18.10.2005; AgR-AI nº 11.755 /GO, Rel. Min. Arnaldo Versiani, DJe de 23.6.2010). 2. Agravo regimental não provido.
+AGRAVO REGIMENTAL.AGRAVO DE INSTRUMENTO.RECURSO ESPECIAL ELEITORAL.CAPTAÇÃO ILÍCITA DE SUFRÁGIO.  ELEIÇÕES  2008.CONTAGEM  DO PRAZO EM HORAS.CONVERSÃO EM DIA. POSSIBILIDADE. NÃO PROVIMENTO.1 . O prazo fixado em horas pode ser convertido em dias. (Precedentes: AgR- ED -Rp nº 789/DF, Relator designado Min. Março Aurélio Mello, PSESS de 18.10.2005; AgR-AI nº 11.755 /GO, Rel. Min. Arnaldo Versiani, DJe de 23.6.2010). 2. Agravo regimental não provido.
 
-TSE - RESPE: 2521020126040051,  Presidente Figueiredo/AM 30642013, Relator: Min. Henrique Neves Da Silva, Data de Julgamento: 12/06/2013, Data de Publicação: DJE Diário
-de justiça eletrônico - 18/06/2013 - Página 41-42.
+TSE - RESPE: 2521020126040051,  Presidente Figueiredo/AM 30642013,  Relator: Min. Henrique Neves Da Silva, Data de Julgamento:  12/06/2013, Data de Publicação: DJE Diário de justiça eletrônico - 18/06/2013 - Página 41-42.
 
-TSE - RESPE: 69795520106060000 Fortaleza/CE 17632012, Relator: Min. Henrique Neves Da Silva, Data de Julgamento: 01/08/2013, Data de Publicação: DJE - Diário de justiça eletrônico - 05/08/2013 - Página 340-343.
+TSE - RESPE: 69795520106060000  Fortaleza/CE 17632012, Relator:  Min. Henrique Neves Da Silva,  Data de Julgamento: 01/08/2013,  Data de Publicação: DJE - Diário de justiça eletrônico - 05/08/2013 - Página 340-343.
 
 
 
