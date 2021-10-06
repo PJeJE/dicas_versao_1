@@ -872,7 +872,7 @@ O PJe do primeiro grau tem uma funcionalidade em que, ao ser protocolado um novo
 
 O painel  do  procurador tem  jurisdições,  onde ele pode protocolar processos e acompanhar processos em que é parte ou foi intimado, e pode ter caixas ou não. Em geral,  as caixas que  existem  hoje  são  aquelas que foram criadas inicialmente, pela ASPJE, cujos nomes são os nomes das zonas. Essas caixas são uma sugestão de organização, apenas.
 
-O procurador gestor é responsável pela gestão de suas caixas e pode criar filtros de forma a distribuir os processos como melhor lhe prouver, por exemplo  criar  caixa  para um procurador designado exclusivamente para determinado processo. No caso, ele vai usar a varinha mágica para arrastar o processo até a caixa.
+O procurador gestor é responsável pela gestão de suas caixas e pode  criar  filtros  de forma a distribuir os processos como melhor lhe prouver, por exemplo,  criando  caixa  para um procurador designado exclusivamente para determinado processo. No caso, ele vai usar a varinha mágica para arrastar o processo até a caixa.
 
 Em versões anteriores à 2.1.2.6.17, quando o processo é remetido a outra zona, se não há mudança de UF, o número do processo permanece o mesmo. Para o sistema, o que ocorreu não  foi  um  novo  protocolo. Os  filtros não são acionados automaticamente nesses casos. Para eles, o procurador gestor deve utilizar a distribuição disponível por meio do ícone de seu painel, uma varinha mágica, que coloca cada processo na caixa respectiva.
  
@@ -967,6 +967,7 @@ Na construção de documentos, o usuário pode utilizar modelos preparados previ
 
 Outras referências de variáveis podem ser encontradas [aqui](variaveis.md).
 
+
 ## Etiquetas
 
 
@@ -993,7 +994,7 @@ Na imagem acima você observa um exemplo de como e onde o recurso deve ser inclu
 
 ## Erros de remessa que podem ser corrigidos pelo usuário
 
-A remessa  é  uma das tarefas em que mais ocorrem erros no sistema PJE, isso porque ela faz uma  série  de  validações  na  instância  de  origem, e na instância de destino.
+A remessa  é  uma  das tarefas em que mais ocorrem erros no sistema PJE, isso porque ela faz uma  série  de  validações  na  instância  de  origem e na instância de destino.
 
 1. CEP:
 
@@ -1013,9 +1014,9 @@ Deve-se deletar as informações da remessa e preencher novamente, para nova ten
  ![Erro de remessa - Tipo de documento](img/erro_de_remessa_2.png)
  
  
-Esse erro acontece quando existe no processo a ser remetido, um documento que foi classificado por um tipo inexistente na instância de destino.
+Esse erro acontece quando existe, no processo a ser remetido, um documento que foi classificado por um tipo inexistente na instância de destino.
 
-Para  correção, deve-se, primeiro verificar de qual tipo de documento deverá ser alterado, pesquisando o número do id  do  documento  na  árvore processual.  Após,  delete a remessa e tramite o processo para a tarefa  “Classificar documentos”,  altere o  tipo de documento para uma opção diferente. Ao fim dessa alteração, realize os procedimentos de remessa novamente.
+Para  correção,  deve-se, primeiro, verificar  qual tipo de documento deverá ser alterado, pesquisando o número do id  do  documento  na  árvore processual.  Após,  delete a remessa e tramite o processo para a tarefa  “Classificar documentos”,  altere o  tipo de documento para uma opção diferente. Ao fim dessa alteração, realize os procedimentos de remessa novamente.
 
 3. Falta de vinculação de ente ou autoridade:
 
@@ -1053,7 +1054,7 @@ Se,  quando  for  realizar  a  tarefa, não aparecer nenhum expediente em aberto
  
 Esse erro acontece quando na hora da remessa, por alguma instabilidade da integração com o sistema da Receita Federal, alguma parte ou pessoa que assinou algum documento no processo, não consegue ser cadastrada automaticamente na aplicação de destino.
 
-Para correção, basta  que  o  Administrador  do Sistema do PJE da instância de destino, vá no Menu: "Configuração/Pessoa/Física  ou  Jurídica", se for o caso, e,  na  opção  pré-cadastro, faça o cadastro manual do CPF ou CNPJ que constar no erro.
+Para correção, basta  que  o  Administrador  do Sistema do PJE da instância de destino, vá ao Menu:"Configuração/Pessoa/Física"  ou  "Jurídica", se for o caso, e,  na  opção  pré-cadastro, faça o cadastro manual do CPF ou CNPJ que constar no erro.
 
 Após o cadastro, tentar novamente a remessa, sem a necessidade de apagá-la.
 
@@ -1066,7 +1067,7 @@ Após o cadastro, tentar novamente a remessa, sem a necessidade de apagá-la.
  
 Esse erro acontece quando algum documento de identificação de uma das partes do processo está em branco.
 
-Para correção, basta ir ao menu dos autos processuais,  opção  retificar  autuação,  aba partes, clique em selecionar (parte), aba documentos de identificação e verificar os documentos constantes de todas as partes, procedendo a correção necessária (verificar inclusive advogados). 
+Para correção, basta ir ao menu dos autos processuais,  opção  retificar  autuação,  aba partes, clicar em selecionar (parte), aba documentos de identificação e verificar os documentos constantes de todas as partes, procedendo a correção necessária (verificar inclusive advogados). 
 
 
 
