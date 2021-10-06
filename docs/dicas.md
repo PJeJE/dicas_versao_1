@@ -371,15 +371,16 @@ As possíveis divergências serão notificadas ao usuário quando:
 •	Os documentos não estiverem vinculados à sessão ou estiverem vinculados à sessão distinta da sessão selecionada.
 
 O usuário poderá selecionar "Cancelar" para desistir da seleção. Pode selecionar "Prosseguir sem ajustar informações", o que, em alguns casos, fará com que os documentos selecionados possam não ser devidamente carregados na tarefa seguinte. Ao selecionar "Prosseguir ajustando informações", o sistema vinculará todos os documentos à sessão selecionada.
+
 Não selecionando o botão "Cancelar", o sistema exibirá a mensagem de que a seleção foi gravada com sucesso.
 
 
 ![Divergência](img/acordao15.png)
 
 
-As atualizações realizadas podem  não estar disponíveis de imediato nas abas.  Atualize a página para poder verificar, caso tenha solicitado "Prosseguir ajustando informações".
+As  atualizações  realizadas  podem   não  estar  disponíveis  de  imediato  nas  abas.  Atualize a  página para poder verificar, caso tenha solicitado "Prosseguir ajustando informações".
 
-O usuário poderá selecionar, pelos três pontinhos da tarefa, prosseguir por meio do "Elaborar acórdão ou resolução" ou "Iniciar novo fluxo de acórdão", caso tenha mais de
+O  usuário  poderá  selecionar, pelos três pontinhos da tarefa, prosseguir por meio do "Elaborar acórdão ou resolução" ou "Iniciar novo fluxo de acórdão", caso tenha mais de
 um acórdão para construir.
 
 
@@ -390,9 +391,7 @@ um acórdão para construir.
 No ambiente do  primeiro grau,  há  um perfil de servidor chamado "Consulta de processos para servidor de outra instância". Nesse perfil só é permitida a consulta processual
 e  não  é  possível consultar processos sigilosos.  O cadastro dos usuários vinculados a esse perfil  deve  ser  feito  pela  funcionalidade  "Configuração/Pessoa/Servidor", selecionando órgão julgador ou selecionando Estado e na opção Papel, o nome desse perfil.
 
-Para o ambiente do segundo grau, os servidores administradores podem fazer o cadastro do perfil. 
-
-Em "Configuração - Controle de Acesso - Papéis", criar um papel com o nome "Consulta de processos para servidor de outra instância" com identificador "consulta". Depois de criado, na aba "Herdeiros" desse papel, vincula o papel "Colaborador", e na aba "Recursos" associa o recurso "Página Processo/Consulta/Consulta de Processo".
+Para o ambiente do segundo grau, os servidores administradores  podem fazer o cadastro do perfil.  Para isso, basta em "Configuração - Controle de Acesso - Papéis", criar um papel com o nome "Consulta de processos para servidor de outra instância" com identificador "consulta". Depois de criado, na aba "Herdeiros"  desse  papel,  vincula  o papel "Colaborador", e na aba "Recursos" associa o recurso "Página Processo/Consulta/Consulta de Processo".
 
 O cadastro dos usuários vinculados a esse perfil deve ser feito de forma similar ao primeiro grau, ou seja, pela funcionalidade "Configuração/ Pessoa/Servidor", selecionando órgão julgador ou não, selecionando Colegiado ou não, selecionando em localização a opção Tribunal Regional Eleitoral e, na opção Papel, o nome desse perfil.
 
@@ -400,9 +399,9 @@ O cadastro dos usuários vinculados a esse perfil deve ser feito de forma simila
 
 ##  Prazo em horas 
 
-O prazo em horas, no PJe,  tem problemas que necessitam de correção, e enquanto elas não vêm, a recomendação é que se converta em dias.
+O prazo em horas, no PJe, tem problemas que necessitam de correção, e enquanto elas não vêm, a recomendação é que se converta em dias.
 
-Sem  que  isso  impacte  diretamente na questão e na necessidade de evolução do sistema, a jurisprudência do TSE é bem farta no que se refere à conversão  de prazos em horas 
+Sem  que  isso  impacte  diretamente  na questão e na necessidade de evolução do sistema, a jurisprudência do TSE é bem farta no que se refere à conversão de prazos em horas 
 para prazos em dias: 
 
 TSE - Agravo Regimental em Agravo de Instrumento AgR-AI 85876 GO (TSE).
@@ -421,15 +420,15 @@ TSE - RESPE: 69795520106060000  Fortaleza/CE 17632012, Relator:  Min. Henrique N
 
 ## Remessa para outra instância:
 
-“Remessa para outra instância” tarefa exclusiva do PJE de 2º grau, deve ser utilizada quando o objetivo seja enviar um processo que tenha iniciado no TRE, para o TSE. Deve ser utilizada também, quando o processo foi iniciado físico na Zona Eleitoral, migrado no TRE, e precisa descer para o 1º.
+“Remessa  para  outra instância” tarefa exclusiva do PJE do 2º grau, deve ser utilizada quando o objetivo seja enviar um processo que tenha iniciado no TRE, para o TSE. Deve ser utilizada também, quando o processo foi iniciado físico na Zona Eleitoral, migrado no TRE, e precisa descer para o 1º grau.
 
-Essa tarefa permite que se protocole um “novo processo” no destino, com classes e assuntos específicos e com  novas configurações de partes. As classes exibidas são as que estejam configuradas na instância de destino como remessa entre instâncias  “Sim”. Caso a classe selecionada esteja configurada no destino com a marcação  “exige numeração própria”, um novo número de processo será gerado. Essa remessa lança o movimento de código 123: remetidos os autos, com os seus complementos cadastrados, bem como o código 22: baixa definitiva.
+Essa  tarefa  permite que se protocole um “novo processo” no destino, com classes e assuntos específicos e com  novas configurações de partes. As classes exibidas são as que estejam  configuradas  na instância de destino como remessa entre instâncias  “Sim”. Caso a classe selecionada esteja configurada no destino com a marcação  “exige numeração própria”,  um  novo número de processo será gerado. Essa remessa lança o movimento de código 123: remetidos os autos, com os seus complementos cadastrados, bem como o código 22: baixa definitiva.
 
-Após a confirmação, o sistema movimentará o processo para a tarefa “Aguardando apreciação de outra instância” e ficará bloqueado para novas petições ou edições.
+Após a confirmação, o sistema movimentará o processo para a tarefa “Aguardando apreciação de outra instância” onde ficará bloqueado para novas petições ou edições.
 
 ## Expedir processo -  Retorno à origem
 
-"Devolver processo à origem", tarefa exclusiva do 2º e 3º grau: deve ser utilizada quando o objetivo seja devolver um processo para alguma instância em que ele esteve, ou seja, o processo deve existir na instância de destino (já deve ter ocorrido uma remessa entre instâncias no sistema).
+"Devolver processo à origem",  tarefa  exclusiva  do 2º e 3º grau: deve ser utilizada quando o objetivo seja devolver um processo para alguma instância em que ele esteve, ou seja, o processo deve existir na instância de destino (já deve ter ocorrido uma remessa entre instâncias no sistema).
 
 Se o processo foi remetido do 1° grau para o 2° grau, devolver à origem é devolver para o 1° grau.
 
@@ -439,40 +438,38 @@ Se o processo foi remetido do 2° grau para o 3° grau, remeter à origem é dev
 
 É possível também, utilizando essa tarefa, retornar para o 3º grau um processo que se iniciou no 3º grau e foi remetido para o 2º.
 
-Se o processo se iniciou no 1º grau, foi remetido para o 2º grau e depois para o 3º, ao retornar para o 2º grau, lá será apresentada uma opção para que o usuário decida se deseja remeter para o 1º grau ou para o 3º grau. Essa remessa lança o movimento de código 22: baixa definitiva.
-
-Após a confirmação, o sistema movimentará o processo para a tarefa “Manter processos expedidos” e ele ficará bloqueado para novas petições ou edições.
+Se  o  processo se  iniciou  no  1º grau, foi remetido para o 2º grau e depois para o 3º, ao retornar para o 2º grau, lá será apresentada uma opção para que o usuário decida se deseja remeter para o 1º grau ou para o 3º grau. Essa remessa lança o movimento de código 22: baixa definitiva.  Após a confirmação, o sistema movimentará o processo para a tarefa “Manter processos expedidos” e ele ficará bloqueado para novas petições ou edições.
 
 As tarefas onde os processos permanecem após remessa ou devolução são diferentes para que se saiba com mais facilidade qual o caminho que o processo percorreu.
 
-Como a tarefa funciona: a  tela da tarefa permite  a seleção do motivo da devolução e o acionamento do botão “Retornar para a instância de origem”, porém, nesse momento,  o sistema verificará se há documentos não assinados, expedientes abertos ou tarefas em  andamento, de modo  a evitar que o processo seja encaminhado  sem o devido cumprimento.
-Na confirmação da execução, o sistema retornará o processo para a última instância de origem (se veio do TSE, retornará para o TSE, se veio do primeiro grau, retornará para o primeiro grau). 
+Como a tarefa funciona: a  tela da tarefa permite  a seleção do motivo da  devolução e o acionamento do botão “Retornar para a instância de origem”, porém, nesse momento,  o sistema verificará se há documentos não assinados, expedientes abertos ou tarefas em  andamento, de modo  a evitar que o processo seja encaminhado  sem o devido cumprimento.
+Na confirmação da execução, o sistema retornará o processo para  a última instância de origem (se veio do TSE, retornará para o TSE, se veio do primeiro grau, retornará para o primeiro grau). 
 
-O usuário pode também desistir da tarefa, retornando na tarefa “Retornar para Verificar Pendências”, ou encaminhar para novos cumprimentos, por meio da transição “Necessita atos de ofício”. 
+O usuário pode também desistir da tarefa, retornando na tarefa “Retornar para Verificar Pendências”, ou encaminhar para novos cumprimentos,  por meio da transição “Necessita atos de ofício”. 
 
 Na confirmação da execução, o sistema retornará o processo para a última instância de origem (se veio do TSE, retornará para o TSE, se veio do primeiro grau, retornará para o primeiro grau). 
 
 ## Remeter processo para o TRE
 
-"Remeter ao TRE" (tarefa exclusiva do 1º grau): deve ser utilizada quando o objetivo seja realizar a remessa de um processo da Zona Eleitoral para o TRE, independente se o processo já esteve ou não na instância de destino (2º grau).
+"Remeter ao TRE" (tarefa exclusiva do 1º grau): deve ser utilizada quando  o objetivo seja realizar a remessa de um processo da Zona Eleitoral para o TRE, independente de se  o processo já esteve ou não na instância de destino (2º grau).
 
-No ambiente de zona, para remeter a outra instância, só existe hoje a possibilidade de utilizar o Remeter processo para o TRE, mesmo quando for devolução. De toda maneira,
-o sistema  sempre consulta o processo na instância de origem, ao fazer a remessa.  Encontrando o processo lá, ele vai automaticamente  fazer  uma devolução, e não uma nova remessa. Essa remessa lança o movimento de código 123: remetidos os autos, com os seus complementos cadastrados, bem como o código 22: baixa definitiva.
+No  ambiente  de zona, para remeter a outra instância, só existe hoje a possibilidade de utilizar o Remeter processo para o TRE, mesmo quando for devolução. De toda maneira,
+o  sistema  sempre consulta  o processo na instância de origem, ao fazer a remessa.  Encontrando o processo lá, ele vai automaticamente  fazer  uma devolução, e não uma nova remessa. Essa remessa lança o movimento de código 123: remetidos os autos, com os seus complementos cadastrados, bem como o código 22: baixa definitiva.
 
-Ao utilizar tarefa “Remeter processo para o TRE”, o processo fica em “Aguardando apreciação do TRE” e bloqueado para novas petições ou edições. Caso seja devolvido do TRE, deve ir automaticamente para o “Analisar processo – ZE" ou “Analisar determinações - ZE”, retirando o bloqueio de edições/novas petições.
+Ao  utilizar  tarefa “Remeter processo para o TRE”, o processo fica em “Aguardando apreciação do TRE” e bloqueado para novas petições ou edições. Caso seja devolvido do TRE, deve ir automaticamente para o “Analisar processo – ZE" ou “Analisar determinações - ZE”, retirando o bloqueio de edições/novas petições.
 
 O “ Retornar processo”  não tem nada a ver com remessa, ele só retorna o processo  de volta  para o "analisar determinação" ou "analisar processo", verificando os movimentos lançados para encaminhar para um ou outro. 
 
 ## Expedir processo – retorno à origem - outros órgãos   
 
-"Expedir processo - Retorno à origem – outros órgãos"(tarefa exclusiva do 3º grau): deve ser utilizada quando o objetivo seja remeter um processo ao TRE, quando o processo se iniciou no TSE, seja porque realmente foi protocolado no TSE, seja porque foi migrado no TSE. Nesse caso, o processo não “existia” no TRE. Essa remessa lança o movimento de código 22: Baixa definitiva.
+"Expedir processo - Retorno à origem – outros órgãos" (tarefa exclusiva do 3º grau):  deve ser utilizada quando o objetivo seja remeter um processo ao TRE, quando o processo se iniciou no TSE, seja porque realmente foi protocolado no TSE, seja porque foi migrado no TSE. Nesse caso, o processo não “existia” no TRE. Essa  remessa lança o movimento de código 22: Baixa definitiva.
 
 
 ## Remessa a outra jurisdição 
 
 Como ficam os processos após finalização?
 
-O processo,  após remetido a outra jurisdição, não fica na mesma tarefa. Se gera novo número (quando de um Estado para outro), é para ficar o número originário em  processo arquivado na Zona Eleitoral inicial,  e o novo número em analisar novo processo, na ZE de destino. Se não gera novo número (remessa entre Zonas do mesmo Estado), fica apenas um processo em analisar novo processo, na ZE de destino. 
+O processo,  após  remetido a outra jurisdição, não fica na mesma tarefa. Se gera novo número (quando de um Estado para outro), é para ficar o número originário em  processo arquivado na Zona Eleitoral inicial,  e o novo número em analisar novo processo, na ZE de destino. Se não gera novo número (remessa entre Zonas do mesmo Estado), fica apenas um processo em analisar novo processo, na ZE de destino. 
 
 
 ## Artigo 260 no PJe 
@@ -632,25 +629,25 @@ Siga o passo a passo e, em caso de eventuais dúvidas, envie um email para <aspj
 
 Um processo, ao ser protocolado, vai incluir o nome do revisor automaticamente, se a classe tiver marcada como "exige revisor". Nesse caso, na configuração do órgão julgador colegiado, temos que colocar quem é o revisor padrão de cada gabinete. 
 
-Se a classe estiver marcada com revisão facultativa, o processo pode ter ou não revisor.  
+Se a classe estiver marcada com revisão facultativa, o processo pode ou não ter revisor.  
 
-Após o protocolo de processos, dependendo da atualização do fluxo, existe uma tarefa depois do "analisar determinação" que permite a determinação  do revisor para processos cujas classes tenham revisão marcada como facultativa. Se assim estiver, a tarefa permite que se marque ou desmarque  que  o  processo  exige revisão e também permite que o revisor seja alterado. 
+Após o protocolo de processos, dependendo da atualização do fluxo, existe uma tarefa depois do "analisar determinação" que permite a  determinação  do revisor para processos cujas classes tenham revisão marcada como facultativa. Se assim estiver, a tarefa permite  que se marque ou desmarque  que  o  processo  exige revisão e também permite que o revisor seja alterado. 
  
 Você poderá verificar o nome do revisor pelos autos digitais, na opção de exibir mais detalhes do cabeçalho. 
 
-Quando  um  processo  está  no fluxo de colegiadas, na tarefa “Conferir relatório, voto e ementa”, o sistema verifica se o processo exige revisor, e isso foi selecionado no protocolo, ou se o processo tem uma classe que a revisão é facultativa.  Se  uma  dessas condições for satisfeita, aparece uma transição para que o usuário envie o processo para o revisor, que será o que aparece nos autos. 
+Quando  um  processo  está  no fluxo de colegiadas, na tarefa “Conferir relatório, voto e ementa”, o sistema verifica se o processo exige revisor, e isso foi selecionado  no protocolo, ou se o processo tem uma classe que a revisão é facultativa.  Se  uma  dessas condições for  satisfeita, aparece uma transição para que o usuário envie o processo para o revisor, que será o que aparece nos autos. 
 
 Quando a classe exige revisão, o processo só poderá ser pautado se o revisor tiver incluído o voto. 
 
-Para fazer alteração de um revisor já cadastrado no processo, deve-se, primeiramente, ajustar a configuração dos órgãos julgadores revisores, colocando-se o órgão que será o novo revisor no local daquele que está atualmente cadastrado. Para tanto, acessar o menu "Configuração - Órgão julgador colegiado" - aba órgão julgador). Tal procedimento não causará mudança nos processos que já estão com seus revisores cadastrados. A seguir, deve-se  marcar  a  classe  com  "exige revisor" facultativo, depois colocar o processo, a partir do analisar determinação, na tarefa de definir o revisor. Desmarque a opção de exige revisor e clique em Prosseguir. Retorne o processo para a tarefa Definir revisor. Na tarefa, alterar as marcações exige revisor e nome do revisor, deixando selecionado  o  revisor  correto, retornando depois o processo para analisar determinação. Esse procedimento de retirar da tarefa e colocar novamente é necessário porque a tarefa não tem o botão Salvar.  Após finalizado o procedimento, conforme o caso, alterar novamente a configuração do colegiado (Configuração - Órgão julgador colegiado - aba órgão julgador) para que novos processos protocolados não sejam afetados pela alteração.
+Para fazer alteração de um revisor já cadastrado no processo, deve-se, primeiramente, ajustar a configuração dos órgãos julgadores revisores, colocando-se o órgão que será o novo revisor no local daquele que está atualmente cadastrado. Para  tanto, acessar  o  menu "Configuração - Órgão julgador colegiado" - aba órgão julgador). Tal procedimento não  causará  mudança  nos  processos  que  já estão com seus revisores cadastrados. A seguir, deve-se  marcar  a  classe  com  "exige revisor" facultativo, depois colocar o processo,  a  partir  do analisar determinação,  na tarefa  de definir o revisor. Desmarque a opção de exige revisor e clique em Prosseguir. Retorne o processo para a tarefa Definir revisor.  Na  tarefa,  alterar  as  marcações  exige revisor e nome do revisor, deixando selecionado  o  revisor  correto, retornando depois o processo para analisar determinação.  Esse  procedimento  de  retirar da tarefa e colocar novamente é necessário porque a tarefa não tem o botão Salvar.  Após finalizado o procedimento, conforme o caso,  alterar  novamente a configuração do colegiado (Configuração - Órgão julgador colegiado - aba órgão julgador) para que novos processos protocolados não sejam afetados pela alteração.
 
-Pode ocorrer também a situação em que o processo tem uma classe que exige revisão, mas o julgamento será do recurso. O procedimento correto é marcar facultativo para exige revisão na classe e pautar  o processo após o procedimento. Nesse caso, quem  envia o processo para a pauta é o relator, não o revisor. Depois, pode-se alterar a classe de volta. Se o processo já tiver sido pautado, pode-se fazer o seguinte: 
+Pode ocorrer também a situação em que o processo tem uma classe que exige revisão, mas o julgamento será do recurso. O procedimento correto  é marcar facultativo para  exige revisão na classe e pautar  o processo após o procedimento. Nesse caso, quem  envia o processo para a pauta é o relator, não o revisor. Depois,  pode-se  alterar a classe de volta. Se o processo já tiver sido pautado, pode-se fazer o seguinte: 
 
 -  Tirar da sessão: para processo com pauta fechada, o sistema gerará a certidão de cancelamento de pauta; 
 
 -  Marcar a classe como facultativo, em “exige revisor”;
 
--  Ir na tarefa “Analisar determinação”: pode-se cancelar a decisão colegiada e remeter o processo para SJD. Os documentos construídos de voto, relatório e ementa não serão perdidos. 
+-  Ir na tarefa “Analisar determinação”: pode-se cancelar a decisão colegiada e remeter o processo para SJD. Os documentos construídos de voto, relatório e ementa não serão perdidos; 
 
 -  Tirar o revisor pela tarefa;
 
