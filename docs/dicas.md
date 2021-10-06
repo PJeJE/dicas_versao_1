@@ -689,17 +689,12 @@ A  intimação  eletrônica  de partes vinculadas à defensoria é permitida. N�
 
 ## Campo máscara no preenchimento de configuração da classe 
 
-O campo  de  máscara  na  configuração da classe judicial  é  para quando é marcada a opção anterior de processo referência.   Significa que ao digitar o número do processo referência, o sistema vai colocar máscara, fazendo com que pontinhos e tracinhos apareçam no lugar certo. 
+O campo  de  máscara  na  configuração da classe judicial  é  para quando é marcada a opção anterior de  processo referência.  Significa que ao digitar o número do  processo referência, o sistema vai colocar máscara, fazendo com que pontinhos e tracinhos apareçam no lugar certo. 
 
 
 
 ## Distribuição e pesos
 
-https://www.cnj.jus.br/wiki/index.php/Distribui%C3%A7%C3%A3o 
-
-As regras de cálculo dos pesos estão no item 4 de: 
-
-https://www.cnj.jus.br/wiki/index.php/Distribui%C3%A7%C3%A3o#Procedimento_de_distribui.C3.A7.C3.A3o 
 
 As regras de distribuição do PJe se baseiam essencialmente na ideia de  que  cada processo representa  uma  determinada carga de trabalho, a que chamamos de peso, e que essa carga  é  resultado  da  composição de  alguns  aspectos inerentes ao processo judicial. As  características  adotadas foram: a classe processual, os assuntos processuais, a quantidade de partes componentes do processo, a existência ou não de situação de prevenção e circunstâncias próprias dos órgãos julgadores.
 
@@ -733,6 +728,11 @@ Ao  selecionar a  opção "Incluir",  o sistema exibirá a seguinte mensagem: "D
 
 Após finalizada essa etapa, você deve vincular o magistrado como titular do órgão vinculado a esse novo cargo judicial.
 
+Mais informações em: https://www.cnj.jus.br/wiki/index.php/Distribui%C3%A7%C3%A3o 
+
+As regras de cálculo dos pesos estão no item 4 de: 
+
+https://www.cnj.jus.br/wiki/index.php/Distribui%C3%A7%C3%A3o#Procedimento_de_distribui.C3.A7.C3.A3o 
 
 
 ## Audiências
@@ -750,26 +750,26 @@ No entanto, se em um processo há outra parte cadastrada com a pessoa unificada,
 
 ## Publicações no DJe – sigilo
 
-A única propriedade que é levada em consideração para marcar uma publicação como sigilosa ou não é se o processo é sigiloso. 
+A única propriedade que é levada em consideração para marcar uma publicação como sigilosa ou não, é se o processo é sigiloso. 
 
-A dúvida surgiu  porque  na  tarefa  “Preparar ato de comunicação”,  no 2o  passo,  existe  a opção “sigiloso” ao lado do nome da parte. Marcar essa opção não tem efeito na publicação do DJe, ou seja, se o processo não for sigiloso, os dados da parte aparecerão mesmo que esta opção esteja selecionada. 
+A dúvida surgiu  porque  na  tarefa  “Preparar ato de comunicação”,  no 2o  passo,  existe  a opção “sigiloso” ao lado do nome da parte. Marcar essa opção não  tem efeito na publicação do DJe, ou seja, se o processo não for sigiloso, os dados da parte aparecerão mesmo que esta opção esteja selecionada. 
 
 Então qual a finalidade da opção “Sigiloso” na tarefa “Preparar ato de comunicação?” 
 
-Marcar essa opção deveria refletir no documento que será criado/selecionado em “Instrumento de comunicação” após clicar no “lápis”. E diz respeito ao sigilo do documento ao ser listado nos autos digitais. No entanto, a recomendação é NÃO utilizar essa marcação. Ela não se comporta como o esperado e precisará de correção. 
+Marcar essa opção deveria refletir no documento que será criado/selecionado em “Instrumento de comunicação” após clicar no “lápis”. E diz  respeito ao sigilo do documento ao ser listado nos autos digitais. No entanto, a recomendação é NÃO utilizar essa marcação. Ela não se comporta como o esperado e precisará de correção. 
  
 
 ## Carta Precatória: Visualização pelo promotor deprecado 
  
 Há duas formas de distribuir carta precatória ao juízo deprecado:
 
-1. A  Carta  Precatória  é distribuída pelo deprecante diretamente na zona deprecada, observa-se manutenção da numeração única do processo (da zona deprecada) e que os autos ficam vinculados a caixa do Procurador deprecado. 
+1. A  Carta  Precatória  é distribuída pelo deprecante diretamente na zona deprecada, observando-se a manutenção da numeração única do processo (da zona deprecada) e que os autos ficam vinculados a caixa do Procurador deprecado. 
 
 2. A carta precatória é distribuída e os autos autuados na zona deprecante, sendo remetidos à zona deprecada, quando se observam duas situações possíveis: 
 
 a. Quando a remessa é para outra zona do mesmo Estado, a numeração permanece e, a princípio, o processo ainda fica vinculado na caixa  do Promotor deprecante. Entretanto, no primeiro ato de comunicação, o processo migra para caixa correta, ou seja, na primeira intimação ao Ministério Público, o promotor  do juízo deprecado é comunicado, de forma a ser viabilizada a atuação; 
 
-b. A remessa entre zonas de Estados distintos não é praxe, entretanto, tecnicamente, quando a remessa é para zona de outro Estado o número do processo é alterado (art. 5º da Resolução CNJ n.º 65/2008), mas as partes permanecem as mesmas, ou seja, não atualiza para o Ministério Público do Estado deprecado. Neste caso, é necessário que o Cartório Eleitoral deprecado atualize os dados do processo, de forma a inserir o Ministério Público deprecado na autuação.
+b. A remessa entre zonas de Estados distintos não é praxe, entretanto, tecnicamente, quando a remessa é para zona de outro Estado o número do processo é alterado (art. 5º da Resolução CNJ n.º 65/2008), mas  as partes permanecem as mesmas, ou seja, não atualiza para o Ministério Público do Estado deprecado. Neste caso, é necessário que o Cartório Eleitoral deprecado atualize os dados do processo, de forma a inserir o Ministério Público deprecado na autuação.
 
 A despeito de todas as viabilidades técnicas, recomenda-se a utilização da primeira opção, qual seja, autuação diretamente na zona eleitoral deprecada. Este é o procedimento mais seguro e tendente a resolver a demanda sem necessidade de adequações (sejam automáticas ou manuais).
 
@@ -777,13 +777,13 @@ A despeito de todas as viabilidades técnicas, recomenda-se a utilização da pr
 
 ## Minutar em lote
 
-As tarefas de construção de documentos  como minutar ato ou elaborar documentos, podem ser executadas individualmente ou em lote (mais de um processo por vez). Para construir documentos em lote, deve-se selecionar os processos de alguma tarefa onde a minuta em lote esteja habilitada (atualmente quase todas estão), por meio do campo de seleção disponível ao lado do cabeçalho do processo. 
+As  tarefas  de  construção  de  documentos  como  minutar  ato  ou  elaborar documentos, podem ser executadas individualmente ou em lote (mais de um processo por vez). Para construir documentos em lote, deve-se selecionar os processos de alguma tarefa  onde  a minuta em lote esteja habilitada (atualmente quase todas estão), por meio do campo de seleção disponível ao lado do cabeçalho do processo. 
 
 
 ![Campo de seleção](img/minutalote1.png)
 
 
-Pode-se também selecionar todos os processos da página por meio do campo de seleção que fica logo abaixo dos agrupadores de  PROCESSOS/ETIQUETAS.  Selecionando  essa opção, todos os processos daquela página serão incluídos no lote. Lembramos que o limite de processos por página é 30.  
+Pode-se, também, selecionar todos os processos da página por meio do campo de seleção que fica logo abaixo dos agrupadores de PROCESSOS/ETIQUETAS.  Selecionando  essa opção, todos os processos daquela página serão incluídos no lote. Lembramos que o limite de processos por página é 30.  
 
 
 ![Processos e Etiquetas](img/minutarlote2.png)
@@ -819,19 +819,19 @@ Perceba que o ícone de assinatura fica sempre desabilitado no minutar em lote. 
 ![Ícone assinatura desabilitado](img/minutalote7.png)
 
 
-Ao selecionar o tipo e o modelo de documento, o sistema carrega na área de exibição de texto do editor  o  conteúdo do modelo de documento.  Se o  modelo contiver variáveis, elas serão carregadas sem a tradução, já que o sistema tem vários processos no lote e não exibirá na área de texto a tradução para cada documento. 
+Ao selecionar o tipo e o modelo de documento, o sistema carrega, na área de exibição de texto do editor, o conteúdo do modelo de documento.  Se o  modelo contiver variáveis, elas serão carregadas sem a tradução, já que o sistema tem vários processos no lote e não exibirá na área de texto a tradução para cada documento. 
  
 
 ![Variáveis não traduzidas](img/minutalote8.png)
   
   
-Ao salvar, clicando no ícone correspondente, o sistema fará a tradução das variáveis  de acordo com cada processo. Finalizada a edição, o usuário pode simplesmente fechar a tela ou tramitar o processo para outra tarefa. Ao baixar a barra lateral de rolagem da tela, o sistema exibe as opções de tramitação, como na tela a seguir: 
+Ao salvar clicando no ícone correspondente, o sistema fará  a  tradução das variáveis  de acordo com cada processo. Finalizada a edição, o usuário pode simplesmente fechar a tela ou tramitar o processo para outra tarefa. Ao baixar a barra lateral de rolagem da tela, o sistema exibe as opções de tramitação, como na tela a seguir: 
 
 
 ![Transições](img/minutalote9.png)
 
 
-Pode-se acionar o botão “Cancelar” e pode-se também alterar para quais tarefas cada processo irá a seguir, finalizando  a minuta por meio do acionamento do botão “Minutar e movimentar os processos”. 
+Pode-se acionar o botão “Cancelar” e pode-se também alterar para quais tarefas cada processo irá a seguir, finalizando  a minuta por meio do acionamento do botão “Minutar  e movimentar os processos”. 
 
 Se for acionado o botão “Minutar e movimentar os processos”, o sistema exibe um alerta para que o usuário saiba que os processos serão movimentados: 
 
