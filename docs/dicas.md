@@ -38,8 +38,11 @@ Ao passar essa orientação para o usuário, este nem sempre consegue resolver e
 Recomendamos, então, ao servidor, o seguinte:
 
 1) Ir ao cadastro da pessoa física, trocar o e-mail do usuário e colocar o seu próprio e-mail;
+
 2) Em seguida, ir à tela inicial do PJe e clicar no link "esqueci minha senha". Na Tela aberta, digitar o CPF do usuário e o seu e-mail;
+
 3) Acessar novamente seu e-mail para abrir o link de redefinição de senha. Você conseguirá cadastrar uma nova senha e desbloquear o cadastro do usuário;
+
 4) Por fim,  acesse  novamente  o cadastro do usuário e substitua o seu e-mail pelo e-mail original da pessoa e clique no botão para gerar novo link de cadastro de senha para que ela possa gerar uma nova senha.
 
 
