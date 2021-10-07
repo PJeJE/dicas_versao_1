@@ -1225,3 +1225,10 @@ quais os tipos de arquivos aceitos, suas extensões e os tamanhos máximos permi
 Como utilizar a ferramenta que permite ao usuário logar no PJe e assinar documentos sem a necessidade do certificado digital em token físico.
 
 [Clique e acesse](tokenpje.md)
+
+## Situação da inscrição do advogado na OAB
+
+Como verificar a situação da inscrição do advogado na OAB, efetuar a revalidação
+e as regras de negócio atuais do sistema.
+
+[Clique e acesse](situacao_oab_advogado.md)
