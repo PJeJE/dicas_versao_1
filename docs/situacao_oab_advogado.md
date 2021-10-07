@@ -16,7 +16,7 @@ A partir de então, o único momento em que é mostrada a situação da inscriç
 
 ** Considerações finais **
 
-Em ambas as versões, os dados apresentados tem apenas caráter informativo, <span style="text-decoration: underline">mesmo que em situação irregular</span>. Além disso, caso o advogado possua mais de uma inscrição regular, a informação acima é baseada apenas na primeira OAB encontrada, ignorando-se as demais. O que pode não refletir a exata situação cadastral do advogado.
+Os dados apresentados tem apenas caráter informativo, <span style="text-decoration: underline">mesmo que em situação irregular</span>. Além disso, caso o advogado possua mais de uma inscrição regular, a informação acima é baseada apenas na primeira OAB encontrada, ignorando-se as demais. O que pode não refletir a exata situação cadastral do advogado.
 
 Um advogado com a situação regular no momento do cadastro no PJe e que posteriormente teve sua inscrição cancelada e/ou tornada irregular, continua como regular no PJe até que um usuário interno do PJe, a partir da funcionalidade, **confirmar credenciamento do advogado**, utilize o botão **nova validação na OAB** para atualizar os dados do advogado.
 
