@@ -1070,7 +1070,7 @@ Após o cadastro, tentar novamente a remessa, sem a necessidade de apagá-la.
  
 Esse erro acontece quando algum documento de identificação de uma das partes do processo está em branco.
 
-Para correção, basta ir ao menu dos autos processuais,  opção  retificar  autuação,  aba partes, clicar em selecionar (parte), aba documentos de identificação e verificar os documentos constantes de todas as partes, procedendo a correção necessária (verificar inclusive advogados). 
+Para correção, basta ir ao menu dos autos processuais,  opção  retificar  autuação,  aba partes, clicar em selecionar (parte), aba documentos de identificação e verificar os documentos constantes de todas as partes, procedendo  a  correção necessária (verificar inclusive advogados). 
 
 
 
