@@ -23,7 +23,7 @@ Acesse, no navegador, o ícone que fica no canto superior direito que contém tr
 
 5.	Atualize a página do PJe. 
 
-Segue link sobre a limpeza do histórico: https://support.mozilla.org/pt-BR/kb/como-limpar-cache-firefox 
+Segue link sobre a limpeza do histórico: (https://support.mozilla.org/pt-BR/kb/como-limpar-cache-firefox)
  
 
 
@@ -53,7 +53,7 @@ Controle que visa sinalizar ao servidor que documentos novos foram incluídos pe
 
 Esse  controle  é  só um aviso, e para  que o aviso não seja mais exibido, basta o usuário sinalizar que já viu o documento, não significando que ele efetivamente foi visto. Pode-se  marcar  que  o documento foi lido sem sequer ter aberto o documento. A marcação significa que o usuário quer que o aviso desapareça. Se o usuário abrir o documento, mas não marcar que já viu, o sistema vai continuar exibindo que há documentos não lidos. 
 
-Mais informações sobre o comportamento da opção: http://www.pje.jus.br/wiki/index.php/Funcionalidades#Processos_com_documentos_n.C3.A3o_lidos 
+Mais informações sobre o comportamento da opção: (http://www.pje.jus.br/wiki/index.php/Funcionalidades#Processos_com_documentos_n.C3.A3o_lidos) 
 
 
 
