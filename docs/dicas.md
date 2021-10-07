@@ -999,7 +999,7 @@ Na imagem acima você observa um exemplo de como e onde o recurso deve ser inclu
 
 A remessa  é  uma  das tarefas em que mais ocorrem erros no sistema PJE, isso porque ela faz uma  série  de  validações  na  instância  de  origem e na instância de destino.
 
-1. CEP:
+1.   CEP:
 
 
  ![Erro de remessa - CEP](img/erro_de_remessa_1.png)
@@ -1022,7 +1022,8 @@ Esse erro acontece quando existe, no processo a ser remetido, um documento que f
 Para  correção,  deve-se, primeiro, verificar  qual tipo de documento deverá ser alterado, pesquisando o número do id  do  documento  na  árvore processual.  Após,  delete a remessa e tramite o processo para a tarefa  “Classificar documentos”,  altere o  tipo de documento para uma opção diferente. Ao fim dessa alteração, realize os procedimentos de remessa novamente.
 
 
-3. Falta de vinculação de ente ou autoridade:
+3.  Falta de vinculação de ente ou autoridade:
+
 
  ![Erro de remessa - Falta de vinculação de ente ou autoridade](img/erro_de_remessa_3.png)
  
