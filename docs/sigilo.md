@@ -42,7 +42,9 @@ c. polo ativo e seus representantes.
 
 Nível de acesso cinco:
 
-a. polo ativo e seus representantes;
+a. juiz eleitoral;  
+
+b. polo ativo e seus representantes.
 
 
 ### Visualização de processos em segredo de justiça
