@@ -20,7 +20,8 @@ Para as Zonas Eleitorais, em razão do menor número de usuários, foram fixados
 
 ### NÍVEIS 
 
-Nível de acesso um:
+
+**Nível de acesso um:**
 
 a. juiz eleitoral;
 
@@ -31,7 +32,7 @@ c. polo ativo e seus representantes;
 d. Membros do Ministério Público, como fiscal da lei.
 
 
-Nível de acesso três:
+**Nível de acesso três:**
 
 a. juiz eleitoral;  
 
@@ -40,7 +41,7 @@ b. servidor;
 c. polo ativo e seus representantes.
 
 
-Nível de acesso cinco:
+**Nível de acesso cinco:**
 
 a. juiz eleitoral;  
 
