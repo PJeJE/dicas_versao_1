@@ -1192,6 +1192,22 @@ Portanto, reiteramos que NÃO se cadastre novas partes desnecessariamente, para 
 
 Essa orientação serve para todo o tipo de parte a ser criada: verifique se ela já existe no sistema. E, nos processos protocolados pelo público externo, adote o hábito de verificar se o cadastro feito pelo advogado está correto, caso contrário **RETIFIQUE** a autuação.
 
+
+# Impedimento de Magistrados  
+
+
+Para registrar magistrados impedidos/suspeitos nos autos de um processo, sem informar um motivo específico, é necessário ter o papel pje:papel:administrarAutuacao. A visualização também está vinculada a este papel.  
+O registro é feito por meio da aba Impedimento/Suspeição localizada no menu de três barras horizontais no canto superior direito dos autos, onde estão todos os magistrados vinculados ao órgão julgador ativo no TRE/TSE PJe:
+
+
+
+
+
+
+
+
+
+
 ## Manual de sigilo PJe
 
 [Clique e acesse](sigilo.md)
