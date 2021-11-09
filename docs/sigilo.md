@@ -1,8 +1,8 @@
-# Instruções sobre sigilo e segredo 
+# INSTRUÇÕES SOBRE SIGILO E SEGREDO
 
 Os atos processuais são, em regra, públicos. Todavia, alguns processos correm em segredo de justiça, sendo o acesso aos dados do processo limitado às partes e a seus representantes. Além dos processos, podem também ser tratados como sigilosos documentos do processo. Na propositura da ação, o autor poderá requerer segredo de justiça para os autos processuais ou sigilo para um ou mais documentos ou arquivos do processo, através de indicação em campo próprio. Da mesma forma, em toda e qualquer petição poderá ser requerido sigilo para esta ou para documento ou arquivo a ela vinculado.
 
-Outros processos, por suas próprias características, como classe ou assuntos, são tratados como sigilosos, a exemplo da Ação de Impugnação de Mandato Eletivo, nos termos do que prescreve o art. 14, § 11 da Constituição da República.
+Outros processos, por suas próprias características, como classe ou assunto, são tratados como sigilosos, a exemplo da Ação de Impugnação de Mandato Eletivo, nos termos do que prescreve o art. 14, § 11 da Constituição da República.
 
 
 ## SEGREDO OU SIGILO NA JUSTIÇA ELEITORAL
@@ -18,7 +18,7 @@ Para as Zonas Eleitorais, em razão do menor número de usuários, foram fixados
 
 
 
-### Níveis 
+### NÍVEIS 
 
 Nível de acesso um:
 
@@ -47,12 +47,12 @@ a. juiz eleitoral;
 b. polo ativo e seus representantes.
 
 
-### Visualização de processos em segredo de justiça
+### VISUALIZAÇÃO DE PROCESSOS EM SEGREDO DE JUSTIÇA
 
 O sistema, no protocolo inicial do processo, utilizará as regras acima para estabelecer os visualizadores do processo.
 
 É importante ressaltar a diferença entre servidores/magistrados e partes do processo/usuários externos.
-Para servidores/magistrados, a visualização é determinada pelo nível do processo. Se o servidor/magistrado não tiver visualização pelo nível do processo, poderá estar na lista de visualizadores.
+Para servidores/magistrados, a visualização é determinada pelo nível do processo. Se o servidor/magistrado não tiver visualização pelo nível do processo, terá ao ser incluído como visualizador.
 
 Para partes do processo/usuários externos, a visualização sempre se dará de acordo com o cadastro na lista de visualizadores.
 
