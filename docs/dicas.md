@@ -1200,17 +1200,13 @@ Para registrar magistrados impedidos/suspeitos nos autos de um processo é neces
 O registro é feito por meio da aba Impedimento/Suspeição localizada no menu de três barras horizontais no canto superior direito dos autos, onde estão todos os magistrados vinculados ao órgão julgador ativo no TRE/TSE PJe:
 
 
-
-
-
-
-
+![impedimento1](img/imagens1.jpg)
 
 
 
 O usuário pode selecionar o magistrado e vincular a um documento assinado do processo, para registrar o impedimento. Nesse momento, o sistema pede confirmação do registro do impedimento e do documento selecionado: 
 
-
+![teste2](img/imagens2.jpg)
 
 
 
