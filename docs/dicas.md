@@ -526,6 +526,7 @@ A Resolução TSE n.º 23.608, por sua vez, fez previsão de distribuição com 
  
 
     **Dica:** No que se refere a recursos em registros de candidaturas, somente os processos de eleições majoritária são distribuídos com base no art. 260 do CE. Assim, como os assuntos de “registro” são comuns aos cargos proporcionais e majoritários, o assunto “Eleição Majoritária” foi criado para identificar os casos de distribuição pelo art. 260. 
+    **Dica2:** Não utilizar, no ano da Eleição (caracteríticas do processo), "Eleições Suplementares", utilizar apenas "Eleições XXX - Eleições Municipais" ou "Eleições XXX - Eleições Gerais". 
 
 
 2. Classes que excluem a aplicação do art. 260 do Código Eleitoral (segundo a configuração feita pelo TSE, nada impede que os TREs, seguindo os normativos, realizem configurações diferenciadas, de acordo com a realidade local). 
@@ -1196,7 +1197,8 @@ Essa orientação serve para todo o tipo de parte a ser criada: verifique se ela
 # Impedimento de Magistrados  
 
 
-Para registrar magistrados impedidos/suspeitos nos autos de um processo é necessário ter o papel pje:papel:administrarAutuacao. A visualização também está vinculada a este papel. 
+Para registrar magistrados impedidos/suspeitos nos autos de um processo é necessário ter o papel pje:papel:administrarAutuacao (Informação importante para os administradores do PJe). A visualização também está vinculada a este papel. 
+
 O registro é feito por meio da aba Impedimento/Suspeição localizada no menu de três barras horizontais no canto superior direito dos autos, onde estão todos os magistrados vinculados ao órgão julgador ativo no TRE/TSE PJe:
 
 
@@ -1213,7 +1215,9 @@ O usuário pode selecionar o magistrado e vincular a um documento assinado do pr
 
 
 
-A partir daí, a lista de magistrados impedidos na tela é atualizada. A lista de impedidos é exibida por meio de ícone correspondente, na barra de ícones superiores do cabeçalho dos autos, ao lado do ícone de etiquetas:
+A partir daí, a lista de magistrados impedidos na tela é atualizada. O voto de impedimento proferido também atualiza a lista de magistrados impedidos, sendo todos exibidos nos autos do processo.
+Atenção: os impedimentos/suspeições identificados a partir das características dos processos (ano, município, estado, advogado, parte etc.), não atualiza essa lista. Para atualização da lista de impedidos para os autos é fundamental realizar um dos registros aqui indicados (via menu ou via voto do Ministro - vide parágrafo anterior).
+A lista de impedidos é exibida por meio de ícone correspondente, na barra de ícones superiores do cabeçalho dos autos, ao lado do ícone de etiquetas:
 
 
 
@@ -1229,9 +1233,10 @@ Pode-se remover o impedimento registrado através da mesma aba:
 
 
 
+Da mesma forma, na tarefa que exibia impedimento do relator (SJD), será considerado também esses registros para apontá-los em conjunto com os outros existentes vinculados a regras específicas pelas características do processo, conforme o caso. 
 
-Na tarefa que exibe impedimento do relator, na tela de sessão, serão considerados também esses registros de impedimento por processo, para apontá-los em conjunto com os outros existentes, vinculados a regras específicas pelas características do processo, conforme o caso.
-O voto de impedimento proferido também atualiza a lista de magistrados impedidos, sendo todos exibidos nos autos do processo.
+Nas telas de sessão, no local (botão verificar impedimentos) onde eram exibidos os impedimentos dos magistrados do colegiado da sessão vinculados a regras específicas pelas características do processo, também serão exibidos os impedimentos por processo.
+
 
 
 
