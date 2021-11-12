@@ -1207,7 +1207,7 @@ O registro é feito por meio da aba Impedimento/Suspeição localizada no menu d
 
 
 
-O usuário pode selecionar o magistrado e vincular a um documento assinado do processo, para registrar o impedimento. Nesse momento, o sistema pede confirmação do registro do impedimento e do documento selecionado: 
+para registrar o impedimento O usuário pode selecionar o magistrado e vincular a um documento assinado do processo. Nesse momento, o sistema pede confirmação do registro do impedimento e do documento selecionado: 
 
 
 
@@ -1216,7 +1216,9 @@ O usuário pode selecionar o magistrado e vincular a um documento assinado do pr
 
 
 A partir daí, a lista de magistrados impedidos na tela é atualizada. O voto de impedimento proferido também atualiza a lista de magistrados impedidos, sendo todos exibidos nos autos do processo.
+
 Atenção: os impedimentos/suspeições identificados a partir das características dos processos (ano, município, estado, advogado, parte etc.), não atualiza essa lista. Para atualização da lista de impedidos para os autos é fundamental realizar um dos registros aqui indicados (via menu ou via voto do Ministro - vide parágrafo anterior).
+
 A lista de impedidos é exibida por meio de ícone correspondente, na barra de ícones superiores do cabeçalho dos autos, ao lado do ícone de etiquetas:
 
 
@@ -1233,7 +1235,7 @@ Pode-se remover o impedimento registrado através da mesma aba:
 
 
 
-Da mesma forma, na tarefa que exibia impedimento do relator (SJD), será considerado também esses registros para apontá-los em conjunto com os outros existentes vinculados a regras específicas pelas características do processo, conforme o caso. 
+Na tarefa que exibe impedimento do relator (SJD), será considerado também esses registros para apontá-los em conjunto com os outros existentes vinculados a regras específicas pelas características do processo, conforme o caso. 
 
 Nas telas de sessão, no local (botão verificar impedimentos) onde eram exibidos os impedimentos dos magistrados do colegiado da sessão vinculados a regras específicas pelas características do processo, também serão exibidos os impedimentos por processo.
 
