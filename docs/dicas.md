@@ -1207,7 +1207,7 @@ O registro é feito por meio da aba Impedimento/Suspeição localizada no menu d
 
 
 
-para registrar o impedimento O usuário pode selecionar o magistrado e vincular a um documento assinado do processo. Nesse momento, o sistema pede confirmação do registro do impedimento e do documento selecionado: 
+Para registrar o impedimento o usuário pode selecionar o magistrado e vincular a um documento assinado do processo. Nesse momento, o sistema pede confirmação do registro do impedimento e do documento selecionado: 
 
 
 
