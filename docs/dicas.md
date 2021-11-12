@@ -1213,7 +1213,7 @@ A partir daí, a lista de magistrados impedidos na tela é atualizada. A lista d
 
 
 
-![Impedimento](img/impedimento3.png)
+![Impedimento](img/Impedimento3.png)
 
 
 
@@ -1221,7 +1221,7 @@ Pode-se remover o impedimento registrado através da mesma aba:
 
 
 
-![Impedimento](img/impedimento4.png)
+![Impedimento](img/Impedimento4.png)
 
 
 
