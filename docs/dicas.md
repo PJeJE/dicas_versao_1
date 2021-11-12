@@ -1205,7 +1205,7 @@ O usuário pode selecionar o magistrado e vincular a um documento assinado do pr
 
 
 
-![Impedimento](img/impedimento2.png)
+![Impedimento](img/Impedimento2.png)
 
 
 A partir daí, a lista de magistrados impedidos na tela é atualizada. A lista de impedidos é exibida por meio de ícone correspondente, na barra de ícones superiores do cabeçalho dos autos, ao lado do ícone de etiquetas:
