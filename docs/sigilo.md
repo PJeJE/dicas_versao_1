@@ -178,7 +178,7 @@ Não será possível impedir a visualização do juiz titular, a menos que o pro
 
 ## SEGREDO OU SIGILO DO PROCESSO NO 2º GRAU
 
-
+**Atenção:** a configuração dos níveis de sigilo nos TREs e TSE aguarda regulamentação da matéria. 
 
 No segundo e terceiro grau da Justiça Eleitoral o grupo de trabalho decidiu acrescentar um nível de sigilo a mais que no primeiro grau. Esse quarto nível foi atribuído exclusivamente ao Secretário Judiciário, ao Secretário da Corregedoria, aos Assessores-chefes dos Gabinetes e ao Assessor-chefe de Plenário.
 No nível cinco de sigilo somente o Ministro Relator terá acesso aos autos e poderá atribuir visualização aos demais ministros. Assim, a partir do momento em que um processo sigiloso chegue na tarefa “Aguarda sessão de julgamento” do Gabinete, o Ministro Relator pode fazer o procedimento de atribuição de visualização dos autos aos demais julgadores.
