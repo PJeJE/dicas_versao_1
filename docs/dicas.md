@@ -1199,7 +1199,11 @@ Essa orientação serve para todo o tipo de parte a ser criada: verifique se ela
 Para registrar magistrados impedidos/suspeitos nos autos de um processo é necessário ter o papel pje:papel:administrarAutuacao. A visualização também está vinculada a este papel. 
 O registro é feito por meio da aba Impedimento/Suspeição localizada no menu de três barras horizontais no canto superior direito dos autos, onde estão todos os magistrados vinculados ao órgão julgador ativo no TRE/TSE PJe:
 
+
+
 ![Impedimento](img/Impedimento1.png)
+
+
 
 O usuário pode selecionar o magistrado e vincular a um documento assinado do processo, para registrar o impedimento. Nesse momento, o sistema pede confirmação do registro do impedimento e do documento selecionado: 
 
@@ -1227,7 +1231,7 @@ Pode-se remover o impedimento registrado através da mesma aba:
 
 
 Na tarefa que exibe impedimento do relator, na tela de sessão, serão considerados também esses registros de impedimento por processo, para apontá-los em conjunto com os outros existentes, vinculados a regras específicas pelas características do processo, conforme o caso.
-O voto de impedimento proferido, também atualiza a lista de magistrados impedidos, sendo esse magistrado exibido também nos autos do processo.
+O voto de impedimento proferido também atualiza a lista de magistrados impedidos, sendo todos exibidos nos autos do processo.
 
 
 
