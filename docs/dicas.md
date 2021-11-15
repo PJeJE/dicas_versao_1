@@ -763,7 +763,7 @@ Então qual a finalidade da opção “Sigiloso” na tarefa “Preparar ato de 
 Marcar essa opção deveria refletir no documento que será criado/selecionado em “Instrumento de comunicação” após clicar no “lápis”. E diz  respeito ao sigilo do documento ao ser listado nos autos digitais. No entanto, a recomendação é NÃO utilizar essa marcação. Ela não se comporta como o esperado e precisará de correção. 
  
 
-## Carta Precatória: Visualização pelo promotor deprecado 
+## Carta Precatória: Formas de Distribuir
  
 Há duas formas de distribuir carta precatória ao juízo deprecado:
 
