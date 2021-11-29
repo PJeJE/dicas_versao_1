@@ -207,9 +207,11 @@ As querys feitas diretamente no banco de dados, assim como querys hibernates con
 As principais alterações serão relatadas por tabelas alteradas:
 
 - tb_processo
+
 A tabela tem o registro da última capa registrada em tb_processo_trf (cd_processo_status = 'D') relativa a esse processo.
 
 - tb_processo_trf
+ 
 A tabela contém:
 
 o registro do processo originário (id_processo), referenciando a tabela tb_processo (sempre preenchido);
@@ -221,6 +223,7 @@ um identificador de recurso interno (in_recurso_interno)
 a identificação da situação do processo (ds_nome_situacao_processual). As situações já existiam antes, mas foi replicada aqui para deixar a consulta mais rápida
 
 - tb_proc_parte_expediente
+
 A tabela tem o identificador da capa principal, para otimizar os joins nas consultas de intimações para usuários externos (id_processo_trf_principal)
 
 
