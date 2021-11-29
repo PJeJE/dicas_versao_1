@@ -200,6 +200,14 @@ Ressaltamos alguns comportamentos:
 
 O escopo das alterações dentro do PJe foi delimitado pela pendência https://www.cnj.jus.br/jira/browse/PJEII-21789
 
+### Quero configurar meu sistema para aceitar o recurso interno 
+
+Vamos utilizar como exemplo a classe Embargos de declaração e assumir que a instalação já contém a classe configurada e o tipo de documento Embargos de declaração também configurado. 
+
+O administrador deve acessar a configuração da classe processual Embargos de declaração e marcá-la como "Recursal" e adicionar a informação de natureza da classe como "RECURSO INTERNO". Deve-se vincular essa classe a um fluxo e cadastrar o tipo de documento da petição inicial com o tipo Embargos de declaração. O fluxo associado será, via de regra, o fluxo originárias. 
+
+O administrador deve também se certificar que o tipo de documento Embargos de declaração pode ser submetido por usuários externos (vinculação Suficiente ao papel advogado). Além disso, deve-ser associar o fluxo FLX_REGISTRAR_RECURSO ao tipo de documento.
+
 ### Alterações de fluxo para a Justiça Eleitoral
 
 FLX_REGISTRAR_RECURSO
