@@ -129,7 +129,7 @@ O terceiro passo permite ao usuário informar as partes do recurso.
 
 ![Partes](img/recurso20.png)
 
- Observer que os tipos de parte do recurso são os tipos de parte vinculados à classe processual do recurso, como se pode verificar em Configuração - Tabelas Judiciais - Classe Judicial - Classe Judicial . 
+ Observe que os tipos de parte do recurso são os tipos de parte vinculados à classe processual do recurso, como se pode verificar em Configuração - Tabelas Judiciais - Classe Judicial - Classe Judicial . 
 
 ![Tipos de parte](img/recurso21.png)
 
