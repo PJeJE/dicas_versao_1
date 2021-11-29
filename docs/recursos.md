@@ -210,6 +210,15 @@ As principais alterações serão relatadas por tabelas alteradas:
 A tabela tem o registro da última capa registrada em tb_processo_trf (cd_processo_status = 'D') relativa a esse processo.
 
 - tb_processo_trf
-A tabela tem o registro do processo originário (id_processo), 
+A tabela contém:
+
+o registro do processo originário (id_processo), referenciando a tabela tb_processo (sempre preenchido);
+o registro da capa principal do processo (id_processo_trf_principal), referenciando a própria tb_processo_trf (sempre preenchido);
+o registro da capa pai (id_processo_trf_pai), que pode existir ou não. Só existirá quando for um recurso do recurso;
+a cadeia do recurso em forma de sigla (ds_classe_judicial_sigla). Se o campo não estiver preenchido, a recuperação é pelo campo sigla da classe da capa
+a cadeia do recurso por extenso (ds_classe_judicial_extenso). Se o campo não estiver preenchido, a recuperação é pelo campo de descrição da classe da capa
+um identificador de recurso interno (in_recurso_interno) 
+a identificação da situação do processo (ds_nome_situacao_processual). As situações já existiam antes, mas foi replicada aqui para deixar a consulta mais rápida
+
 
 
