@@ -1282,3 +1282,10 @@ Como verificar a situação da inscrição do advogado na OAB, efetuar a revalid
 e as regras de negócio atuais do sistema.
 
 [Clique e acesse](situacao_oab_advogado.md)
+
+## Recursos internos
+
+Instruções sobre os recursos internos no PJe.
+
+[Clique e acesse](recursos.md)
+
