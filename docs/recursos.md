@@ -208,6 +208,16 @@ O administrador deve acessar a configuração da classe processual Embargos de d
 
 O administrador deve também se certificar que o tipo de documento Embargos de declaração pode ser submetido por usuários externos (vinculação Suficiente ao papel advogado). Além disso, deve-ser associar o fluxo FLX_REGISTRAR_RECURSO ao tipo de documento.
 
+### Papeis para utilização dos recursos internos (permissões)
+
+O sistema sempre se comportará de forma a exibir o caderno processual principal por padrão, salvo no painel do usuário e nas telas de sessão, que abrirão os autos relacionados ao caderno que estiver em utilização. Para que, na consulta processual, o usuário possa pesquisar todos os cadernos processuais, o usuário deve estar vinculado ao papel "pje:papel:pesquisaRecursoInterno". 
+
+Na consulta processual, o sistema não retornará todas as capas por padrão. Para que seja o padrão retornar todas as capas, o usuário deve estar vinculado ao papel "pje:papel:retornaRecursoInterno".
+
+A exclusão de uma capa poderá ser realizada pelo usuário que estiver vinculado ao papel "pje:papel:removeRecursoInterno".
+
+O sistema exibirá, a partir dos autos digitais, a aba Recursos e Sessões que exibe todas as capas vinculadas àquele processo e sessões em que foram pautadas. A aba será exibida para o usuário vinculado ao papel "pje:papel:pesquisaRecursoInterno". 
+
 ### Alterações de fluxo para a Justiça Eleitoral
 
 FLX_REGISTRAR_RECURSO
