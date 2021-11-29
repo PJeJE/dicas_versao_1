@@ -220,5 +220,7 @@ a cadeia do recurso por extenso (ds_classe_judicial_extenso). Se o campo não es
 um identificador de recurso interno (in_recurso_interno) 
 a identificação da situação do processo (ds_nome_situacao_processual). As situações já existiam antes, mas foi replicada aqui para deixar a consulta mais rápida
 
+- tb_proc_parte_expediente
+A tabela tem o identificador da capa principal, para otimizar os joins nas consultas de intimações para usuários externos (id_processo_trf_principal)
 
 
