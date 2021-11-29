@@ -220,18 +220,19 @@ O sistema exibirá, a partir dos autos digitais, a aba Recursos e Sessões que e
 
 ### Alterações de fluxo para a Justiça Eleitoral
 
-FLX_REGISTRAR_RECURSO
+- FLX_REGISTRAR_RECURSO
        - Nas tarefas "Registrar recurso" e "Registrar recurso - Corregedoria", alterar as variáveis que estão nas duas para que referenciem o seguinte:Processo_Fluxo_Recurso_registrarRecurso no lugar de Processo_Fluxo_documento_recurso_registrarRecurso
        - Incluir no evento "Criar tarefa" das tarefas "Registrar recurso" e "Registrar recurso - Corregedoria" a ação #{taskInstanceUtil.setFrameDefaultTransition('Finalizar fluxo')}
        
-FLX_ORIGINARIAS       
+- FLX_ORIGINARIAS       
 	- Na tarefa "Verificar e Certificar dados do processo", alterar a expressão que consta na quarta ação em iniciar tarefa (a que contém "#{tramitacaoProcessualService.gravaVariavelTarefa('pageParam','idProcesso='.concat(tramitacaoProcessualService.recuperaProcesso().idProcessoTrf))}") para conter o seguinte: "#{tramitacaoProcessualService.gravaVariavelTarefa('pageParam','idProcesso='.concat(tramitacaoProcessualService.recuperaProcesso().processoTrfPrincipal.idProcessoTrf))}"  
 	- Na tarefa "Definir procedimento", alterar transição "Redistribuir de ofício" e "Apensar e desapensar processos" para conter a condição "#{!tramitacaoProcessualService.recuperaProcesso().isRecursoInterno()}" 
 
-CUMPRDET
+- CUMPRDET
 	- Nas tarefas "Analisar determinação" e "Analisar processo", alterar transições "Redistribuir processo", "Evoluir classe processual", "Apensar e desapensar processos" e "Desmembrar processos" para conter a condição "#{!tramitacaoProcessualService.recuperaProcesso().isRecursoInterno()}"	
 	- Na tarefa "Confirma prevenção processual", alterar transição "Redistribuir processo" para conter a condição "#{!tramitacaoProcessualService.recuperaProcesso().isRecursoInterno()}" 
 	- Na tarefa "Atualizar dados do processo", alterar a expressão que consta na quarta ação em iniciar tarefa (a que contém pageparam) para conter o seguinte: "#{tramitacaoProcessualService.gravaVariavelTarefa('pageParam','idProcesso='.concat(tramitacaoProcessualService.recuperaProcesso().processoTrfPrincipal.idProcessoTrf))}"
+	- Criar uma nova tarefa "Alterar partes" a partir das tarefas Analisar determinação e Analisar processo contendo a variável do tipo frame denominada Processo_Fluxo_Recurso_alterarPartes.  
 
 ### Alterações principais no relacionamento entre objetos e tabelas
 
