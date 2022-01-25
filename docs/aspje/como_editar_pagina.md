@@ -15,13 +15,15 @@
 * Clique na pasta **docs**.
 * Clique no arquivo **dicas.md**.
 * Clique no **ícone do lápis** (fica no cantor superior direito).
+    ![Ícone para editar arquivo](../img/como_lapis.png)
 * Edite o arquivo como desejar pela aba **Edit file**.
 * Pela aba **Preview changes**, você pode visualizar como ficou antes de salvar as alterações definitivamente.
 * Para salvar, desça a tela até o final. Existe uma seção chamada **Commit changes**.
+    ![Ícone para editar arquivo](../img/como_commit.png)
 * **No primeiro campo**, descreva de forma sucinta o que você alterou/incluir no arquivo.
-* As demais opções **não** precisam ser alteradas.
+* Deixe marcada a opção **Commit directly to the _master_ branch**.
 * Clique no botão **Commit changes**.
-* **Pronto!** Dentro de 5 minutos a nova versão estará no ar!
+* **Pronto!** Dentro de 3 minutos a nova versão estará no ar!
 
 
 ## Formatação Básica
