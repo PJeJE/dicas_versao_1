@@ -18,7 +18,7 @@
     ![Ícone para editar arquivo](../img/como_lapis.png)
 * Edite o arquivo como desejar pela aba **Edit file**.
 * Pela aba **Preview changes**, você pode visualizar como ficou antes de salvar as alterações definitivamente.
-* Para salvar, desça a tela até o final. Existe uma seção chamada **Commit changes**.
+* Para salvar, desça a tela até ao final. Existe uma seção chamada **Commit changes**.
     ![Ícone para editar arquivo](../img/como_commit.png)
 * **No primeiro campo**, descreva de forma sucinta o que você alterou/incluir no arquivo.
 * Deixe marcada a opção **Commit directly to the _master_ branch**.
