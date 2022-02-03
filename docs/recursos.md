@@ -153,7 +153,7 @@ Ao selecionar "Cadastrar recurso", o sistema envia o recurso cadastrado para a p
 
 ![Fluxo associado](img/recurso24.png)
 
-O recurso estará disponível, então, em "Verificar e certificar dados do processo"
+O recurso estará disponível, então, em "Analisar Processos" (estamos trabalhando na alteração da imagem abaixo). 
 
 ![Primeira tarefa](img/recurso25.png)
 
