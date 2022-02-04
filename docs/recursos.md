@@ -1,14 +1,14 @@
 # Recursos internos
 
-Quando opostos/interpostos/apresentado agravo regimental, embargos de declaração, recurso extraordinário, agravo, impugnação ao registro e notícia de inelegibilidade não há alteração na numeração do processo. Não obstante, o processamento desses recursos/incidentes é realizado de forma diversa, com partes de tipos diversos, decisões e julgamentos exclusivos do recurso. Além disso, é primordial para análise dos recursos identificar qual a origem do recurso, ou seja, se a parte está recorrendo de uma decisão do processo ou de uma decisão relacionada a outro recurso. 
+Quando opostos/interpostos/apresentado agravo regimental, embargos de declaração, recurso extraordinário, agravo, impugnação ao registro e notícia de inelegibilidade não há alteração na numeração do processo.  Não obstante, o processamento desses recursos/incidentes é realizado de forma diversa,  com partes de tipos diversos, decisões e julgamentos exclusivos do recurso. Além disso, é primordial para análise dos recursos identificar qual a origem do recurso, ou seja, se a parte está recorrendo de uma decisão do processo ou de uma decisão relacionada a outro recurso. 
 
 Descreveremos aqui o mecanismo utilizado no PJe para que esse registro seja realizado de forma a permitir o tratamento diferenciado que a oposição/interposição requer. 
 
 ## Classes
 
-Os recursos internos, apesar de serem opostos/interpostos por meio de documentos, são mapeados diretamente em classes processuais disponíveis nacionalmente no [Sistema de Gestão de Tabelas Processuais Unificadas](https://www.cnj.jus.br/sgt/consulta_publica_classes.php)
+Os recursos internos, apesar de serem opostos/interpostos por meio de documentos, são mapeados diretamente em classes processuais disponíveis nacionalmente no [Sistema de Gestão de Tabelas Processuais Unificadas](https://www.cnj.jus.br/sgt/consulta_publica_classes.php).
 
-Sendo assim, ao serem registrados os recursos internos, o sistema fará a identificação por meio de uma nova capa processual vinculada ao mesmo número de processo com a classe vinculada ao recurso correspondente. Vejamos um exemplo na consulta processual de uma Ação Cautelar com um recurso interno vinculado:
+Sendo assim, ao serem registrados os recursos internos, o sistema fará a identificação por meio de uma nova capa processual vinculada ao mesmo número de processo e classe vinculada ao recurso correspondente. Vejamos um exemplo na consulta processual de uma Ação Cautelar com um recurso interno vinculado:
 
 ![Consulta](img/recurso1.png)
 
@@ -34,7 +34,7 @@ Sendo assim, o PJe precisa estar com a configuração da classe Embargos de decl
 
 ![Configuração da classe](img/recurso6.png)
 
-Perceba que as informações importantes para o registro do recurso estão destacadas. Ou seja, a classe tem que ter o como Natureza como "RECURSO INTERNO", deve estar marcada como recursal e deve ter o tipo de documento inicial correspondente vinculado.
+Perceba que as informações importantes para o registro do recurso estão destacadas. Ou seja, a classe tem que ter como Natureza "RECURSO INTERNO", deve estar marcada como recursal e deve ter o tipo de documento inicial correspondente vinculado.
 
 ## Como é iniciado um recurso interno
 
@@ -130,7 +130,7 @@ O terceiro passo permite ao usuário informar as partes do recurso.
 
 ![Partes](img/recurso20.png)
 
- Observe que os tipos de parte do recurso são os tipos de parte vinculados à classe processual do recurso, como se pode verificar em Configuração - Tabelas Judiciais - Classe Judicial - Classe Judicial . 
+Observe que os tipos de parte do recurso são os tipos de parte vinculados à classe processual do recurso, como se pode verificar em Configuração - Tabelas Judiciais - Classe Judicial - Classe Judicial. 
 
 ![Tipos de parte](img/recurso21.png)
 
@@ -192,14 +192,14 @@ Ressaltamos alguns comportamentos:
 - A consulta pública deve recuperar sempre o processo originário, exibindo as informações de movimento e documentos dos cadernos recursais conforme regras já existentes relacionadas à publicidade das informações.
 - A remessa de processos envia todos os cadernos processuais (envia o processo principal com as informações dos cadernos) . As consultas do MNI devem retornar apenas um processo por número, contendo todos os movimentos e documentos de todos os cadernos, inclusive os recursais, de acordo com regras pré-existentes nas consultas.
 - Algumas alterações em cadernos processuais devem refletir em todos os vinculados, ou seja, se a alteração for no principal ou nos recursais, todos os vinculados ao principal serão afetados. São elas: alteração de características do processo - segredo, nível, visualizadores, prioridades, custas e pedido de liminar/antecipação de tutela, dados eleitorais, assunto e objeto.
-- A alteração de classe não reflete em todos os cadernos
-- A redistribuição não reflete em todos os cadernos
-- A distribuição/redistribuição de recursos não gera novos pesos para o cargo que recebe o caderno
-- A inclusão de partes no processo originário e nos cadernos recursais não reflete em alterações fora do caderno sendo alterado, já que as partes podem trocar de polo dependendo do caderno. No entanto, a inclusão de advogados deve sempre refletir em todos os cadernos de forma a manter as representações atualizadas de acordo com a última atualização.
+- A alteração de classe não reflete em todos os cadernos.
+- A redistribuição não reflete em todos os cadernos.
+- A distribuição/redistribuição de recursos não gera novos pesos para o cargo que recebe o caderno.
+- A inclusão de partes no processo originário e nos cadernos recursais não reflete em alterações fora do caderno alterado, já que as partes podem trocar de polo dependendo do caderno. No entanto, a inclusão de advogados deve sempre refletir em todos os cadernos de forma a manter as representações de acordo com a última atualização.
 
 ## Orientações para usuários administradores
 
-O escopo das alterações dentro do PJe foi delimitado pela pendência https://www.cnj.jus.br/jira/browse/PJEII-21789
+O escopo das alterações dentro do PJe foi delimitado pela pendência https://www.cnj.jus.br/jira/browse/PJEII-21789.
 
 ### Quero configurar meu sistema para aceitar o recurso interno 
 
