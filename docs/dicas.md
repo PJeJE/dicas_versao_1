@@ -1293,7 +1293,7 @@ Instruções sobre os recursos internos no PJe.
 
 A tarefa Minutar relatório voto e ementa *NUNCA* deve ser executado por gabinete diferente do relator. Se isso ocorrer, o PJe fica criando documentos repetidamente na mesma tarefa e o usuário não percebe, já que o documento não é recarregado no editor. Depois que entrar na tarefa, é muito difícil corrigir essa situação porque o PJe fica sempre tentando recuperar aquele documento errado já criado e não consegue. 
 
-Para contornar esse problema, foi criada no fluxo uma tarefa chamada minutar relatório voto e ementa RE. Essa tarefa faz com que o processo seja redistribuído para o gabinete atual sem que haja movimento de redistribuição. 
+Para contornar esse problema, foi criada no fluxo uma tarefa chamada minutar relatório voto e ementa RE. Essa tarefa faz com que o processo seja redistribuído para o gabinete atual sem que haja movimento de redistribuição. A transição está disponível pela tarefa Minutar Relatório Voto e Ementa. *ESSA TRANSIÇÃO DEVE SER USADA ANTES DE CONSTRUIR DOCUMENTO DE RELATÓRIO VOTO E EMENTA PELO GABINETE ANTES DA DISTRIBUIÇÃO.* Se utilizada depois, terá que ser acionada a TI para ajustar ou apagar os documentos errados produzidos. 
 
 Há uma orientação passada para a COARE e gabinetes sobre essa questão. Está no SEI 2020.00.000009345-3. As alterações no fluxo foram feitas a partir de setembro de 2020. Apesar da alteração ter sido realizada para atender à necessidade de julgamento de Recurso Extraordinário por órgão diverso do relator, é a maneira que temos hoje para encaminhar o processo para ex-ministro construir voto. 
 
