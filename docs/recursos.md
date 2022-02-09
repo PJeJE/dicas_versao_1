@@ -159,17 +159,17 @@ O recurso estará disponível, então, em "Analisar Processos" (estamos trabalha
 
 ## Tramitação dos recursos e do processo originário
 
-Os recursos tramitam internamente de forma independente do processo originário. Isso significa que o processo originário pode estar, por exemplo, em "Analisar determinação", e os embargos estão em "Verificar e certificar dados do processo". 
+Os recursos tramitam internamente de forma independente do processo originário. Isso significa que o processo originário pode estar, por exemplo, em "Analisar determinação", e os embargos estão em "retificar dados do processo". 
 
 Veja o exemplo abaixo. Foi utilizado o número do processo para consultar o processo nas tarefas. Como o perfil utilizado tem acesso a todas as tarefas, o sistema exibe o processo nas quatro tarefas abertas para ele.
 
 ![Várias tarefas](img/recurso26.png)
 
-Ao entrar em cada um dos resultados, o usuário verá que o processo principal foi julgado e estão abertas suas tarefas de elaborar extrato da ata e de revisar acórdão, mas já há um recurso registrado (tarefa verificar e certificar dados) e há um novo fluxo de recurso iniciado para o processo principal (tarefa registrar recurso). Observe que a classe processual do cabeçalho na tarefa de acórdão aponta para o processo originário.
+Ao entrar em cada um dos resultados, o usuário verá que o processo principal foi julgado e estão abertas suas tarefas de elaborar extrato da ata e de revisar acórdão, mas já há um recurso registrado (tarefa analisar determinação) e há um novo fluxo de recurso iniciado para o processo principal (tarefa registrar recurso). Observe que a classe processual do cabeçalho na tarefa de acórdão aponta para o processo originário.
 
 ![Processo originário](img/recurso27.png)
 
-Da mesma forma, o cabeçalho do processo na tarefa "Verificar e certificar dados" aponta para o recurso.
+Da mesma forma, o cabeçalho do processo na tarefa "Analisar Processos" aponta para o recurso.
 
 ![Primeira tarefa](img/recurso25.png)
 
