@@ -224,27 +224,27 @@ O sistema exibirá, a partir dos autos digitais, a aba Recursos e Sessões que e
 - Caso não haja recursos protocolados, mesmo com a mudança estrutural, o sistema deve se comportar da mesma maneira que se comportava antes dessa pendência.
 - Caso haja recursos, ou seja, uma entidade ProcessoTrf vinculada a um ProcessoTrf principal, a tramitação desse processo filho é independente do processo principal. Classe e partes também. O órgão julgador pode ser alterado de forma independente, mas, ao criar um recurso, o comportamento padrão é que o órgão julgador do recurso seja o mesmo do processo principal.
 - Os movimentos e documentos do caderno processual do(s) recurso(s) também serão vistos nos autos do processo pai, assim como os movimentos e documentos do processo originário são visualizados na abertura dos autos do recurso. Todas as capas processuais vinculadas àquele número de processo exibirá os mesmos documentos e movimentos. A diferença nos autos é o cabeçalho processual, que exibe partes e cadeia recursal, conforme o caderno aberto dos autos.
-- As abas dos autos exibem todas as informações relativas à capa principal
+- As abas dos autos exibem todas as informações relativas à capa principal.
 - A abertura dos autos via tarefa, se o usuário está acessando uma tarefa onde o caderno processual recursal está em tramitação, exibirá o caderno recursal. Se o caderno da tarefa for o processo originário, os autos do processo principal serão abertos. 
 - A oposição/interposição de recursos pode ser realizada a partir de uma tarefa de fluxo. Ela permite a interposição de recursos simplesmente, a interposição de recursos em recursos já tramitando, a reclassificação do documento principal, caso o usuário tenha pleiteado seu recurso por um tipo que não seja o da petição inicial, a seleção de qual documento recursal será a base do recurso, a confirmação da cadeia recursal, a seleção de órgão julgador, a alteração das partes e o registro do recurso. A possibilidade de alterar o tipo do documento registrado não deve listar documentos já vinculados a outros recursos como petição inicial ou ao próprio processo originário.
 - Nos autos digitais, o menu de opções terá uma nova aba denominada "Recursos e sessões". Por meio dessa opção, o usuário visualizará as diversas capas vinculadas ao processo, se houver, e também informações sobre sessões em que as capas foram incluídas. A própria capa principal é sempre exibida, ainda que não haja recursos vinculados. 
  - A opção de remover recurso já registrado, disponível na tarefa de registro e na aba Recursos e Sessões dos autos do processo, fará com que os registros referentes ao recurso sejam apagados, e os documentos e movimentos do recurso sejam todos vinculados ao processo originário. Sendo assim, se houve um movimento de decisão lançado no recurso removido, ele continuará aparecendo nos autos do processo originário. Caso o recurso tenha acumulado muitas ações vinculadas a ele (expedientes, pauta em sessão, utilização como base em cadeia recursal), o cadastro do recurso não será removido, só os registros referentes à tramitação processual. Dessa forma, os documentos e movimentos permanecem vinculados à capa processual do recurso. À essa capa processual será acrescentada a situação processual "jus:arquivado", que deve ser exibida na consulta processual por meio do ícone de arquivo quando for o caso. Essa situação processual não se confunde com a tarefa de arquivamento. O arquivamento na Justiça Eleitoral só ocorre mediante lançamento de movimento específico apenas quando há a tramitação da capa principal para a tarefa de arquivo. O recurso também pode ser tramitado para a tarefa de arquivo, mas nesse caso, a tarefa fica com um nome diferente para permitir a diferenciação mais rápida por parte do usuário. Quando o recurso tramita para a tarefa de arquivo, nenhum movimento é lançado. 
  - **Não aconselhamos a utilização da remoção do recurso, já que o histórico de tramitação será todo perdido, caso isso ocorra. É uma opção que deve ser reservada apenas para administradores do sistema**;
  - O Arquivamento dos cadernos processuais deve ocorrer em tarefa própria, denominada "Manter recurso arquivado";
- - O cabeçalho do processo exibido nos autos e no painel de tarefas deve refletir a cadeia recursal, quando houver.
+ - O cabeçalho do processo exibido nos autos e no painel de tarefas deve refletir a cadeia recursal, quando houver;
  - A consulta pública deve recuperar sempre o processo originário, exibindo as informações de movimento e documentos dos cadernos recursais conforme regras já existentes relacionadas à publicidade das informações;
 - O DJe e SJUR recuperarão os dados dos cadernos processuais;
  - A retificação de autuação deve sempre abrir o processo originário; 
  - A tarefa de alterar partes exibirá as partes do processo para serem alteradas. A alteração de partes por meio dessa tarefa obedece às regras de retificação de partes na retificação da autuação;
- - A remessa de processos envia todos as informações do processo principal e de todos os cadernos processuais. As consultas do MNI devem retornar apenas um processo por número, contendo todos os movimentos e documentos de todos os cadernos, inclusive os recursais, de acordo com regras pré-existentes nas consultas. Ao remeter um processo, todas as outras capas que por ventura ainda estejam tramitando ficam bloqueadas para tramitação e peticionamento, assim como já ocorre na remessa atualmente. NÃO É POSSÍVEL REMETER APENAS O RECURSO. Na remessa, assim como já ocorre antes dessa versãos dos recursos, o processo inteiro é remetido.Na instância de destino, é protocolado apenas uma capa. 
-  - Algumas alterações em cadernos processuais devem refletir em todos os vinculados, ou seja, se a alteração for no principal ou nos recursais, todos os vinculados ao principal serão afetados. São elas: alteração de processo referência, alteração de características do processo - segredo, nível, visualizadores, prioridades, custas e pedido de liminar/antecipação de tutela
-- As alterações dos dados eleitorais, quando couber (processos da JE) devem refletir, da mesma forma, em todos os cadernos processuais
-- As alterações de assunto, objeto, dados criminais e impedimentos para magistrados em processo refletem em todos os cadernos
-- A distribuição/redistribuição de recursos não gera novos pesos para o cargo que recebe o caderno
-- A redistribuição não reflete em todos os cadernos
-- As tarefas de apensar, desmembrar, redistribuir e evoluir classe são inibidas por meio de fluxo de forma a evitar que sejam abertas para cadernos recursais.
-- Os indicativos de prevenção que são exibidos em algumas tarefas não devem ser exibidos quando a tarefa exibir cadernos recursais. 
-- A inclusão de partes no processo originário e nos cadernos recursais não reflete em alterações fora do caderno sendo alterado, já que as partes podem trocar de polo dependendo do caderno. No entanto, a inclusão de advogados deve sempre refletir em todos os cadernos de forma a manter as representações atualizadas de acordo com a última atualização após o registro do recurso. Isso significa que na tarefa de registro de recurso, como o recurso não está protocolado ainda, alterações nas representações não refletem nas outras capas.
+ - A remessa de processos envia todos as informações do processo principal e de todos os cadernos processuais. As consultas do MNI devem retornar apenas um processo por número, contendo todos os movimentos e documentos de todos os cadernos, inclusive os recursais, de acordo com regras pré-existentes nas consultas. Ao remeter um processo, todas as outras capas que por ventura ainda estejam tramitando ficam bloqueadas para tramitação e peticionamento, assim como já ocorre na remessa atualmente. NÃO É POSSÍVEL REMETER APENAS O RECURSO. Na remessa, assim como já ocorre antes dessa versãos dos recursos, o processo inteiro é remetido.Na instância de destino, é protocolado apenas uma capa; 
+  - Algumas alterações em cadernos processuais devem refletir em todos os vinculados, ou seja, se a alteração for no principal ou nos recursais, todos os vinculados ao principal serão afetados. São elas: alteração de processo referência, alteração de características do processo - segredo, nível, visualizadores, prioridades, custas e pedido de liminar/antecipação de tutela;
+- As alterações dos dados eleitorais, quando couber (processos da JE) devem refletir, da mesma forma, em todos os cadernos processuais;
+- As alterações de assunto, objeto, dados criminais e impedimentos para magistrados em processo refletem em todos os cadernos;
+- A distribuição/redistribuição de recursos não gera novos pesos para o cargo que recebe o caderno;
+- A redistribuição não reflete em todos os cadernos;
+- As tarefas de apensar, desmembrar, redistribuir e evoluir classe são inibidas por meio de fluxo de forma a evitar que sejam abertas para cadernos recursais;
+- Os indicativos de prevenção que são exibidos em algumas tarefas não devem ser exibidos quando a tarefa exibir cadernos recursais; 
+- A inclusão de partes no processo originário e nos cadernos recursais não reflete em alterações fora do caderno sendo alterado, já que as partes podem trocar de polo dependendo do caderno. No entanto, a inclusão de advogados deve sempre refletir em todos os cadernos de forma a manter as representações atualizadas de acordo com a última atualização após o registro do recurso. Isso significa que na tarefa de registro de recurso, como o recurso não está protocolado ainda, alterações nas representações não refletem nas outras capas;
 - Se, ao finalizar o protocolo do recurso, a tarefa correspondente não for finalizada, o sistema não permitirá atuação novamente naquela tarefa. Caso o usuário atualize o painel e a tarefa seja recarregada após a finalização do protocolo do recurso sem que tenha sido finalizada, ele lançará uma mensagem sinalizando ao usuário que a tarefa deve ser encerrada.
 
 ### Alterações de fluxo para a Justiça Eleitoral
@@ -289,26 +289,26 @@ A tabela tem o registro da última capa registrada em tb_processo_trf (cd_proces
  
 A tabela contém:
 
-o registro do processo originário (id_processo), referenciando a tabela tb_processo (sempre preenchido);
+O registro do processo originário (id_processo), referenciando a tabela tb_processo (sempre preenchido);
 
-o registro da capa principal do processo (id_processo_trf_principal), referenciando a própria tb_processo_trf (sempre preenchido);
+O registro da capa principal do processo (id_processo_trf_principal), referenciando a própria tb_processo_trf (sempre preenchido);
 
-o registro da capa pai (id_processo_trf_pai), que pode existir ou não. Só existirá quando for um recurso do recurso;
+O registro da capa pai (id_processo_trf_pai), que pode existir ou não. Só existirá quando for um recurso do recurso;
 
-a cadeia do recurso em forma de sigla (ds_classe_judicial_sigla). Se o campo não estiver preenchido, a recuperação é pelo campo sigla da classe da capa
+A cadeia do recurso em forma de sigla (ds_classe_judicial_sigla). Se o campo não estiver preenchido, a recuperação é pelo campo sigla da classe da capa;
 
-a cadeia do recurso por extenso (ds_classe_judicial_extenso). Se o campo não estiver preenchido, a recuperação é pelo campo de descrição da classe da capa
+A cadeia do recurso por extenso (ds_classe_judicial_extenso). Se o campo não estiver preenchido, a recuperação é pelo campo de descrição da classe da capa
 
-um identificador de recurso interno (in_recurso_interno) 
+Um identificador de recurso interno (in_recurso_interno); 
 
-a identificação da situação do processo (ds_nome_situacao_processual). As situações já existiam antes, mas foi replicada aqui para deixar a consulta mais rápida
+A identificação da situação do processo (ds_nome_situacao_processual). As situações já existiam antes, mas foi replicada aqui para deixar a consulta mais rápida
 
-- tb_proc_parte_expediente
+- tb_proc_parte_expediente;
 
-A tabela tem o identificador da capa principal, para otimizar os joins nas consultas de intimações para usuários externos (id_processo_trf_principal)
+A tabela tem o identificador da capa principal, para otimizar os joins nas consultas de intimações para usuários externos (id_processo_trf_principal);
 
-As triggers que alimentam tabelas de otimização de consultas (tb_cabecalho_processo e tb_processo_tarefa) foram alteradas para contemplar todas as alterações estruturais das tabelas de origem. As respectivas tabelas, assim como a tabela de documentos e a tabela de movimentos, foram alteradas para conter identifcação da capa a que se refere o registro. 
+As triggers que alimentam tabelas de otimização de consultas (tb_cabecalho_processo e tb_processo_tarefa) foram alteradas para contemplar todas as alterações estruturais das tabelas de origem. As respectivas tabelas, assim como a tabela de documentos e a tabela de movimentos, foram alteradas para conter identifcação da capa a que se refere o registro; 
 
-As tabelas tb_processo_instance e tb_proc_localizacao_ibpm foram alterados para conter a coluna id_processo_trf, correspondente ao caderno processual a que se refere o registro.
+As tabelas tb_processo_instance e tb_proc_localizacao_ibpm foram alterados para conter a coluna id_processo_trf, correspondente ao caderno processual a que se refere o registro;
 
 Algumas interfaces para uso de publicação no diário fazem referência ao campo idProcesso. Esse campo é preenchido no PJe e recebido no diário do tribunal, que faz consultas adicionais no banco do PJe, de acordo com a necessidade. Antes dos recursos, o PJe envia o idProcessoTrf referente ao expediente, que é igual ao idProcesso. Com os novos recursos, esses ids podem não coincidir. A implementação dos conectores com o diário deve ser revisada de acordo com essa observação.
