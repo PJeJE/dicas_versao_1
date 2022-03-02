@@ -1298,11 +1298,3 @@ Para contornar esse problema, foi criada no fluxo uma tarefa chamada minutar rel
 Há uma orientação passada para a COARE e gabinetes sobre essa questão. Está no SEI 2020.00.000009345-3. As alterações no fluxo foram feitas a partir de setembro de 2020. Apesar da alteração ter sido realizada para atender à necessidade de julgamento de Recurso Extraordinário por órgão diverso do relator, é a maneira que temos hoje para encaminhar o processo para ex-ministro construir voto. 
 
 Para encaminhar para o ministro que está no gabinete de ex-presidência ou ex-membro, utilize, pela judiciária, as opções disponíveis para encaminhamento em sustituição. Não utilize as opções disponíveis para recesso.
-
-## Alteração de órgão julgador
-
-Por vezes há necessidade de se alterar o órgão julgador do processo sem que isso seja tratado como uma redistribuição. Se essa for a necessidade, ou seja, alterar o órgão julgador de um processo sem que sejam alterados os acumuladores de pesos dos cargos que existem antes da alteração e sem que haja geração de movimento de distribuição, pode ser usada a tarefa de Alterar órgão julgador. Para isso, deve-se configurar o fluxo a partir da tarefa em que o processo a ser alterado está hoje conforme a seguir:
-
-- Acrescentar nó de tarefa cujo nome é "Alterar órgão julgador", disponível para raia "Nós de desvio  - nome do fluxo", com  a seguinte variável do tipo "Frame": Processo_Fluxo_Recurso_alterarOrgaoJulgador. Acrescentar transição para a tarefa a partir da tarefa onde o processo está. Acrescentar transição de saída para a tarefa anterior onde o processo estava. Na variável, a configuração de "Escrita" deve estar marcada e a configuração "Obrig." não deve estar marcada. 
-
-Com essa configuração, a tarefa só poderá ser executada para usuários administradores.
