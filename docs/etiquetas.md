@@ -24,7 +24,7 @@ O ícone de cruz (sinal de soma) pode ser usado para criar novas etiquetas.
 
 ![Nova etiqueta](img/etiqueta4.png)
 
-Para criar nova etiqueta, o usuário fornecerá o nome e selecionará o botão "Salvar". O nome utilizado pode conter espaços e acentos. Tente usar nomes que identifiquem a classificação desejada ao agrupamento de processos. Por exemplo, o nome de um servidor que está trabalhando naqueles processos ou referências a características dos processos. 
+Para criar nova etiqueta, o usuário fornecerá o nome e selecionará o botão "Salvar".  O nome  utilizado  pode  conter  espaços e acentos. Tente usar nomes que identifiquem a classificação desejada ao agrupamento de processos. Por exemplo, o nome de um servidor que está trabalhando naqueles processos ou referências a características dos processos. 
 
 ![Nome da etiqueta](img/etiqueta5.png)
 
@@ -34,7 +34,7 @@ Após a criação da etiqueta, a tela de configuração dos filtros é exibida.
 
 ![Filtros](img/etiqueta6.png)
 
-Os filtros são opcionais, mas são bem úteis. Eles permitem que os processos sejam vinculados a etiquetas automaticamente. Por exemplo, a servidora Ana cuidará, na unidade, de todos os processos cuja classe seja Mandado de segurança. Sendo assim, na aba Processos do cadastro de filtros, ele deve selecionar a opção "Classe judicial" e vincular a classe correspondente.
+Os filtros são opcionais, mas são bem úteis. Eles permitem que os processos sejam vinculados a etiquetas automaticamente. Por exemplo, a servidora Ana cuidará, na unidade, de todos os processos cuja classe seja Mandado de segurança.  Sendo assim,  na  aba  Processos do cadastro de filtros, ele deve selecionar a opção "Classe judicial" e vincular a classe correspondente.
 
 ![Filtro classe](img/etiqueta7.png)
 
@@ -42,15 +42,15 @@ Observe que o campo de pesquisa que aparece ao clicar no ícone que exibe todas 
 
 ![Pesquisa classe](img/etiqueta8.png)
 
-A inclusão da classe no filtro se dá pela seleção da classe e pelo acionamento do ícone de cruz. (símbolo de soma)
+A inclusão da classe no filtro se dá pela seleção da classe e pelo acionamento do ícone de cruz (símbolo de soma).
 
 ![Incluir classe no filtro](img/etiqueta9.png)
 
-Pode-se também fazer uso de várias classes no mesmo filtro, ou seja, por exemplo, se desejar acrescentar, para a servidora Ana, processos da classe for "Agravo de instrumento" além dos mandados de segurança, deve-se selecionar a classe a adiconá-la. 
+Pode-se também fazer uso de várias classes no mesmo filtro, por exemplo, se desejar acrescentar, para a servidora Ana, processos da classe "Agravo de instrumento" além dos mandados de segurança, deve-se selecionar a classe e adicioná-la. 
 
 ![Várias classes](img/etiqueta10.png)
 
-Observe que a regra, conforma seleção, é exibida mais abaixo, junto com o botão "Adicionar regra"
+Observe que a regra, conforme seleção, é exibida mais abaixo, junto com o botão "Adicionar regra".
 
 ![Adcionar regra](img/etiqueta11.png)
 
@@ -121,6 +121,14 @@ Há usuários que preferem atuar pelas etiquetas sempre. Dessa forma, o sistema 
 ![Atuação padrão](img/etiqueta25.png)
 
 Da mesma forma, se selecionar a atuação por "Processos", a próxima seleção de tarefa "lembrará" da seleção.
+
+## Recursos e Etiquetas
+
+A partir da versão que subiu dia 02/03, quando um caderno processual for criado, as etiquetas do processo principal serão replicadas. Agora, se o caderno for criado a partir de outro caderno, exemplo: embargos de declaração nos embargos de declaração na Classe XXXX, as etiquetas a serem vinculadas serão as dos embargos de declaração. 
+
+Ou seja, as etiquetas serão importadas do processo/caderno no qual está sendo apresentado o recurso (respeitando a cadeia recursal).
+
+As inserções e exclusões de etiquetas em ato posterior à criação do caderno, não surtirão efeitos nos demais cadernos ou feito principal.
 
 
 ## Automação com etiquetas
