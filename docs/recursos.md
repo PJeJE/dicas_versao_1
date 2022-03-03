@@ -159,6 +159,7 @@ O recurso estará disponível, então, em "Analisar Processos" (estamos trabalha
 
 ## Tramitação dos recursos e do processo originário
 
+
 Os recursos tramitam internamente de forma independente do processo originário. Isso significa que o processo originário pode estar, por exemplo, em "Analisar determinação", e os embargos estão em "retificar dados do processo". 
 
 Veja o exemplo abaixo. Foi utilizado o número do processo para consultar o processo nas tarefas. Como o perfil utilizado tem acesso a todas as tarefas, o sistema exibe o processo nas quatro tarefas abertas para ele.
@@ -184,6 +185,16 @@ Quando o usuário quiser pautar o recurso em uma sessão de julgamento, a difere
 A intimação do recurso também é diferenciada, já que abrange a classe e as partes correspondentes:
 
 ![Intimação de pauta](img/recurso29.png)
+
+
+# Recursos e Etiquetas
+
+
+A partir da versão que subiu dia 25/02 quando um caderno processual for criado, as etiquetas do processo principal serão replicadas. Agora, se o caderno for criado a partir de outro caderno, exemplo: embargos de declaração nos embargos de declaração na Classe XXXX, as etiquetas a serem vinculadas serão as dos embargos de declaração. Ou seja, as etiquetas serão importadas do processo/caderno no qual está sendo apresentado o recurso (respeitando a cadeia recursal).
+
+As inserções e exclusões de etiquetas em ato posterior à criação do caderno, não surtirão efeitos nos demais cadernos ou feito principal.
+
+
 
 ## Observações
 
