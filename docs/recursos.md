@@ -187,7 +187,7 @@ A intimação do recurso também é diferenciada, já que abrange a classe e as 
 ![Intimação de pauta](img/recurso29.png)
 
 
-# Recursos e Etiquetas
+## Recursos e Etiquetas
 
 
 A partir da versão que subiu dia 25/02 quando um caderno processual for criado, as etiquetas do processo principal serão replicadas. Agora, se o caderno for criado a partir de outro caderno, exemplo: embargos de declaração nos embargos de declaração na Classe XXXX, as etiquetas a serem vinculadas serão as dos embargos de declaração. Ou seja, as etiquetas serão importadas do processo/caderno no qual está sendo apresentado o recurso (respeitando a cadeia recursal).
