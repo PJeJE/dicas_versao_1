@@ -249,6 +249,8 @@ A solução para os autos suplementares é outra e está em fase de testes e reg
 
 Caso o Regional entenda ser o caso de configurar outros recursos ou retirar alguma configuração atual, basta seguir as orientações de configuração constante do Dicas.
 
+6) O tribunal que recebe várias petições de recurso interno de um mesmo tipo (vários pedidos de "Embargos de declaração", por exemplo) pode optar por registrar apenas um recurso. Para isso, basta selecionar apenas um dos documentos. Para o PJe e para o usuário externo, não há diferença entre os documentos selecionados. Se preferir, o servidor pode também criar um novo documento (uma certidão, por exemplo) agrupando os pedidos. Juntado o documento, pode utilizar o documento criado no registro do recurso após reclassificá-lo com o tipo de recurso pretendido. Mesmo essa opção não terá impacto algum para o PJe, sendo apenas uma maneira de trabalhar escolhida pelo tribunal.
+
 
 ## Orientações para usuários administradores
 
