@@ -255,7 +255,7 @@ Independentemente da opção escolhida, todas as petições continuam visíveis 
 
 Para o sistema, a criação de um recurso para cada uma das petições de recurso interno juntadas só é necessária caso os recursos precisem ser julgados separadamente.
 
-Portanto, cabe ao servidor avaliar, caso a caso, qual das opções utilizar.
+Portanto, cabe ao Tribunal avaliar, caso a caso, qual das opções utilizar.
 
 ## Orientações para usuários administradores
 
