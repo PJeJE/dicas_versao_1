@@ -45,6 +45,5 @@
 | Procurador da sessão| #{pessoaProcuradorManager.getTituloProcurador(sessaoPautaProcessoTrfManager.getSessaoPsautaProcessoTrfJulgado(tramitacaoProcessualService.recuperaProcesso()).sessao)} |
 | Revisor| #{pessoaMagistradoManager.getMagistradoTitular(orgaoJulgadorColegiadoOrgaoJulgadorManager.recuperarOrgaoJulgadorRevisorPadrao(tramitacaoProcessualService.recuperaProcesso()).orgaoJulgadorRevisor.orgaoJulgador).getNome().toUpperCase()} |
 | Partes dentro da certidão de julgamento | #{processoJudicialManager.recuperarParteFormatada(sessaoProcessoDocumentoHome.sessaoPautaProcessoTrf.processoTrf, false,true,false,'A','P','T')} |
-| Cabeçalho do processo com cadeia recursal | #{sessaoProcessoDocumentoHome.sessaoPautaProcessoTrf.processoTrf} |
-
-
+| Cabeçalho do processo com cadeia recursal dentro da sessão| #{sessaoProcessoDocumentoHome.sessaoPautaProcessoTrf.processoTrf} |
+| Cabeçalho do processo com cadeia recursal | #{processoTrfHome.instance} |
