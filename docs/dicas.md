@@ -1298,3 +1298,13 @@ Para contornar esse problema, foi criada no fluxo uma tarefa chamada minutar rel
 Há uma orientação passada para a COARE e gabinetes sobre essa questão. Está no SEI 2020.00.000009345-3. As alterações no fluxo foram feitas a partir de setembro de 2020. Apesar da alteração ter sido realizada para atender à necessidade de julgamento de Recurso Extraordinário por órgão diverso do relator, é a maneira que temos hoje para encaminhar o processo para ex-ministro construir voto. 
 
 Para encaminhar para o ministro que está no gabinete de ex-presidência ou ex-membro, utilize, pela judiciária, as opções disponíveis para encaminhamento em sustituição. Não utilize as opções disponíveis para recesso.
+
+## Orientações gerais sobre utilização do painel do magistrado na sessão
+
+No menu principal do PJe (ícone com três barrinhas horizontais no canto superior esquerdo), deve-se clicar na opção Painel - Painel do magistrado na sessão. A tela inicial exibirá um calendário com todas as sessões do órgão julgador colegiado do magistrado, agrupadas por dia.
+
+Os dias em que houver sessão (ões) já criadas estarão disponíveis para serem selecionados. Ao selecionar, a tela do painel do magistrado será apresentada. O painel exibe inicialmente os dados da sessão, se há ou não  processos apregoados, se a sessão é  contínua ou não, um formulário de pesquisa de processos e os processos da sessão. Para cada processo, são apresentados os dados básicos, a possibilidade de abertura dos autos, que obedecerá às regras de processos com marcação de segredo de justiça, a ordem dele na pauta e, a partir da seleção do processo, é exibido o placar contendo os votos já proferidos e as opções de voto.
+
+Após selecionar a opção de voto, o sistema disponibiliza a opção Redigir voto, que apresentará o editor de texto permitindo inserir voto escrito.
+
+Além das opções de voto, também estão disponíveis "Enviar para pauta presencial", "Registrar pedido de vista" e "Registrar impedimento ou suspeição". Com exceção da última, essas opções, após acionadas, só poderão ser desfeitas com auxílio do Assessor de plenário, que deverá colocar o processo "Em julgamento" novamente, se precisar desfazê-las.
