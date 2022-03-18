@@ -1308,3 +1308,5 @@ Os dias em que houver sessão (ões) já criadas estarão disponíveis para sere
 Após selecionar a opção de voto, o sistema disponibiliza a opção Redigir voto, que apresentará o editor de texto permitindo inserir voto escrito.
 
 Além das opções de voto, também estão disponíveis "Enviar para pauta presencial", "Registrar pedido de vista" e "Registrar impedimento ou suspeição". Com exceção da última, essas opções, após acionadas, só poderão ser desfeitas com auxílio do Assessor de plenário, que deverá colocar o processo "Em julgamento" novamente, se precisar desfazê-las.
+
+É válido ressaltar que após o registro de um pedido de vista, os outros gabinetes não têm mais disponíveis as opções para retirada de julgamento ou envio para a pauta presencial. Caso a vista tenha sido lançada de forma equivocada, o Assessor de plenário deverá atuar colocando o processo em julgamento novamente.
