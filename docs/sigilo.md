@@ -72,7 +72,9 @@ Já com ato de comunicação a parte citada/intimada é automaticamente adiciona
 Após uma parte ser adicionada como visualizadora em um processo, a simples alteração do nível de sigilo do processo não fará com que o visualizador não o visualize mais. Se o juiz decide alterar o nível de acesso de 1 para 3, por exemplo, as partes que visualizavam continuarão a visualizar a menos que o servidor retire a visualização.
 Cabe salientar também, que colocar uma parte como sigilosa em um processo significa que essa parte não vai ser vista pelas outras partes, mas ela visualiza o processo normalmente
 
+####  Visualização por procuradores
 
+Ao cadastrar uma procuradoria como visualizadora do processo sigiloso, os participantes dessa procuradoria estarão aptos a visualizarem o processo, salvo se detiverem o papel pje:papel:administrarProcuradorias. Esse papel existe para que procuradorias possam atribuir a servidores a função administrativa de cadastrar novos procuradores e novos assistentes de procuradoria, com a restrição de não visualizarem processos. Dessa forma, o papel de procurador ou de procurador gestor não pode conter em sua hierarquia o papel de administrador de procuradoria, sob pena de não visualizarem os processos sigilosos aos quais a procuradoria tem acesso.
 
 ### SEGREDO OU SIGILO DE DOCUMENTO
 
