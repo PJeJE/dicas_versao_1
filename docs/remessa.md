@@ -40,10 +40,17 @@ O servidor deve finalizar a tarefa.
 
 Depois, é só tramitar o processo na tarefa principal em que ele se encontra já desbloqueado. Em geral o processo estará na tarefa de finalização do envio. Se for necessário o movimento de ativação, deve ser utilizada a opção "Reativar com registro de movimento". Se não for o caso de lançar movimentos, utilizar a opção "Retornar para análise sem registro de movimento". 
 
-![Finalizar](img/remessa8.png)
+![Tramitar](img/remessa8.png)
 
 
 ## Processo enviado que necessita movimentos de baixa
 
+Algumas vezes pode ocorrer de o processo ser remetido à outra instância, mas os movimentos de baixa não serem lançados na origem. Nesse caso, o servidor pode fazer o lançamento dos movimentos. Estando o processo na tarefa de remessa, ele deve selecionar a transição para finalização do envio com registro de movimento. 
+
+![Remeter](img/remessa9.png)
+
+No caso acima, a transição é "Aguardar TRE e registrar movimento de baixa (tem que informar motivo da remessa)". O motivo da remessa deve sempre ser informado nesse caso, já que o movimento de remessa é constituído também por essa informação.
+
+![Remeter](img/remessa10.png)
 
 ## Processo desbloqueado que necessita movimentos de reativação
