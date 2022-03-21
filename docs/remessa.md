@@ -51,6 +51,14 @@ Algumas vezes pode ocorrer de o processo ser remetido à outra instância, mas o
 
 No caso acima, a transição é "Aguardar TRE e registrar movimento de baixa (tem que informar motivo da remessa)". O motivo da remessa deve sempre ser informado nesse caso, já que o movimento de remessa é constituído também por essa informação.
 
-![Remeter](img/remessa10.png)
+![Baixa](img/remessa10.png)
 
 ## Processo desbloqueado que necessita movimentos de reativação
+
+Pode acontecer de um processo retornar de uma outra instância via remessa e os movimentos de reativação não terem sido lançados. Nesse caso, a partir da tarefa de finalização do envio, o servidor pode acionar a transição "Reativar com registro de movimento".
+
+![Tramitar](img/remessa8.png)
+
+O processo será encaminhado para a tarefa de análise e nos autos o movimento de reativação será lançado.
+
+![Reativação](img/remessa11.png)
