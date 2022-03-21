@@ -1,6 +1,8 @@
 # Remessa
 
-Aqui estarão agregadas informações para auxiliar os servidores da Justiça Eleitoral na remessa de processos entre instâncias.
+Aqui estarão agregadas informações para auxiliar os servidores da Justiça Eleitoral na remessa de processos entre instâncias. 
+
+*IMPORTANTE!!!!!* : só utilize essas opções após ter certeza da situação dos processos nas duas instâncias envolvidas. AS INSERÇÕES DE MOVIMENTOS PROCESSUAIS NÃO PODERÃO SER DESFEITAS.
 
 ## Remessa concluída sem bloqueio de processo
 
