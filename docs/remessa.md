@@ -14,7 +14,7 @@ Por vezes o servidor tenta realizar a remessa de um processo do ambiente do prim
 
 ![Retornar](img/remessa2.png)
 
-Para realizar o bloqueio, o usuário pode acionar a transição "Bloquear processo que está em outra instância" disponível a partir das tarefas de análise (Analisar processos, Analisar novo processo e Analisar determinação, urgentes ou não).
+Para realizar o bloqueio, o usuário pode acionar a transição "Bloquear processo que está em outra instância" disponível a partir das tarefas de análise (Analisar processos, Analisar novo processo e Analisar determinação, urgentes ou não - Verificar pendências).
 
 ![Bloqueio](img/remessa3.png)
 
