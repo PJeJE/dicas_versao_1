@@ -11,8 +11,17 @@ plugins:
     - exclude-search:
         exclude:
           - aspje/*
-
     - mkdocs-video:
+    - encryptcontent:
+        title_prefix: '[ASPJE]'
+        password_button: True
+        password_button_text: 'Entrar'
+        placeholder: 'Digite a senha para acessar o conteúdo'
+        summary: 'Conteúdo Restrito'
+        encryption_info_message: 'Acesso restrito a servidores da ASPJE.'
+        decryption_failure_message: 'Senha incorreta.'
+        remember_password: True
+        default_expire_dalay: 24
 theme:
   name: material
   language: pt
