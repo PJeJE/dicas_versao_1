@@ -47,11 +47,13 @@ Depois, é só tramitar o processo na tarefa principal em que ele se encontra j�
 
 ## Processo enviado que necessita movimentos de baixa
 
-Algumas vezes pode ocorrer de o processo ser remetido à outra instância, mas os movimentos de baixa não serem lançados na origem. Nesse caso, o servidor pode fazer o lançamento dos movimentos. Estando o processo na tarefa de remessa, ele deve selecionar a transição para finalização do envio com registro de movimento. 
+Algumas vezes pode ocorrer de o processo ser remetido à outra instância, mas os movimentos de baixa não serem lançados na origem. Nesse caso, o servidor pode fazer o lançamento dos movimentos. Para que os movimentos sejam lançados corretamente, o sevidor deve SEMPRE SELECIONAR O MOTIVO DA REMESSA E A INSTÂNCIA DE DESTINO. Se não selecionar o motivo da remessa, a transição apresentará erro e não será concluída. Se não selecionar a instância de destino, o sistema poderá atribuir um valor errado ao movimento e o MOVIMENTO NÃO PODERÁ SER AJUSTADO. 
+
+Estando o processo na tarefa de remessa, ele deve selecionar a transição para finalização do envio com registro de movimento. 
 
 ![Remeter](img/remessa9.png)
 
-No caso acima, a transição é "Aguardar TRE e registrar movimento de baixa (tem que informar motivo da remessa)". O motivo da remessa deve sempre ser informado nesse caso, já que o movimento de remessa é constituído também por essa informação.
+No caso acima, a transição é "Aguardar TRE e registrar movimento de baixa (tem que informar motivo da remessa)". O motivo da remessa deve sempre ser informado nesse caso, já que o movimento de remessa é constituído também por essa informação, assim como a instância de destino.
 
 ![Baixa](img/remessa10.png)
 
