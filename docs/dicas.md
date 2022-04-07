@@ -114,7 +114,7 @@ Modelo de documento, conforme configuração do parâmetro: idModeloIntimacaoPau
 
 Para  cada  processo  selecionado, o sistema construirá um documento de acordo com o  modelo referenciado, e o utilizará para  registrar o ato de comunicação eletronicamente via  diário,  sem  prazo  para resposta. O  movimento  de  código 60, conforme tabela unificada de movimentos do SGT no  CNJ, com complemento código 4 e com elemento do tipo domínio de  código  80,  é  lançado  no processo  associado  ao  documento  gerado. Essas configurações de movimento dizem respeito ao registro final no processo "Expedição de outros documentos". 
 
-No modelo de documento utilizado nessa funcionalidade, as seguintes variáveis, e apenas elas, estão disponíveis para uso: 
+No modelo de documento utilizado nessa funcionalidade, as seguintes variáveis, e apenas elas, estão disponíveis para uso (tem que sempre usar gradinha e abra e fecha chaves): 
 
     processoJudicial, contendo o número do processo; 
 
