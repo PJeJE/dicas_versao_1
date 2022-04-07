@@ -45,5 +45,7 @@
 | Procurador da sessão| #{pessoaProcuradorManager.getTituloProcurador(sessaoPautaProcessoTrfManager.getSessaoPsautaProcessoTrfJulgado(tramitacaoProcessualService.recuperaProcesso()).sessao)} |
 | Revisor| #{pessoaMagistradoManager.getMagistradoTitular(orgaoJulgadorColegiadoOrgaoJulgadorManager.recuperarOrgaoJulgadorRevisorPadrao(tramitacaoProcessualService.recuperaProcesso()).orgaoJulgadorRevisor.orgaoJulgador).getNome().toUpperCase()} |
 | Partes dentro da certidão de julgamento | #{processoJudicialManager.recuperarParteFormatada(sessaoProcessoDocumentoHome.sessaoPautaProcessoTrf.processoTrf, false,true,false,'A','P','T')} |
-| Cabeçalho do processo com cadeia recursal dentro da sessão| #{sessaoProcessoDocumentoHome.sessaoPautaProcessoTrf.processoTrf} |
-| Cabeçalho do processo com cadeia recursal | #{processoTrfHome.instance} |
+| Cabeçalho do processo com cadeia recursal em siglas dentro da sessão| #{sessaoProcessoDocumentoHome.sessaoPautaProcessoTrf.processoTrf} |
+| Cabeçalho do processo com cadeia recursal em siglas | #{processoTrfHome.instance} |
+| Cabeçalho do processo com cadeia recursal por extenso, exceto classe do principal | #{processoTrfHome.instance.extensoClasse != null ? processoTrfHome.instance.extensoClasse : processoTrfHome.instance.classeJudicial} |
+| Cabeçalho do processo com cadeia recursal por extenso, exceto classe do principal dentro da sessão | #{sessaoProcessoDocumentoHome.sessaoPautaProcessoTrf.processoTrf.extensoClasse != null ? sessaoProcessoDocumentoHome.sessaoPautaProcessoTrf.processoTrf.extensoClasse : sessaoProcessoDocumentoHome.sessaoPautaProcessoTrf.processoTrf.classeJudicial} |
