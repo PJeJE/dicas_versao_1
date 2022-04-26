@@ -14,13 +14,15 @@ Por vezes o servidor tenta realizar a remessa de um processo do ambiente do prim
 
 ![Retornar](img/remessa2.png)
 
-Para realizar o bloqueio, o usuário pode acionar a transição "Bloquear processo que está em outra instância" disponível a partir das tarefas de análise (Analisar processos, Analisar novo processo e Analisar determinação, urgentes ou não - Verificar pendências).
+Para realizar o bloqueio, o usuário pode acionar a transição "Bloquear processo que está em outra instância" disponível a partir das tarefas de análise (Para o primeiro grau: Analisar processos, Analisar novo processo e Analisar determinação, urgentes ou não - Para as instâncias colegiadas: Verificar pendências).
 
 ![Bloqueio](img/remessa3.png)
 
 Isso fará com que o processo seja tramitado para a tarefa respectiva de finalização do envio bloqueado para tramitação de petições.
 
 ![Processo bloqueado](img/remessa4.png)
+
+Essas instruções também estão valendo para serem usadas nos TREs e no TSE. A tarefa onde o processo normalmente estará é a "Aguardando apreciação de outra instância".
 
 ## Processo não enviado e bloqueado 
 
