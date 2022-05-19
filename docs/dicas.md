@@ -421,7 +421,11 @@ TSE - RESPE: 69795520106060000  Fortaleza/CE 17632012, Relator:  Min. Henrique N
 
 ##  Remessa entre instâncias 
 
-## Remessa para outra instância:
+Encontre no link abaixo ajustes para bloqueio/desbloqueio de processo, assim como lançamento de movimentos relacionados à remessa:
+
+[Clique e acesse](remessa.md)
+
+### Remessa para outra instância:
 
 “Remessa  para  outra instância” tarefa exclusiva do PJE do 2º grau, deve ser utilizada quando o objetivo seja enviar um processo que tenha iniciado no TRE, para o TSE. Deve ser utilizada também, quando o processo foi iniciado físico na Zona Eleitoral, migrado no TRE, e precisa descer para o 1º grau.
 
@@ -429,7 +433,7 @@ Essa  tarefa  permite que se protocole um “novo processo” no destino, com cl
 
 Após a confirmação, o sistema movimentará o processo para a tarefa “Aguardando apreciação de outra instância” onde ficará bloqueado para novas petições ou edições.
 
-## Expedir processo -  Retorno à origem
+### Expedir processo -  Retorno à origem
 
 "Devolver processo à origem",  tarefa  exclusiva  do 2º e 3º grau: deve ser utilizada quando o objetivo seja devolver um processo para alguma instância em que ele esteve, ou seja, o processo deve existir na instância de destino (já deve ter ocorrido uma remessa entre instâncias no sistema).
 
@@ -452,7 +456,7 @@ O usuário pode também desistir da tarefa, retornando na tarefa “Retornar par
 
 Na confirmação da execução, o sistema retornará o processo para a última instância de origem (se veio do TSE, retornará para o TSE, se veio do primeiro grau, retornará para o primeiro grau). 
 
-## Remeter processo para o TRE
+### Remeter processo para o TRE
 
 "Remeter ao TRE" (tarefa exclusiva do 1º grau): deve ser utilizada quando  o objetivo seja realizar a remessa de um processo da Zona Eleitoral para o TRE, independente de se  o processo já esteve ou não na instância de destino (2º grau).
 
@@ -463,12 +467,12 @@ Ao  utilizar  tarefa “Remeter processo para o TRE”, o processo fica em “Ag
 
 O “ Retornar processo”  não tem nada a ver com remessa, ele só retorna o processo  de volta  para o "analisar determinação" ou "analisar processo", verificando os movimentos lançados para encaminhar para um ou outro. 
 
-## Expedir processo – retorno à origem - outros órgãos   
+### Expedir processo – retorno à origem - outros órgãos   
 
 "Expedir processo - Retorno à origem – outros órgãos" (tarefa exclusiva do 3º grau):  deve ser utilizada quando o objetivo seja remeter um processo ao TRE, quando o processo se iniciou no TSE, seja porque realmente foi protocolado no TSE, seja porque foi migrado no TSE. Nesse caso, o processo não “existia” no TRE. Essa  remessa lança o movimento de código 22: Baixa definitiva.
 
 
-## Remessa a outra jurisdição 
+### Remessa a outra jurisdição 
 
 Como ficam os processos após finalização?
 
