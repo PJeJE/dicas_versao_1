@@ -1076,7 +1076,14 @@ Após o cadastro, tentar novamente a remessa, sem a necessidade de apagá-la.
  
 Esse erro acontece quando algum documento de identificação de uma das partes do processo está em branco.
 
-Para correção, basta ir ao menu dos autos processuais,  opção  retificar  autuação,  aba partes, clicar em selecionar (parte), aba documentos de identificação e verificar os documentos constantes de todas as partes, procedendo  a  correção necessária (verificar inclusive advogados). 
+Para correção, basta ir ao menu dos autos processuais,  opção  retificar  autuação,  aba partes, clicar em selecionar (parte), aba documentos de identificação e verificar os documentos constantes de todas as partes, procedendo  a  correção necessária (verificar inclusive advogados).
+
+
+7. Ausência de novos documentos processuais:
+
+Quando se tenta remeter um processo sem que tenha sido elaborado ou juntado algum documento, o erro "Não foram encontrados novos documentos processuais" impede o envio.
+
+A solução consiste na elaboração de algum documento. Como sugestão, pode ser incluída uma certidão de remessa. 
 
 
 
