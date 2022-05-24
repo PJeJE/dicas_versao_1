@@ -1081,7 +1081,7 @@ Para correção, basta ir ao menu dos autos processuais,  opção  retificar  au
 
 7. Ausência de novos documentos processuais:
 
-![docs_processuais.tiff](img/docs_processuais.png)
+![Mensagem de erro.](img/docs_processuais.png)
 
 
 Quando se tenta remeter um processo sem que tenha sido elaborado ou juntado algum documento, o erro "Não foram encontrados novos documentos processuais" impede o envio.
