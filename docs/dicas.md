@@ -1328,3 +1328,20 @@ Além das opções de voto, também estão disponíveis "Enviar para pauta prese
 ## Visualização de processos sigilosos por procuradores
 
 Ao cadastrar uma procuradoria como visualizadora do processo sigiloso, os participantes dessa procuradoria estarão aptos a visualizarem o processo, salvo se detiverem o papel pje:papel:administrarProcuradorias. Esse papel existe para que procuradorias possam atribuir a servidores a função administrativa de cadastrar novos procuradores e novos assistentes de procuradoria, com a restrição de não visualizarem processos. Dessa forma, o papel de procurador ou de procurador gestor não pode conter em sua hierarquia o papel de administrador de procuradoria, sob pena de não visualizarem os processos sigilosos aos quais a procuradoria tem acesso.
+
+## Identificadores de documentos 
+
+O PJe na Justiça Eleitoral foi implantado separando as instalações da seguinte forma: Primeiro grau - uma única instalação para todas as UFs, segundo grau  - uma instalação para cada UF e mais uma instalação para o TSE. Cada instalação tem suas próprias configurações e bancos de dados. Os identificadores de todas os registros do banco de dados são denominados comumente pela equipe de TI como "id". Esses ids em algumas telas do PJe são apresentados para facilitar o suporte, principalmente quando o usuário está com algum problema em um registro específico. Se o problema é em um documento específico, é mais fácil identificar qual o documento pelo "id" dele. Mas são registros criados aleatoriamente pelo banco de dados, não é um dado negocial. Muitas vezes, os servidores utilizam esse identificador para referenciar alguma decisão terminativa ou outro documento ao longo das comunicações no processo. Não há problema em se utilizar desse artifício, mas ao remeter o processo, serão criados novos registros de documentos na instância de destino, com ids específicos gerados pelo banco de dados.
+
+Existe um campo negocial, denominado número do documento, que pode ser utilizado na identificação e é enviado na remessa. Esse campo não é preenchido no uso do editor de documento presente na construção de decisões, despachos e sentenças, mas pode ser informado nos anexos.
+[id4.png]
+
+Além disso, na juntada de documentos pelos autos digitais ele pode ser informado também. 
+
+[id3.png]
+
+Quando informado, ele é exibidos nos autos digitais e também na lista de documentos do processo. 
+
+[id1.png]
+
+[id2.png]
