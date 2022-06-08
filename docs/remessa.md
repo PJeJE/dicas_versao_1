@@ -59,6 +59,8 @@ No caso acima, a transição é "Aguardar TRE e registrar movimento de baixa (te
 
 ![Baixa](img/remessa10.png)
 
+Nesses casos, o processo será tramitado para uma tarefa intermediária denominada "Conferir processo remetido". Essa tarefa é importante para identificarmos os casos em que o usuário tenha tramitado manualmente o processo sem que ele tenha chegado ao destino, facilitando o trabalho da investigação de problemas. 
+
 ## Processo desbloqueado que necessita movimentos de reativação
 
 Pode acontecer de um processo retornar de uma outra instância via remessa e os movimentos de reativação não terem sido lançados. Nesse caso, a partir da tarefa de finalização do envio, o servidor pode acionar a transição "Reativar com registro de movimento".
