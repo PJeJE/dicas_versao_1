@@ -59,7 +59,11 @@ No caso acima, a transição é "Aguardar TRE e registrar movimento de baixa (te
 
 ![Baixa](img/remessa10.png)
 
-Nesses casos, o processo será tramitado para uma tarefa intermediária denominada "Conferir processo remetido". Essa tarefa é importante para identificarmos os casos em que o usuário tenha tramitado manualmente o processo sem que ele tenha chegado ao destino, facilitando o trabalho da investigação de problemas. 
+Nesses casos, o processo será tramitado para uma tarefa intermediária denominada "Conferir processo remetido". Essa tarefa é importante para identificarmos os casos em que se tenha tramitado manualmente o processo sem que ele tenha chegado ao destino, facilitando o trabalho da investigação de problemas. 
+
+![Tarefa de conferência](img/remessa12.png)
+
+Deve-se selecionar "Aguardando apreciação do TRE" ou equivalente no segundo grau para que o processo fique na tarefa de de finalização do envio.
 
 ## Processo desbloqueado que necessita movimentos de reativação
 
