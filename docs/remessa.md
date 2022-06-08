@@ -55,7 +55,7 @@ Estando o processo na tarefa de remessa, ele deve selecionar a transição para 
 
 ![Remeter](img/remessa9.png)
 
-No caso acima, a transição é "Aguardar TRE e registrar movimento de baixa (tem que informar motivo da remessa)". O motivo da remessa deve sempre ser informado nesse caso, já que o movimento de remessa é constituído também por essa informação, assim como a instância de destino.
+No caso acima, a transição é "Registrar movimento baixa (selecione instância e motivo)". O motivo da remessa deve sempre ser informado nesse caso, já que o movimento de remessa é constituído também por essa informação, assim como a instância de destino.
 
 ![Baixa](img/remessa10.png)
 
