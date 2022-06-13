@@ -1346,3 +1346,13 @@ Quando informado, ele é exibidos nos autos digitais e também na lista de docum
 ![número do documento nos autos](img/id1.png)
 
 ![número do documento nos documentos](img/id2.png)
+
+## Verificação de movimentos da instância de origem - tempestividade do recurso
+
+Quando um processo é remetido de uma instância para outra, do TRE para o TSE, por exemplo, chegam no destino os documentos que foram produzidos na origem assim como movimentos vinculados aos documentos. Movimentos que foram lançados sem vinculação a documentos não são remetidos. Via de regra, a instância de destino precisa verificar o lançamento desses movimentos, especialmente os movimentos de publicação das intimações para verificação da tempestividade dos recursos. Nesse caso, o tribunal de origem pode utilizar uma certidão para sinalizar a publicação da intimação. Na ausência dessa certidão, o tribunal de destino pode utilizar a opção "Dados do processo referência" disponível nos autos digitais. 
+
+[Dados do processo referência](img/referencia1.png)
+
+Essa opção está disponível para qualquer servidor com acesso aos autos, desde que o processo tenha chegado a instância atual via remessa entre instâncias. Ao acioná-la, o servidor verá os dados do processo conforme constam na instância originária, inclusive seus movimentos.
+
+[Dados do processo referência](img/referencia2.png)
