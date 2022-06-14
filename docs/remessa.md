@@ -63,7 +63,7 @@ Nesses casos, o processo será tramitado para uma tarefa intermediária denomina
 
 ![Tarefa de conferência](img/remessa12.png)
 
-Deve-se selecionar "Aguardando apreciação do TRE" ou equivalente no segundo grau para que o processo fique na tarefa de de finalização do envio.
+Deve-se selecionar "Aguardando apreciação do TRE" ou equivalente no segundo grau para que o processo fique na tarefa de finalização do envio.
 
 ## Processo desbloqueado que necessita movimentos de reativação
 
