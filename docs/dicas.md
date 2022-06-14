@@ -217,7 +217,9 @@ SOBRE ESSAS DUAS FUNCIONALIDADES, A LIBERAÇÃO DO ASSESSOR DE PLENÁRIO SÓ É 
 
 Há um erro conhecido em  processos  migrados. Os  documentos  não aparecem na aba para selecionar documentos para acórdão, e a orientação para a TI  é ajustar o nr_instancia  do  client.tb_processo_trf para o mesmo ds_instancia do core.tb_processo_documento.  A migração tem que ser também ajustada para preencher esse campo  e  o  problema  deixar de ocorrer.
 
+## Adiados e pautas anteriores
 
+A aba “Adiados e pautas anteriores” da "Relação de julgamento" representa processos que já estiveram em outra sessão. O sistema sinaliza isso independente de o processo já ter sido arquivado. Quando for incluído em nova pauta de julgamento, ele deixa de estar nessa aba. A partir da versão 2.1.8.0, o processo que tiver sido adiado ou retirado de pauta e o relator desistir de levar a plenário pode ser removido dessa aba pela atuação do gabinete do relator, que deve utilizar a transição "Retirar processo apto para julgamento". Se o processo não estiver mais no gabiente, volte o processo para a tarefa de "Aguarda sessão de julgamento" (faça as tramitações necessárias para enviar o processo para o gabinete e coloque nessa tarefa por meio do elaborar decisão colegiada). Nessa tarefa, clique na opção "Retirar processo apto para julgamento" e o processo some do painel do assessor de plenário. Depois, basta retornar o processo para a tarefa em que estava e seguir com a tramitação do feito
 
 ## Selecionar documentos para acórdão
 
@@ -1356,3 +1358,4 @@ Quando um processo é remetido de uma instância para outra, do TRE para o TSE, 
 Essa opção está disponível para qualquer servidor com acesso aos autos, desde que o processo tenha chegado a instância atual via remessa entre instâncias. Ao acioná-la, o servidor verá os dados do processo conforme constam na instância originária, inclusive seus movimentos.
 
 ![Dados do processo referência](img/referencia2.png)
+
