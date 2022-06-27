@@ -199,7 +199,7 @@ A tela de configuração dos tipos de complementos será exibida, pesquise, no c
 
 Clique no ícone de edição (lápis) e verifique como está o campo "Expressão de busca".
 
-O valor correto é #{processoParteUtils.obterPartesProcesso(tramitacaoProcessualService.recuperaProcesso())}. 
+O valor correto é #{processoParteUtils.obterPartesProcesso(tramitacaoProcessualService.recuperaProcesso())}
 
 
 
