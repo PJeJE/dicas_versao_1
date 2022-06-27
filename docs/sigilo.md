@@ -189,7 +189,7 @@ Para isso, o Ministro deverá entrar no processo, nos “Autos digitais” => �
 
 Para os processos sigilosos de nível 1 e 3, o Assessor de Plenário abrirá a visualização dos autos aos demais Ministros. Nesse caso, quando o processo estiver na aba “Aptos para Julgamento”, o Assessor de Plenário já poderá executar o procedimento mencionado no parágrafo anterior.
 
-**Ajuste no tipo de complemento "nome_da_parte" para proecssos sigilosos:**
+**Ajuste no tipo de complemento "nome_da_parte" para processos sigilosos:**
 
 Para que o nome da parte de processos sigilosos não seja exposto em movimentos que utilizam esse complemento, há uma configuração que deve ser feita:
 
