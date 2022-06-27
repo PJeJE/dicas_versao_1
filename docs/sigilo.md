@@ -189,6 +189,18 @@ Para isso, o Ministro deverá entrar no processo, nos “Autos digitais” => �
 
 Para os processos sigilosos de nível 1 e 3, o Assessor de Plenário abrirá a visualização dos autos aos demais Ministros. Nesse caso, quando o processo estiver na aba “Aptos para Julgamento”, o Assessor de Plenário já poderá executar o procedimento mencionado no parágrafo anterior.
 
+**Ajuste no tipo de complemento "nome_da_parte" para proecssos sigilosos:**
+
+Para que o nome da parte de processos sigilosos não seja exposto em movimentos que utilizam esse complemento, há uma configuração que deve ser feita:
+
+Como administrador, pesquise pela opção tipo de complemento (Configurações - Tabelas Judiciais - Movimentações - Complementos – Tipos).
+
+A tela de configuração dos tipos de complementos será exibida, pesquise, no campo "Nome", por "nome_da_parte".
+
+Clique no ícone de edição (lápis) e verifique como está o campo "Expressão de busca".
+
+O valor correto é #{processoParteUtils.obterPartesProcesso(tramitacaoProcessualService.recuperaProcesso())}. 
+
 
 
 ## NÍVEIS DE SEGREDO DAS CLASSES PROCESSUAIS NO 1º GRAU
