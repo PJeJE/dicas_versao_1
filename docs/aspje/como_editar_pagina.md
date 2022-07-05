@@ -3,8 +3,12 @@
 ## Principais arquivos
 
 **docs/** - Pasta principal  
-**index.md** - Página inicial  
+**index.md** - Página inicial
+
+**recurso.md** - Informações sobre recursos 
+
 **dicas.md** - Página de dicas   
+
 **img/** - Pasta onde ficam as imagens  
 
 
