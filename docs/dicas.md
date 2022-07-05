@@ -427,6 +427,8 @@ Encontre no link abaixo ajustes para bloqueio/desbloqueio de processo, assim com
 
 [Clique e acesse](remessa.md)
 
+[Como verificar se a remessa foi bem sucedida](remessa_orientacoes.md)
+
 ### Remessa para outra instância:
 
 “Remessa  para  outra instância” tarefa exclusiva do PJE do 2º grau, deve ser utilizada quando o objetivo seja enviar um processo que tenha iniciado no TRE, para o TSE. Deve ser utilizada também, quando o processo foi iniciado físico na Zona Eleitoral, migrado no TRE, e precisa descer para o 1º grau.
