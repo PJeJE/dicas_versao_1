@@ -31,5 +31,5 @@ Esse mesmo: [Aqui!](https://pjeje.github.io/dicas/dicas/).
 
 Ou contemple a logo do sistema!
 
-![Texto alternativo](img/imagempje.png)
+![Texto alternativo](img/imagempjejpg.jpg)
 
