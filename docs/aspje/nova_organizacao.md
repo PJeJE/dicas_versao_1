@@ -10,11 +10,8 @@
 | 180 | Ângulo | Geometria| 15/08/2022 |
 
 
-**Dados em cache**[^1] são *informações como imagens*, scripts e **outras partes de sites visitados, salvas temporariamente em navegadores de Internet como Chrome, Firefox ou Safari**. Eles tornam a navegação *mais rápida já que recursos como fotos e documentos ficam salvos no computador* do usuário. ***Muitas funcionalidades do PJe são executadas na própria máquina do usuário***, onde ficam guardados registros na memória da própria estação. *Por conta disso, às vezes pode ser necessário limpar o cache*, seja para liberar espaço em disco, para que alguns sites recarreguem o conteúdo ou quando você faz alguma atualização[^2].
+**Dados em cache** são *informações como imagens*, scripts e **outras partes de sites visitados, salvas temporariamente em navegadores de Internet como Chrome, Firefox ou Safari**. Eles tornam a navegação *mais rápida já que recursos como fotos e documentos ficam salvos no computador* do usuário. ***Muitas funcionalidades do PJe são executadas na própria máquina do usuário***, onde ficam guardados registros na memória da própria estação. *Por conta disso, às vezes pode ser necessário limpar o cache*, seja para liberar espaço em disco, para que alguns sites recarreguem o conteúdo ou quando você faz alguma atualização.
 
-
-[^1]: No cache tem dados.
-[^2]: Aquela atualização.
 
 
 1. Dúvidas? Acesse o link:
