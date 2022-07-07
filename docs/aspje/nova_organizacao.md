@@ -14,6 +14,6 @@
 
 
 | Número | Assunto | Descrição | Data |
-|:-------|:----------|:------|:------|
+|:---|:---|:---|:---|
 | 360 | Skate | Tem quatro rodas | 23/03/2024 |
-| 180|Ângulo | Geometria| 15/08/2022 |
+| 180 | Ângulo | Geometria| 15/08/2022 |
