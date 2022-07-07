@@ -22,15 +22,7 @@
         - Um pouco mais em baixo:
 - Esse mesmo: [Aqui!](https://pjeje.github.io/dicas/dicas/).
 
-Ou contemple a logo do sistema.
 
-~~Sempre recebemos muitos e-mails ou chamados são abertos para resolver problemas de usuários que não conseguem cadastrar uma nova senha.~~
 
 > Normalmente, o servidor gera uma nova senha para o usuário, que recebe um link para cadastrar uma nova senha em seu e-mail. Ao acessar esse link, o usuário finaliza o cadastro, mas, às vezes, o sistema sinaliza que a senha está bloqueada. Nesses casos, o desbloqueio só ocorre se for utilizada a opção esqueci minha senha pelo próprio usuário.
 
-
-Marque uma ou duas:
-- [ ] #739
-- [ ] Ei
-
-:v:
