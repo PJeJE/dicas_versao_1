@@ -21,15 +21,15 @@
 
 **Dados em cache** são *informações como imagens*, scripts e **outras partes de sites visitados, salvas temporariamente em navegadores de Internet como Chrome, Firefox ou Safari**. Eles tornam a navegação *mais rápida já que recursos como fotos e documentos ficam salvos no computador* do usuário. ***Muitas funcionalidades do PJe são executadas na própria máquina do usuário***, onde ficam guardados registros na memória da própria estação. *Por conta disso, às vezes pode ser necessário limpar o cache*, seja para liberar espaço em disco, para que alguns sites recarreguem o conteúdo ou quando você faz alguma atualização.
 
-- Dúvidas? Acesse o link:
-- Segue o link abaixo:
-- Um pouco mais em baixo:
-- Esse mesmo: [Aqui!](https://pjeje.github.io/dicas/dicas/).
+* Dúvidas? Acesse o link:
+    1. Segue o link abaixo:
+        - Um pouco mais em baixo:
+        - Esse mesmo: [Aqui!](https://pjeje.github.io/dicas/dicas/).
 
 Ou contemple a logo do sistema.
 
-![Fica a dica](img/dicas.png)
+```md
+![Texto alternativo](img/imagempje.png)
+```
 
-
-![Texto alternativo](img/aquila.png)
 
