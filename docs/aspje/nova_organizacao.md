@@ -31,5 +31,9 @@ Esse mesmo: [Aqui!](https://pjeje.github.io/dicas/dicas/).
 
 Ou contemple a logo do sistema!
 
+
+![Fica a dica](img/dicas.png)
+
+
 ![Texto alternativo](img/aquila.png)
 
