@@ -28,8 +28,6 @@
 
 Ou contemple a logo do sistema.
 
-```md
 ![Texto alternativo](img/imagempje.png)
-```
 
 
