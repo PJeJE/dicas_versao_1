@@ -14,7 +14,7 @@
 
 
 | Número | Assunto | Descrição | Data |
-|:---|:---|:---|:---|
+|:-:|:-|:-|:-:|
 | 360 | Skate | Tem quatro rodas | 23/03/2024 |
 | 180 | Ângulo | Geometria| 15/08/2022 |
 
@@ -31,5 +31,5 @@ Esse mesmo: [Aqui!](https://pjeje.github.io/dicas/dicas/).
 
 Ou contemple a logo do sistema!
 
+![Ei](imagempje.png.png) 
 
-![Imagem](img/pje.jpg)
