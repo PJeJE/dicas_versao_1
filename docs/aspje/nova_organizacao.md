@@ -29,7 +29,7 @@ Um pouco mais em baixo:
 
 Esse mesmo: [Aqui!](https://pjeje.github.io/dicas/dicas/).
 
-Ou contemple a logo do sistema!
+Ou contemple a logo do sistema.
 
 
 ![Fica a dica](img/dicas.png)
