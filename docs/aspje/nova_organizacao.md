@@ -34,17 +34,3 @@ Marque uma ou duas:
 - [ ] Ei
 
 :v:
-
-:+1:
-
-:-1:
-
-:heavy_check_mark:
-
-:x:
-
-:warning:
-
-
-
-<!-- Não tenho nada a esconder -->
