@@ -1,4 +1,4 @@
-## Gravações
+# Gravações
 
 Sessões de compartilhamento de conhecimento com os servidores.
 
