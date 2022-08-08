@@ -3,6 +3,7 @@
 |  Descrição  | Código |
 |:-------|:----------|
 | Número do Processo |  #{processoTrfHome.instance.numeroProcesso} |
+| Número do processo referência (o número do drap estará nessa variável) |  #{processoTrfHome.instance.processoReferencia} |
 | Assuntos do Processo| #{processoTrfHome.instance.assuntoTrfListStr} |
 | Nome Autor Processo|#{processoTrfHome.instance.tipoNomeAutorProcesso}|
 | Nome Réu Processo|#{processoTrfHome.instance.nomeReuProcesso}|
