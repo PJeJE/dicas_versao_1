@@ -36,6 +36,8 @@
 | UF Órgão Julgador|#{processoTrfHome.instance.orgaoJulgador.localizacao.endereco.cep.municipio.estado.codEstado}|
 | Juiz Órgão Julgador|#{processoTrfHome.instance.nomeJuizOrgaoJulgador}|
 | Endereço Órgão Julgador|#{processoTrfHome.instance.orgaoJulgador.localizacao.endereco.enderecoCompleto}|
+| Objeto do processo|#{processoTrfHome.instance.objeto}|
+| Cargo do órgão julgador do processo|#{processoTrfHome.instance.orgaoJulgadorCargo}|
 | Usuário Logado|#{usuarioLogado.nome}|
 | Papel usuário logado|#{usuarioLogadoLocalizacaoAtual.papel}|
 | Login Usuário Logado|#{usuarioLogado.login}|
