@@ -11,10 +11,6 @@
 | 04/05/2022 | Reunião 4 |  | [Link](https://justicaeleitoral-my.sharepoint.com/:v:/g/personal/bruney_brum_tse_jus_br/ETVAAAAe8oVBoluqle7g5csBx9SYi5u3buKREvOwjjFMUQ?e=bJ2VYg) |
 | 11/05/2022 | Reunião 5 |  | [Link](https://justicaeleitoral-my.sharepoint.com/:v:/g/personal/bruney_brum_tse_jus_br/ESG3bODwfzBLtiGl-Lymk8ABmXQRjyO8sWY_33nRv2MdLg?e=NapktF) |
 | 08/06/2022 | Reunião 6 |  | [Link](https://justicaeleitoral-my.sharepoint.com/:v:/g/personal/bruney_brum_tse_jus_br/EcsgCJGzBUlPgmgfgVRKH-cBN9CPQHr3RMIs47YTCYpnRw?e=ZntADq) |
-| 15/06/2022 | Reunião 7 |  | [Link](https://justicaeleitoral-my.sharepoint.com/:v:/g/personal/bruney_brum_tse_jus_br/EVjgC3aNpMtBjhPA02i4vzMBUBuFDuf2xtHVG0w5nx7sXw?e=Fb1qEB) |
-| 06/07/2022 | Reunião 8 |  | [Link](https://justicaeleitoral-my.sharepoint.com/:v:/g/personal/bruney_brum_tse_jus_br/ERoDJj_FyR1KnXna4s6qSjkBweYo50ALE0FY1WWzdhbvYQ?e=piCCfP) |
-| 03/08/2022 | Reunião 9 |  | [Link](https://justicaeleitoral-my.sharepoint.com/:v:/g/personal/bruney_brum_tse_jus_br/ESEMicELOOtAll0x4vRSle8B6bKNc-b2B0nif9-fW4ozdg?e=4m3BVo) |
-| 24/08/2022 | Reunião 10 | Sessão de Plenário. | [Link](https://justicaeleitoral-my.sharepoint.com/:v:/g/personal/bruney_brum_tse_jus_br/EfiN7KrFvQhPtri5adK_y3ABmVCUfPWFKmAhik0TKUaVtQ?e=hghXjx) |
 
 ## Conhecendo o PJe
 
@@ -26,6 +22,10 @@
 | 21/07/2021 | Aula 4 | Fluxo de Processamento. | [Link](https://web.microsoftstream.com/video/4d7a7466-4bd3-4b71-b4f3-183c1e4ce796) |
 | 28/07/2021 | Aula 5 | Fluxo de Corregedoria. | [Link](https://web.microsoftstream.com/video/00acb760-22b5-42df-a8c6-b8cd88ff2daa) |
 | 03/08/2021 | Aula 6 | 1º Grau do PJe. Acesso ao Pje com o App (Token PJe). | [Link](https://web.microsoftstream.com/video/4f953ff5-3b52-4f82-9944-1e1a8d597a38) |
+| 15/06/2022 | Aula 7 | Fluxo de Plenário Parte 1 (Reunião 7 - Troca de Experiencias) | [Link](https://justicaeleitoral-my.sharepoint.com/:v:/g/personal/bruney_brum_tse_jus_br/EVjgC3aNpMtBjhPA02i4vzMBUBuFDuf2xtHVG0w5nx7sXw?e=Fb1qEB) |
+| 06/07/2022 | Aula 8 | Fluxo de Plenário Parte 2 (Reunião 8 - Troca de Experiencias) | [Link](https://justicaeleitoral-my.sharepoint.com/:v:/g/personal/bruney_brum_tse_jus_br/ERoDJj_FyR1KnXna4s6qSjkBweYo50ALE0FY1WWzdhbvYQ?e=piCCfP) |
+| 03/08/2022 | Aula 9 | Fluxo de Plenário Parte 3 (Reunião 9 - Troca de Experiencias) | [Link](https://justicaeleitoral-my.sharepoint.com/:v:/g/personal/bruney_brum_tse_jus_br/ESEMicELOOtAll0x4vRSle8B6bKNc-b2B0nif9-fW4ozdg?e=4m3BVo) |
+| 24/08/2022 | Aula 10 | Fluxo de Ácordão (Reunião 10 - Troca de Experiencias). | [Link](https://justicaeleitoral-my.sharepoint.com/:v:/g/personal/bruney_brum_tse_jus_br/EfiN7KrFvQhPtri5adK_y3ABmVCUfPWFKmAhik0TKUaVtQ?e=hghXjx) |
 
 ## Extras
 
@@ -34,3 +34,5 @@
 | 25/08/2021 | Extra 1 | Nova versão 2.1. Etiquetas. Acesso ao Pje com o App (Token PJe). | [Link](https://justicaeleitoral-my.sharepoint.com/:v:/g/personal/bruney_brum_tse_jus_br/Eb1JEUqMh-pHpd_GLih-baAB5rxPFH5fLdlRAfFdt0IrrQ) |
 | 30/06/2021 | Extra 2 | Secretaria Judiciária- Processamento Parte 1. | [Link](https://justicaeleitoral-my.sharepoint.com/:v:/g/personal/ruy_tavares_tse_jus_br/EYmWj7JTldJHoaS6gmJDtwsBSdMrZnpg6iWvVr24l4kh_Q?e=Bbol53) |
 | 21/07/2021 | Extra 3 | Secretaria Judiciária- Processamento Parte 2. | [Link](https://justicaeleitoral-my.sharepoint.com/:v:/g/personal/ruy_tavares_tse_jus_br/Ea6POAns3v5KlrFCwGLsRFEB6-dHzN3x98RtGyF2zdRoLg?e=Eqv469) |
+| 23/06/2021 | Extra 4 | Erros de remessas. | [Link](https://justicaeleitoral-my.sharepoint.com/:v:/g/personal/ruy_tavares_tse_jus_br/EVc_-ddzbApKmq2ep-kWA-kB_P0OduqXJWJcTS0jcbJjcQ?e=KC9egH) |
+
