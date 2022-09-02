@@ -5,16 +5,16 @@
 
 |  Data  | Nome | Descrição | Links |
 |:-------|:----------|:----------:|------|
-| 30/03/2022 | Reunião 1 | Descrição | [Link](https://justicaeleitoral-my.sharepoint.com/:v:/g/personal/bruney_brum_tse_jus_br/EdOWQw38aupOlERfUhOq3XUBRs5fY1M-mKzePXU2nke51w?e=ZVm58C) |
-| 06/04/2022 | Reunião 2 | Descrição | [Link](https://justicaeleitoral-my.sharepoint.com/:v:/r/personal/bruney_brum_tse_jus_br/Documents/Grava%C3%A7%C3%B5es/Reuni%C3%A3o%20Troca%20de%20Experi%C3%AAncias-20220406_141505-Grava%C3%A7%C3%A3o%20de%20Reuni%C3%A3o.mp4?csf=1&web=1&e=A2Bitb) |
-| 20/04/2022 | Reunião 3 | Descrição | [Link](https://justicaeleitoral-my.sharepoint.com/:v:/r/personal/bruney_brum_tse_jus_br/Documents/Grava%C3%A7%C3%B5es/Troca%20de%20Experi%C3%AAncias%20ASPJE-20220420_141546-Grava%C3%A7%C3%A3o%20de%20Reuni%C3%A3o.mp4?csf=1&web=1&e=FGJDaj) |
-| 04/05/2022 | Reunião 4 | Descrição | [Link](https://justicaeleitoral-my.sharepoint.com/:v:/r/personal/bruney_brum_tse_jus_br/Documents/Grava%C3%A7%C3%B5es/Troca%20de%20Experi%C3%AAncias%20ASPJE-20220504_141056-Grava%C3%A7%C3%A3o%20de%20Reuni%C3%A3o.mp4?csf=1&web=1&e=Z7hXVg) |
-| 11/05/2022 | Reunião 5 | Descrição | [Link](https://justicaeleitoral-my.sharepoint.com/:v:/r/personal/bruney_brum_tse_jus_br/Documents/Grava%C3%A7%C3%B5es/Troca%20de%20Experi%C3%AAncias%20ASPJE-20220511_141301-Grava%C3%A7%C3%A3o%20de%20Reuni%C3%A3o.mp4?csf=1&web=1&e=Oh73VI) |
-| 08/06/2022 | Reunião 6 | Descrição | [Link](https://justicaeleitoral-my.sharepoint.com/:v:/r/personal/bruney_brum_tse_jus_br/Documents/Grava%C3%A7%C3%B5es/Troca%20de%20Experi%C3%AAncias%20ASPJE-20220608_141533-Grava%C3%A7%C3%A3o%20de%20Reuni%C3%A3o.mp4?csf=1&web=1&e=xhZXOT) |
-| 15/06/2022 | Reunião 7 | Descrição | [Link](https://justicaeleitoral-my.sharepoint.com/:v:/r/personal/bruney_brum_tse_jus_br/Documents/Grava%C3%A7%C3%B5es/Troca%20de%20Experi%C3%AAncias%20ASPJE-20220615_141155-Grava%C3%A7%C3%A3o%20de%20Reuni%C3%A3o.mp4?csf=1&web=1&e=GeZkye) |
-| 06/07/2022 | Reunião 8 | Descrição | [Link](https://justicaeleitoral-my.sharepoint.com/:v:/r/personal/bruney_brum_tse_jus_br/Documents/Grava%C3%A7%C3%B5es/Troca%20de%20Experi%C3%AAncias%20ASPJE-20220706_140922-Grava%C3%A7%C3%A3o%20de%20Reuni%C3%A3o.mp4?csf=1&web=1&e=kui0B8) |
-| 03/08/2022 | Reunião 9 | Descrição | [Link](https://justicaeleitoral-my.sharepoint.com/:v:/r/personal/bruney_brum_tse_jus_br/Documents/Grava%C3%A7%C3%B5es/Troca%20de%20Experi%C3%AAncias%20ASPJE-20220803_141557-Grava%C3%A7%C3%A3o%20de%20Reuni%C3%A3o.mp4?csf=1&web=1&e=p1zNV6) |
-| 24/08/2022 | Reunião 10 | Descrição | [Link](https://justicaeleitoral-my.sharepoint.com/:v:/r/personal/bruney_brum_tse_jus_br/Documents/Grava%C3%A7%C3%B5es/Troca%20de%20Experi%C3%AAncias%20ASPJE-20220824_142007-Grava%C3%A7%C3%A3o%20de%20Reuni%C3%A3o.mp4?csf=1&web=1&e=OofxBG) |
+| 30/03/2022 | Reunião 1 |  | [Link](https://justicaeleitoral-my.sharepoint.com/:v:/g/personal/bruney_brum_tse_jus_br/ESAzX795NnFJqt8JUGr_g34B0iWfSaciXOe0MZib_ezjhg?e=ga90yc) |
+| 06/04/2022 | Reunião 2 |  | [Link](https://justicaeleitoral-my.sharepoint.com/:v:/g/personal/bruney_brum_tse_jus_br/ERiS_HQeudZMr0VFVOznOSYBs70Wt9zO7S5lsetxf68wfQ?e=k5eRi1) |
+| 20/04/2022 | Reunião 3 |  | [Link](https://justicaeleitoral-my.sharepoint.com/:v:/g/personal/bruney_brum_tse_jus_br/Ef7iTC5a1u1NizYl7lsqqIwBswlbpstW7s5K-xgCNTHZWw?e=AaoStK) |
+| 04/05/2022 | Reunião 4 |  | [Link](https://justicaeleitoral-my.sharepoint.com/:v:/g/personal/bruney_brum_tse_jus_br/ETVAAAAe8oVBoluqle7g5csBx9SYi5u3buKREvOwjjFMUQ?e=bJ2VYg) |
+| 11/05/2022 | Reunião 5 |  | [Link](https://justicaeleitoral-my.sharepoint.com/:v:/g/personal/bruney_brum_tse_jus_br/ESG3bODwfzBLtiGl-Lymk8ABmXQRjyO8sWY_33nRv2MdLg?e=NapktF) |
+| 08/06/2022 | Reunião 6 |  | [Link](https://justicaeleitoral-my.sharepoint.com/:v:/g/personal/bruney_brum_tse_jus_br/EcsgCJGzBUlPgmgfgVRKH-cBN9CPQHr3RMIs47YTCYpnRw?e=ZntADq) |
+| 15/06/2022 | Reunião 7 |  | [Link](https://justicaeleitoral-my.sharepoint.com/:v:/g/personal/bruney_brum_tse_jus_br/EVjgC3aNpMtBjhPA02i4vzMBUBuFDuf2xtHVG0w5nx7sXw?e=Fb1qEB) |
+| 06/07/2022 | Reunião 8 |  | [Link](https://justicaeleitoral-my.sharepoint.com/:v:/g/personal/bruney_brum_tse_jus_br/ERoDJj_FyR1KnXna4s6qSjkBweYo50ALE0FY1WWzdhbvYQ?e=piCCfP) |
+| 03/08/2022 | Reunião 9 |  | [Link](https://justicaeleitoral-my.sharepoint.com/:v:/g/personal/bruney_brum_tse_jus_br/ESEMicELOOtAll0x4vRSle8B6bKNc-b2B0nif9-fW4ozdg?e=4m3BVo) |
+| 24/08/2022 | Reunião 10 | Sessão de Plenário. | [Link](https://justicaeleitoral-my.sharepoint.com/:v:/g/personal/bruney_brum_tse_jus_br/EfiN7KrFvQhPtri5adK_y3ABmVCUfPWFKmAhik0TKUaVtQ?e=hghXjx) |
 
 ## Conhecendo o PJe
 
@@ -27,3 +27,10 @@
 | 28/07/2021 | Aula 5 | Fluxo de Corregedoria. | [Link](https://web.microsoftstream.com/video/00acb760-22b5-42df-a8c6-b8cd88ff2daa) |
 | 03/08/2021 | Aula 6 | 1º Grau do PJe. Acesso ao Pje com o App (Token PJe). | [Link](https://web.microsoftstream.com/video/4f953ff5-3b52-4f82-9944-1e1a8d597a38) |
 
+## Extras
+
+|  Data  | Nome | Descrição | Links |
+|:-------|:----------|:----------|:------|
+| 25/08/2021 | Extra 1 | Nova versão 2.1. Etiquetas. Acesso ao Pje com o App (Token PJe). | [Link](https://justicaeleitoral-my.sharepoint.com/:v:/g/personal/bruney_brum_tse_jus_br/Eb1JEUqMh-pHpd_GLih-baAB5rxPFH5fLdlRAfFdt0IrrQ) |
+| 30/06/2021 | Extra 2 | Secretaria Judiciária- Processamento Parte 1. | [Link](https://justicaeleitoral-my.sharepoint.com/:v:/g/personal/ruy_tavares_tse_jus_br/EYmWj7JTldJHoaS6gmJDtwsBSdMrZnpg6iWvVr24l4kh_Q?e=Bbol53) |
+| 21/07/2021 | Extra 3 | Secretaria Judiciária- Processamento Parte 2. | [Link](https://justicaeleitoral-my.sharepoint.com/:v:/g/personal/ruy_tavares_tse_jus_br/Ea6POAns3v5KlrFCwGLsRFEB6-dHzN3x98RtGyF2zdRoLg?e=Eqv469) |
