@@ -3,9 +3,9 @@
 
 ## Troca de Experiencias
 
-|  Data  | Nome | Descrição | Links |
-|:-------|:----------|:----------|:------|
-| 30/03/2022 | Reunião 1 | Acesso ao PJe. Painel do Usuário. Autuação e distribuição de processo. | [Link] (https://justicaeleitoral-my.sharepoint.com/:v:/g/personal/bruney_brum_tse_jus_br/EdOWQw38aupOlERfUhOq3XUBRs5fY1M-mKzePXU2nke51w?e=ZVm58C) |
+|  Data  | Nome | Links |
+|:-------|:----------|:------|
+| 30/03/2022 | Reunião 1 | [Link](https://justicaeleitoral-my.sharepoint.com/:v:/g/personal/bruney_brum_tse_jus_br/EdOWQw38aupOlERfUhOq3XUBRs5fY1M-mKzePXU2nke51w?e=ZVm58C) |
 
 ## Conhecendo o PJe
 
