@@ -1,7 +1,7 @@
-Conhecendo o PJe
+##Conhecendo o PJe
 
 
-|  Data  | Título | Descrição | Links |
+|  Data  | Nome | Descrição | Links |
 |:-------|:----------|:----------|:------|
 | 22/06/2021 | Aula 1 | Acesso ao PJe. Painel do Usuário. Autuação e distribuição de processo. | [Link](https://web.microsoftstream.com/video/3644c8fc-b9c7-4a2d-b142-2d54f5b9e85b) |
 | 24/06/2021 | Aula 2 | Cadastramento de Servidor. Quadro de Avisos. | [Link](https://web.microsoftstream.com/video/ecf4cbe1-7acc-45ea-8ef7-6d16255168f7) |
