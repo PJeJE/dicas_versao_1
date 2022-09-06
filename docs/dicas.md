@@ -482,6 +482,101 @@ Como ficam os processos após finalização?
 
 O processo,  após  remetido a outra jurisdição, não fica na mesma tarefa. Se gera novo número (quando de um Estado para outro), é para ficar o número originário em  processo arquivado na Zona Eleitoral inicial,  e o novo número em analisar novo processo, na ZE de destino. Se não gera novo número (remessa entre Zonas do mesmo Estado), fica apenas um processo em analisar novo processo, na ZE de destino. 
 
+## Erros de remessa que podem ser corrigidos pelo usuário
+
+A remessa  é  uma  das tarefas em que mais ocorrem erros no sistema PJE, isso porque ela faz uma  série  de  validações  na  instância  de  origem e na instância de destino.
+
+1.   CEP:
+
+
+ ![Erro de remessa - CEP](img/erro_de_remessa_1.png)
+ 
+ 
+Esse erro aparece quando alguma das partes do processo está com o CEP inválido ou em branco. 
+
+Para correção, basta ir ao menu dos autos processuais, na  opção "retificar autuação", aba "partes", clique em selecionar (parte), aba "endereço" e verificar o CEP de  todas as partes, procedendo a correção necessária (verificar inclusive advogados). 
+
+Deve-se deletar as informações da remessa e preencher novamente, para nova tentativa de envio.
+
+2. Tipo de documento:
+
+
+ ![Erro de remessa - Tipo de documento](img/erro_de_remessa_2.png)
+ 
+ 
+Esse erro acontece quando existe, no processo a ser remetido, um documento que foi classificado por um tipo inexistente na instância de destino.
+
+Para  correção,  deve-se, primeiro, verificar  qual tipo de documento deverá ser alterado, pesquisando o número do id  do  documento  na  árvore processual.  Após,  delete a remessa e tramite o processo para a tarefa  “Classificar documentos”,  altere o  tipo de documento para uma opção diferente. Ao fim dessa alteração, realize os procedimentos de remessa novamente.
+
+
+3.  Falta de vinculação de ente ou autoridade:
+
+
+ ![Erro de remessa - Falta de vinculação de ente ou autoridade](img/erro_de_remessa_3.png)
+ 
+ 
+Esse erro acontece porque o ente ou autoridade, quando criado, foi vinculado a uma pessoa jurídica cadastrada no sistema sem CNPJ.
+
+Para correção, deve-se ir ao Menu: "Configuração/ Pessoa/Ente ou autoridade", do PJE da instância de origem e, após localizar  a autoridade informada  no erro, vincular,  na aba Formulário, uma pessoa jurídica que possua CNPJ. 
+
+Outra opção, é corrigir o cadastro da pessoa jurídica vinculada no ente ou autoridade, incluindo o seu CNPJ.
+
+Deve-se deletar as informações da remessa e preencher novamente, para nova tentativa de envio.
+
+
+4.  Expedientes abertos:
+
+
+ ![Erro de remessa - Expedientes abertos](img/erro_de_remessa_4.png)
+ 
+ 
+Esse erro acontece quando o processo que está sendo remetido ainda tem algum expediente aberto. Normalmente o expediente que ainda está aberto é sem prazo.
+
+Para  correção,  deve-se  deletar  a  remessa e  tramitar  o processo para a tarefa de “Fechar expediente manualmente”,  na qual os expedientes abertos deverão ser fechados.
+
+Se,  quando  for  realizar  a  tarefa, não aparecer nenhum expediente em aberto, deve-se ir ao Menu: "Processo/Pesquisar/Consulta de prazos", pesquisar o número do processo, marcar os expedientes de status aberto e clicar em fechar expedientes em lote.
+
+
+5.  Cadastro de pessoa:
+
+
+ ![Erro de remessa - Cadastro de pessoa](img/erro_de_remessa_5.png)
+ 
+ 
+Esse erro acontece quando na hora da remessa, por alguma instabilidade da integração com o sistema da Receita Federal, alguma parte ou pessoa que assinou algum documento no processo, não consegue ser cadastrada automaticamente na aplicação de destino.
+
+Para correção, basta  que  o  Administrador  do Sistema do PJE da instância de destino, vá ao Menu:"Configuração/Pessoa/Física"  ou  "Jurídica", se for o caso, e,  na  opção  pré-cadastro, faça o cadastro manual do CPF ou CNPJ que constar no erro.
+
+Após o cadastro, tentar novamente a remessa, sem a necessidade de apagá-la.
+
+
+6.  Documento de identificação:
+
+
+ ![Erro de remessa - Documento de identificação](img/erro_de_remessa_6.png)
+ 
+ 
+Esse erro acontece quando algum documento de identificação de uma das partes do processo está em branco.
+
+Para correção, basta ir ao menu dos autos processuais,  opção  retificar  autuação,  aba partes, clicar em selecionar (parte), aba documentos de identificação e verificar os documentos constantes de todas as partes, procedendo  a  correção necessária (verificar inclusive advogados).
+
+
+7. Ausência de novos documentos processuais:
+
+![Mensagem de erro.](img/docs_processuais.png)
+
+
+Quando se tenta remeter um processo sem que tenha sido elaborado ou juntado algum documento, o erro "Não foram encontrados novos documentos processuais" impede o envio.
+
+A solução consiste na elaboração de algum documento. Como sugestão, pode ser incluída uma certidão de remessa. 
+
+8. Erro durante a sinalização do fluxo: Token 'null' (7518128) is already ended and cannot be signaled
+
+Esse erro acontece quando o processo está retornando e no destino o fluxo daquele processo está com algum problema. O sistema está dizendo que não consegue movimentar o processo no destino da tarefa "Aguardando apreciação da outra instância" para que o servidor saiba que o processo retornou. 
+
+Para solucionar esse problema, o fluxo do processo no destino deve ser recuperado.
+
+
 
 ## Artigo 260 no PJe 
 
@@ -1001,97 +1096,6 @@ Como os papéis funcionam de forma hierárquica (onde o papel hierarquicamente s
 
     
 Na imagem acima você observa um exemplo de como e onde o recurso deve ser incluído. Neste caso, colocamos o  recurso no papel Servidor, de maneira  que  os  papéis que estão acima dele (Chefe de Seção, Coordenador, Secretário) também  terão  essa  permissão. 
-
-
-
-## Erros de remessa que podem ser corrigidos pelo usuário
-
-A remessa  é  uma  das tarefas em que mais ocorrem erros no sistema PJE, isso porque ela faz uma  série  de  validações  na  instância  de  origem e na instância de destino.
-
-1.   CEP:
-
-
- ![Erro de remessa - CEP](img/erro_de_remessa_1.png)
- 
- 
-Esse erro aparece quando alguma das partes do processo está com o CEP inválido ou em branco. 
-
-Para correção, basta ir ao menu dos autos processuais, na  opção "retificar autuação", aba "partes", clique em selecionar (parte), aba "endereço" e verificar o CEP de  todas as partes, procedendo a correção necessária (verificar inclusive advogados). 
-
-Deve-se deletar as informações da remessa e preencher novamente, para nova tentativa de envio.
-
-2. Tipo de documento:
-
-
- ![Erro de remessa - Tipo de documento](img/erro_de_remessa_2.png)
- 
- 
-Esse erro acontece quando existe, no processo a ser remetido, um documento que foi classificado por um tipo inexistente na instância de destino.
-
-Para  correção,  deve-se, primeiro, verificar  qual tipo de documento deverá ser alterado, pesquisando o número do id  do  documento  na  árvore processual.  Após,  delete a remessa e tramite o processo para a tarefa  “Classificar documentos”,  altere o  tipo de documento para uma opção diferente. Ao fim dessa alteração, realize os procedimentos de remessa novamente.
-
-
-3.  Falta de vinculação de ente ou autoridade:
-
-
- ![Erro de remessa - Falta de vinculação de ente ou autoridade](img/erro_de_remessa_3.png)
- 
- 
-Esse erro acontece porque o ente ou autoridade, quando criado, foi vinculado a uma pessoa jurídica cadastrada no sistema sem CNPJ.
-
-Para correção, deve-se ir ao Menu: "Configuração/ Pessoa/Ente ou autoridade", do PJE da instância de origem e, após localizar  a autoridade informada  no erro, vincular,  na aba Formulário, uma pessoa jurídica que possua CNPJ. 
-
-Outra opção, é corrigir o cadastro da pessoa jurídica vinculada no ente ou autoridade, incluindo o seu CNPJ.
-
-Deve-se deletar as informações da remessa e preencher novamente, para nova tentativa de envio.
-
-
-4.  Expedientes abertos:
-
-
- ![Erro de remessa - Expedientes abertos](img/erro_de_remessa_4.png)
- 
- 
-Esse erro acontece quando o processo que está sendo remetido ainda tem algum expediente aberto. Normalmente o expediente que ainda está aberto é sem prazo.
-
-Para  correção,  deve-se  deletar  a  remessa e  tramitar  o processo para a tarefa de “Fechar expediente manualmente”,  na qual os expedientes abertos deverão ser fechados.
-
-Se,  quando  for  realizar  a  tarefa, não aparecer nenhum expediente em aberto, deve-se ir ao Menu: "Processo/Pesquisar/Consulta de prazos", pesquisar o número do processo, marcar os expedientes de status aberto e clicar em fechar expedientes em lote.
-
-
-5.  Cadastro de pessoa:
-
-
- ![Erro de remessa - Cadastro de pessoa](img/erro_de_remessa_5.png)
- 
- 
-Esse erro acontece quando na hora da remessa, por alguma instabilidade da integração com o sistema da Receita Federal, alguma parte ou pessoa que assinou algum documento no processo, não consegue ser cadastrada automaticamente na aplicação de destino.
-
-Para correção, basta  que  o  Administrador  do Sistema do PJE da instância de destino, vá ao Menu:"Configuração/Pessoa/Física"  ou  "Jurídica", se for o caso, e,  na  opção  pré-cadastro, faça o cadastro manual do CPF ou CNPJ que constar no erro.
-
-Após o cadastro, tentar novamente a remessa, sem a necessidade de apagá-la.
-
-
-6.  Documento de identificação:
-
-
- ![Erro de remessa - Documento de identificação](img/erro_de_remessa_6.png)
- 
- 
-Esse erro acontece quando algum documento de identificação de uma das partes do processo está em branco.
-
-Para correção, basta ir ao menu dos autos processuais,  opção  retificar  autuação,  aba partes, clicar em selecionar (parte), aba documentos de identificação e verificar os documentos constantes de todas as partes, procedendo  a  correção necessária (verificar inclusive advogados).
-
-
-7. Ausência de novos documentos processuais:
-
-![Mensagem de erro.](img/docs_processuais.png)
-
-
-Quando se tenta remeter um processo sem que tenha sido elaborado ou juntado algum documento, o erro "Não foram encontrados novos documentos processuais" impede o envio.
-
-A solução consiste na elaboração de algum documento. Como sugestão, pode ser incluída uma certidão de remessa. 
-
 
 
 ## Distribuição de processos: Abas Criminais
