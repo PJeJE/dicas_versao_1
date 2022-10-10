@@ -57,3 +57,5 @@
 | Classe do processo para uso em modelos de oficial de justiça | #{processoExpedienteCentralMandadoHome.instance.processoExpediente.processoTrf.classeJudicial} |
 ocesso} |
 | Partes do processo para uso em modelos de oficial de justiça | #{processoJudicialManager.recuperarParteFormatada(processoExpedienteCentralMandadoHome.instance.processoExpediente.processoTrf, false,true,false,'A','P','T')} |
+| Recupera conteúdo dos documentos relatório, voto relator e ementa | #{sessaoProcessoDocumentoManager.getEmenta()}, #{sessaoProcessoDocumentoManager.getRelatorio(null)}, #{sessaoProcessoDocumentoManager.getVoto(null)} |
+| Recupera data da última sessão de julgamento | #{sessaoProcessoDocumentoManager.getDataUltimaSessaoJulgamento(null)} |
