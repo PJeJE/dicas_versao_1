@@ -1,6 +1,6 @@
 # Variáveis
 
-|  Descrição  | Código |
+|  O que a variável retorna  | Como utilizá-la nos modelos de documento |
 |:-------|:----------|
 | Número do Processo |  #{processoTrfHome.instance.numeroProcesso} |
 | Número do processo referência (o número do drap estará nessa variável) |  #{processoTrfHome.instance.processoReferencia} |
