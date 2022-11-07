@@ -65,9 +65,7 @@ b) ser do mesmo órgão julgador do processo ou, caso não tenha órgão julgado
 
 c) se estiver vinculado a um cargo (magistrados são sempre vinculados ao cargo), deve ser o cargo responsável pelo processo ou ter a visibilidade "Todos" no cadastro do órgão julgador.
 
-O ingresso de qualquer parte ou seus representantes posteriormente em um processo sigiloso, não implica liberação automática de visualização dos autos. O cartório terá que liberar manualmente a visualização do processo sigiloso para essas partes, se o juiz autorizar.
-
-Já com ato de comunicação a parte citada/intimada é automaticamente adicionada como visualizadora.
+Com ato de comunicação a parte citada/intimada é automaticamente adicionada como visualizadora.
 
 Após uma parte ser adicionada como visualizadora em um processo, a simples alteração do nível de sigilo do processo não fará com que o visualizador não o visualize mais. Se o juiz decide alterar o nível de acesso de 1 para 3, por exemplo, as partes que visualizavam continuarão a visualizar a menos que o servidor retire a visualização.
 Cabe salientar também, que colocar uma parte como sigilosa em um processo significa que essa parte não vai ser vista pelas outras partes, mas ela visualiza o processo normalmente
