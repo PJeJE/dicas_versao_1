@@ -36,3 +36,5 @@
 | 21/07/2021 | Extra 3 | Secretaria Judiciária- Processamento Parte 2. | [Link](https://justicaeleitoral-my.sharepoint.com/:v:/g/personal/ruy_tavares_tse_jus_br/Ea6POAns3v5KlrFCwGLsRFEB6-dHzN3x98RtGyF2zdRoLg?e=Eqv469) |
 | 23/06/2021 | Extra 4 | Erros de remessas. | [Link](https://justicaeleitoral-my.sharepoint.com/:v:/g/personal/ruy_tavares_tse_jus_br/EVc_-ddzbApKmq2ep-kWA-kB_P0OduqXJWJcTS0jcbJjcQ?e=KC9egH) |
 | 06/09/2022 | Extra 5 | Mapeamento de Fluxo atravéz do Bizagi. | [Link](https://justicaeleitoral-my.sharepoint.com/:v:/g/personal/ruy_tavares_tse_jus_br/EYFRzPPdRv1Grp-1kbGGS0EBRors54GsMQhagq16LY3L3w?e=9KI599) |
+| 18/10/2022 | Extra 6 | Área de download | [Link](https://justicaeleitoral-my.sharepoint.com/personal/gabriel_bezerra_tse_jus_br/_layouts/15/stream.aspx?id=%2Fpersonal%2Fgabriel%5Fbezerra%5Ftse%5Fjus%5Fbr%2FDocuments%2FGrava%C3%A7%C3%B5es%2FExtras%2F%C3%81rea%20de%20download%2Emp4&ga=1) |
+
