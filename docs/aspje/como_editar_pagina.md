@@ -9,7 +9,7 @@
 
 **dicas.md** - Página de dicas   
 
-**img/** - Pasta onde ficam as imagens  
+**img/** - Coloque suas imagens nesta pasta  
 
 
 ## Editando a página
