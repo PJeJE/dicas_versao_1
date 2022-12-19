@@ -6,11 +6,11 @@
 |  Data  | Nome | Descrição | Links |
 |:-------|:----------|:----------:|------|
 | 30/03/2022 | Reunião 1 |  | [Link](https://justicaeleitoral-my.sharepoint.com/:v:/g/personal/gabriel_bezerra_tse_jus_br/EWl1G11b6_NFmX3ZFNiSP1sBpgLEAOQeCa9zHHbskiCewA?e=1h8c63) |
-| 06/04/2022 | Reunião 2 |  | [Link]([https://justicaeleitoral-my.sharepoint.com/:v:/g/personal/bruney_brum_tse_jus_br/ERiS_HQeudZMr0VFVOznOSYBs70Wt9zO7S5lsetxf68wfQ?e=k5eRi1](https://justicaeleitoral-my.sharepoint.com/:v:/g/personal/gabriel_bezerra_tse_jus_br/EZ1rXT4MZC1JgCAEIOqeYRUBJrCa04vGdDbOm5D6ff_X5Q?e=BOBk9g)) |
+| 06/04/2022 | Reunião 2 |  | [Link](https://justicaeleitoral-my.sharepoint.com/:v:/g/personal/gabriel_bezerra_tse_jus_br/EZ1rXT4MZC1JgCAEIOqeYRUBJrCa04vGdDbOm5D6ff_X5Q?e=55o6Ac) |
 | 20/04/2022 | Reunião 3 |  | [Link](https://justicaeleitoral-my.sharepoint.com/:v:/g/personal/gabriel_bezerra_tse_jus_br/EZf3X8FpnpxKrBrMD6mPLDQBzG-92i2YKE_FRhCNeo11iQ?e=3dwGAt) |
 | 04/05/2022 | Reunião 4 |  | [Link](https://justicaeleitoral-my.sharepoint.com/:v:/g/personal/gabriel_bezerra_tse_jus_br/EcqlTjasZzdCvH1uKnkhDPQBFQHrL5ib-9ivyYFQKmtP5A?e=4QoeQ6) |
 | 11/05/2022 | Reunião 5 |  | [Link](https://justicaeleitoral-my.sharepoint.com/:v:/r/personal/gabriel_bezerra_tse_jus_br/Documents/Grava%C3%A7%C3%B5es/Conhecendo%20o%20PJe/5%C2%BA%20Reuni%C3%A3o%2011-05-2022%20Troca%20de%20Experi%C3%AAncias.mp4?csf=1&web=1&e=idhXae) |
-| 08/06/2022 | Reunião 6 |  | [Link]([https://justicaeleitoral-my.sharepoint.com/:v:/g/personal/bruney_brum_tse_jus_br/EcsgCJGzBUlPgmgfgVRKH-cBN9CPQHr3RMIs47YTCYpnRw?e=ZntADq](https://justicaeleitoral-my.sharepoint.com/:v:/g/personal/gabriel_bezerra_tse_jus_br/EVXALIET8_NGjn42_oUDu0EBtV4M06rxEBn1XrpkYF6khg?e=iYJPfd)) |
+| 08/06/2022 | Reunião 6 |  | [Link](https://justicaeleitoral-my.sharepoint.com/:v:/g/personal/gabriel_bezerra_tse_jus_br/EVXALIET8_NGjn42_oUDu0EBtV4M06rxEBn1XrpkYF6khg?e=8aYtr2) |
 
 ## Conhecendo o PJe
 
