@@ -31,7 +31,7 @@
 
 |  Data  | Nome | Descrição | Links |
 |:-------|:----------|:----------|:------|
-| 25/08/2021 | Extra 1 | Nova versão 2.1. Etiquetas. Acesso ao Pje com o App (Token PJe). | [Link](https://justicaeleitoral-my.sharepoint.com/:v:/g/personal/bruney_brum_tse_jus_br/Eb1JEUqMh-pHpd_GLih-baAB5rxPFH5fLdlRAfFdt0IrrQ) |
+| 25/08/2021 | Extra 1 | Nova versão 2.1. Etiquetas. Acesso ao Pje com o App (Token PJe). | [Link](https://justicaeleitoral-my.sharepoint.com/:v:/g/personal/gabriel_bezerra_tse_jus_br/ETL63IDeFttDjJJAVtk0KNQBXpUDs8dxdGTDfuPiJSByrQ?e=RPO7ym) |
 | 30/06/2021 | Extra 2 | Secretaria Judiciária- Processamento Parte 1. | [Link](https://justicaeleitoral-my.sharepoint.com/:v:/g/personal/ruy_tavares_tse_jus_br/EYmWj7JTldJHoaS6gmJDtwsBSdMrZnpg6iWvVr24l4kh_Q?e=Bbol53) |
 | 21/07/2021 | Extra 3 | Secretaria Judiciária- Processamento Parte 2. | [Link](https://justicaeleitoral-my.sharepoint.com/:v:/g/personal/ruy_tavares_tse_jus_br/Ea6POAns3v5KlrFCwGLsRFEB6-dHzN3x98RtGyF2zdRoLg?e=Eqv469) |
 | 23/06/2021 | Extra 4 | Erros de remessas. | [Link](https://justicaeleitoral-my.sharepoint.com/:v:/g/personal/ruy_tavares_tse_jus_br/EVc_-ddzbApKmq2ep-kWA-kB_P0OduqXJWJcTS0jcbJjcQ?e=KC9egH) |
