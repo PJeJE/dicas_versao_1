@@ -66,6 +66,32 @@ Abaixo seguem algumas autorizações de acordo com as unidades onde são realiza
 |Corregedoria Unidade de Fiscalização e Cadastro | Coordenador
 |Corregedoria Unidade de Fiscalização e Cadastro | Chefe de Seção
 
+Raias do fluxo Processar atividades de corregedoria:
+
+Corregedoria - Judiciária
+
+Corregedoria Unidade Assuntos Judiciários	Assessor Chefe
+Corregedoria Unidade Assuntos Judiciários	Assessor
+Corregedoria Unidade Assuntos Judiciários	Coordenador
+Corregedoria Unidade Assuntos Judiciários	Chefe de Seção
+Corregedoria Unidade Assuntos Judiciários	Assessor-Chefe de Gabinete
+Corregedoria Unidade Assuntos Judiciários	Assessor de Gabinete
+Corregedoria Unidade Assuntos Judiciários	Coordenador de Assuntos Judiciários
+Corregedoria Unidade Assuntos Judiciários	Chefe de Assuntos Judiciários
+Corregedoria Unidade Assuntos Judiciários	Secretário da Corregedoria
+Corregedoria Regional Eleitoral	Correição
+
+Secretaria Judiciária
+
+Secretaria Judiciária SJ	Secretário Judiciário
+Unidade de Processamento Judiciário	Coordenador
+Unidade de Processamento Judiciário	Chefe de Seção
+Unidade de Processamento Judiciário	Servidor
+Unidade de Processamento Judiciário	Coordenador de Processamento
+Unidade de Processamento Judiciário	Chefe de Processamento
+Unidade de Processamento Judiciário	Servidor de Processamento
+Corregedoria Regional Eleitoral	Correição
+
 O principal fluxo por onde se inicia um processo no PJe é o [Fluxo Originárias](corregedoria.md#fluxo-classes-originarias), mas quando um processo é protocolado em classes de corregedoria, o fluxo é o [Fluxo principal de corregedoria](corregedoria.md#fluxo-principal-corregedoria).
 
 ## Fluxo - Classes Originárias
