@@ -386,9 +386,15 @@ Essa tarefa notifica o servidor da unidade de assuntos judiciários que o proces
 
 ### Analisar Processo - Corregedoria
 
+Responsabilidade - Corregedoria - Judiciária
+
 A partir dessa tarefa, o usuário tem, entre outras opções, o "Remeter ao gabinete Corregedoria" e o "Remeter à Presidência", ambas as transições encaminhando o processo para o [Fluxo de Gabinetes](corregedoria.md#Fluxo---Gabinetes). Ao finalizar a execução do fluxo de gabinetes, o sistema verifica que o processo está com o órgão julgador corregedoria e faz o seguinte teste:
 
 Se o parâmetro "pje:je:CumprimentoPelaCorregedoria" estiver setado como true e o movimento de código 60001 estiver presente no processo, o processo continua no fluxo atual de corregedoria, sendo encaminhado para o analisar processo ou determinação, de acordo com movimento da árvore de magistrado lançado ou não nos autos. Caso a condição não seja atendida,  o processo é encaminhado para o [cumprimento](corregedoria.md#Fluxo---Cumprimento-de-determinação). Quando o cumprimento for encerrado, o processo retorna ao fluxo de processar atividades de corregedoria por meio da tarefa Verficar Pendências - Processo Corregedoria.
+
+### Verificar Pendências - Processo Corregedoria
+
+Responsabilidade - Secretaria Judiciária
 
 ## Fluxo - Gabinetes
 
